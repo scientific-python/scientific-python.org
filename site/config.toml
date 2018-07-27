@@ -1,0 +1,4 @@
+baseURL = "http://scientific-python.org"
+languageCode = "en-us"
+title = "Scientific Python"
+theme = "ananke"

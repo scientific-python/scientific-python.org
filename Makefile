@@ -4,7 +4,7 @@ clean:
 	echo
 
 html:
-	echo
+	cd site && hugo
 
 github: | clean html
 	./push_dir_to_repo.py \
@@ -13,4 +13,4 @@ github: | clean html
 	  --committer "sprintbot" \
 	  --message "Update website" \
 	  --force \
-	     ./src git@github.com:scientific-python/scientific-python.github.io
+	     ./site/public git@github.com:scientific-python/scientific-python.github.io

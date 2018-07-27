@@ -12,3 +12,5 @@ ecosystem.
 Currently, it is in design at
 [https://github.com/scientific-python/scientific-python.org](https://github.com/scientific-python/scientific-python.org).
 Please join us there!
+
+<!--more-->

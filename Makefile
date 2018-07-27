@@ -5,6 +5,7 @@ clean:
 
 html:
 	cd site && hugo
+	echo "scientific-python.org" > site/public/CNAME
 
 github: | clean html
 	./push_dir_to_repo.py \
@@ -13,4 +14,4 @@ github: | clean html
 	  --committer "sprintbot" \
 	  --message "Update website" \
 	  --force \
-	     ./site/public git@github.com:scientific-python/scientific-python.github.io
+	     ./site/public git@github.com:scientific-python/scientific-python-org-deployed

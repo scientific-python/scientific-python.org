@@ -1,4 +1,5 @@
 baseURL = "https://scientific-python.org"
 languageCode = "en-us"
-title = "Scientific Python"
+title = "Scientific Python :: Ecosystem Coordination"
 theme = "mainroad"
+

@@ -1,16 +1,38 @@
 ---
-title: "Introduction"
+title: "Planning for the Next Decade of Scientific Python"
 date: 2018-07-27T11:18:53-07:00
 draft: false
 ---
 
-# Welcome to scientific-python.org!
+With an extensive and high-quality ecosystem of libraries, scientific Python
+has emerged as the leading platform for data analysis.
+This ecosystem is sustained by independent volunteers with separate mailing
+lists, websites, roadmaps, documentation, engineering and packaging solutions,
+and governance structures.
+Unfortunately, this also means that there is a lack of coordination that
+results in duplicated effort, disorganized documentation, breakage upon new
+releases, unintended performance regressions, and user confusion.
+Moreover, we have no venue for developing a formal, shared vision
+of the future.
 
-This site aims to be a landing page for the entire scientific Python
-ecosystem.
+Our objective is to prepare scientific Python for the next decade of data science.
+To this end, we will:
 
-Currently, it is in design at
-[https://github.com/scientific-python/scientific-python.org](https://github.com/scientific-python/scientific-python.org).
-Please join us there!
+1. Improve common engineering infrastructure,
+2. Better coordinate core projects,
+3. Write a community vetted strategic plan, and
+4. Help the community develop grant proposals.
+
+The developers of these projects are technically able; but they have little
+time to coordinate efforts within their own projects, let alone focus on
+strategies for bringing the entire ecosystem together.  This project will
+provide support where it is deeply needed.
+
+Read the [full grant](doc/scientific-python-planning-grant-2020.pdf).
+
+Since the grant was written pre-COVID-19, we are currently rethinking our
+original approach, recruiting the advisory council, and shaping the
+initial stage of the grant.  **Watch this space for more, early in
+2021!**
 
 <!--more-->

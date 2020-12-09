@@ -1,11 +1,15 @@
-.PHONY: github
-
-clean:
-	echo
+.PHONY: html serve clean github
 
 html:
-	cd site && hugo
-	echo "scientific-python.org" > site/public/CNAME
+	@hugo
+	@touch public/.nojekyll
+	@echo "scientific-python.org" > public/CNAME
+
+serve:
+	@hugo --i18n-warnings server
+
+clean:
+	rm -rf public
 
 github: | clean html
 	./push_dir_to_repo.py \
@@ -14,4 +18,4 @@ github: | clean html
 	  --committer "sprintbot" \
 	  --message "Update website" \
 	  --force \
-	     ./site/public git@github.com:scientific-python/scientific-python-org-deployed
+	     ./site/public git@github.com:scientific-python/scientific-python.org-deployed

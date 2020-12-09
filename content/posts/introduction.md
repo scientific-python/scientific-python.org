@@ -36,3 +36,5 @@ initial stage of the grant.  **Watch this space for more, early in
 2021!**
 
 <!--more-->
+
+This work is funded in part by the Gordon and Betty Moore Foundation through grant GBMF8599.

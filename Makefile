@@ -18,4 +18,4 @@ github: | clean html
 	  --committer "sprintbot" \
 	  --message "Update website" \
 	  --force \
-	     ./site/public git@github.com:scientific-python/scientific-python.org-deployed
+	     ./public git@github.com:scientific-python/scientific-python.org-deployed

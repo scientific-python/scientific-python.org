@@ -7,6 +7,13 @@ summary: |
 ---
 
 
+    :Author: <list of authors' real names and optionally, email addresses>
+    :Status: <Draft | Active | Accepted | Deferred | Rejected |
+             Withdrawn | Final | Superseded>
+    :Type: <Standards Track | Process>
+    :Created: <date created on, in dd-mmm-yyyy format>
+
+
 Abstract
 ========
 
@@ -65,13 +72,13 @@ major examples of prior and relevant art.
 Implementation
 ==============
 
-This section lists the major steps required to implement the NXEP. Where
+This section lists the major steps required to implement the SPEC. Where
 possible, it should be noted where one step is dependent on another, and
 which steps may be optionally omitted. Where it makes sense, each step
 should include a link to related pull requests as the implementation
 progresses.
 
-Any pull requests or development branches containing work on this NXEP
+Any pull requests or development branches containing work on this SPEC
 should be linked to from here. (A SPEC does not need to be implemented
 in a single pull request if it makes sense to implement it in discrete
 phases).

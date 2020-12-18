@@ -8,6 +8,9 @@ html:
 serve:
 	@hugo --i18n-warnings server
 
+serve-all:
+	@hugo --i18n-warnings --buildDrafts server
+
 clean:
 	rm -rf public
 

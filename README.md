@@ -10,6 +10,12 @@ and place it somewhere on your path.
 
 ## Building the website
 
+Before building, you will need the site theme:
+
+```
+git submodule update --init
+```
+
 For development, start the development server using
 
 ```

@@ -1,5 +1,47 @@
 baseURL = "https://scientific-python.org"
 languageCode = "en-us"
-title = "Scientific Python :: Ecosystem Coordination"
+title = "Scientific Python Ecosystem"
+subtitle = "Planning for the next decade"
 theme = "mainroad"
 
+[Params]
+  mainSections = ["_index"]
+
+[Params.logo]
+  title = "The Scientific Python Ecosystem" # Logo title, otherwise will use site title
+  subtitle = "Planning for the next decade" # Logo subtitle
+  image = "img/ecosystem.svg" # Logo image. Path relative to "static"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "ABOUT"
+    identifier = "about"
+    url = "/about"
+    weight = 20
+  [[menu.main]]
+    name = "POSTS"
+    identifier = "posts"
+    url = "/posts"
+    weight = 30
+  [[menu.main]]
+    name = "SPECS"
+    identifier = "specs"
+    url = "/specs"
+    weight = 40
+  [[menu.main]]
+    name = "SUMMITS"
+    identifier = "summits"
+    url = "/summits"
+    weight = 50
+
+[Params.widgets.social]
+  github = "scientific-python"
+
+[[Params.widgets.social.custom]]
+  title = "Youtube"
+  url = "https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA"

@@ -1,5 +1,5 @@
 ---
-title: "SPEC X --- Template and Instructions"
+title: "SPEC X — Template and Instructions"
 date: 2020-12-17T20:40:16-08:00
 draft: false
 summary: |

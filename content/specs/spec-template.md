@@ -1,18 +1,14 @@
 ---
 title: "SPEC X --- Template and Instructions"
+author: "<list of authors' real names and optionally, email addresses>"
 date: 2020-12-17T20:40:16-08:00
 draft: false
 summary: |
   Template and instructions for writing new SPECs.
+
+spec_status: 'Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded'
+spec_type: 'Standards Track | Process'
 ---
-
-
-    :Author: <list of authors' real names and optionally, email addresses>
-    :Status: <Draft | Active | Accepted | Deferred | Rejected |
-             Withdrawn | Final | Superseded>
-    :Type: <Standards Track | Process>
-    :Created: <date created on, in dd-mmm-yyyy format>
-
 
 Abstract
 ========

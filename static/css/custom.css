@@ -1,0 +1,8 @@
+table.spec__table thead {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.spec__title {
+  font-size: 1.2rem;
+}

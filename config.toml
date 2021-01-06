@@ -7,6 +7,14 @@ theme = "mainroad"
 [Params]
   mainSections = ["_index"]
   post_meta = ["author", "date", "spec_fields"]
+  customCSS = ["css/custom.css"]
+
+[Params.sidebar]
+  home = "right"
+  single = "right"
+  list = "right"
+  not_for = ["specs", "summits"]
+  widgets = ["search", "pinned", "sidemenu", "recent", "taglist", "social"]
 
 [Params.logo]
   title = "The Scientific Python Ecosystem" # Logo title, otherwise will use site title

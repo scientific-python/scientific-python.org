@@ -6,6 +6,7 @@ theme = "mainroad"
 
 [Params]
   mainSections = ["_index"]
+  post_meta = ["author", "date"]
 
 [Params.logo]
   title = "The Scientific Python Ecosystem" # Logo title, otherwise will use site title

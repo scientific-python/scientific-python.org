@@ -1,19 +1,14 @@
 ---
-title: "SPEC X — Template and Instructions"
+title: "SPEC X --- Template and Instructions"
+author: "<list of authors' real names and optionally, email addresses>"
 date: 2020-12-17T20:40:16-08:00
 draft: false
+spec_status: 'Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded'
+spec_type: 'Standards Track | Process'
 summary: |
   The summary should be a short, one-sentence statement explaining
   what the SPEC recommends.
 ---
-
-    :Author: <list of authors' real names and optionally, email addresses>
-    :Status: <Draft | Active | Accepted | Deferred | Rejected |
-             Withdrawn | Final | Superseded>
-    :Type: <Standards Track | Process>
-    :Created: <date created on, in dd-mmm-yyyy format>
-
-## Description
 
 This section should provide a detailed description of the proposed
 change. It should include examples of how the new functionality would be

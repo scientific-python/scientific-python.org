@@ -2,12 +2,6 @@
 title: "Planning for the Next Decade of Scientific Python"
 date: 2018-07-27T11:18:53-07:00
 draft: false
-sidebar: "right" # Enable sidebar (on the right side) per page
-widgets: # Enable sidebar widgets in given order per page
-  - "search"
-  - "recent"
-  - "taglist"
-  - "social"
 ---
 
 With an extensive and high-quality ecosystem of libraries, scientific Python

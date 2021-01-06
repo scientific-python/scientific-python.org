@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<main class="main list" role="main">
+  {{- with .Title }}
+  <header class="main__header">
+    <h1 class="main__title">{{ . }}</h1>
+  </header>
+  {{- end }}
+  <table class="spec__table">
+    <thead>
+      <tr>
+        <td>Title</td><td>Status</td>
+      </tr>
+    </thead>
+    {{- range .Paginator.Pages.ByTitle }}
+      {{- if not (in .Title "SPEC X") }}
+        <tr class="spec">
+          <td class="spec__title">
+            <a href="{{ .Permalink }}">
+              {{- .Title }}
+            </a>
+          </td>
+          <td class="spec__status">
+            {{- .Params.spec_status }}
+          </td>
+        </tr>
+      {{ end }}
+    {{- end }}
+  </table>
+</main>
+{{ partial "pagination.html" . }}
+{{ end }}

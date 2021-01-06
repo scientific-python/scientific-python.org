@@ -1,15 +1,5 @@
 ---
 title: "About"
-date: 2020-12-18T08:52:39-08:00
+date: 2021-01-06T09:11:39-08:00
 draft: false
 ---
-
-# Team
-
-- Stefan
-- Jarrod
-- Ross
-
-# Advisory Council
-
-- TBN

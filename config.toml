@@ -16,7 +16,7 @@ relativeURLs=true
   single = "right"
   list = "right"
   not_for = ["specs", "summits"]
-  widgets = ["search", "pinned", "sidemenu", "recent", "taglist", "social"]
+  widgets = ["pinned", "search", "sidemenu", "recent", "taglist", "social"]
 
 [Params.logo]
   title = "The Scientific Python Ecosystem" # Logo title, otherwise will use site title

@@ -31,22 +31,22 @@ uglyurls = true
   [[menu.main]]
     name = "ABOUT"
     identifier = "about"
-    url = "/about"
+    url = "/about.html"
     weight = 20
   [[menu.main]]
     name = "POSTS"
     identifier = "posts"
-    url = "/posts"
+    url = "/posts.html"
     weight = 30
   [[menu.main]]
     name = "SPECS"
     identifier = "specs"
-    url = "/specs"
+    url = "/specs.html"
     weight = 40
   [[menu.main]]
     name = "SUMMITS"
     identifier = "summits"
-    url = "/summits"
+    url = "/summits.html"
     weight = 50
 
 [Params.widgets.social]

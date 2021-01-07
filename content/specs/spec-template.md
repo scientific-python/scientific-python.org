@@ -3,12 +3,14 @@ title: "SPEC X --- Template and Instructions"
 author: "<list of authors' real names and optionally, email addresses>"
 date: 2020-12-17T20:40:16-08:00
 draft: false
-spec_status: 'Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded'
-spec_type: 'Standards Track | Process'
+spec_status: '< Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded >'
+spec_type: '< Standard | Process >'
 summary: |
   The summary should be a short, one-sentence statement explaining
   what the SPEC recommends.
 ---
+
+# Description
 
 This section should provide a detailed description of the proposed
 change. It should include examples of how the new functionality would be
@@ -17,14 +19,14 @@ used, intended use-cases and pseudo-code illustrating its use.
 Here are some optional subsections of the description that you may
 wish to use (with or without the headings).
 
-### Motivation and Scope (optional)
+## Motivation and Scope (optional)
 
 This section describes the need for the proposed change. It should
 describe the existing problem, who it affects, what it is trying to
 solve, and why. This section should explicitly address the scope of and
 key requirements for the proposed change.
 
-### Usage and Impact (optional)
+## Usage and Impact (optional)
 
 This section describes how users of the scientific Python ecosystem
 will use features described in this SPEC.
@@ -37,18 +39,18 @@ users of the scientific Python ecosystem, and the benefits it will
 provide them; and as such, it should include implementation details
 only if necessary to explain the functionality.
 
-### Backward compatibility (optional)
+## Backward compatibility (optional)
 
 This section describes the ways in which the SPEC breaks backward
 compatibility.
 
-### Related Work (optional)
+## Related Work (optional)
 
 This section should list relevant and/or similar technologies, possibly
 in other libraries. It does not need to be comprehensive, just list the
 major examples of prior and relevant art.
 
-## Implementation
+# Implementation
 
 This section lists the major steps required to implement the SPEC. Where
 possible, it should be noted where one step is dependent on another, and
@@ -61,13 +63,13 @@ should be linked to from here. (A SPEC does not need to be implemented
 in a single pull request if it makes sense to implement it in discrete
 phases).
 
-### Alternatives (optional)
+## Alternatives (optional)
 
 If there were any alternative solutions to solving the same problem,
 they should be discussed here, along with a justification for the chosen
 approach.
 
-## Discussion
+# Discussion
 
 This section may just be a bullet list including links to any
 discussions regarding the SPEC:
@@ -75,4 +77,4 @@ discussions regarding the SPEC:
 -   This includes links to mailing list threads or relevant GitHub
     issues.
 
-## Notes
+# Notes

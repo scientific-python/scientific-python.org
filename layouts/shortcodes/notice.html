@@ -1,2 +1,6 @@
-{{ $_hugo_config := `{ "version": 1 }` }}
-<div class="notices {{ .Get 0 }}" {{ if len .Params | eq 2 }} id="{{ .Get 1 }}" {{ end }}>{{ .Inner }}</div>
+<div class="notice {{ .Get 0 }}-notice">
+  <div class="notice-type">🛈  &nbsp;{{ .Get 0 | humanize }}</div>
+  <div class="notice-content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

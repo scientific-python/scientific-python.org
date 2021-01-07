@@ -7,58 +7,48 @@ table.spec__table thead {
   font-size: 1.2rem;
 }
 
-div.notices {
-    margin: 2rem 0;
-    position: relative;
+.notice {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #666;
 }
-div.notices p {
-    padding: 15px;
-    display: block;
-    font-size: 1rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    color: #666;
+
+.notice-type {
+  font-size: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 100%;
+  color: white;
+  display: inline-block;
 }
-div.notices p:first-child:before {
-    position: absolute;
-    top: 2px;
-    color: #fff;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f06a";
-    left: 10px;
+
+.notice-content {
+  padding: 1rem 1rem 0.1rem 1rem;
 }
-div.notices p:first-child:after {
-    position: absolute;
-    top: 2px;
-    color: #fff;
-    left: 2rem;
+
+.note-notice .notice-type {
+  background: #6AB0DE;
 }
-div.notices.info p {
-    border-top: 30px solid #F0B37E;
-    background: #FFF2DB;
+.note-notice .notice-content {
+  background: #E7F2FA;
 }
-div.notices.info p:first-child:after {
-    content: 'Info';
+
+.info-notice .notice-type {
+  background: #F0B37E;
 }
-div.notices.warning p {
-    border-top: 30px solid rgba(217, 83, 79, 0.8);
-    background: #FAE2E2;
+.info-notice .notice-content {
+  background: #FFF2DB;
 }
-div.notices.warning p:first-child:after {
-    content: 'Warning';
+
+.warning-notice .notice-type {
+  background: rgba(217, 83, 79, 0.8);
 }
-div.notices.note p {
-    border-top: 30px solid #6AB0DE;
-    background: #E7F2FA;
+.warning-notice .notice-content {
+  background: #FAE2E2;
 }
-div.notices.note p:first-child:after {
-    content: 'Note';
+
+.tip-notice .notice-type {
+  background: rgba(92, 184, 92, 0.8);
 }
-div.notices.tip p {
-    border-top: 30px solid rgba(92, 184, 92, 0.8);
-    background: #E6F9E6;
-}
-div.notices.tip p:first-child:after {
-    content: 'Tip';
+.tip-notice .notice-content {
+  background: #E6F9E6;
 }

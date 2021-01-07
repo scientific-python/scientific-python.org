@@ -13,10 +13,10 @@ for the next decade of data science, we will:
 4. Write a community vetted strategic plan, and
 5. Help the community develop grant proposals.
 
-{{% notice note %}}
+{{< notice note >}}
 If you are new to scientific Python you may want to visit these
 sites:
 - https://numpy.org/
 - https://scipy.org/
 - https://scipy-lectures.org/
-{{% /notice %}}
+{{< /notice >}}

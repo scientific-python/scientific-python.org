@@ -52,3 +52,15 @@ table.spec__table thead {
 .tip-notice .notice-content {
   background: #E6F9E6;
 }
+
+.menu-spacer {
+  margin-left: auto;
+}
+
+.widget-search__form {
+  background: #2a2a2a;
+}
+
+.widget-search__field {
+  height: 1.6rem;
+}

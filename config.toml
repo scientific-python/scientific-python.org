@@ -27,7 +27,7 @@ relativeURLs=true
   [[menu.main]]
     name = "Home"
     identifier = "home"
-    url = "/"
+    url = "/index.html"
     weight = 10
   [[menu.main]]
     name = "ABOUT"

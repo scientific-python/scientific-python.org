@@ -11,6 +11,9 @@ serve:
 serve-all:
 	@hugo --i18n-warnings --buildDrafts server
 
+serve-dev:
+	@hugo --i18n-warnings --buildDrafts server --disableFastRender
+
 clean:
 	rm -rf public
 

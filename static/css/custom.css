@@ -7,6 +7,10 @@ table.spec__table thead {
   font-size: 1.2rem;
 }
 
+.spec__status {
+  width: 10rem;
+}
+
 .readcode {
   position: relative;
 }

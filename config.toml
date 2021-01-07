@@ -11,17 +11,17 @@ relativeURLs=true
   post_meta = ["author", "date", "spec_fields"]
   customCSS = ["css/custom.css"]
 
-[Params.sidebar]
-  home = "right"
-  single = "right"
-  list = "right"
-  not_for = ["specs", "summits"]
-  widgets = ["search", "pinned", "sidemenu", "recent", "taglist", "social"]
+#[Params.sidebar]
+#  home = "right"
+#  single = "right"
+#  list = "right"
+#  not_for = ["specs", "summits"]
+#  widgets = ["search", "pinned", "sidemenu", "recent", "taglist", "social"]
 
 [Params.logo]
   title = "The Scientific Python Ecosystem" # Logo title, otherwise will use site title
   subtitle = "Planning for the next decade" # Logo subtitle
-  image = "img/ecosystem.svg" # Logo image. Path relative to "static"
+#  image = "img/ecosystem.svg" # Logo image. Path relative to "static"
 
 [menu]
   [[menu.main]]
@@ -29,16 +29,16 @@ relativeURLs=true
     identifier = "home"
     url = "/index.html"
     weight = 10
-  [[menu.main]]
-    name = "ABOUT"
-    identifier = "about"
-    url = "/about.html"
-    weight = 20
-  [[menu.main]]
-    name = "POSTS"
-    identifier = "posts"
-    url = "/posts.html"
-    weight = 30
+#  [[menu.main]]
+#    name = "ABOUT"
+#    identifier = "about"
+#    url = "/about.html"
+#    weight = 20
+#  [[menu.main]]
+#    name = "POSTS"
+#    identifier = "posts"
+#    url = "/posts.html"
+#    weight = 30
   [[menu.main]]
     name = "SPECS"
     identifier = "specs"

@@ -6,3 +6,26 @@ table.spec__table thead {
 .spec__title {
   font-size: 1.2rem;
 }
+
+.readcode {
+  position: relative;
+}
+
+.readcode-download {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  text-align: right;
+}
+
+.readcode-download a {
+  color: #efefef;
+  font-size: 1rem;
+}
+
+.readcode-download a:hover {
+  color: #efefef;
+}
+
+.readcode-code {
+}

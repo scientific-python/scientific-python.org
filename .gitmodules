@@ -1,3 +1,7 @@
 [submodule "themes/mainroad"]
 	path = themes/mainroad
 	url = https://github.com/vimux/mainroad
+[submodule "content/specs"]
+	path = content/specs
+	url = git@github.com:scientific-python/specs
+	branch = master

@@ -6,6 +6,11 @@ menu: pinned
 tags:
  - summits
  - specs
+summary: |
+  Scientific Python has emerged as the leading platform for data analysis, but
+  its developers have little time to coordinate efforts across projects. Our
+  objective is to address that and to prepare scientific Python for the next
+  decade of data science.
 ---
 
 With an extensive and high-quality ecosystem of libraries, scientific Python

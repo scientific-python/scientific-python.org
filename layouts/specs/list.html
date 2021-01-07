@@ -6,27 +6,29 @@
     <h1 class="main__title">{{ . }}</h1>
   </header>
   {{- end }}
-  <table class="spec__table">
-    <thead>
-      <tr>
-        <td>Title</td><td>Status</td>
-      </tr>
-    </thead>
-    {{- range .Paginator.Pages.ByTitle }}
-      {{- if not (in .Title "SPEC X") }}
-        <tr class="spec">
-          <td class="spec__title">
-            <a href="{{ .URL }}">
-              {{- .Title }}
-            </a>
-          </td>
-          <td class="spec__status">
-            {{- .Params.spec_status }}
-          </td>
+  {{- range $spec_type := (slice "meta" "spec") }}
+    <table class="spec__table">
+      <thead>
+        <tr>
+          <td>Title</td><td>Status</td>
         </tr>
-      {{ end }}
-    {{- end }}
-  </table>
+      </thead>
+      {{- range $.Paginator.Pages.ByTitle }}
+        {{- if and (not (hasPrefix .Title "SPEC X")) (not (hasPrefix (lower .Title) $spec_type)) }}
+          <tr class="spec">
+            <td class="spec__title">
+              <a href="{{ .URL }}">
+                {{- .Title }}
+              </a>
+            </td>
+            <td class="spec__status">
+              {{- .Params.spec_status }}
+            </td>
+          </tr>
+        {{ end }}
+      {{- end }}
+    </table>
+  {{ end }}
 </main>
 {{ partial "pagination.html" . }}
 {{ end }}

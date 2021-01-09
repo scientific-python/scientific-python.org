@@ -5,7 +5,7 @@
 		<ul class="widget__list">
 			{{ range .Site.Menus.pinned }}
 			<li class="widget__item">
-				<a class="widget__link" href="{{ .URL }}">{{ .Name }}</a>
+				<a class="widget__link" href="{{ .RelPermalink }}">{{ .Name }}</a>
 			</li>
 			{{ end }}
 		</ul>

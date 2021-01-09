@@ -1,4 +1,4 @@
-.PHONY: html serve clean github
+.PHONY: html serve serve-dev serve-all clean github pull
 
 html:
 	@hugo
@@ -25,3 +25,7 @@ github: | clean html
 	  --message "Update website" \
 	  --force \
 	     ./public git@github.com:scientific-python/scientific-python.org-deployed
+
+pull:
+	git pull origin master
+	cd content/specs && git pull origin master

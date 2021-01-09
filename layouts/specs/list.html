@@ -17,7 +17,7 @@
         {{- if and (not (hasPrefix .Title "SPEC X")) (not (hasPrefix (lower .Title) $spec_type)) }}
           <tr class="spec">
             <td class="spec__title">
-              <a href="{{ .URL }}">
+              <a href="{{ .RelPermalink }}">
                 {{- .Title }}
               </a>
             </td>

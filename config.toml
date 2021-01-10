@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Scientific Python Ecosystem"
 subtitle = "Planning for the next decade"
 theme = "mainroad"
-uglyurls = true
 relativeURLs=true
 
 [Params]
@@ -27,27 +26,27 @@ relativeURLs=true
   [[menu.main]]
     name = "Home"
     identifier = "home"
-    url = "/index.html"
+    url = "/"
     weight = 10
 #  [[menu.main]]
 #    name = "ABOUT"
 #    identifier = "about"
-#    url = "/about.html"
+#    url = "/about"
 #    weight = 20
 #  [[menu.main]]
 #    name = "POSTS"
 #    identifier = "posts"
-#    url = "/posts.html"
+#    url = "/posts"
 #    weight = 30
   [[menu.main]]
     name = "SPECS"
     identifier = "specs"
-    url = "/specs.html"
+    url = "/specs"
     weight = 40
   [[menu.main]]
     name = "SUMMITS"
     identifier = "summits"
-    url = "/summits.html"
+    url = "/summits"
     weight = 50
 
 [Params.widgets.social]

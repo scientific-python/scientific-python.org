@@ -4,19 +4,10 @@ jobs:
   build:
     working_directory: ~/repo
     docker:
-      # Docker image with Go pre-installed to make hugo install easier
-      - image: cimg/go:1.15.6
+      - image: cibuilds/hugo:latest
 
     steps:
       - checkout
-
-      - run:
-          name: Update apt-get
-          command: sudo apt-get update
-
-      - run:
-          name: Install hugo
-          command: sudo apt-get install hugo
 
       - run:
           name: Install hugo theme

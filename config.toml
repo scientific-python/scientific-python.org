@@ -20,7 +20,7 @@ relativeURLs=true
 [Params.logo]
   title = "The Scientific Python Ecosystem" # Logo title, otherwise will use site title
   subtitle = "Planning for the next decade" # Logo subtitle
-#  image = "img/ecosystem.svg" # Logo image. Path relative to "static"
+  image = "img/ecosystem.svg" # Logo image. Path relative to "static"
 
 [menu]
   [[menu.main]]

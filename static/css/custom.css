@@ -72,10 +72,10 @@ table.spec__table thead {
 .warning-notice .notice-content {
   background: #FAE2E2;
 }
-
 .tip-notice .notice-type {
   background: rgba(92, 184, 92, 0.8);
 }
+
 .tip-notice .notice-content {
   background: #E6F9E6;
 }
@@ -90,6 +90,34 @@ table.spec__table thead {
 
 .widget-search__field {
   height: 1.6rem;
+}
+
+.spec-meta {
+  background: #EEE;
+  padding: 1rem;
+}
+
+.spec-meta .field {
+}
+
+.spec-meta .field-name {
+  display: inline;
+  font-weight: bold;
+}
+
+.spec-meta .field-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.spec-meta .field-value {
+  display: inline-block;
+}
+
+.spec-meta .field-value a {
+  color: #E22D30;
+  font-weight: bold;
 }
 
 .gallery {

@@ -29,6 +29,7 @@ To this end, we will:
       name="Jarrod Millman"
       github_handle="jarrodmillman"
       avatar="https://avatars3.githubusercontent.com/u/123428?s=40"
+      projects="networkx scientific-python"
 >}}
 
 {{< person

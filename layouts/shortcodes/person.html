@@ -10,6 +10,9 @@
         </div>
         {{ .Get "name" }}
      </a>
-     <div class="team-member-handle">@{{ .Get "github_handle" }}</div>
+     {{ $projects := split (.Get "projects") " "}}
+     {{ range $projects }}
+     <div class="team-member-project">{{ . }}</div>
+     {{ end }}
    </div>
 </div>

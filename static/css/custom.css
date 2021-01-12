@@ -100,7 +100,7 @@ table.spec__table thead {
     display: inline-block;
     padding: 1rem;
     margin: 0.25rem;
-    width: 7rem;
+    width: 11rem;
     text-align: center;
     vertical-align: top;
 }
@@ -119,6 +119,8 @@ table.spec__table thead {
     font-weight: bold;
 }
 
-.team-member-handle {
-    display: none;
+.team-member-project {
+  display: block;
+  font-size: 0.8rem;
+  font-style: italic;
 }

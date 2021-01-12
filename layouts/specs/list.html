@@ -1,34 +1,34 @@
 {{ define "main" }}
 
 <main class="main list" role="main">
-  {{- with .Title }}
-  <header class="main__header">
-    <h1 class="main__title">{{ . }}</h1>
-  </header>
-  {{- end }}
-  {{- range $spec_type := (slice "meta" "spec") }}
-    <table class="spec__table">
-      <thead>
-        <tr>
-          <td>Title</td><td>Status</td>
+  <table class="spec__table">
+    <thead>
+      <tr>
+        <td>Title</td><td>Adopted By</td>
+      </tr>
+    </thead>
+    <div class="content">
+      {{- (.Site.GetPage "spec_overview.md").Content }}
+    </div>
+    {{- range $.Paginator.Pages.ByTitle }}
+      {{- if and (.Title) (not (hasPrefix .Title "SPEC X")) (not (hasPrefix (lower .Title) "meta")) }}
+        <tr class="spec">
+          <td class="spec__title">
+            <a href="{{ .RelPermalink }}">
+              {{- .Title }}
+            </a>
+          </td>
+          <td class="spec__status">
+            {{- if .Params.adopted_by }}
+            {{ len .Params.adopted_by }}
+            {{ else }}
+              —
+            {{ end -}}
+          </td>
         </tr>
-      </thead>
-      {{- range $.Paginator.Pages.ByTitle }}
-        {{- if and (not (hasPrefix .Title "SPEC X")) (not (hasPrefix (lower .Title) $spec_type)) }}
-          <tr class="spec">
-            <td class="spec__title">
-              <a href="{{ .RelPermalink }}">
-                {{- .Title }}
-              </a>
-            </td>
-            <td class="spec__status">
-              {{- .Params.spec_status }}
-            </td>
-          </tr>
-        {{ end }}
-      {{- end }}
-    </table>
-  {{ end }}
+      {{ end }}
+    {{- end }}
+  </table>
 </main>
 {{ partial "pagination.html" . }}
 {{ end }}

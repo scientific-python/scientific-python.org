@@ -7,7 +7,7 @@ relativeURLs=true
 
 [Params]
   mainSections = ["_index"]
-  post_meta = ["author", "date", "spec_fields"]
+  post_meta = ["author", "date"]
   customCSS = ["css/custom.css"]
 
 #[Params.sidebar]

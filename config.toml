@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Scientific Python Ecosystem"
 subtitle = "Planning for the next decade"
 theme = "mainroad"
-relativeURLs=true
 
 [Params]
   mainSections = ["_index"]

@@ -3,7 +3,7 @@
      <a href="https://github.com/{{ .Get "github_handle" }}" class="team-member-name">
         <div class="team-member-photo">
            <img
-             src="{{ .Get "avatar" }}"
+             src="{{ default "https://scientific-python.org/img/avatar.png" (.Get "avatar") }}"
              loading="lazy"
              alt="Avatar picture of @{{ .Get "github_handle" }}"
            />

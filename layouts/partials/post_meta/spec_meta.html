@@ -1,31 +1,37 @@
 <div class="spec-meta">
-  {{- range $attr, $val := .Params }}
-    {{ $extra_fields := (slice "author" "date" "discussion") }}
-    {{ if (or (hasPrefix $attr "spec") (in $extra_fields $attr)) }}
+  <table>
+    {{ $meta_fields := (slice "author" "date" "discussion" "adopted-by") }}
+    {{- range $attr := $meta_fields -}}
+      {{ $val := $.Params.Get $attr }}
       {{ $attr := strings.TrimPrefix "spec_" $attr }}
-      {{ if eq $attr "author" }}
+      {{- if eq $attr "author" }}
         {{ $attr = "authors" }}
-        {{ if not (reflect.IsSlice $val) }}
+        {{- if not (reflect.IsSlice $val) }}
           {{ $val = slice $val }}
         {{ end }}
-      {{ end }}
-      <div class="field">
-        <div class="field-name">
+      {{- else if eq $attr "date" }}
+        {{ $val = $val.Format "2006-01-02" }}
+      {{- end -}}
+      <tr class="field">
+        <td class="field-name">
           {{ $attr | humanize }}:
-        </div>
-        {{ if (reflect.IsSlice $val) }}
-        <div class="field-list">
-          {{ range $val }}
-          <div class="field-value">
-            {{ . }}
-          </div>
+        </td>
+        {{- if (reflect.IsSlice $val) -}}
+          {{ $len := len $val }}
+          <td class="field-value">
+          {{- range $idx, $el := $val }}
+            {{ $el }}
+            {{ if not (eq (add $idx 1) $len) -}}
+              <br/>
+            {{ end }}
           {{ end }}
-        {{ else }}
-          <div class="field-value">
+          </td>
+        {{- else }}
+          <td class="field-value">
             {{ $val | markdownify }}
-          </div>
-        {{ end }}
-      </div>
-    {{ end }}
-  {{- end -}}
+          </td>
+        {{- end -}}
+      </tr>
+    {{- end -}}
+  </table>
 </div>

@@ -94,25 +94,25 @@ table.spec__table thead {
 
 .spec-meta {
   background: #EEE;
-  padding: 1rem;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.spec-meta table {
+  margin-bottom: 0;
 }
 
 .spec-meta .field {
 }
 
 .spec-meta .field-name {
-  display: inline;
+  width: 1rem;
+  white-space: nowrap;
   font-weight: bold;
-}
-
-.spec-meta .field-list {
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
+  vertical-align: top;
 }
 
 .spec-meta .field-value {
-  display: inline-block;
 }
 
 .spec-meta .field-value a {

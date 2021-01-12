@@ -1,3 +1,4 @@
+{{ $isMeta := (hasPrefix (lower .Title) "meta") }}
 <div class="spec-meta">
   <table>
     {{ $meta_fields := (slice "author" "date" "discussion" "adopted-by") }}
@@ -12,26 +13,28 @@
       {{- else if eq $attr "date" }}
         {{ $val = $val.Format "2006-01-02" }}
       {{- end -}}
-      <tr class="field">
-        <td class="field-name">
-          {{ $attr | humanize }}:
-        </td>
-        {{- if (reflect.IsSlice $val) -}}
-          {{ $len := len $val }}
-          <td class="field-value">
-          {{- range $idx, $el := $val }}
-            {{ $el }}
-            {{ if not (eq (add $idx 1) $len) -}}
-              <br/>
+      {{ if not (and $isMeta (eq $attr "adopted-by")) }}
+        <tr class="field">
+          <td class="field-name">
+            {{ $attr | humanize }}:
+          </td>
+          {{- if (reflect.IsSlice $val) -}}
+            {{ $len := len $val }}
+            <td class="field-value">
+            {{- range $idx, $el := $val }}
+              {{ $el }}
+              {{ if not (eq (add $idx 1) $len) -}}
+                <br/>
+              {{ end }}
             {{ end }}
-          {{ end }}
-          </td>
-        {{- else }}
-          <td class="field-value">
-            {{ $val | markdownify }}
-          </td>
-        {{- end -}}
-      </tr>
+            </td>
+          {{- else }}
+            <td class="field-value">
+              {{ $val | markdownify }}
+            </td>
+          {{- end -}}
+        </tr>
+      {{- end -}}
     {{- end -}}
   </table>
 </div>

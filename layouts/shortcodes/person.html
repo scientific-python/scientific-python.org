@@ -1,0 +1,18 @@
+<div class="person">
+  <div class="team-member">
+     <a href="https://github.com/{{ .Get "github_handle" }}" class="team-member-name">
+        <div class="team-member-photo">
+           <img
+             src="{{ .Get "avatar" }}"
+             loading="lazy"
+             alt="Avatar picture of @{{ .Get "github_handle" }}"
+           />
+        </div>
+        {{ .Get "name" }}
+     </a>
+     {{ $projects := split (.Get "projects") " "}}
+     {{ range $projects }}
+     <div class="team-member-project">{{ . }}</div>
+     {{ end }}
+   </div>
+</div>

@@ -72,10 +72,10 @@ table.spec__table thead {
 .warning-notice .notice-content {
   background: #FAE2E2;
 }
-
 .tip-notice .notice-type {
   background: rgba(92, 184, 92, 0.8);
 }
+
 .tip-notice .notice-content {
   background: #E6F9E6;
 }
@@ -118,4 +118,37 @@ table.spec__table thead {
 .spec-meta .field-value a {
   color: #E22D30;
   font-weight: bold;
+}
+
+.gallery {
+  display: flex;
+}
+
+.team-member {
+    display: inline-block;
+    padding: 1rem;
+    margin: 0.25rem;
+    width: 11rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.team-member-photo {
+    display: block;
+}
+
+.team-member-photo img {
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.team-member-name {
+    font-weight: bold;
+}
+
+.team-member-project {
+  display: block;
+  font-size: 0.8rem;
+  font-style: italic;
 }

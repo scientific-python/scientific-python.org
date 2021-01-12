@@ -1,0 +1,11 @@
+{{- $root := . -}}
+{{- if eq .Section "specs" }}
+  {{- partial "post_meta/spec_meta.html" $root }}
+{{ else }}
+  {{- with .Param "post_meta" -}}
+    {{- range $field := . -}}
+      {{- $p := printf "post_meta/%s.html" $field -}}
+      {{- partial $p $root -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

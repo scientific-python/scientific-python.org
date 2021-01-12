@@ -11,7 +11,9 @@
       {{- (.Site.GetPage "spec_overview.md").Content }}
     </div>
     {{- range $.Paginator.Pages.ByTitle }}
-      {{- if and (.Title) (not (hasPrefix .Title "SPEC X")) (not (hasPrefix (lower .Title) "meta")) }}
+      {{ $isMeta := (hasPrefix (lower .Title) "meta") }}
+      {{ $isExample := (hasPrefix .Title "SPEC X") }}
+      {{- if and (.Title) (not $isExample) (not $isMeta) }}
         <tr class="spec">
           <td class="spec__title">
             <a href="{{ .RelPermalink }}">

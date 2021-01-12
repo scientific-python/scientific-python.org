@@ -23,7 +23,6 @@ To this end, we will:
 3. Write a community vetted strategic plan, and
 4. Help the community develop grant proposals.
 
-
 Read the [full grant](doc/scientific-python-planning-grant-2020.pdf).
 
 Since the grant was written pre-COVID-19, we are currently rethinking our

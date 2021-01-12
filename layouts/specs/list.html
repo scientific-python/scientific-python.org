@@ -19,8 +19,8 @@
             </a>
           </td>
           <td class="spec__status">
-            {{- if .Params.adopted_by }}
-            {{ len .Params.adopted_by }}
+            {{- if (.Params.Get "adopted-by") }}
+            {{ len (.Params.Get "adopted-by") }}
             {{ else }}
               —
             {{ end -}}

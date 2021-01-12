@@ -1,38 +1,37 @@
 <div class="spec-meta">
   <table>
-    {{- range $attr, $val := .Params -}}
-      {{ $extra_fields := (slice "author" "date" "discussion") }}
-      {{- if (or (hasPrefix $attr "spec") (in $extra_fields $attr)) }}
-        {{ $attr := strings.TrimPrefix "spec_" $attr }}
-        {{- if eq $attr "author" }}
-          {{ $attr = "authors" }}
-          {{- if not (reflect.IsSlice $val) }}
-            {{ $val = slice $val }}
-          {{ end }}
-        {{- else if eq $attr "date" }}
-          {{ $val = $val.Format "2006-01-02" }}
-        {{- end -}}
-        <tr class="field">
-          <td class="field-name">
-            {{ $attr | humanize }}:
-          </td>
-          {{- if (reflect.IsSlice $val) -}}
-            {{ $len := len $val }}
-            <td class="field-value">
-            {{- range $idx, $el := $val }}
-              {{ $el }}
-              {{ if not (eq (add $idx 1) $len) -}}
-                <br/>
-              {{ end }}
-            {{ end }}
-            </td>
-          {{- else }}
-            <td class="field-value">
-              {{ $val | markdownify }}
-            </td>
-          {{- end -}}
-        </tr>
+    {{ $meta_fields := (slice "author" "date" "discussion" "adopted-by") }}
+    {{- range $attr := $meta_fields -}}
+      {{ $val := $.Params.Get $attr }}
+      {{ $attr := strings.TrimPrefix "spec_" $attr }}
+      {{- if eq $attr "author" }}
+        {{ $attr = "authors" }}
+        {{- if not (reflect.IsSlice $val) }}
+          {{ $val = slice $val }}
+        {{ end }}
+      {{- else if eq $attr "date" }}
+        {{ $val = $val.Format "2006-01-02" }}
       {{- end -}}
+      <tr class="field">
+        <td class="field-name">
+          {{ $attr | humanize }}:
+        </td>
+        {{- if (reflect.IsSlice $val) -}}
+          {{ $len := len $val }}
+          <td class="field-value">
+          {{- range $idx, $el := $val }}
+            {{ $el }}
+            {{ if not (eq (add $idx 1) $len) -}}
+              <br/>
+            {{ end }}
+          {{ end }}
+          </td>
+        {{- else }}
+          <td class="field-value">
+            {{ $val | markdownify }}
+          </td>
+        {{- end -}}
+      </tr>
     {{- end -}}
   </table>
 </div>

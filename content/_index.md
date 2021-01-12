@@ -23,30 +23,6 @@ To this end, we will:
 3. Write a community vetted strategic plan, and
 4. Help the community develop grant proposals.
 
-{{< gallery >}}
-
-{{< person
-      name="Jarrod Millman"
-      github_handle="jarrodmillman"
-      avatar="https://avatars3.githubusercontent.com/u/123428?s=40"
-      projects="networkx scientific-python"
->}}
-
-{{< person
-      name="Ross Barnowski"
-      github_handle="rossbar"
-      avatar="https://avatars1.githubusercontent.com/u/1268991?s=40"
->}}
-
-{{< person
-      name="Stéfan van der Walt"
-      github_handle="stefanv"
-      avatar="https://avatars3.githubusercontent.com/u/45071?s=40"
->}}
-
-{{< /gallery >}}
-
-
 Read the [full grant](doc/scientific-python-planning-grant-2020.pdf).
 
 Since the grant was written pre-COVID-19, we are currently rethinking our

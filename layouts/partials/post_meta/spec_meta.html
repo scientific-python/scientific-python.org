@@ -22,7 +22,11 @@
             {{ $len := len $val }}
             <td class="field-value">
             {{- range $idx, $el := $val }}
-              {{ $el }}
+              {{ if eq $attr "adopted-by" }}
+                <a href="{{ printf "/projects/%s" $el | relURL }}">{{ $el }}</a>
+              {{ else }}
+                {{ $el }}
+              {{ end }}
               {{ if not (eq (add $idx 1) $len) -}}
                 <br/>
               {{ end }}

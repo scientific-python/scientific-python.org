@@ -42,6 +42,11 @@ theme = "mainroad"
     identifier = "specs"
     url = "/specs"
     weight = 40
+#  [[menu.main]]
+#    name = "PROJECTS"
+#    identifier = "projects"
+#    url = "/projects"
+#    weight = 50
   [[menu.main]]
     name = "SUMMITS"
     identifier = "summits"

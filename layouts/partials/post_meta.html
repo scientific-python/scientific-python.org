@@ -1,6 +1,18 @@
 {{- $root := . -}}
 {{- if eq .Section "specs" }}
   {{- partial "post_meta/spec_meta.html" $root }}
+{{ else if eq .Section "projects" }}
+  <div class="adopted-specs">
+    <h2>Adopted SPECs</h2>
+    {{ $specs := where $.Site.Pages "Section" "specs" }}
+    <ul class="adopted-specs-list">
+      {{- range $specs -}}
+        {{ if in (.Params.Get "adopted-by") $root.File.BaseFileName }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      {{- end -}}
+    </ul>
+  </div>
 {{ else }}
   {{- with .Param "post_meta" -}}
     {{- range $field := . -}}

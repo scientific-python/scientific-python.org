@@ -1,15 +1,17 @@
 {{- $root := . -}}
-{{- if eq .Section "specs" }}
+{{- if eq (lower .CurrentSection.Title) "specs" }}
   {{- partial "post_meta/spec_meta.html" $root }}
-{{ else if eq .Section "projects" }}
+{{ else if eq .CurrentSection.Title "AB-Projects" }}
   <div class="adopted-specs">
-    <h2>Adopted SPECs</h2>
+    <h1>Adopted SPECs</h1>
     {{ $specs := where $.Site.Pages "Section" "specs" }}
     <ul class="adopted-specs-list">
       {{- range $specs -}}
-        {{ if in (.Params.Get "adopted-by") $root.File.BaseFileName }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
+        {{ if not (in (lower .Title) "meta") }}
+          {{ if in (.Params.Get "adopted-by") $root.File.BaseFileName }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{- end }}
+        {{- end }}
       {{- end -}}
     </ul>
   </div>

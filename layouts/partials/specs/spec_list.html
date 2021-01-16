@@ -1,0 +1,34 @@
+<main class="main list" role="main">
+  <table class="spec__table">
+    <thead>
+      <tr>
+        <td>Title</td><td>Adopted By</td>
+      </tr>
+    </thead>
+    <div class="content">
+      {{- (.Site.GetPage "spec_overview.md").Content }}
+    </div>
+    {{- range $.Paginator.Pages.ByTitle }}
+      {{ $isMeta := (hasPrefix (lower .Title) "meta") }}
+      {{ $isExample := (hasPrefix .Title "SPEC X") }}
+      {{- if and (.Title) (not $isExample) (not $isMeta) }}
+        <tr class="spec">
+          <td class="spec__title">
+            <a href="{{ .RelPermalink }}">
+              {{- .Title }}
+            </a>
+          </td>
+          <td class="spec__status">
+            {{- if (.Params.Get "adopted-by") }}
+            {{ len (.Params.Get "adopted-by") }}
+            {{ else }}
+              —
+            {{ end -}}
+          </td>
+        </tr>
+      {{ end }}
+    {{- end }}
+  </table>
+</main>
+
+{{ partial "pagination.html" . }}

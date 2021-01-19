@@ -13,7 +13,7 @@
           <td class="field-value">
           {{- range $idx, $el := $val }}
             {{ if eq $attr "adopted-by" }}
-              <a href="{{ printf "/projects/%s" $el | relURL }}">{{ $el }}</a>
+              <a href="{{ relref . (printf "/projects/%s" $el) }}">{{ $el }}</a>
             {{ else }}
               {{ $el }}
             {{ end }}

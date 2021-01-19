@@ -1,7 +1,7 @@
 {{- $root := . -}}
 {{- if eq (lower .CurrentSection.Title) "specs" }}
   {{- partial "post_meta/spec_meta.html" $root }}
-{{ else if eq .CurrentSection.Title "AB-Projects" }}
+{{ else if eq .CurrentSection.Title "Core Projects" }}
   {{- partial "post_meta/project_meta.html" $root }}
 {{ else }}
   {{- with .Param "post_meta" -}}

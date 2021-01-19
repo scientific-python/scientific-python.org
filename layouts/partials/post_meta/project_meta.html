@@ -1,0 +1,47 @@
+{{- $root := . -}}
+<div class="spec-meta">
+  <table>
+    {{ $meta_fields := (slice "homepage" "repository" "pypi" "libraries-io" "license" "license-type") }}
+    {{- range $attr := $meta_fields -}}
+      {{ $val := $.Params.Get $attr }}
+      <tr class="field">
+        <td class="field-name">
+          {{ $attr | humanize }}:
+        </td>
+        {{- if (reflect.IsSlice $val) -}}
+          {{ $len := len $val }}
+          <td class="field-value">
+          {{- range $idx, $el := $val }}
+            {{ if eq $attr "adopted-by" }}
+              <a href="{{ printf "/projects/%s" $el | relURL }}">{{ $el }}</a>
+            {{ else }}
+              {{ $el }}
+            {{ end }}
+            {{ if not (eq (add $idx 1) $len) -}}
+              <br/>
+            {{ end }}
+          {{ end }}
+          </td>
+        {{- else }}
+          <td class="field-value">
+            {{ $val | markdownify }}
+          </td>
+        {{- end -}}
+      </tr>
+    {{- end -}}
+  </table>
+</div>
+
+<div class="adopted-specs">
+  <h1>Adopted SPECs</h1>
+  {{ $specs := where $.Site.Pages "Section" "specs" }}
+  <ul class="adopted-specs-list">
+    {{- range $specs -}}
+      {{ if not (in (lower .Title) "meta") }}
+        {{ if in (.Params.Get "adopted-by") $root.File.BaseFileName }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end }}
+      {{- end }}
+    {{- end -}}
+  </ul>
+</div>

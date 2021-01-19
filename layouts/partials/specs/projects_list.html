@@ -1,7 +1,7 @@
 <div class="content">
   <ul>
-    {{ range (.Site.GetPage "specs/meta-spec-0002/projects").Pages }}
-    <li><a href="{{ printf "/specs/meta-spec-0002/projects/%s" .File.BaseFileName | relURL }}">{{ .Title }}<a></li>
+    {{ range (.Site.GetPage "specs/projects").Pages }}
+    <li><a href="{{ printf "/specs/projects/%s" .File.BaseFileName | relURL }}">{{ .Title }}<a></li>
     {{ end }}
   </ul>
 </div>

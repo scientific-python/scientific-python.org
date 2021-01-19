@@ -45,10 +45,10 @@
       <tr>
         <td class="field-name">AB Projects:</td>
         <td class="field-value">
-          {{ $ab_projects := (.Site.GetPage "specs/meta-spec-0002/projects").Pages }}
+          {{ $ab_projects := (.Site.GetPage "specs/projects").Pages }}
           {{ $len := len $ab_projects }}
           {{ range $idx, $page := $ab_projects }}
-            <a href="{{ printf "/specs/meta-spec-0002/projects/%s" .File.BaseFileName | relURL }}">{{ .File.BaseFileName }}</a>
+            <a href="{{ printf "/specs/projects/%s" .File.BaseFileName | relURL }}">{{ .File.BaseFileName }}</a>
             {{ if not (eq (add $idx 1) $len) -}}
               <br/>
             {{ end }}

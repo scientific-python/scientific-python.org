@@ -47,11 +47,11 @@ theme = "mainroad"
 #    identifier = "projects"
 #    url = "/projects"
 #    weight = 50
-  [[menu.main]]
-    name = "SUMMITS"
-    identifier = "summits"
-    url = "/summits"
-    weight = 50
+#  [[menu.main]]
+#    name = "SUMMITS"
+#    identifier = "summits"
+#    url = "/summits"
+#    weight = 50
 
 [Params.widgets.social]
   github = "scientific-python"

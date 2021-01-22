@@ -23,7 +23,7 @@
             <td class="field-value">
             {{- range $idx, $el := $val }}
               {{ if eq $attr "adopted-by" }}
-                <a href="{{ relref . (printf "core-projects/%s" $el) }}">{{ $el }}</a>
+                <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
               {{ else }}
                 {{ $el }}
               {{ end }}
@@ -48,7 +48,7 @@
           {{ $ab_projects := (.Site.GetPage "specs/core-projects").Pages }}
           {{ $len := len $ab_projects }}
           {{ range $idx, $page := $ab_projects }}
-            <a href="{{ relref . (printf "specs/core-projects/%s" .File.BaseFileName) }}">{{ .File.BaseFileName }}</a>
+            <a href="{{ relref $.Page.CurrentSection (printf "specs/core-projects/%s" .File.BaseFileName) }}">{{ .File.BaseFileName }}</a>
             {{ if not (eq (add $idx 1) $len) -}}
               <br/>
             {{ end }}

@@ -7,8 +7,16 @@ table.spec__table thead {
   font-size: 1.2rem;
 }
 
+.spec__title a {
+  font-weight: normal;
+}
+
 .spec__status {
-  width: 10rem;
+  width: 20rem;
+}
+
+.spec__status a {
+  font-weight: normal;
 }
 
 .readcode {

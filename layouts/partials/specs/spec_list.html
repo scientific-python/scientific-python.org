@@ -19,8 +19,15 @@
             </a>
           </td>
           <td class="spec__status">
-            {{- if (.Params.Get "adopted-by") }}
-            {{ len (.Params.Get "adopted-by") }}
+            {{- $adopted_by := .Params.Get "adopted-by" }}
+            {{- if $adopted_by }}
+              {{- $N := len $adopted_by }}
+              {{- range $idx, $el := $adopted_by  }}
+            <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
+                {{- if not (eq $idx (sub $N 1)) -}}
+                ,
+                {{- end }}
+              {{ end }}
             {{ else }}
               —
             {{ end -}}

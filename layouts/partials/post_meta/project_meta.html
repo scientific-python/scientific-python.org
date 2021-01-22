@@ -8,25 +8,9 @@
         <td class="field-name">
           {{ $attr | humanize }}:
         </td>
-        {{- if (reflect.IsSlice $val) -}}
-          {{ $len := len $val }}
-          <td class="field-value">
-          {{- range $idx, $el := $val }}
-            {{ if eq $attr "adopted-by" }}
-              <a href="{{ relref . (printf "/projects/%s" $el) }}">{{ $el }}</a>
-            {{ else }}
-              {{ $el }}
-            {{ end }}
-            {{ if not (eq (add $idx 1) $len) -}}
-              <br/>
-            {{ end }}
-          {{ end }}
-          </td>
-        {{- else }}
-          <td class="field-value">
-            {{ $val | markdownify }}
-          </td>
-        {{- end -}}
+        <td class="field-value">
+          {{ $val | markdownify }}
+        </td>
       </tr>
     {{- end -}}
   </table>

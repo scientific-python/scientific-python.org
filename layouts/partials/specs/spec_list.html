@@ -2,7 +2,7 @@
   <table class="spec__table">
     <thead>
       <tr>
-        <td>Title</td><td>Adopted By</td>
+        <td>Title</td><td>Endorsed By</td>
       </tr>
     </thead>
     <div class="content">
@@ -19,10 +19,10 @@
             </a>
           </td>
           <td class="spec__status">
-            {{- $adopted_by := .Params.Get "adopted-by" }}
-            {{- if $adopted_by }}
-              {{- $N := len $adopted_by }}
-              {{- range $idx, $el := $adopted_by  }}
+            {{- $endorsed_by := .Params.Get "endorsed-by" }}
+            {{- if $endorsed_by }}
+              {{- $N := len $endorsed_by }}
+              {{- range $idx, $el := $endorsed_by  }}
             <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
                 {{- if not (eq $idx (sub $N 1)) -}}
                 ,

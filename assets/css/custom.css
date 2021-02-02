@@ -10,7 +10,8 @@ table.spec__table thead {
 }
 
 .spec__title a {
-  font-weight: normal;
+  font-size: 1.0rem;
+  font-weight: bold;
 }
 
 .spec__status {
@@ -163,17 +164,17 @@ table.spec__table thead {
   font-style: italic;
 }
 
-.adopted-specs {
+.endorsed-specs {
   padding-top: 1rem;
   font-size: 0.9rem;
 }
 
-.adopted-specs-list {
+.endorsed-specs-list {
   margin-left: 1rem;
   list-style-type: none;
 }
 
-.adopted-specs-list a {
+.endorsed-specs-list a {
   color: {{ $highlightColor }};
   font-weight: bold;
 }

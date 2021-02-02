@@ -16,9 +16,9 @@ theme = "mainroad"
 #  widgets = ["search", "pinned", "sidemenu", "recent", "taglist", "social"]
 
 [Params.logo]
-  title = "The Scientific Python Ecosystem" # Logo title, otherwise will use site title
-  subtitle = "Planning for the next decade" # Logo subtitle
-#  image = "img/ecosystem.svg" # Logo image. Path relative to "static"
+  title = "Planning for the next decade" # Logo title, otherwise will use site title
+  subtitle = "Scientific Python Ecosystem" # Logo subtitle
+  #image = "img/ecosystem.png" # Logo image. Path relative to "static"
 
 [menu]
   [[menu.main]]
@@ -51,6 +51,9 @@ theme = "mainroad"
 #    identifier = "summits"
 #    url = "/summits"
 #    weight = 50
+
+[Params.style.vars]
+  highlightColor = "#57ad68" # Override highlight color
 
 [Params.widgets.social]
   github = "scientific-python"

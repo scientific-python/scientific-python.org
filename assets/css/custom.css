@@ -1,3 +1,5 @@
+{{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
+
 table.spec__table thead {
   font-size: 1.2rem;
   font-weight: bold;
@@ -124,7 +126,7 @@ table.spec__table thead {
 }
 
 .spec-meta .field-value a {
-  color: #E22D30;
+  color: {{ $highlightColor }};
   font-weight: bold;
 }
 
@@ -172,6 +174,6 @@ table.spec__table thead {
 }
 
 .adopted-specs-list a {
-  color: #E22D30;
+  color: {{ $highlightColor }};
   font-weight: bold;
 }

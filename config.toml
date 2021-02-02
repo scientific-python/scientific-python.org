@@ -7,7 +7,6 @@ theme = "mainroad"
 [Params]
   mainSections = ["_index"]
   post_meta = ["author", "date"]
-  customCSS = ["css/custom.css"]
 
 #[Params.sidebar]
 #  home = "right"

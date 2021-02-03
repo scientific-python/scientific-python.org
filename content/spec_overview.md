@@ -11,3 +11,4 @@ coordination of the ecosystem.
 All projects in the ecosystem are encouraged to participate in the SPEC process
 and each individual project is responsible for deciding according to their own
 decision making process whether to adopt any specific SPEC.
+Contributors must adhere to our [Code of Conduct]({{< relref "/about/code_of_conduct.md" >}}).

@@ -22,7 +22,7 @@ for the next decade of data science, we will:
 During the first half of 2021, we will focus on creating a recommendation
 infrastructure for community-wide policy and on improving common engineering
 infrastructure (see the [Scientific Python Ecosystem Coordination (SPEC)]({{<
-ref "specs" >}}) documents).
+relref "specs" >}}) documents).
 
 Read the [full grant](doc/scientific-python-planning-grant-2020.pdf).
 

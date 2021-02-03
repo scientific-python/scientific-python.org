@@ -1,7 +1,7 @@
 {{ $isMeta := (hasPrefix (lower .Title) "meta") }}
 <div class="spec-meta">
   <table>
-    {{ $meta_fields := (slice "author" "date" "discussion" "adopted-by") }}
+    {{ $meta_fields := (slice "author" "date" "discussion" "endorsed-by") }}
     {{- range $attr := $meta_fields -}}
       {{ $val := $.Params.Get $attr }}
       {{ $attr := strings.TrimPrefix "spec_" $attr }}
@@ -13,7 +13,7 @@
       {{- else if eq $attr "date" }}
         {{ $val = $val.Format "2006-01-02" }}
       {{- end -}}
-      {{ if not (and $isMeta (eq $attr "adopted-by")) }}
+      {{ if not (and $isMeta (eq $attr "endorsed-by")) }}
         <tr class="field">
           <td class="field-name">
             {{ $attr | humanize }}:
@@ -22,7 +22,7 @@
             {{ $len := len $val }}
             <td class="field-value">
             {{- range $idx, $el := $val }}
-              {{ if eq $attr "adopted-by" }}
+              {{ if eq $attr "endorsed-by" }}
                 <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
               {{ else }}
                 {{ $el }}

@@ -53,14 +53,15 @@ table.spec__table thead {
 
 .notice-type {
   font-size: 1rem;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-weight: bold;
+  padding: 0rem 1rem 0rem 1rem;
   width: 100%;
   color: white;
   display: inline-block;
 }
 
 .notice-content {
-  padding: 1rem 1rem 0.1rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .note-notice .notice-type {
@@ -177,4 +178,8 @@ table.spec__table thead {
 .endorsed-specs-list a {
   color: {{ $highlightColor }};
   font-weight: bold;
+}
+
+code {
+  color: #004811;
 }

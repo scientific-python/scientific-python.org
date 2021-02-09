@@ -18,7 +18,7 @@ theme = "mainroad"
 [Params.logo]
   title = "Planning for the next decade" # Logo title, otherwise will use site title
   subtitle = "Scientific Python Ecosystem" # Logo subtitle
-  #image = "img/ecosystem.png" # Logo image. Path relative to "static"
+  image = "img/logo.svg" # Logo image. Path relative to "static"
 
 [menu]
   [[menu.main]]
@@ -53,7 +53,8 @@ theme = "mainroad"
 #    weight = 50
 
 [Params.style.vars]
-  highlightColor = "#57ad68" # Override highlight color
+  highlightColor = "#004811" # Override highlight color
+  menuHighlightColor = "#5ca038" # Override menu highlight color
 
 [Params.widgets.social]
   github = "scientific-python"

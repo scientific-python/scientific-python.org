@@ -224,3 +224,8 @@ code {
                 border-left: 1px solid rgba(255, 255, 255, .1);
         }
 }
+
+dt,
+dd {
+  list-style-type: none;
+}

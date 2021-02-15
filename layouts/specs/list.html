@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-{{ .Content }}
+{{ with .Content }}
+  <div class="content main__content clearfix">
+    {{ . }}
+  </div>
+{{ end }}
 
 {{ if eq (lower .CurrentSection.Title) "specs" }}
   {{ partial "specs/spec_list.html" . }}

@@ -226,11 +226,6 @@ code {
         }
 }
 
-ul {
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-}
-
 dt,
 dd {
   list-style-type: none;

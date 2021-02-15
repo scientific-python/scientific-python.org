@@ -1,12 +1,12 @@
 .PHONY: html serve serve-dev serve-all clean github pull
 
 html:
-	@hugo
+	@hugo --buildDrafts
 	@touch public/.nojekyll
 	@echo "scientific-python.org" > public/CNAME
 
 serve:
-	@hugo --i18n-warnings server
+	@hugo --i18n-warnings --buildDrafts server
 
 serve-all:
 	@hugo --i18n-warnings --buildDrafts server

@@ -19,10 +19,10 @@ for the next decade of data science, we will:
 4. Write a community vetted strategic plan, and
 5. Help the community develop grant proposals.
 
-During the first half of 2021, we will focus on creating a recommendation
-infrastructure for community-wide policy and on improving common engineering
-infrastructure (see the [Scientific Python Ecosystem Coordination (SPEC)]({{<
-relref "specs" >}}) documents).
+Our initial focus is on creating a recommendation infrastructure for
+community-wide policy and on improving common engineering infrastructure (see
+the [Scientific Python Ecosystem Coordination (SPEC)]({{< relref "specs" >}})
+documents).
 
 Read the [full grant](doc/scientific-python-planning-grant-2020.pdf).
 

@@ -7,6 +7,6 @@ These are draft documents.
 SPECs provide operational guidelines for projects in the scientific Python ecosystem.
 All projects in the ecosystem and community members are encouraged to participate in the SPEC process.
 For details, please review the SPEC
-[purpose and process]({{< relref "/specs/meta-spec-0000.md" >}}).
+[purpose and process]({{< relref "/specs/purpose-and-process/index.md" >}}).
 
 Contributors must adhere to our [code of conduct]({{< relref "/about/code_of_conduct.md" >}}).

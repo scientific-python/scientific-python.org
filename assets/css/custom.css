@@ -218,6 +218,7 @@ code {
                 border: 0;
                 -webkit-transform: none;
                 transform: none;
+                padding-bottom: 0;
         }
 
         .menu__item {
@@ -225,13 +226,9 @@ code {
         }
 }
 
-ul, li {
-  list-style-position: inside;
-  padding-bottom: 0.25rem;
-}
-
-ul + h2 {
-  padding-top: 1rem;
+ul {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 dt,

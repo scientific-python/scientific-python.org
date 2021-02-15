@@ -1,6 +1,6 @@
 <div class="project">
   <div class="team-member">
-     <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s.md" (.Get "name")) }}" class="team-member-name">
+     <a href="{{ relref $.Page.CurrentSection (printf "%s.md" (.Get "name")) }}" class="team-member-name">
         <div class="team-member-photo">
            <img
              src="{{ default (relURL "/img/avatar.png") (.Get "avatar") }}"

@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+{{ .Content }}
+
 {{ if eq (lower .CurrentSection.Title) "specs" }}
   {{ partial "specs/spec_list.html" . }}
 {{ end }}

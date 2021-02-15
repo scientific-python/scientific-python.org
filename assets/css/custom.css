@@ -225,6 +225,15 @@ code {
         }
 }
 
+ul, li {
+  list-style-position: inside;
+  padding-bottom: 0.25rem;
+}
+
+ul + h2 {
+  padding-top: 1rem;
+}
+
 dt,
 dd {
   list-style-type: none;

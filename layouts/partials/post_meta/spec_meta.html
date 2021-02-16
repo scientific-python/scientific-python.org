@@ -18,7 +18,7 @@
         {{ $link := printf "https://github.com/scientific-python/specs/commits/main/%s" $path }}
         {{ $val = printf "<a href=\"%s\">%s</a>" $link $link }}
       {{- end -}}
-      {{ if not (and $isMeta (in (slice "endorsed-by" "discussion" "history") $attr)) }}
+      {{ if not (and $isMeta (in (slice "endorsed-by" "discussion" ) $attr)) }}
         <tr class="field">
           <td class="field-name">
             {{ $attr | humanize }}:

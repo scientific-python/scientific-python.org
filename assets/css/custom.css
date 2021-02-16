@@ -135,32 +135,32 @@ table.spec__table thead {
 
 .gallery {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.team-member {
-    display: inline-block;
-    padding: 1rem;
-    margin: 0.25rem;
-    width: 11rem;
-    text-align: center;
-    vertical-align: top;
+.person {
+  padding: 1rem;
+  margin: 0.25rem;
+  width: 11rem;
+  text-align: center;
+  vertical-align: top;
 }
 
-.team-member-photo {
-    display: block;
+.person-photo {
+  display: block;
 }
 
-.team-member-photo img {
+.person-photo img {
     width: 60px;
     border-radius: 50%;
     margin-bottom: 0.5rem;
 }
 
-.team-member-name {
+.person-name {
     font-weight: bold;
 }
 
-.team-member-project {
+.person-project {
   display: block;
   font-size: 0.8rem;
   font-style: italic;

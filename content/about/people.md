@@ -6,24 +6,11 @@ draft: false
 
 # Team
 
-{{< gallery >}}
+{{< page_gallery "core" >}}
 
-{{< person
-      name="Ross Barnowski"
-      github_handle="rossbar"
-      avatar="https://avatars1.githubusercontent.com/u/1268991?s=40"
->}}
-{{< person
-      name="Jarrod Millman"
-      github_handle="jarrodmillman"
-      avatar="https://avatars3.githubusercontent.com/u/123428?s=40"
->}}
-{{< person
-      name="Stéfan van der Walt"
-      github_handle="stefanv"
-      avatar="https://avatars3.githubusercontent.com/u/45071?s=40"
->}}
-{{< /gallery >}}
+# SPEC Steering Committee
+
+{{< page_gallery "../specs/steering-committee" >}}
 
 # Advisory Council
 

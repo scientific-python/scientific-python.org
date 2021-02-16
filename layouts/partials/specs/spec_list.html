@@ -18,10 +18,11 @@
             {{- if $endorsed_by }}
               {{- $N := len $endorsed_by }}
               {{- range $idx, $el := $endorsed_by  }}
-            <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
-                {{- if not (eq $idx (sub $N 1)) -}}
-                ,
-                {{- end }}
+                {{ $project_page := $.GetPage (printf "core-projects/%s" $el) }}
+                {{ $url := $project_page.RelPermalink }}
+                <a href="{{ $url }}">
+                  <img title="{{ $project_page.Title }}" src="{{ $project_page.Params.avatar }}" class="endorse-icon"/>
+                </a>
               {{ end }}
             {{ else }}
               —

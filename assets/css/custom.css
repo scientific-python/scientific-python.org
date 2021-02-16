@@ -230,3 +230,8 @@ dt,
 dd {
   list-style-type: none;
 }
+
+.endorse-icon {
+  width: 1.5rem;
+  margin-right: 0.25rem;
+}

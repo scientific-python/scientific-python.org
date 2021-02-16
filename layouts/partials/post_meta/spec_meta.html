@@ -1,4 +1,4 @@
-{{ $isMeta := (hasPrefix (lower .Title) "meta") }}
+{{ $isMeta := gt (len (split .Path "/")) 2 }}
 <div class="spec-meta">
   <table>
     {{ $meta_fields := (slice "author" "date" "discussion" "endorsed-by") }}
@@ -13,7 +13,7 @@
       {{- else if eq $attr "date" }}
         {{ $val = $val.Format "2006-01-02" }}
       {{- end -}}
-      {{ if not (and $isMeta (eq $attr "endorsed-by")) }}
+      {{ if not (and $isMeta (in (slice "endorsed-by" "discussion") $attr)) }}
         <tr class="field">
           <td class="field-name">
             {{ $attr | humanize }}:

@@ -1,9 +1,9 @@
 {{- $root := . -}}
 
-{{- if eq .CurrentSection.Title "Scientific Python Ecosystem Coordination (SPEC)" }}
-  {{- partial "post_meta/spec_meta.html" $root }}
-{{ else if eq .CurrentSection.Title "SPEC Core Projects" }}
+{{ if eq .CurrentSection.Title "SPEC Core Projects" }}
   {{- partial "post_meta/project_meta.html" $root }}
+{{ else if eq .Section "specs" }}
+  {{- partial "post_meta/spec_meta.html" $root }}
 {{ else }}
   {{- with .Param "post_meta" -}}
     {{- range $field := . -}}

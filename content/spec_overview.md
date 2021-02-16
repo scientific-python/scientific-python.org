@@ -5,8 +5,10 @@ These are draft documents.
 {{< /notice >}} 
 
 SPECs provide operational guidelines for projects in the scientific Python ecosystem.
-All projects in the ecosystem and community members are encouraged to participate in the SPEC process.
-For details, please review the SPEC
-[purpose and process]({{< relref "/specs/purpose-and-process" >}}).
+All community members and ecosystem projects are welcome to participate in the SPEC process.
+The SPEC process is described in the
+[SPEC Purpose and Process]({{< relref "/specs/purpose-and-process" >}}),
+[SPEC Steering Committee]({{< relref "/specs/steering-committee" >}}), and
+[SPEC Core Projects]({{< relref "/specs/core-projects" >}}) documents.
 
 Contributors must adhere to our [code of conduct]({{< relref "/about/code_of_conduct.md" >}}).

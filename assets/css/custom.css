@@ -166,40 +166,6 @@ table.spec__table thead {
   font-style: italic;
 }
 
-/* this should be removed once galleries are made more generic */
-/* | */
-/* v */
-
-.person {
-  padding: 1rem;
-  margin: 0.25rem;
-  width: 11rem;
-  text-align: center;
-  vertical-align: top;
-}
-
-.person-photo {
-  display: block;
-}
-
-.person-photo img {
-    width: 60px;
-    border-radius: 50%;
-    margin-bottom: 0.5rem;
-}
-
-.person-name {
-    font-weight: bold;
-}
-
-.person-project {
-  display: block;
-  font-size: 0.8rem;
-  font-style: italic;
-}
-
-/* stop removing here */
-
 .endorsed-specs {
   padding-top: 1rem;
   font-size: 0.9rem;

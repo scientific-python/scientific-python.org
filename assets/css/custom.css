@@ -138,6 +138,38 @@ table.spec__table thead {
   flex-wrap: wrap;
 }
 
+.gallery .entry {
+  padding: 1rem;
+  margin: 0.25rem;
+  width: 11rem;
+  text-align: center;
+  vertical-align: top;
+}
+
+.gallery .photo {
+  display: block;
+}
+
+.gallery .photo img {
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.gallery .name {
+    font-weight: bold;
+}
+
+.gallery .project {
+  display: block;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+/* this should be removed once galleries are made more generic */
+/* | */
+/* v */
+
 .person {
   padding: 1rem;
   margin: 0.25rem;
@@ -165,6 +197,8 @@ table.spec__table thead {
   font-size: 0.8rem;
   font-style: italic;
 }
+
+/* stop removing here */
 
 .endorsed-specs {
   padding-top: 1rem;

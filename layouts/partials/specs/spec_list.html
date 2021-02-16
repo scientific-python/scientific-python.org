@@ -5,9 +5,6 @@
         <td>Title</td><td>Endorsed By</td>
       </tr>
     </thead>
-    <div class="content">
-      {{- (.Site.GetPage "spec_overview.md").Content }}
-    </div>
     {{- range $.Paginator.Pages.ByTitle }}
       {{- if and (hasPrefix .Title "SPEC") (in .Title "—") }}
         <tr class="spec">

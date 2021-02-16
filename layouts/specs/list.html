@@ -1,16 +1,24 @@
 {{ define "main" }}
 
-{{ with .Content }}
-  <div class="content main__content clearfix">
-    {{ . }}
-  </div>
-{{ end }}
+<!-- This comes from _default/single.html; should consider
+     making it a partial -->
 
-{{ if eq (lower .CurrentSection.Title) "specs" }}
+<main class="main" role="main">
+  <article class="post">
+    <header class="post__header">
+      <h1 class="post__title">{{ .Title }}</h1>
+    </header>
+
+    {{ with .Content }}
+      <div class="content main__content clearfix">
+        {{ . }}
+      </div>
+    {{ end }}
+
+{{ if eq .CurrentSection.Title "Scientific Python Ecosystem Coordination (SPEC)" }}
   {{ partial "specs/spec_list.html" . }}
 {{ end }}
-{{ if eq .CurrentSection.Title "Core Projects" }}
-  {{ partial "specs/projects_list.html" . }}
-{{ end }}
 
+  </article>
+</main>
 {{ end }}

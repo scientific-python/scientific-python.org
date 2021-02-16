@@ -1,24 +1,9 @@
 {{ define "main" }}
 
-<!-- This comes from _default/single.html; should consider
-     making it a partial -->
-
-<main class="main" role="main">
-  <article class="post">
-    <header class="post__header">
-      <h1 class="post__title">{{ .Title }}</h1>
-    </header>
-
-    {{ with .Content }}
-      <div class="content main__content clearfix">
-        {{ . }}
-      </div>
-    {{ end }}
+{{ partial "page_structure.html" . }}
 
 {{ if eq .CurrentSection.Title "Scientific Python Ecosystem Coordination (SPEC)" }}
   {{ partial "specs/spec_list.html" . }}
 {{ end }}
 
-  </article>
-</main>
 {{ end }}

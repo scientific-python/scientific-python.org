@@ -24,12 +24,10 @@
             {{- range $idx, $el := $val }}
               {{ if eq $attr "endorsed-by" }}
                 <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
-              {{ else }}
+              {{- else }}
                 {{ $el }}
-              {{ end }}
-              {{ if not (eq (add $idx 1) $len) -}}
-                <br/>
-              {{ end }}
+              {{- end -}}
+              {{- if not (eq (add $idx 1) $len) -}},{{ end }}
             {{ end }}
             </td>
           {{- else }}

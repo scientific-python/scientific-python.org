@@ -6,11 +6,11 @@ draft: false
 
 # Team
 
-{{< page_gallery "core" >}}
+{{< page_gallery pages="core" >}}
 
 # SPEC Steering Committee
 
-{{< page_gallery "../specs/steering-committee" >}}
+{{< page_gallery pages="../specs/steering-committee" >}}
 
 # Advisory Council
 

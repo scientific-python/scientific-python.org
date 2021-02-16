@@ -1,8 +1,12 @@
+{{ $shortcode := . }}
+
 <div class="gallery">
-  {{ $section := .Page.GetPage (.Get 0) }}
+  {{ $section := .Page.GetPage (.Get "pages") }}
   {{ range $section.Pages }}
     <div class="entry">
-      <a href="{{ .Params.repository }}" class="name">
+      {{ $link_internal := eq ($shortcode.Get "link") "internal" }}
+      {{ $link_url := or (and $link_internal .RelPermalink) .Params.repository }}
+      <a href="{{ $link_url }}" class="name">
         <div class="photo">
           <img
             src="{{ default (relURL "/img/avatar.png") (.Params.avatar) }}"

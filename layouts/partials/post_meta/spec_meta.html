@@ -1,7 +1,8 @@
+{{ $page := . }}
 {{ $isMeta := gt (len (split .Path "/")) 2 }}
 <div class="spec-meta">
   <table>
-    {{ $meta_fields := (slice "author" "date" "discussion" "endorsed-by") }}
+    {{ $meta_fields := (slice "author" "discussion" "history" "endorsed-by") }}
     {{- range $attr := $meta_fields -}}
       {{ $val := $.Params.Get $attr }}
       {{ $attr := strings.TrimPrefix "spec_" $attr }}
@@ -12,8 +13,12 @@
         {{ end }}
       {{- else if eq $attr "date" }}
         {{ $val = $val.Format "2006-01-02" }}
+      {{- else if (eq $attr "history") }}
+        {{ $path := index (split $page.File "specs/") 1 }}
+        {{ $link := printf "https://github.com/scientific-python/specs/commits/main/%s" $path }}
+        {{ $val = printf "<a href=\"%s\">%s</a>" $link $link }}
       {{- end -}}
-      {{ if not (and $isMeta (in (slice "endorsed-by" "discussion") $attr)) }}
+      {{ if not (and $isMeta (in (slice "endorsed-by" "discussion" ) $attr)) }}
         <tr class="field">
           <td class="field-name">
             {{ $attr | humanize }}:

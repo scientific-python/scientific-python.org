@@ -15,8 +15,8 @@
           </td>
           <td class="spec__status">
             {{- $endorsed_by := .Params.Get "endorsed-by" }}
-            {{- if $endorsed_by }}
-              {{- $N := len $endorsed_by }}
+            {{- $N := len (or $endorsed_by "") }}
+            {{- if ge $N 2 }}
               {{- range $idx, $el := $endorsed_by  }}
                 {{ $project_page := $.GetPage (printf "core-projects/%s" $el) }}
                 {{ $url := $project_page.RelPermalink }}

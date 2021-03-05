@@ -3,5 +3,5 @@
 	url = https://github.com/vimux/mainroad
 [submodule "content/specs"]
 	path = content/specs
-	url = git@github.com:scientific-python/specs
+	url = https://github.com/scientific-python/specs
 	branch = main

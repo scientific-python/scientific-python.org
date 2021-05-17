@@ -58,7 +58,7 @@ run(['git', 'commit', '--allow-empty', '-m', args.message], stdout=False)
 
 print(f'- uploading as {args.committer} <{args.email}> to {args.remote}:{args.branch}')
 if args.force:
-    run(['git', 'push', 'origin', f'master:{args.branch}', '--force'])
+    run(['git', 'push', 'origin', f'main:{args.branch}', '--force'])
 else:
     print('\n!! No `--force` argument specified; aborting')
     print('!! Before enabling that flag, make sure you know what it does\n')

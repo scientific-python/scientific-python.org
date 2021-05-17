@@ -19,7 +19,7 @@ clean:
 
 github: | clean html
 	./push_dir_to_repo.py \
-	  --branch master \
+	  --branch main \
 	  --email sprintbot@sprintbot \
 	  --committer "sprintbot" \
 	  --message "Update website" \
@@ -27,5 +27,5 @@ github: | clean html
 	     ./public git@github.com:scientific-python/scientific-python.org-deployed
 
 pull:
-	git pull origin master
-	cd content/specs && git pull origin master
+	git pull origin main
+	cd content/specs && git pull origin main

@@ -14,7 +14,6 @@ jobs:
           command: git submodule update --init --recursive
 
       - run:
-          # TODO: include --buildDrafts?
           name: Build site
           command: |
             sed -i '1s/^/uglyurls: true\n/' config.yaml

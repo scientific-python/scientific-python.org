@@ -8,7 +8,7 @@ Healthy communities are built when everyone's voice is heard,
 when their perspective is valued, and when their work is recognized.
 Better technical and social solutions can be found through wide participation.
 We are therefore dedicated to expanding our community in a welcoming and inclusive way,
-with particular focus on increased participation from minorities underrepresented in STEM.
+with particular focus on increased participation by people who identify with groups that are  underrepresented in STEM.
 
 We work closely with NumFOCUS'
 [Diversity & Inclusion in Scientific Computing (DISC) group](https://numfocus.org/programs/diversity-inclusion).

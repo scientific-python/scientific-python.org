@@ -11,7 +11,7 @@ jobs:
 
       - run:
           name: Install hugo theme
-          command: git submodule update --init
+          command: git submodule update --init --recursive
 
       - run:
           # TODO: include --buildDrafts?

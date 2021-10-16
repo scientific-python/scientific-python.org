@@ -50,6 +50,10 @@ languages:
         buttonlink: /get_started/
         # Hero image (from static/images/___)
         image: logo.svg
+      news:
+        title: SciPy 1.7.1 released
+        content: 2021-08-01
+        url: /posts
 
       keyfeatures:
         features:

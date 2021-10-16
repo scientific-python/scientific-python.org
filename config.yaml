@@ -1,0 +1,61 @@
+baseURL: 'https://scientific-python.org'
+languageCode: en-us
+title: Scientific Python Ecosystem
+subtitle: Planning for the next decade
+theme: scientific-python-hugo-theme
+DefaultContentLanguage: en
+relativeURLs: true
+
+params:
+  images:
+  - /images/logo.svg
+  post_meta:
+    - author
+    - date
+  style:
+    vars:
+      highlightColor: '#004811'
+      menuHighlightColor: '#5ca038'
+  widgets:
+    social:
+      github: scientific-python
+      custom:
+        - title: Youtube
+          url: 'https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA'
+
+languages:
+  en:
+    title: Scientific Python Ecosystem
+    contentDir: content/en
+    params:
+      navbar:
+        - title: Home
+          url: /
+          button: true
+        - title: SPECS
+          url: /specs/
+      hero:
+        # Main hero title
+        title: Scientific Python Ecosystem
+        # Button text
+        image: logo.svg
+    footer:
+      logo: logo.svg
+      socialmediatitle: ""
+      socialmedia:
+      - link: https://github.com/scientific-python/scientific-python
+        icon: github
+      quicklinks:
+        column1:
+          title: ""
+          links:
+            - text: Forum
+              link: https://discuss.scientific-python.org
+            - text: GitHub
+              link: https://github.com/scientific-python
+            - text: Grant
+              link: /grant
+        column2:
+          links:
+        column3:
+          links:

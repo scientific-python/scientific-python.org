@@ -1,7 +1,7 @@
-[submodule "themes/mainroad"]
-	path = themes/mainroad
-	url = https://github.com/vimux/mainroad
 [submodule "content/specs"]
-	path = content/specs
+	path = content/en/specs
 	url = https://github.com/scientific-python/specs
 	branch = main
+[submodule "themes/scientific-python-hugo-theme"]
+	path = themes/scientific-python-hugo-theme
+	url = git@github.com:scientific-python/scientific-python-hugo-theme.git

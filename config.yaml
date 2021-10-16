@@ -1,7 +1,5 @@
 baseURL: 'https://scientific-python.org'
 languageCode: en-us
-title: Scientific Python Ecosystem
-subtitle: Planning for the next decade
 theme: scientific-python-hugo-theme
 DefaultContentLanguage: en
 relativeURLs: true
@@ -25,25 +23,56 @@ params:
 
 languages:
   en:
-    title: Scientific Python Ecosystem
+    title: Scientific Python
     contentDir: content/en
+
+    languageName: English
     params:
+      navbarlogo:
+        image: logo.svg
+        altText: A green tree on a white hill at the end of a green path in the shape of the letter 'S'.
+        link: /
       navbar:
-        - title: Home
-          url: /
-          button: true
+        - title: About
+          url: /about/
+        - title: Install
+          url: /install/
         - title: SPECS
           url: /specs/
       hero:
         # Main hero title
-        title: Scientific Python Ecosystem
+        title: Scientific Python
+        # Hero subtitle (optional)
+        subtitle: Ecosystem for scientific computing
         # Button text
+        buttontext: Get started
+        # Where the main hero button links to
+        buttonlink: /get_started/
+        # Hero image (from static/images/___)
         image: logo.svg
+
+      keyfeatures:
+        features:
+        - title: Fundamental algorithms
+          text: SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
+        - title: Broadly applicable
+          text: The algorithms and data structures provided by SciPy are broadly applicable across domains.
+        - title: Foundational
+          text:  Extends NumPy providing additional tools for array computing and provides specialized data structures, such as sparse matrices and k-dimensional trees.
+        - title: Performant
+          text: SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
+        - title: Easy to use
+          text: SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+        - title: Open source
+          text: Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/master/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/dev-zone).
+
+      section5: false
+
     footer:
       logo: logo.svg
       socialmediatitle: ""
       socialmedia:
-      - link: https://github.com/scientific-python/scientific-python
+      - link: https://github.com/scientific-python/
         icon: github
       quicklinks:
         column1:
@@ -51,10 +80,8 @@ languages:
           links:
             - text: Forum
               link: https://discuss.scientific-python.org
-            - text: GitHub
-              link: https://github.com/scientific-python
-            - text: Grant
-              link: /grant
+            - text: Team
+              link: /team/
         column2:
           links:
         column3:

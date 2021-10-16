@@ -1,6 +1,5 @@
 ---
 title: "Planning for the Next Decade of Scientific Python"
-date: 2018-07-27T11:18:53-07:00
 draft: false
 ---
 

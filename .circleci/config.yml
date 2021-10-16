@@ -21,6 +21,7 @@ jobs:
             sed -i 's/\(url: \/.\+\)\//\1.html/' config.yaml
             sed -i 's/url: \/$/url: \/index.html/' config.yaml
             sed -i 's/\(link: \/.\+\)\//\1.html/' config.yaml
+            sed -i 's/\(buttonlink: \/.\+\)\//\1.html/' config.yaml
             sed -i 's/link: \/$/link: \/index.html/' config.yaml
             hugo --buildDrafts
 

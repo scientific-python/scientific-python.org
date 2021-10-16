@@ -11,19 +11,17 @@ jobs:
 
       - run:
           name: Install hugo theme
-          command: git submodule update --init
+          command: git submodule update --init --recursive
 
       - run:
           # TODO: include --buildDrafts?
           name: Build site
           command: |
-            sed -i '/theme/a uglyurls = true' config.toml
-            sed -i '/uglyurls/a relativeURLs=true' config.toml
-            sed -i 's/\"\/\"/\"\/index.html\"/g' config.toml
-            sed -i 's/\/about\//\/about.html/g' config.toml
-            sed -i 's/\/posts\//\/posts.html/g' config.toml
-            sed -i 's/\/specs\//\/specs.html/g' config.toml
-            sed -i 's/\/summits\//\/summits.html/g' config.toml
+            sed -i '1s/^/uglyurls: true\n/' config.yaml
+            sed -i 's/\(url: \/.\+\)\//\1.html/' config.yaml
+            sed -i 's/url: \/$/url: \/index.html/' config.yaml
+            sed -i 's/\(link: \/.\+\)\//\1.html/' config.yaml
+            sed -i 's/link: \/$/link: \/index.html/' config.yaml
             hugo --buildDrafts
 
       - store_artifacts:

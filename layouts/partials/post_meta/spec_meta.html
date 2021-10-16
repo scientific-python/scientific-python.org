@@ -28,7 +28,7 @@
             <td class="field-value">
             {{- range $idx, $el := $val }}
               {{ if eq $attr "endorsed-by" }}
-                <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
+                <a href="{{ relref $.Page.CurrentSection (printf "en/core-projects/%s" $el) }}">{{ $el }}</a>
               {{- else }}
                 {{ $el }}
               {{- end -}}

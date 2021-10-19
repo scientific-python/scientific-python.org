@@ -1,7 +1,7 @@
-Get started
-===========
-
-Got the SciPy packages installed? Wondering what to do next?
+---
+title: "Getting started"
+draft: false
+---
 
 \"Scientific Python\" doesn\'t exist without \"Python\".
 Scientific Python skills need to build on a foundation of standard programming skills.
@@ -10,8 +10,7 @@ countless resources exist online, in hard copy, in person, or whatever format yo
 
 Just remember to have fun, make mistakes, and persevere.
 
-Where to write
---------------
+## Where to write
 
 [Jupyter](https://jupyter.org/) notebooks combine code, markdown, and
 more in an interactive setting. They are an excellent tool for learning,
@@ -24,7 +23,7 @@ provides an interactive tutorial.
 
 Jupyter runs by calling to [IPython](https://ipython.org/) behind the
 scenes, but IPython itself also acts as a standalone tool. A
-*command-line* of individual statements and returned values, IPython is
+_command-line_ of individual statements and returned values, IPython is
 useful for debugging and experimenting.
 
 Code Editors and IDEs (Integrated Development Environments) facilitate
@@ -41,8 +40,7 @@ Studio Code](https://code.visualstudio.com/) , or
 highlighting, the ability to execute code, debugging tools,
 autocompletion, and project management.
 
-Hello SciPy
------------
+## Hello SciPy
 
 Need to test if the packages got installed? Type these lines at an
 IPython prompt, or save in a `*.py` file to execute:
@@ -59,20 +57,19 @@ For testing the SciPy library and Matplotlib, here\'s a fun Easter egg:
     plt.imshow(face)
     plt.show()
 
-Start learning
---------------
+## Start learning
 
 Each package has official tutorials:
 
--   [NumPy User
-    Guide](https://numpy.org/devdocs/user/tutorials_index.html)
--   [SciPy
-    Tutorial](http://docs.scipy.org/doc/scipy/reference/tutorial/index.html)
--   [Matplotlib beginner\'s
-    guide](http://matplotlib.org/users/beginner.html)
--   [pandas
-    tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html)
--   [SymPy tutorial](http://docs.sympy.org/latest/tutorial/)
+- [NumPy User
+  Guide](https://numpy.org/devdocs/user/tutorials_index.html)
+- [SciPy
+  Tutorial](http://docs.scipy.org/doc/scipy/reference/tutorial/index.html)
+- [Matplotlib beginner\'s
+  guide](http://matplotlib.org/users/beginner.html)
+- [pandas
+  tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html)
+- [SymPy tutorial](http://docs.sympy.org/latest/tutorial/)
 
 Additional outside tutorials exist, such as the [Scipy Lecture
 Notes](http://scipy-lectures.org/index.html) or [Elegant
@@ -80,8 +77,7 @@ SciPy](https://github.com/elegant-scipy/notebooks) .
 
 But the best way to learn is to start coding.
 
-Stuck? Need help?
------------------
+## Stuck? Need help?
 
 Getting errors that you can\'t figure out?
 
@@ -109,6 +105,3 @@ or for viewing the source:
 Try searching the Internet and sites like
 [StackOverflow](https://stackoverflow.com/) to see if others have
 encountered similar problems or can help with yours.
-
-If you think you have truly encountered a problem with SciPy itself,
-read the page on [Reporting Bugs](https://scipy.org/bug-report.html).

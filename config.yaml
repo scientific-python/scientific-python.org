@@ -3,6 +3,7 @@ languageCode: en-us
 theme: scientific-python-hugo-theme
 DefaultContentLanguage: en
 relativeURLs: true
+disableKinds: ["term", "taxonomy"]
 
 params:
   images:

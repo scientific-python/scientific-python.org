@@ -23,14 +23,14 @@ Scientific computing in Python builds upon a small core of packages:
 On this base, the SciPy ecosystem includes general and specialised tools
 for data management and computation, productive experimentation, and
 high-performance computing. Below, we overview some key packages, though
-there are [many more relevant packages]({{< relref "/topical_software" >}}).
+there are many more relevant packages.
 
 Here are some useful links:
 
 - [install]({{< relref "/install" >}})
+- [contribute]({{< relref "/contribute" >}})
 - [cookbook](https://scipy-cookbook.readthedocs.io/)
 - [blogs](https://planet.scipy.org/)
-- [references]({{< relref "/citing" >}})
 
 Look here to [get started]({{< relref "/get_started" >}}) and here
 for

@@ -1,6 +1,5 @@
 ---
 title: "Planning for the Next Decade of Scientific Python"
-date: 2018-07-27T11:18:53-07:00
 draft: false
 ---
 
@@ -24,7 +23,8 @@ community-wide policy and on improving common engineering infrastructure (see
 the [Scientific Python Ecosystem Coordination (SPEC)]({{< relref "specs" >}})
 documents).
 
-Read the [full grant](doc/scientific-python-planning-grant-2020.pdf).
+Read the [full grant](../doc/scientific-python-planning-grant-2020.pdf) and
+meet the [team]({{< relref "people" >}}).
 
-*This work is funded in part by the Gordon and Betty Moore Foundation through
-grant GBMF8599 to the University of California, Berkeley.*
+_This work is funded in part by the Gordon and Betty Moore Foundation through
+grant GBMF8599 to the University of California, Berkeley._

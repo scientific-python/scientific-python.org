@@ -1,10 +1,9 @@
 baseURL: 'https://scientific-python.org'
 languageCode: en-us
-title: Scientific Python Ecosystem
-subtitle: Planning for the next decade
 theme: scientific-python-hugo-theme
 DefaultContentLanguage: en
 relativeURLs: true
+disableKinds: ["term", "taxonomy"]
 
 params:
   images:
@@ -25,25 +24,58 @@ params:
 
 languages:
   en:
-    title: Scientific Python Ecosystem
+    title: Scientific Python
     contentDir: content/en
+
+    languageName: English
     params:
+      navbarlogo:
+        image: logo.svg
+        altText: A green tree on a white hill at the end of a green path in the shape of the letter 'S'.
+        link: /
       navbar:
-        - title: Home
-          url: /
-          button: true
+        - title: Ecosystem
+          url: /ecosystem/
         - title: SPECS
           url: /specs/
       hero:
         # Main hero title
-        title: Scientific Python Ecosystem
+        title: Scientific Python
+        # Hero subtitle (optional)
+        subtitle: Ecosystem for scientific computing
         # Button text
+        buttontext: Get started
+        # Where the main hero button links to
+        buttonlink: /get_started/
+        # Hero image (from static/images/___)
         image: logo.svg
+      news:
+        title: SPECs announced
+        content: 2021-08-01
+        url: /posts
+
+      keyfeatures:
+        features:
+        - title: Built on Python
+          text: Python is an interpreted, dynamically typed, general purpose programming language that is very well suited for interactive work and quick prototyping, while being powerful enough to write large applications in.
+        - title: Extensive and high quality
+          text: The scientific Python ecosystem contains many high quality libraries developed independently.
+        - title: Widely used in science
+          text: The ecosystem is widely used in scientific research and teaching.  It covers almost all domains.
+        - title: Loosely coordinated
+          text: The projects are independently run.
+        - title: Community / Open development
+          text: Most projects are developed in the open by volunteers and some paid contributors.
+        - title: Open source
+          text: Distributed under an open source license (e.g., [BSD license](https://github.com/scipy/scipy/blob/master/LICENSE.txt)), SciPy is developed and maintained publicly (e.g., on GitHub).
+
+      section5: false
+
     footer:
       logo: logo.svg
       socialmediatitle: ""
       socialmedia:
-      - link: https://github.com/scientific-python/scientific-python
+      - link: https://github.com/scientific-python/
         icon: github
       quicklinks:
         column1:
@@ -51,10 +83,8 @@ languages:
           links:
             - text: Forum
               link: https://discuss.scientific-python.org
-            - text: GitHub
-              link: https://github.com/scientific-python
-            - text: Grant
-              link: /grant
+            - text: Team
+              link: /team/
         column2:
           links:
         column3:

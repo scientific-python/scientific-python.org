@@ -19,7 +19,7 @@ git submodule update --init
 For development, start the development server using
 
 ```
-hugo server
+make serve-dev
 ```
 
 and browse to http://localhost:1313.

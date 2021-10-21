@@ -40,6 +40,8 @@ languages:
           url: /contribute/
         - title: SPECS
           url: /specs/
+        - title: DEI
+          url: /dei/
       hero:
         # Main hero title
         title: Scientific Python

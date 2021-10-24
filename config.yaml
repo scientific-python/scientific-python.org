@@ -66,8 +66,8 @@ languages:
           text: The scientific Python ecosystem comprises performant, well-tested libraries providing tools for computing across all scientific domains.
         - title: Broadly applicable
           text: The ecosystem is widely used in scientific research and teaching.
-        - title: Loosely coordinated
-          text: The projects are independently run.
+        - title: Coordinated, readable, reproducible
+          text: Projects in the ecosystem are completely interoperable, providing the basis for readable, reproducible scientific computation.
 
       section5: false
 

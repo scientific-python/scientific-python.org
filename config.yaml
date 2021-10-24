@@ -36,6 +36,8 @@ languages:
       navbar:
         - title: Ecosystem
           url: /ecosystem/
+        - title: Contribute
+          url: /contribute/
         - title: SPECS
           url: /specs/
       hero:
@@ -83,8 +85,8 @@ languages:
           links:
             - text: Forum
               link: https://discuss.scientific-python.org
-            - text: Team
-              link: /team/
+            - text: About
+              link: /about/
         column2:
           links:
         column3:

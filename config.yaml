@@ -63,7 +63,7 @@ languages:
         - title: Community-driven
           text: Projects are developed by open communities composed primarily of the users of the software.
         - title: Extensive and high quality
-          text: The scientific Python ecosystem contains many high quality libraries developed independently.
+          text: The scientific Python ecosystem comprises performant, well-tested libraries providing tools for computing across all scientific domains.
         - title: Widely used in science
           text: The ecosystem is widely used in scientific research and teaching.  It covers almost all domains.
         - title: Loosely coordinated

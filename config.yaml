@@ -57,17 +57,17 @@ languages:
       keyfeatures:
         features:
         - title: Built on Python
-          text: Python is an interpreted, dynamically typed, general purpose programming language that is very well suited for interactive work and quick prototyping, while being powerful enough to write large applications in.
-        - title: Extensive and high quality
-          text: The scientific Python ecosystem contains many high quality libraries developed independently.
-        - title: Widely used in science
-          text: The ecosystem is widely used in scientific research and teaching.  It covers almost all domains.
-        - title: Loosely coordinated
-          text: The projects are independently run.
-        - title: Community / Open development
-          text: Most projects are developed in the open by volunteers and some paid contributors.
+          text: Python is a powerful, general-purpose programming language. The scientific Python ecosystem provides the tools that make Python the premier language for scientific computing.
         - title: Open source
-          text: Distributed under an open source license (e.g., [BSD license](https://github.com/scipy/scipy/blob/master/LICENSE.txt)), SciPy is developed and maintained publicly (e.g., on GitHub).
+          text: Distributed under unrestrictive open source licenses, projects are developed and maintained publicly and accessible to all.
+        - title: Community-driven
+          text: Projects are developed by open communities composed primarily of the users of the software.
+        - title: Extensive and high quality
+          text: The scientific Python ecosystem comprises performant, well-tested libraries providing tools for computing across all scientific domains.
+        - title: Broadly applicable
+          text: The ecosystem is widely used in scientific research and teaching.
+        - title: Coordinated, readable, reproducible
+          text: Projects in the ecosystem are completely interoperable, providing the basis for readable, reproducible scientific computation.
 
       section5: false
 

@@ -58,16 +58,16 @@ languages:
         features:
         - title: Built on Python
           text: Python is a powerful, general-purpose programming language. The scientific Python ecosystem provides the tools that make Python the premier language for scientific computing.
+        - title: Community / Open development
+          text: Most projects are developed in the open by volunteers and some paid contributors.
+        - title: Open source
+          text: Distributed under an open source license (e.g., [BSD license](https://github.com/scipy/scipy/blob/master/LICENSE.txt)), SciPy is developed and maintained publicly (e.g., on GitHub).
         - title: Extensive and high quality
           text: The scientific Python ecosystem contains many high quality libraries developed independently.
         - title: Widely used in science
           text: The ecosystem is widely used in scientific research and teaching.  It covers almost all domains.
         - title: Loosely coordinated
           text: The projects are independently run.
-        - title: Community / Open development
-          text: Most projects are developed in the open by volunteers and some paid contributors.
-        - title: Open source
-          text: Distributed under an open source license (e.g., [BSD license](https://github.com/scipy/scipy/blob/master/LICENSE.txt)), SciPy is developed and maintained publicly (e.g., on GitHub).
 
       section5: false
 

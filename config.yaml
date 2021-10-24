@@ -57,7 +57,7 @@ languages:
       keyfeatures:
         features:
         - title: Built on Python
-          text: Python is an interpreted, dynamically typed, general purpose programming language that is very well suited for interactive work and quick prototyping, while being powerful enough to write large applications in.
+          text: Python is a powerful, general-purpose programming language. The scientific Python ecosystem provides the tools that make Python the premier language for scientific computing.
         - title: Extensive and high quality
           text: The scientific Python ecosystem contains many high quality libraries developed independently.
         - title: Widely used in science

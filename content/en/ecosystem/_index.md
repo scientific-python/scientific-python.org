@@ -3,6 +3,8 @@ title: "Scientific Python Ecosystem"
 draft: false
 ---
 
+- [Know your community]({{< relref "/ecosystem-expectations" >}})
+
 Scientific computing in Python builds upon a small core of packages:
 
 - [Python](https://www.python.org/), a general purpose programming

@@ -11,7 +11,7 @@ draft: false
 - Contributing to Open Source: First steps
 -->
 
-{{< youtube id="" class="talk" title="Getting started" author="Juanita Gomez" >}}
+{{< youtube id="" class="talk" title="Getting started" >}}
 
 ## Choosing a project to work on
 

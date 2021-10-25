@@ -22,7 +22,7 @@ Other ways to contribute to open source in which you don’t necessarily have to
 -------------------------------------------------------------------------------
 -->
 
-{{< youtube id="" class="talk" title="Ways to contribute" author="Juanita Gomez" >}}
+{{< youtube id="" class="talk" title="Ways to contribute" >}}
 
 ## 5 ways to contribute to open source without coding
 

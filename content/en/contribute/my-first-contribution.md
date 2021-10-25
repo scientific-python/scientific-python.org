@@ -26,7 +26,7 @@ Steps to do your first contribution to open source.
 -------------------------------------------------------------------------------
 -->
 
-{{< youtube id="" class="talk" title="Ways to contribute" author="Juanita Gomez" >}}
+{{< youtube id="" class="talk" title="Ways to contribute" >}}
 
 ## How to make your first contribution to open source?
 

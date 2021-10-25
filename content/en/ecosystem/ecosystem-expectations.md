@@ -3,7 +3,7 @@ title: "Know your community"
 draft: false
 ---
 
-{{< youtube id="" class="talk" title="Know your community" author="Juanita Gomez" >}}
+{{< youtube id="" class="talk" title="Know your community" >}}
 
 ## Contributing to Open Source: Know your community
 

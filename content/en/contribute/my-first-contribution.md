@@ -80,11 +80,13 @@ conda install …
 
 ## Step 4: Pick an issue
 
-Now we need to select the issue we want to fix on the issues tab *(Add link of Project's issue tracker to display in video here)* issue tracker of the repository and reproduce it in the development version of our project. *(Not sure this applies, again it depends on the project)*.
+Now we need to select the issue we want to fix on the issues tab *(Add link of Project's issue tracker to display in video here)* issue tracker of the repository and reproduce it in the development version of our project.
+*(Not sure this applies, again it depends on the project)*.
 
 ## Step 5: Create a new branch for your changes
 
-First create a branch for your work. Run the following command in your command line:
+First create a branch for your work.
+Run the following command in your command line:
 
 ```bash
 git checkout -b [BRANCH NAME]
@@ -92,7 +94,8 @@ git checkout -b [BRANCH NAME]
 
 ## Step 6: Find the file and make the changes
 
-Open your editor or IDE in the file that you need to solve the issue and save your changes. 
+Open your editor or IDE in the file that you need to solve the issue and save your changes.
+
 
 ## Step 7: Confirm/test that the issue is solved in dev mode
 
@@ -100,7 +103,8 @@ Open your editor or IDE in the file that you need to solve the issue and save yo
 
 ## Step 8: Commit your changes
 
-Now, you are ready to add and commit your changes with a descriptive message. Type the following command in your terminal:
+Now, you are ready to add and commit your changes with a descriptive message.
+Type the following command in your terminal:
 
 ```bash
 git commit -a -m “descriptive message”
@@ -116,13 +120,18 @@ Enter your GitHub username and password if requested.
 
 ## Step 9: Open PR
 
-Now, you can submit your changes to the project’s repo. 
+Now, you can submit your changes to the project’s repo.
 
-Go to the project’s repository on Github, and you will see the option to open a Pull Request.  You also have to make sure that you select the correct branch to merge your changes. 
+
+Go to the project’s repository on Github, and you will see the option to open a Pull Request.
+ You also have to make sure that you select the correct branch to merge your changes.
+
 
 You have now made your first contribution to open source! 
 
--------------------------------------------------------------------------------
+Thanks for watching and "Welcome to the Scientific Python Community!"
+
+<!--
 
 #### Links For video
 *(Not sure these are the best resources but we should include some so that people get all the requirements ready)*
@@ -130,5 +139,4 @@ You have now made your first contribution to open source!
 https://github.com
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 https://conda.io/projects/conda/en/latest/user-guide/install/index.html
-
-
+-->

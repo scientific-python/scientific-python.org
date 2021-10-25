@@ -54,7 +54,7 @@ languages:
       news:
         title: SPECs announced
         content: 2021-08-01
-        url: /posts
+        url: /posts/
 
       keyfeatures:
         features:

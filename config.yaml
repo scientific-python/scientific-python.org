@@ -36,8 +36,8 @@ languages:
       navbar:
         - title: Ecosystem
           url: /ecosystem/
-        - title: Contribute
-          url: /contribute/
+        - title: Community
+          url: /community/
         - title: SPECS
           url: /specs/
       hero:

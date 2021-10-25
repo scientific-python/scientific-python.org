@@ -5,24 +5,25 @@ draft: false
 
 {{< youtube id="" class="talk" title="The Scientific Python Ecosystem" >}}
 
-Scientific computing in Python builds upon a small core of packages:
+The term "scientific Python ecosystem" refers to a collection of open-source
+software packages that bring powerful features for scientific computing to the
+Python programming language. There is no central authority that determines
+which projects are considered members; rather, the ecosystem has grown orgranically
+from a small collection of core packages to encompass a broad and ever expanding
+collection of projects. The foundational packages from which the ecosystem has
+grown include:
 
-- [Python](https://www.python.org/), a general purpose programming
-  language. It is interpreted and dynamically typed and is very well
-  suited for interactive work and quick prototyping, while being
-  powerful enough to write large applications in.
 - [NumPy](http://www.numpy.org/), the fundamental package for
-  numerical computation. It defines the numerical array and matrix
-  types and basic operations on them.
+  numerical computation. NumPy defines the n-dimensional array data structure,
+  which serves as the core data structure for the other packages in the ecosystem.
 - [SciPy](https://scipy.org),
   a collection of numerical algorithms and domain-specific toolboxes,
   including signal processing, optimization, statistics, and much
   more.
 - [Matplotlib](http://matplotlib.org/), a mature and popular plotting
-  package that provides publication-quality 2-D plotting, as well as
-  rudimentary 3-D plotting.
+  package that provides flexible, publication-quality 2-D and 3-D visualization.
 
-On this base, the SciPy ecosystem includes general and specialised tools
+On this base, the Scientific Python ecosystem includes general and specialised tools
 for data management and computation, productive experimentation, and
 high-performance computing. Below, we overview some key packages, though
 there are many more relevant packages.
@@ -58,12 +59,19 @@ Productivity and high-performance computing:
   [IPyParallel](https://ipyparallel.readthedocs.io/) for distributed
   processing with a focus on numeric data.
 
-Quality assurance:
+The above represent some of the most commonly used packages in the ecosystem,
+but there are many, many more! While each project is developed independently
+and has its own developer community, there are some features that are common
+to all projects in the ecosystem:
 
-- [pytest](https://docs.pytest.org/), a framework for
-  testing Python code.
-- [numpydoc](https://github.com/numpy/numpydoc), a standard and
-  library for documenting Scientific Python libraries.
+- Projects are community-driven: the developer communities consist largely of
+  users.
+- Projects are open-source with permissive licenses that guarantee the
+  the software is accessible to anyone and can be used without restriction.
+- Projects are tested extensively using the [pytest](https://docs.pytest.org/)
+  testing framework.
+- Projects are thoroughly documented and use the consistent and readable
+  [numpydoc](https://github.com/numpy/numpydoc) docstring format.
 
 Thanks for watching and "Welcome to the Scientific Python Community!"
 

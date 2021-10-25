@@ -89,5 +89,7 @@ languages:
               link: /about/
         column2:
           links:
+            - text: Grants
+              link: /grants/
         column3:
           links:

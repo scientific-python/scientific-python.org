@@ -15,7 +15,7 @@ Community members must adhere to our [code of conduct]({{< relref "/code_of_cond
 ## Diversity, Equity, and Inclusion
 
 - [Diversity & Inclusion in Scientific Computing (DISC) group](https://numfocus.org/programs/diversity-inclusion)
-- [Advancing an inclusive culture in the scientific Python ecosystem]({{< relref "/inclusive_culture_2021_grant.md" >}})
+- [Advancing an inclusive culture in the scientific Python ecosystem]({{< relref "/inclusive_culture" >}})
 
 ## How to contribute
 

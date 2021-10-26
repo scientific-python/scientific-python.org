@@ -1,4 +1,5 @@
 ---
+youtube_id:
 title: "Ways to contribute"
 draft: false
 ---
@@ -17,12 +18,7 @@ Other ways to contribute to open source in which you don’t necessarily have to
 - Improving documentation
 - Participating in the community/Community outreach
 
-*(The information above goes in the description of the YouTube video but it is not part of the script. Script starts below)*
-
--------------------------------------------------------------------------------
 -->
-
-{{< youtube id="" class="talk" title="Ways to contribute" >}}
 
 ## 5 ways to contribute to open source without coding
 
@@ -83,7 +79,3 @@ You can get involved in online conversations and discussions about the projects,
 You can even help with community outreach by sharing content on Twitter, organizing code sprints, participating in the newsletter or writing blogs.
 
 There are many ways to contribute to open source projects so if you can think of another one, feel free to reach out to maintainers and I’m sure they will be happy to receive all the help they can get.
-
-Thanks for watching and "Welcome to the Scientific Python Community!"
-
-{{< /youtube >}}

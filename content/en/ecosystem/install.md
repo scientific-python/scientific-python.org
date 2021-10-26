@@ -1,9 +1,8 @@
 ---
+youtube_id:
 title: Install
 draft: false
 ---
-
-{{< youtube id="" class="talk" title="Installing" >}}
 
 Installations methods include:
 
@@ -120,7 +119,3 @@ repositories where you can search for and download individual binaries.
 For Windows, Christoph Gohlke provides
 [pre-built Windows installers](http://www.lfd.uci.edu/~gohlke/pythonlibs)
 for many packages.
-
-Thanks for watching and "Welcome to the Scientific Python Community!"
-
-{{< /youtube >}}

@@ -1,9 +1,8 @@
 ---
+youtube_id:
 title: "Next Steps"
 draft: false
 ---
-
-{{< youtube id="" class="talk" title="Next Steps" >}}
 
 "Scientific Python" doesn't exist without "Python".
 Scientific Python skills need to build on a foundation of standard programming skills.
@@ -103,7 +102,3 @@ or for viewing the source:
 Try searching the Internet and sites like
 [StackOverflow](https://stackoverflow.com/) to see if others have
 encountered similar problems or can help with yours.
-
-Thanks for watching and "Welcome to the Scientific Python Community!"
-
-{{< /youtube >}}

@@ -2,8 +2,9 @@
 title: "Planning for the Next Decade of Scientific Python"
 draft: false
 summary: |
-  To better coordinate the ecosystem...
-authors: ["Jarrod Millman", "Stéfan van der Walt"]
+  Project to better coordinate the ecosystem and develop a community-vetted decadal plan
+  for the Python programming language for the future of data science.
+authors: ["K. Jarrod Millman", "Stéfan van der Walt"]
 date: 2021-04-21
 ---
 
@@ -28,8 +29,7 @@ Our initial focus is on creating a recommendation infrastructure for
 community-wide policy and on improving common engineering infrastructure
 (see the [SPEC]({{< relref "specs" >}}) documents).
 
-Read the [full grant](../doc/scientific-python-planning-grant-2020.pdf) and
-meet the [team]({{< relref "people" >}}).
+Read the [full grant](../doc/scientific-python-planning-grant-2020.pdf).
 
 _This work is funded in part by the Gordon and Betty Moore Foundation through
 grant GBMF8599 to the University of California, Berkeley._

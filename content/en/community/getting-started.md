@@ -1,4 +1,5 @@
 ---
+youtube_id:
 title: "Getting started"
 draft: false
 ---
@@ -10,8 +11,6 @@ draft: false
 - Contributing to Open Source: Getting Started
 - Contributing to Open Source: First steps
 -->
-
-{{< youtube id="" class="talk" title="Getting started" >}}
 
 ## Choosing a project to work on
 
@@ -46,9 +45,3 @@ Some examples of a good first issue include fixing a small bug, adding tests, fi
 
 Once you’re more comfortable contributing to the project, you can start taking on bigger features.
 You can browse the open issue list for ideas such as small feature requests, writing documentation regarding how a system works, and minor refactoring like factoring out common code, deprecating old functionality, and renaming & reorganization.
-
-Thanks for watching and "Welcome to the Scientific Python Community!"
-
-{{< /youtube >}}
-
-

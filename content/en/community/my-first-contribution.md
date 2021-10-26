@@ -1,4 +1,5 @@
 ---
+youtube_id:
 title: "First contribution"
 draft: false
 ---
@@ -21,12 +22,7 @@ Steps to do your first contribution to open source.
 - Commit changes
 - Open PR
 
-*(The information above goes in the description of the YouTube video but it is not part of the script. Script starts below)*
-
--------------------------------------------------------------------------------
 -->
-
-{{< youtube id="" class="talk" title="Ways to contribute" >}}
 
 ## How to make your first contribution to open source?
 
@@ -128,8 +124,6 @@ Go to the project’s repository on Github, and you will see the option to open 
 
 
 You have now made your first contribution to open source! 
-
-Thanks for watching and "Welcome to the Scientific Python Community!"
 
 <!--
 

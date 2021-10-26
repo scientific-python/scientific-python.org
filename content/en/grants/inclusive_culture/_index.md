@@ -1,11 +1,14 @@
 ---
 title: "Advancing an inclusive culture in the scientific Python ecosystem"
 draft: false
+summary: |
+  This joint NumPy, SciPy, Matplotlib, and Pandas project focuses on
+  creating a DEI action plan and dedicated "Contributor Experience Lead" positions
+  to identify, document, and implement practices to foster inclusive open-source communities.
+authors: ["Melissa Weber Mendonça"]
+date: 2021-08-21
 ---
 
-This joint NumPy, SciPy, Matplotlib, and Pandas project focuses on
-creating a DEI action plan and dedicated "Contributor Experience Lead" positions
-to identify, document, and implement practices to foster inclusive open-source communities.
 
 {{< page_gallery pages="." >}}
 

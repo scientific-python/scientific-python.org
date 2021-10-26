@@ -3,5 +3,6 @@ title: "Getting started"
 draft: false
 ---
 
-- [Install]({{< relref "/install" >}})
-- [Next Steps]({{< relref "/next-steps" >}})
+{{< youtube_page "ecosystem/install" >}}
+
+{{< youtube_page "ecosystem/next-steps" >}}

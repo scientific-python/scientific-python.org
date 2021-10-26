@@ -11,3 +11,13 @@ and governance structures.
 
 This project aims to better coordinate the ecosystem and prepare scientific Python
 for the next decade of data science.
+
+# People
+
+## Project Leaders
+
+{{< page_gallery pages="leaders" >}}
+
+## SPEC Steering Committee
+
+{{< page_gallery pages="../specs/steering-committee" >}}

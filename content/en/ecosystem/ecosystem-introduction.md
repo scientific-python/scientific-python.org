@@ -1,6 +1,6 @@
 ---
 youtube_id:
-title: "The Scientific Python Ecosystem"
+title: "Welcome to the Scientific Python Ecosystem"
 draft: false
 ---
 
@@ -71,5 +71,3 @@ to all projects in the ecosystem:
   testing framework.
 - Projects are thoroughly documented and use the consistent and readable
   [numpydoc](https://github.com/numpy/numpydoc) docstring format.
-
-Thanks for watching and "Welcome to the Scientific Python Community!"

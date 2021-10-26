@@ -7,11 +7,12 @@ draft: false
 
 {{< youtube_page "ecosystem-expectations" >}}
 
-- [The Scientific Python Ecosystem]({{< relref "/ecosystem-introduction" >}})
-- [Know your community]({{< relref "/ecosystem-expectations" >}})
+
+{{< youtube_page "ecosystem/install" >}}
+
+{{< youtube_page "ecosystem/next-steps" >}}
 
 Here are some useful links:
 
-- [get started]({{< relref "/get_started" >}})
 - [cookbook](https://scipy-cookbook.readthedocs.io/)
 - [blogs](https://planet.scipy.org/)

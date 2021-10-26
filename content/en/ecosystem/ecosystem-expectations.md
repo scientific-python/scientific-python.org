@@ -1,9 +1,8 @@
 ---
+youtube_id:
 title: "Know your community"
 draft: false
 ---
-
-{{< youtube id="" class="talk" title="Know your community" >}}
 
 ## Contributing to Open Source: Know your community
 
@@ -33,5 +32,3 @@ On the other hand, small projects such as (insert something here) may just requi
 This is important to keep in mind when picking out a project to work on.
 
 Thanks for watching and "Welcome to the Scientific Python Community!"
-
-{{< /youtube >}}

@@ -3,6 +3,10 @@ title: "Ecosystem"
 draft: false
 ---
 
+{{< youtube_page "ecosystem-introduction" >}}
+
+{{< youtube_page "ecosystem-expectations" >}}
+
 - [The Scientific Python Ecosystem]({{< relref "/ecosystem-introduction" >}})
 - [Know your community]({{< relref "/ecosystem-expectations" >}})
 

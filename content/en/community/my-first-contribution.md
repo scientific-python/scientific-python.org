@@ -1,6 +1,6 @@
 ---
-youtube_id:
 title: "First contribution"
+youtube_id:
 draft: false
 ---
 

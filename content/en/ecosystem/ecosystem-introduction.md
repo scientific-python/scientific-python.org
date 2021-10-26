@@ -1,6 +1,6 @@
 ---
+title: "Welcome to the Ecosystem"
 youtube_id:
-title: "Welcome to the Scientific Python Ecosystem"
 draft: false
 ---
 

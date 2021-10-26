@@ -1,6 +1,6 @@
 ---
-youtube_id:
 title: "Next Steps"
+youtube_id:
 draft: false
 ---
 

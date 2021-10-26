@@ -1,6 +1,6 @@
 ---
+title: "Welcome to the community"
 youtube_id:
-title: "Know your community"
 draft: false
 ---
 
@@ -32,5 +32,3 @@ It is then discussed and iterated on before a decision is made.
 
 On the other hand, small projects such as (insert something here) may just require a review or two and basic tests before your changes are merged.
 This is important to keep in mind when picking out a project to work on.
-
-Thanks for watching and "Welcome to the Scientific Python Community!"

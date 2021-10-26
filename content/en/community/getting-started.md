@@ -1,6 +1,6 @@
 ---
-youtube_id:
 title: "Getting started"
+youtube_id:
 draft: false
 ---
 

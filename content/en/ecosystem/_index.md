@@ -5,9 +5,6 @@ draft: false
 
 {{< youtube_page "ecosystem-introduction" >}}
 
-{{< youtube_page "ecosystem-expectations" >}}
-
-
 {{< youtube_page "ecosystem/install" >}}
 
 {{< youtube_page "ecosystem/next-steps" >}}

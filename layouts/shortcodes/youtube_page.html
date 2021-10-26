@@ -1,0 +1,41 @@
+{{ $page := .Page.GetPage (.Get 0) }}
+
+{{ $id := $page.Params.youtube_id }}
+{{ $title := $page.Params.title }}
+{{ $venue := $page.Params.venue }}
+{{ $authors := $page.Params.authors }}
+{{ $date := $page.Params.date }}
+{{ $transcript := $page.Content }}
+
+<div class="youtube">
+  <h2 class="video-title">
+    {{ $title }}
+  </h2>
+  <iframe src="https://www.youtube.com/embed/{{ $id }}?enablejsapi=1&modestbranding=0" allowfullscreen class="youtube"></iframe>
+  {{ if $transcript }}
+  <button type="button" class="yp-video-transcript-button video-transcript-button">
+    <span class="video-transcript-button-pointer"></span>
+    Transcript
+  </button>
+  <div class="video-transcript">
+    {{ $transcript }}
+  </div>
+  {{ end }}
+  <div class="video-meta">
+    {{range $authors }}
+    <div class="video-author">
+      {{ . }}
+    </div>
+    {{ end }}
+    {{ if $venue }}
+    <div class="video-venue">
+      {{ $venue }}
+    </div>
+    {{ end }}
+    {{ if $date }}
+    <div class="video-date">
+      {{ $date }}
+    </div>
+    {{ end }}
+  </div>
+</div>

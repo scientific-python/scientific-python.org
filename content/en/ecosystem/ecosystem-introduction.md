@@ -1,9 +1,8 @@
 ---
+youtube_id:
 title: "The Scientific Python Ecosystem"
 draft: false
 ---
-
-{{< youtube id="" class="talk" title="The Scientific Python Ecosystem" >}}
 
 The term "scientific Python ecosystem" refers to a collection of open-source
 software packages that bring powerful features for scientific computing to the
@@ -74,5 +73,3 @@ to all projects in the ecosystem:
   [numpydoc](https://github.com/numpy/numpydoc) docstring format.
 
 Thanks for watching and "Welcome to the Scientific Python Community!"
-
-{{< /youtube >}}

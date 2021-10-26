@@ -21,6 +21,8 @@ Community members must adhere to our [code of conduct]({{< relref "/code_of_cond
 
 The scientific Python ecosystem welcomes your expertise and enthusiasm!
 
+{{< youtube_page "ecosystem-expectations" >}}
+
 {{< youtube_page "getting-started" >}}
 
 {{< youtube_page "ways-to-contribute" >}}

@@ -48,13 +48,13 @@ languages:
         # Button text
         buttontext: Get started
         # Where the main hero button links to
-        buttonlink: /get_started/
+        buttonlink: /ecosystem/
         # Hero image (from static/images/___)
         image: logo.svg
       news:
         title: SPECs announced
         content: 2021-08-01
-        url: /posts/
+        url: /news/
 
       keyfeatures:
         features:

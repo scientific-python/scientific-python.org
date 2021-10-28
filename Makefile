@@ -1,6 +1,10 @@
-.PHONY: html serve serve-dev serve-all clean github pull
+.PHONY: html serve serve-dev serve-all clean github pull calendars
 
-html:
+calendars:
+	mkdir -p content/en/calendars
+	python calendars/yaml2ics/yaml2ics.py calendars/numpy.yaml > content/en/calendars/numpy.ics
+
+html: calendars
 	@hugo --buildDrafts
 	@touch public/.nojekyll
 	@echo "scientific-python.org" > public/CNAME

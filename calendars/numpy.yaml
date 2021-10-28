@@ -1,0 +1,48 @@
+events:
+  - summary: NumPy Community Call
+    description: |
+      The fortnightly NumPy community call.
+
+      Meeting notes: https://hackmd.io/76o-IxCjQX2mOXO_wwkcpg
+    begin: 2021-10-27 08:30:00 -07:00
+    end: 2021-10-27 09:30:00 -07:00
+    url: https://berkeley.zoom.us/j/762261535
+    repeat:
+      interval:
+        # seconds, minutes, hours, days, weeks, months, years
+        days: 14
+      until: 2025-01-01 00:00:00 -07:00
+
+  - summary: NumPy Triage Call
+    description: |
+      The fortnightly NumPy development triage call.
+
+      Meeting notes: https://hackmd.io/68i_JvOYQfy9ERiHgXMPvg
+    begin: 2021-10-20 09:30:00 -07:00
+    end: 2021-10-20 10:30:00 -07:00
+    url: https://berkeley.zoom.us/j/762261535
+    repeat:
+      interval:
+        # seconds, minutes, hours, days, weeks, months, years
+        days: 14
+      until: 2025-01-01 00:00:00 -07:00
+
+  - summary: NumPy/SciPy Docs Call
+    description: |
+      Hi everyone,
+
+      This is the recurring meeting every 2 weeks for our NumPy & SciPy documentation team. Restarting from **Jan 4th 2021**.
+
+      Let's use the same HackMD doc for meeting notes each time: https://hackmd.io/oB_boakvRqKR-_2jRV-Qjg
+
+      Cheers,
+
+      Melissa
+    begin: 2021-11-08 08:00:00 -07:00
+    end: 2021-11-08 09:00:00 -07:00
+    url: https://zoom.us/j/96219574921?pwd=VTRNeGwwOUlrYVNYSENpVVBRRjlkZz09
+    repeat:
+      interval:
+        # seconds, minutes, hours, days, weeks, months, years
+        days: 14
+      until: 2025-01-01 00:00:00 -07:00

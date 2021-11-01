@@ -1,13 +1,24 @@
-# Why Contribute
+---
+title: "Why contribute"
+youtube_id:
+draft: false
+---
 
-## Grow as a developer
+## Why Contribute
 
-In the open source community, you have the opportunity to work with some of the best programmers in the world. Get valuable feedback and improve as a developer through peer review. Learn best practices and work with an international team spanning many backgrounds & disciplines.
+### Grow as a developer
 
-## Make an impact
+In the open source community, you have the opportunity to work with some of the best programmers in the world.
+Get valuable feedback and improve as a developer through peer review.
+Learn best practices and work with an international team spanning many backgrounds & disciplines.
 
-Open source work is readily available to everyone and popular packages are used by thousands if not millions of people. Break barriers and make accessible tools that were traditionally locked behind pay walls. Advance science by building better tools for more accurate, transparent results and improved reproducibility.
+### Make an impact
 
-## Build tools by the community, for the community
+Open source work is readily available to everyone and popular packages are used by thousands if not millions of people.
+Break barriers and make accessible tools that were traditionally locked behind pay walls.
+Advance science by building better tools for more accurate, transparent results and improved reproducibility.
 
-Give back to your community and discover the agency you have in shaping the tools you need, use, and own. Participate in an ethical, user-oriented project that's owned and operated by the community.
+### Build tools by the community, for the community
+
+Give back to your community and discover the agency you have in shaping the tools you need, use, and own.
+Participate in an ethical, user-oriented project that's owned and operated by the community.

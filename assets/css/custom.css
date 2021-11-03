@@ -1,6 +1,10 @@
 {{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
 {{- $menuHighlightColor := .Site.Params.style.vars.menuHighlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
 
+table.spec__table {
+  width: 100%;
+}
+
 table.spec__table thead {
   font-size: 1.2rem;
   font-weight: bold;
@@ -109,6 +113,8 @@ table.spec__table thead {
   background: #EEE;
   padding: 0.5rem;
   display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .spec-meta table {
@@ -129,7 +135,7 @@ table.spec__table thead {
 }
 
 .spec-meta .field-value a {
-  color: {{ $highlightColor }};
+  color: #1e87f0;
   font-weight: bold;
 }
 
@@ -144,7 +150,7 @@ table.spec__table thead {
 }
 
 .endorsed-specs-list a {
-  color: {{ $highlightColor }};
+  color: #1e87f0;
   font-weight: bold;
 }
 

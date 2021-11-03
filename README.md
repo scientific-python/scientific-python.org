@@ -24,4 +24,7 @@ make serve-dev
 
 and browse to http://localhost:1313.
 
-To deploy to https://scientific-python.org, run `make github`.
+## Deployment
+
+Deployment is done by Netlify, once commits are made to this
+repository.  Previews are also built for pull requests.

@@ -27,15 +27,6 @@ serve-dev: themes calendars
 clean:
 	rm -rf public
 
-github: | clean html
-	./push_dir_to_repo.py \
-	  --branch main \
-	  --email sprintbot@sprintbot \
-	  --committer "sprintbot" \
-	  --message "Update website" \
-	  --force \
-	     ./public git@github.com:scientific-python/scientific-python.org-deployed
-
 pull:
 	git pull origin main
 	cd content/specs && git pull origin main

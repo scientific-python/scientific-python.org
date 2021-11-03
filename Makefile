@@ -1,14 +1,43 @@
-.PHONY: html serve serve-dev serve-all clean github pull calendars themes
+.PHONY: html serve serve-dev serve-all clean github pull calendars themes teams
 .DEFAULT_TARGET := html
+SHELL:=/bin/bash
+
 
 themes/scientific-python-hugo-theme/themes/hugo-fresh:
 	git submodule update --init --recursive
 
 themes: themes/scientific-python-hugo-theme/themes/hugo-fresh
 
-calendars:
-	mkdir -p content/en/calendars
-	python calendars/yaml2ics/yaml2ics.py calendars/numpy.yaml > content/en/calendars/numpy.ics
+
+CALENDAR_DIR = content/en/calendars
+
+$(CALENDAR_DIR):
+	mkdir -p $(CALENDAR_DIR)
+
+$(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
+	python calendars/yaml2ics/yaml2ics.py $< > $@
+
+calendars: $(CALENDAR_DIR)/numpy.ics
+
+
+TEAMS_DIR = content/en/teams
+TEAMS = community-managers spec-steering-committee core-team theme-team
+TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
+
+$(TEAMS_DIR):
+	mkdir -p $(TEAMS_DIR)
+
+$(TEAMS_DIR)/%.md: $(TEAMS_DIR)
+	$(eval TEAM_NAME=$(shell python -c "import re; print(' '.join(x.capitalize() for x in re.split('-|_', '$*')))"))
+	$(TEAMS_QUERY) --org scientific-python --team "$*" --title "$(TEAM_NAME)" > content/en/teams/$*.md
+
+teams-clear:
+	for team in $(TEAMS); do \
+	  rm -f $(TEAMS_DIR)/$${team}.md ;\
+	done
+
+teams: | teams-clear $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
+
 
 html: themes calendars
 	@hugo --buildDrafts

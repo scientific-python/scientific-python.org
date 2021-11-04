@@ -14,10 +14,9 @@ for the next decade of data science.
 
 # People
 
-## Project Leaders
+As a coordinating effort, the Scientific Python project has several teams that operate across the ecosystem.
 
-{{< page_gallery pages="leaders" >}}
-
-## SPEC Steering Committee
-
-{{< page_gallery pages="../specs/steering-committee" >}}
+{{< include-html "static/teams/leadership-team.html" >}}
+{{< include-html "static/teams/community-managers.html" >}}
+{{< include-html "static/teams/spec-steering-committee.html" >}}
+{{< include-html "static/teams/theme-team.html" >}}

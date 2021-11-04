@@ -20,7 +20,7 @@ $(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
 calendars: $(CALENDAR_DIR)/numpy.ics
 
 
-TEAMS_DIR = content/en/teams
+TEAMS_DIR = static/teams
 TEAMS = community-managers spec-steering-committee core-team theme-team
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
@@ -29,11 +29,11 @@ $(TEAMS_DIR):
 
 $(TEAMS_DIR)/%.md: $(TEAMS_DIR)
 	$(eval TEAM_NAME=$(shell python -c "import re; print(' '.join(x.capitalize() for x in re.split('-|_', '$*')))"))
-	$(TEAMS_QUERY) --org scientific-python --team "$*" --title "$(TEAM_NAME)" > content/en/teams/$*.md
+	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(TEAMS_DIR)/$*.html
 
 teams-clear:
 	for team in $(TEAMS); do \
-	  rm -f $(TEAMS_DIR)/$${team}.md ;\
+	  rm -f $(TEAMS_DIR)/$${team}.html ;\
 	done
 
 teams: | teams-clear $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))

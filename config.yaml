@@ -40,6 +40,7 @@ languages:
           url: /community/
         - title: SPECS
           url: /specs/
+
       hero:
         # Main hero title
         title: Scientific Python

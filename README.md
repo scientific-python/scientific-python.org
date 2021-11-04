@@ -25,3 +25,14 @@ make serve-dev
 and browse to http://localhost:1313.
 
 To deploy to https://scientific-python.org, run `make github`.
+
+## Rebuilding teams
+
+Create a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+with access `read:org`.
+
+```
+export GH_TOKEN=<personal-access-token>
+```
+
+Then run `make teams`.

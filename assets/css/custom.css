@@ -1,6 +1,3 @@
-{{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
-{{- $menuHighlightColor := .Site.Params.style.vars.menuHighlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
-
 table.spec__table {
   width: 100%;
 }
@@ -161,4 +158,9 @@ code {
 .endorse-icon {
   width: 1.5rem;
   margin-right: 0.25rem;
+}
+
+.team-section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.25rem;
 }

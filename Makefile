@@ -21,7 +21,7 @@ calendars: $(CALENDAR_DIR)/numpy.ics
 
 
 TEAMS_DIR = static/teams
-TEAMS = community-managers spec-steering-committee core-team theme-team
+TEAMS = community-managers spec-steering-committee leadership-team theme-team
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
 $(TEAMS_DIR):
@@ -36,7 +36,7 @@ teams-clean:
 	  rm -f $(TEAMS_DIR)/$${team}.html ;\
 	done
 
-teams: | teams-clear $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
 
 
 html: themes calendars

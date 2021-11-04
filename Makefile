@@ -1,4 +1,4 @@
-.PHONY: html serve serve-dev serve-all clean github pull calendars themes teams
+.PHONY: html serve serve-dev serve-all clean github pull calendars themes teams teams-clean
 .DEFAULT_TARGET := html
 SHELL:=/bin/bash
 
@@ -31,7 +31,7 @@ $(TEAMS_DIR)/%.md: $(TEAMS_DIR)
 	$(eval TEAM_NAME=$(shell python -c "import re; print(' '.join(x.capitalize() for x in re.split('-|_', '$*')))"))
 	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(TEAMS_DIR)/$*.html
 
-teams-clear:
+teams-clean:
 	for team in $(TEAMS); do \
 	  rm -f $(TEAMS_DIR)/$${team}.html ;\
 	done

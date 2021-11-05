@@ -3,6 +3,11 @@ title: "Community"
 draft: false
 ---
 
+{{< notice warning >}}
+These are draft documents.
+The videos have not all been recorded, so **you may not be able to view them**.
+{{< /notice >}}
+
 Healthy communities are built when everyone's voice is heard,
 when their perspective is valued, and when their work is recognized.
 Better technical and social solutions can be found through wide participation.

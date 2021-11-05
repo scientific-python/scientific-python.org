@@ -1,5 +1,5 @@
 .PHONY: html serve serve-dev serve-all clean github pull calendars themes teams teams-clean
-.DEFAULT_TARGET := html
+.DEFAULT_GOAL := html
 SHELL:=/bin/bash
 
 

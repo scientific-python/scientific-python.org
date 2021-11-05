@@ -38,8 +38,8 @@ languages:
           url: /ecosystem/
         - title: Community
           url: /community/
-        - title: SPECS
-          url: /specs/
+        - title: Forum
+          url: https://discuss.scientific-python.org
 
       hero:
         # Main hero title
@@ -86,13 +86,18 @@ languages:
         column1:
           title: ""
           links:
-            - text: Forum
-              link: https://discuss.scientific-python.org
             - text: About
               link: /about/
+            - text: Code of Conduct
+              link: /code_of_conduct/
         column2:
+          title: "Maintainers"
           links:
+            - text: SPECS
+              link: /specs/
             - text: Grants
               link: /grants/
         column3:
           links:
+            - text: Press kit
+              link: /press-kit

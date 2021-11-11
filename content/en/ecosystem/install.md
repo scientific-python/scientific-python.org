@@ -4,6 +4,8 @@ youtube_id:
 draft: false
 ---
 
+**[DRAFT] This video has not been recorded yet.**
+
 There are many different ways to install scientific Python packages. We'll
 focus on two recommended methods, specifically:
 

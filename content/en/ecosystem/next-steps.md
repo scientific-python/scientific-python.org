@@ -4,6 +4,8 @@ youtube_id:
 draft: false
 ---
 
+**[DRAFT] This video has not been recorded yet.**
+
 "Scientific Python" doesn't exist without "Python".
 Scientific Python skills need to build on a foundation of standard programming skills.
 While Python itself has an [official tutorial](https://docs.python.org/3/tutorial/),

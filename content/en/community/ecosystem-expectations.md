@@ -21,13 +21,6 @@ Sometimes people may miss out on notifications or read something and forget to r
 Depending on the amount of dependents of a project, it can be more difficult to contribute to as there is a more vigorous review process since your contributions will affect a large amount of people.
 It’s not uncommon for even core developers to have pull requests going through iterations for years before being merged.
 
-![Scientific Python Ecosystem](/images/ecosystem.svg)
-
-(show visual; also correct this as needed) This is roughly the atomic arrangement of the ecosystem.
-At the very center is NumPy, followed by other foundational libraries in the next ring such as SciPy, scikit-learn, pandas, dask, jupyter, etc.
-Further out are other libraries built on them such as PyTorch, Tensorflow, and more.
-At the fringe are small projects with few dependents such as (insert something here).
-
 Because NumPy affects pretty much the entire ecosystem, it is going to be very difficult to contribute larger features to and usually requires a NumPy Enhancement Proposal (NEP) to be approved before work is started on it.
 Enhancement Proposals are fairly common for core projects in the ecosystem and consist of a writeup of the planned changes, including a summary of the implementation, pros and cons of it, and sometimes a proof of concept coded up.
 It is then discussed and iterated on before a decision is made.

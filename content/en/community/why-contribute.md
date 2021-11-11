@@ -4,6 +4,8 @@ youtube_id:
 draft: false
 ---
 
+**[DRAFT] This video has not been recorded yet.**
+
 ## Why Contribute
 
 ### Grow as a developer

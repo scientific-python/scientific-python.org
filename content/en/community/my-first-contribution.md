@@ -4,6 +4,8 @@ youtube_id:
 draft: false
 ---
 
+**[DRAFT] This video has not been recorded yet.**
+
 <!--
 # 1.4 First contribution
 

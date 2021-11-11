@@ -4,6 +4,9 @@ youtube_id:
 draft: false
 ---
 
+**[DRAFT] This video has not been recorded yet.**
+
+
 <!--
 # Name options:
 - Getting started with Open source

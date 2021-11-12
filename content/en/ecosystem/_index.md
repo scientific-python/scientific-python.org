@@ -4,6 +4,10 @@ draft: false
 shortcutDepth: 1
 ---
 
+Scientific Python is both an **ecosystem** of software libraries and tools
+as well as a **community** of contributors who maintain the software and
+support the scientists, students, and others users.
+
 Here are some useful links:
 
 - [cookbook](https://scipy-cookbook.readthedocs.io/)

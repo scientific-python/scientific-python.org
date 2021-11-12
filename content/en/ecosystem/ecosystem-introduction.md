@@ -6,8 +6,7 @@ draft: false
 
 **[DRAFT] This video has not been recorded yet.**
 
-
-The term "scientific Python ecosystem" refers to a collection of open-source
+The Scientific Python ecosystem is a collection of open-source
 software packages that bring powerful features for scientific computing to the
 Python programming language. There is no central authority that determines
 which projects are considered members; rather, the ecosystem has grown orgranically

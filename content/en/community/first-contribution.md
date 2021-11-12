@@ -28,7 +28,9 @@ Steps to do your first contribution to open source.
 
 ## How to make your first contribution to open source?
 
+<!--
 Hello everyone, I’m Juanita. Welcome to the Scientific Python videos! Today I will be helping you make your first code contribution to an open source software project!. Contributing to an open source project can be intimidating but I will show you that it can be quite simple and I’m sure you will get a lot of help along the way.
+-->
 
 Before you start, make sure you have the following:
 
@@ -40,7 +42,7 @@ Before you start, make sure you have the following:
 
 There are some links below the video to help you get these elements ready in case you are missing some. *(We could also make short How-to videos to show people how to set up these things)*
 
-Now, we can get started. 
+Now, we can get started.
 
 ### Step 1: Fork the projects repo
 
@@ -76,12 +78,12 @@ After you have created your new Conda environment, you need to install the proje
 conda install …
 ```
 
-## Step 4: Pick an issue
+### Step 4: Pick an issue
 
 Now we need to select the issue we want to fix on the issues tab *(Add link of Project's issue tracker to display in video here)* issue tracker of the repository and reproduce it in the development version of our project.
 *(Not sure this applies, again it depends on the project)*.
 
-## Step 5: Create a new branch for your changes
+### Step 5: Create a new branch for your changes
 
 First create a branch for your work.
 Run the following command in your command line:
@@ -90,16 +92,16 @@ Run the following command in your command line:
 git checkout -b [BRANCH NAME]
 ```
 
-## Step 6: Find the file and make the changes
+### Step 6: Find the file and make the changes
 
 Open your editor or IDE in the file that you need to solve the issue and save your changes.
 
 
-## Step 7: Confirm/test that the issue is solved in dev mode
+### Step 7: Confirm/test that the issue is solved in dev mode
 
 (Not sure this applies)
 
-## Step 8: Commit your changes
+### Step 8: Commit your changes
 
 Now, you are ready to add and commit your changes with a descriptive message.
 Type the following command in your terminal:
@@ -116,7 +118,7 @@ git push -u origin [BRANCH NAME]
 
 Enter your GitHub username and password if requested.
 
-## Step 9: Open PR
+### Step 9: Open PR
 
 Now, you can submit your changes to the project’s repo.
 

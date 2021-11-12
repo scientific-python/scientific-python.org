@@ -12,8 +12,11 @@ software packages that bring powerful features for scientific computing to the
 Python programming language. There is no central authority that determines
 which projects are considered members; rather, the ecosystem has grown orgranically
 from a small collection of core packages to encompass a broad and ever expanding
-collection of projects. The foundational packages from which the ecosystem has
-grown include:
+collection of projects.
+
+![Scientific Python Ecosystem](/images/ecosystem.svg)
+
+The foundational packages from which the ecosystem has grown include:
 
 - [NumPy](http://www.numpy.org/), the fundamental package for
   numerical computation. NumPy defines the n-dimensional array data structure,

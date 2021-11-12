@@ -21,12 +21,12 @@ Community members must adhere to our [code of conduct]({{< relref "/code_of_cond
 
 The scientific Python ecosystem welcomes your expertise and enthusiasm!
 
-{{< youtube_page page="ecosystem-expectations" levelOffset=3 >}}
-
 {{< youtube_page page="why-contribute" levelOffset=3 >}}
-
-{{< youtube_page page="getting-started" levelOffset=3 >}}
 
 {{< youtube_page page="ways-to-contribute" levelOffset=3 >}}
 
+{{< youtube_page page="getting-started" levelOffset=3 >}}
+
 {{< youtube_page page="my-first-contribution" levelOffset=3 >}}
+
+{{< youtube_page page="ecosystem-expectations" levelOffset=3 >}}

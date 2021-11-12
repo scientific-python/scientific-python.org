@@ -17,7 +17,8 @@ project to prevent dependency conflicts.
 One of the advantages of `pip` is that it is a built-in module of Python and
 therefore is ubiquitous and well-supported.
 `conda` is a more extensive package manager, which includes the ability to
-install and manage non-Python packages, like MKL or HDF5.
+install and manage non-Python dependencies, such as compilers or other
+libraries like MKL or HDF5.
 `conda` also doubles as an *environment manager*, allowing users to create and
 manage different *virtual environments* for their Python projects.
 

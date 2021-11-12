@@ -50,5 +50,3 @@ and to circumvent the need to have administrator priviledges to install packages
 Pip accesses the Python Package Index, [PyPI](https://pypi.org/) which
 stores almost 200,000 projects, including all the packages of the scientific
 Python ecosystem.
-PyPI provides the current released versions of all packages, as well as previous
-versions, so you can pin to a version and not worry about updates causing conflicts.

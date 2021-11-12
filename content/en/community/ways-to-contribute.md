@@ -24,9 +24,10 @@ Other ways to contribute to open source in which you don’t necessarily have to
 
 ## 5 ways to contribute to open source without coding
 
+<!--
 Hello everyone, I’m Juanita.
 Welcome to the Scientific Python videos! Today I will be sharing with you some ways in which you can contribute to open source software projects without actually having to code.
-
+-->
 
 Open source software is code designed in a way that it is accessible to the public, everyone can view, modify, and distribute it easily, according to the terms of permissive software licenses.
 It relies on peer review and community production.
@@ -44,30 +45,28 @@ One way in which you can contribute is by testing and triaging these issues by d
 4. Label issues correctly by adding tags to them.
 This usually requires triage rights but you can just ask for them!
 
-### Reviewing PRs: 
+### Reviewing PRs
 
 Pull requests are the way in which OS projects add new code to their codebase.
 You can help even if you’re not familiar with it by:
 
-1.
-Summarizing discussions in PR’s so that new contributors can be aware of the main points without reading the whole thread.
-2.
-Test proposed changes in PR’s to make sure they don’t break any other functionality.
+1. Summarizing discussions in PR’s so that new contributors can be aware of the main points without reading the whole thread.
+2. Test proposed changes in PR’s to make sure they don’t break any other functionality.
 
-### Improving documentation:
+### Improving documentation
 
 Documentation is crucial to every open source project since it is the way in which users can learn everything about it.
 One way to contribute to a project is by improving it’s documentation.
 This doesn’t mean you need to write new documentation (which you can by following the docs contributing guide), but there are other ways you can help.
 
-1.  Many projects have tutorials which you can review and report confusing or missing parts.
-2.  Find typos and minor errors in docs and report them in the docs repository issue tracker.
-3.  If you feel like creating your own content, you can write your own guides and tutorials.
+1. Many projects have tutorials which you can review and report confusing or missing parts.
+2. Find typos and minor errors in docs and report them in the docs repository issue tracker.
+3. If you feel like creating your own content, you can write your own guides and tutorials.
 There are several materials you can produce: how-to’s, deep-dive explanations, examples, notebooks, videos, etc...
-4.  Improving docstrings within the code, and improving documentation style and design is also helpful.
+4. Improving docstrings within the code, and improving documentation style and design is also helpful.
 
 
-### Translations:
+### Translations
 
 Most Open source projects are developed in English, but many use platforms to translate their interface, webpage, or documentation.
 If you speak another language and feel comfortable translating, this is a way you can help.

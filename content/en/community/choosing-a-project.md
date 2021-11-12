@@ -1,5 +1,5 @@
 ---
-title: "Where to contribute: choosing a project"
+title: "Choosing a project"
 youtube_id:
 draft: false
 ---

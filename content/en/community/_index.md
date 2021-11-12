@@ -27,6 +27,6 @@ The scientific Python ecosystem welcomes your expertise and enthusiasm!
 
 {{< youtube_page page="getting-started" levelOffset=3 >}}
 
-{{< youtube_page page="my-first-contribution" levelOffset=3 >}}
+{{< youtube_page page="first-contribution" levelOffset=3 >}}
 
-{{< youtube_page page="ecosystem-expectations" levelOffset=3 >}}
+{{< youtube_page page="choosing-a-project" levelOffset=3 >}}

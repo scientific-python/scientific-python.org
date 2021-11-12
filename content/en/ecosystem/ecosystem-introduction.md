@@ -13,8 +13,6 @@ which projects are considered members; rather, the ecosystem has grown orgranica
 from a small collection of core packages to encompass a broad and ever expanding
 collection of projects.
 
-![Scientific Python Ecosystem](/images/ecosystem.svg)
-
 The foundational packages from which the ecosystem has grown include:
 
 - [NumPy](http://www.numpy.org/), the fundamental package for

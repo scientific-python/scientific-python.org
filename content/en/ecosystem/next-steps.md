@@ -48,17 +48,21 @@ autocompletion, and project management.
 Need to test if the packages got installed? Type these lines at an
 IPython prompt, or save in a `*.py` file to execute:
 
-    import numpy as np
-    print("I like ", np.pi)
+```python
+import numpy as np
+print("I like ", np.pi)
+```
 
 For testing the SciPy library and Matplotlib, here's a fun Easter egg:
 
-    from scipy import misc
-    import matplotlib.pyplot as plt
+```python
+from scipy import misc
+import matplotlib.pyplot as plt
 
-    face = misc.face()
-    plt.imshow(face)
-    plt.show()
+face = misc.face()
+plt.imshow(face)
+plt.show()
+```
 
 ## Start learning
 
@@ -87,18 +91,24 @@ This is often most of the battle.
 Unsure of how to use a particular function? In Jupyter and the IPython
 shell, call up documentation with:
 
-    import numpy as np
-    np.linspace?
+```python
+import numpy as np
+np.linspace?
+```
 
 or for viewing the source:
 
-    import numpy as np
-    np.linspace??
+```python
+import numpy as np
+np.linspace??
+```
 
 `?` works on both functions and variables:
 
-    a = "SciPy is awesome ;)"
-    a?
+```python
+a = "SciPy is awesome ;)"
+a?
+```
 
 Try searching the Internet and sites like
 [StackOverflow](https://stackoverflow.com/) to see if others have

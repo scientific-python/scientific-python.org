@@ -62,13 +62,12 @@ For testing the SciPy library and Matplotlib, here's a fun Easter egg:
 
 ## Start learning
 
-Each package has official tutorials:
+Many package have official tutorials.  For example,
 
 - [NumPy User Guide](https://numpy.org/devdocs/user/tutorials_index.html)
 - [SciPy Tutorial](http://docs.scipy.org/doc/scipy/reference/tutorial/index.html)
 - [Matplotlib beginner's guide](http://matplotlib.org/users/beginner.html)
 - [pandas tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html)
-- [SymPy tutorial](http://docs.sympy.org/latest/tutorial/)
 
 Additional outside tutorials exist, such as the
 [Scipy Lecture Notes](http://scipy-lectures.org/index.html) or

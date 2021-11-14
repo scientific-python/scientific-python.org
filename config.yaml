@@ -4,6 +4,9 @@ theme: scientific-python-hugo-theme
 DefaultContentLanguage: en
 relativeURLs: true
 disableKinds: ["term", "taxonomy"]
+markup:
+  highlight:
+    noClasses: false
 
 params:
   images:
@@ -90,7 +93,7 @@ languages:
         column2:
           title: "Maintainers"
           links:
-            - text: SPECS
+            - text: SPECs
               link: /specs/
             - text: Grants
               link: /grants/

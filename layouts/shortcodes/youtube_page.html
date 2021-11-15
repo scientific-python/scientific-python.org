@@ -1,4 +1,7 @@
-{{ $page := .Page.GetPage (.Get "page") }}
+{{ $pageName := printf "%s.md" (.Get "page") }}
+{{ $pageInBundle := .Page.Resources.GetMatch $pageName }}
+{{ $pageInSite := .Site.GetPage $pageName }}
+{{ $page := or $pageInBundle $pageInSite }}
 
 {{ $id := $page.Params.youtube_id }}
 {{ $title := $page.Params.title }}

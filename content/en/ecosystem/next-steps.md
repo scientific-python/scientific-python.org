@@ -6,110 +6,109 @@ draft: false
 
 **[DRAFT] This video has not been recorded yet.**
 
-Scientific Python doesn't exist without Python.
-Scientific Python skills need to build on a foundation of standard programming skills.
-While Python itself has an [official tutorial](https://docs.python.org/3/tutorial/),
-countless resources exist online, in hard copy, in person, or whatever format you prefer.
+Scientific Python is built on the Python programming language.  Using
+Scientific Python therefore requires having a firm grasp of Python
+itself.  We suggest reading through the [official
+tutorial](https://docs.python.org/3/tutorial/), doing an online
+tutorial on [exercism](https://exercism.org/tracks/python), or using
+any of the countless resources that exist online or in print.
 
-Just remember to have fun, make mistakes, and persevere.
+Learning a new language can be challenging, but Python is fun---so keep trying and hang in there!
+The community is there to help you along the way.
 
-## Where to write
+So let's cover some basics.
 
-[Jupyter](https://jupyter.org/) notebooks combine code, markdown, and more in an interactive setting.
-They are an excellent tool for learning, collaborating, experimenting, or documenting.
-Notebooks can run on your local machine, and [MyBinder](https://mybinder.org/) also serves Jupyter
-notebooks to the browser without the need for anything on the local computer.
-For example, [MyBinder Elegant
-Scipy](https://mybinder.org/v2/gh/elegant-scipy/notebooks/master?filepath=index.ipynb)
-provides an interactive tutorial.
+## How to run your Python code
 
-Jupyter runs by calling to [IPython](https://ipython.org/) behind the
-scenes, but IPython itself also acts as a standalone tool.
-A _command-line_ of individual statements and returned values, IPython is
-useful for debugging and experimenting.
+Python is an interpreted language: that means that it reads a text
+file with instructions and executes those one by one.
 
-Code Editors and IDEs (Integrated Development Environments) facilitate
-the writing of scripts, packages, and libraries.
-These tools handle projects, like SciPy itself, that start to grow larger and more
-complicated.
-Separate files can hold frequently used functions, types,
-variables, and analysis scripts for simpler, more maintainable, and more
-reusable code.
+The easiest way to create a text file is in a text editor, like Spyder or VSCode.
+We can do that right now.  Let's create a file called `hello.py`:
 
-Code editors run from minimal, like Window's Notepad, to the fully-featured
-and customizable, like [Atom](https://atom.io/),
-[Visual Studio Code](https://code.visualstudio.com/), or
-[PyCharm](https://www.jetbrains.com/pycharm/).
-Features include syntax highlighting, the ability to execute code, debugging tools,
-autocompletion, and project management.
+```python
+print("Hello world")
+```
 
-## Hello SciPy
+And then run it:
 
-Need to test if the packages got installed? Type these lines at an
-IPython prompt, or save in a `*.py` file to execute:
+```sh
+python hello.py
+hello
+```
+
+That's it, your first Python program!
+
+You can also play around with Python code interactively in IPython:
+
+[launch IPython and run:]
+
+```python
+In [1]: def fibonacci(n):
+   ...:     a, b = 0, 1
+   ...:     for i in range(0, n):
+   ...:         a, b = b, a + b
+   ...:     return a
+   ...:
+
+In [2]: fibonacci(10)
+Out[2]: 55
+```
+
+Another ways to play with Python code is in [Jupyter Lab](https://jupyter.org/).
+This is an interactive web application for typing in and executing Python code.
+Let me show you how to do a simple plot in Jupyter:
+
+[Open Jupyter Lab; create notebook; import matplotlib as plt; plt.plot([1, 2, 3])]
+
+You can head over to https://try.jupyter.org to test it out.
+
+## Hello NumPy
+
+What distinguishes most scientific codes from general ones is that they operate on collections of numbers.
+These are often represented as NumPy arrays---they are fast, and they have convenient syntax.
+
+Let's generate 1000 random numbers and square them:
+
+[In IPython]
 
 ```python
 import numpy as np
-print("I like ", np.pi)
-```
-
-For testing the SciPy library and Matplotlib, here's a fun Easter egg:
-
-```python
-from scipy import misc
 import matplotlib.pyplot as plt
 
-face = misc.face()
-plt.imshow(face)
+# Generate 1000 random numbers, store in x
+x = np.random.random(size=1000)
+
+# Square them and store in y
+y = x**2
+
+# Plot the results!
+plt.plot(x, y)
 plt.show()
 ```
 
-## Start learning
+## Learn more!
 
-Many package have official tutorials.  For example,
+We'll post a list of links below the video where you can learn more:
 
+- [Scipy Lecture Notes](http://scipy-lectures.org/index.html)
 - [NumPy User Guide](https://numpy.org/devdocs/user/tutorials_index.html)
-- [SciPy Tutorial](http://docs.scipy.org/doc/scipy/reference/tutorial/index.html)
-- [Matplotlib beginner's guide](http://matplotlib.org/users/beginner.html)
-- [pandas tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html)
+- [Matplotlib tutorials](https://matplotlib.org/stable/tutorials/index.html)
+- [pandas tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
+- [Elegant SciPy](https://github.com/elegant-scipy/notebooks)
 
-Additional outside tutorials exist, such as the
-[Scipy Lecture Notes](http://scipy-lectures.org/index.html) or
-[Elegant SciPy](https://github.com/elegant-scipy/notebooks) .
+By far the best way to learn, however, is to start coding!
 
-But the best way to learn is to start coding.
+## Stuck?
 
-## Stuck? Need help?
+The first thing to do when stuck is to read the documentation.  Note
+that almost all libraries ship with documentation right at your
+fingertips!
 
-Getting errors that you can't figure out?
+[illustrate how to look up the docstring for `np.linspace`]
 
-Start by looking at the error message.
-Yes, error messages are often intimidating and filled with technical detail.
-However, they can often help pinpoint the exact location in code where things go wrong.
-This is often most of the battle.
+If you are still stuck, join the community forum at
+https://discuss.scientific-python.org or reach out to the relevant
+package on its mailing list.
 
-Unsure of how to use a particular function? In Jupyter and the IPython
-shell, call up documentation with:
-
-```python
-import numpy as np
-np.linspace?
-```
-
-or for viewing the source:
-
-```python
-import numpy as np
-np.linspace??
-```
-
-`?` works on both functions and variables:
-
-```python
-a = "SciPy is awesome ;)"
-a?
-```
-
-Try searching the Internet and sites like
-[StackOverflow](https://stackoverflow.com/) to see if others have
-encountered similar problems or can help with yours.
+Good luck!

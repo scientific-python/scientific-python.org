@@ -3,7 +3,7 @@ title: SPECs announced at SciPy 2021
 draft: false
 summary: |
   Scientific Python Ecosystem Coordination project announcement at SciPy2021.
-authors: ["K. Jarrod Millman"]
+authors: ["Jarrod Millman"]
 date: 2021-04-21
 sidebar: false
 ---

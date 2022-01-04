@@ -16,39 +16,55 @@ draft: false
 
 ## Choosing a project to work on
 
-Choosing a project to contribute to can be daunting.
+How should you choose which project to work on?
 There are many projects in the ecosystem to choose from so it’s important to find one related to something you’re interested in or is a project you already use.
-For example, if you’re interested in Computer Vision, it might be worth looking into implementing algorithms in scikit-image.
+For example, if you’re interested in working with images, it might be worth looking into implementing algorithms in scikit-image.
 
-It’s typically easier to contribute to smaller projects but you also want to choose a project that’s big and active enough so that you have mentorship opportunities and room to grow.
-It’s also a good idea to take a look at open issues and pull requests, see how maintainers interact with the community, and assess if it would be good for you.
+Typically, it is easier to contribute to smaller projects---but you also want to choose a project that’s active enough so that the developers can review your code and provide mentorship.
+There may also be more issues and ideas to work on.
 
-For a more detailed discussion, please see our `Choosing a project` video.
+Before diving into a project, take a look at their open issues and pull requests, see how maintainers interact with the community, and decide if it would be good fit for you.
 
-## Tools you should learn
+For a more detailed discussion, also take a look at our `Choosing a project` video, linked below.
 
-- Github
-- Git
-- Terminal
-- Anaconda or miniconda
-- Editor or IDE
+## Tools to learn
 
-You can find help to learn these tools in the links below the video:
+As with any trade, there are certain fundamental tools you should learn.
+Since the ecosystem is built in Python, you'll need to know how to program in that language.
+Other tools we use daily include:
+
+- git and Github
+- the command-line terminal, and
+- a good editor.
+
+Take a look below for links on how to learn these tools.
+
 - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+- ...
+- ...
+- ...
 
-For a more detailed discussion, please see our `First contribution` video.
+For more details, also check out our `First contribution` video.
 
-## Getting your foot in the door
+## First contribution
 
-So now that you’ve chosen which project to contribute to, it’s time to get set up.
-Most projects have a file called CONTRIBUTING in the root of the repository that will tell you how to set up your development environment, submit pull requests, etc.
-Other developer documentation will also explain the testing process and other breakdowns of the project.
+Now that you’ve chosen a project to contribute to, it’s time to get set up.
+Most projects have a file called CONTRIBUTING in the root of the repository that will tell you how to set up your development environment, propose changes, etc.
+Developer documentation will also explain testing and review procedures, and whatever else you need to know.
 
 When first contributing to a project, it’s best to start with small, self-contained issues.
-Oftentimes, maintainers will label issues as a “good first issue,” so you should take a look at those first.
-Some examples of a good first issue include fixing a small bug, adding tests, fixing documentation typos, or writing up simple documentation.
+Often, maintainers will label issues with the "good first issue" label, so take a look at those first.
+Examples of a good first issue include fixing a small bug, adding tests, fixing documentation typos, or writing up simple documentation.
 
-## Taking on bigger features
+It is not uncommon to get stuck while making your first contribution.
+Don't panic!
+Try to find the real-time chat or discussion forum for the project, and ask for assistance there.
+The maintainers will be happy to help!
 
-Once you’re more comfortable contributing to the project, you can start taking on bigger features.
-You can browse the open issue list for ideas such as small feature requests, writing documentation regarding how a system works, and minor refactoring like factoring out common code, deprecating old functionality, and renaming & reorganization.
+## What next
+
+Once you’re comfortable making small changes to the project, you can start taking on bigger features.
+There are many different ways to help: you may, e.g., implement new features, write documentation, refactor and clean up code, improve testing, work on build infrastructure, and so forth.
+
+No matter what you contribute, or whether you contribution is big or small, it is much appreciated.
+Thank you for helping out!

@@ -6,6 +6,18 @@ draft: false
 
 **[DRAFT] This video has not been recorded yet.**
 
+<!--
+It isn't just a collection of tools (though we should mention that briefly)
+
+Discuss the philosophy
+
+- scientists need to own their own analysis tools
+- scientists need to see what they are working on
+- scientists need to be able to think clearly about their analysis (e.g., great APIs)
+- scientists need to be able to adapt and modify their analysis tools
+
+-->
+
 The Scientific Python ecosystem is a collection of open-source
 scientific software packages written in Python. It is a broad and
 ever-expanding set of algorithms and data structures that grew around

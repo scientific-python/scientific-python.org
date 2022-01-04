@@ -35,7 +35,7 @@ This is why you can engage in the Scientific Python community easily and contrib
 
 ### Issue testing and triaging
 
-Every Scientific Python project has its own issue tracker where users post bugs, UX improvements, or any other issues they are having.
+Every Scientific Python project has its own issue tracker where users post bugs, suggest UX improvements, and report other issues they are having.
 This allows support and improvement of projects.
 One way in which you can contribute is by testing and triaging these issues by doing the following:	
 

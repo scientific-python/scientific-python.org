@@ -6,7 +6,7 @@ draft: false
 
 **[DRAFT] This video has not been recorded yet.**
 
-## Contributing to Open Source: Know your community
+## Contributing to a Scientific Python project
 
 A common question from new contributors is: "how do I choose which project to
 contribute to"?
@@ -20,14 +20,18 @@ in the overall goals and decision-making processes for each project.
 
 ## Understanding the project
 
-Depending on the amount of dependents of a project, it can be more difficult to contribute to as there is a more vigorous review process since your contributions will affect a large amount of people.
-It’s not uncommon for even core developers to have pull requests going through iterations for years before being merged.
+Some projects (e.g., NumPy) are used by many projects in the ecosystem.
+Often these projects are mature and relatively full-featured.
+Given there central role in the ecosystem, working on these projects can have a huge impact.
+However, making large changes to these projects may be more challenging than in newer
+and less central projects.
+It’s not uncommon for even core developers to have pull requests going through iterations for months before being merged.
 
-Because NumPy affects pretty much the entire ecosystem, it is going to be very difficult to contribute larger features to and usually requires a NumPy Enhancement Proposal (NEP) to be approved before work is started on it.
+For example, because NumPy affects pretty much the entire ecosystem, it is going to be very difficult to contribute larger features to and usually requires a NumPy Enhancement Proposal (NEP) to be approved before work is started on it.
 Enhancement Proposals are fairly common for core projects in the ecosystem and consist of a writeup of the planned changes, including a summary of the implementation, pros and cons of it, and sometimes a proof of concept coded up.
 It is then discussed and iterated on before a decision is made.
 
-On the other hand, small projects such as (insert something here) may just require a review or two and basic tests before your changes are merged.
+On the other hand, other projects such as NetworkX may just require a review or two and basic tests before your changes are merged.
 This is important to keep in mind when picking out a project to work on.
 
 ## Contributing to the ecosystem

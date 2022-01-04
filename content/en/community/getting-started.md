@@ -23,6 +23,8 @@ For example, if you’re interested in Computer Vision, it might be worth lookin
 It’s typically easier to contribute to smaller projects but you also want to choose a project that’s big and active enough so that you have mentorship opportunities and room to grow.
 It’s also a good idea to take a look at open issues and pull requests, see how maintainers interact with the community, and assess if it would be good for you.
 
+For a more detailed discussion, please see our `Choosing a project` video.
+
 ## Tools you should learn
 
 - Github
@@ -33,6 +35,8 @@ It’s also a good idea to take a look at open issues and pull requests, see how
 
 You can find help to learn these tools in the links below the video:
 - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+For a more detailed discussion, please see our `First contribution` video.
 
 ## Getting your foot in the door
 

@@ -35,7 +35,7 @@ This is why you can engage in the open source community easily and contribute in
 
 ### Issue testing and triaging
 
-Every Open Source project has its own issue tracker where users post bugs, ux improvements or any other issues they are having.
+Every open source project has its own issue tracker where users post bugs, UX improvements, or any other issues they are having.
 This allows support and improvement of projects.
 One way in which you can contribute is by testing and triaging these issues by doing the following:	
 
@@ -47,11 +47,11 @@ This usually requires triage rights but you can just ask for them!
 
 ### Reviewing PRs
 
-Pull requests are the way in which OS projects add new code to their codebase.
+Pull requests (PRs) are the way in which OS projects add new code to their codebase.
 You can help even if you’re not familiar with it by:
 
-1. Summarizing discussions in PR’s so that new contributors can be aware of the main points without reading the whole thread.
-2. Test proposed changes in PR’s to make sure they don’t break any other functionality.
+1. Summarizing discussions in PRs so that new contributors can be aware of the main points without reading the whole thread.
+2. Test proposed changes in PRs to make sure they don’t break any other functionality.
 
 ### Improving documentation
 
@@ -70,7 +70,7 @@ There are several materials you can produce: how-to’s, deep-dive explanations,
 
 Most Open source projects are developed in English, but many use platforms to translate their interface, webpage, or documentation.
 If you speak another language and feel comfortable translating, this is a way you can help.
-Projects use platforms as Transifex, weblate or crowdin where you can join as a volunteer contributor.
+Projects use platforms as Transifex, weblate, or crowdin where you can join as a volunteer contributor.
 
 
 ### Participating in the community

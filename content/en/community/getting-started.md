@@ -23,7 +23,7 @@ For example, if you’re interested in Computer Vision, it might be worth lookin
 It’s typically easier to contribute to smaller projects but you also want to choose a project that’s big and active enough so that you have mentorship opportunities and room to grow.
 It’s also a good idea to take a look at open issues and pull requests, see how maintainers interact with the community, and assess if it would be good for you.
 
-# Tools you should learn
+## Tools you should learn
 
 - Github
 - Git

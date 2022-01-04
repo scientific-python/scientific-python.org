@@ -9,10 +9,10 @@ draft: false
 There are many different ways to install scientific Python packages. We'll
 focus on two recommended methods, specifically:
 
-- `pip` (with the builtin `venv` module for virtual environments.
+- `pip` (with the built-in `venv` module for virtual environments)
 - `conda`
 
-Both `pip` and `conda`, you can control the package versions for a specific
+With both `pip` and `conda`, you can control the package versions for a specific
 project to prevent dependency conflicts.
 One of the advantages of `pip` is that it is a built-in module of Python and
 therefore is ubiquitous and well-supported.
@@ -21,6 +21,23 @@ install and manage non-Python dependencies, such as compilers or other
 libraries like MKL or HDF5.
 `conda` also doubles as an *environment manager*, allowing users to create and
 manage different *virtual environments* for their Python projects.
+
+## Installing via pip {#pip-install}
+
+Python comes with a built-in package management system,
+[pip](https://pip.pypa.io/en/stable).
+Pip can install, update, or delete any official package.
+
+You can install packages via the command line by entering:
+
+    python -m pip install --user ipython scipy matplotlib
+
+The `--user` flag is useful to avoid conflicts with system-level Python packages
+and to circumvent the need to have administrator priviledges to install packages.
+
+Pip accesses the Python Package Index, [PyPI](https://pypi.org/) which
+stores almost 200,000 projects, including all the packages of the scientific
+Python ecosystem.
 
 ## Installing with conda {#conda-install}
 
@@ -32,24 +49,7 @@ package.
 Once the `conda` package manager has been installed and configured, installing
 packages from the scientific Python ecosystem is quite simple, for example:
 
-    conda install numpy scipy matplotlib ipython jupyter pandas
-
-## Installing via pip {#pip-install}
-
-Python comes with a built-in package management system,
-[pip](https://pip.pypa.io/en/stable).
-Pip can install, update, or delete any official package.
-
-You can install packages via the command line by entering:
-
-    python -m pip install --user numpy scipy matplotlib ipython jupyter pandas
-
-The `--user` flag is useful to avoid conflicts with system-level Python packages
-and to circumvent the need to have administrator priviledges to install packages.
-
-Pip accesses the Python Package Index, [PyPI](https://pypi.org/) which
-stores almost 200,000 projects, including all the packages of the scientific
-Python ecosystem.
+    conda install ipython scipy matplotlib
 
 ## Testing the installation
 

@@ -29,7 +29,8 @@ Hello everyone, I’m Juanita.
 Welcome to the Scientific Python videos! Today I will be sharing with you some ways in which you can contribute to open source software projects without actually having to code.
 -->
 
-Scientific Python software is code designed in a way that it is accessible to the public, everyone can view, modify, and distribute it easily, according to the terms of permissive software licenses.
+Scientific Python software is code designed by scientists and engineers for science and engineering.
+All projects have a license that determine what you can and cannot do; these licenses are typically very straightforward: you may use and modify the software, as long as you give credit to the original authors.
 It relies on peer review and community production.
 This is why you can engage in the Scientific Python community easily and contribute in any way that you feel comfortable.
 

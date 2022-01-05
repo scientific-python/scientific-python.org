@@ -44,8 +44,6 @@ Take a look below for links on how to learn these tools.
 - ...
 - ...
 
-For more details, also check out our `First contribution` video.
-
 ## First contribution
 
 Now that you’ve chosen a project to contribute to, it’s time to get set up.
@@ -60,6 +58,8 @@ It is not uncommon to get stuck while making your first contribution.
 Don't panic!
 Try to find the real-time chat or discussion forum for the project, and ask for assistance there.
 The maintainers will be happy to help!
+
+For more details, also check out our `First contribution` video.
 
 ## What next
 

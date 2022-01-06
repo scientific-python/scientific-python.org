@@ -38,7 +38,7 @@ LT members are expected to participate in strategic planning, approve changes to
 (Funding to community members is theirs to pursue and manage.)
 The purpose of the LT is to ensure smooth progress on the big-picture [roadmap]{{< relref "roadmap.md" >}}.
 Changes that impact the full project require analysis informed by long experience with both the project and the larger ecosystem.
-When the core developer community (including the LT members) fails to reach such a consensus in a reasonable timeframe, the LT is the entity that resolves the issue.
+When the core developer community (including the LT members) fail to reach such a consensus in a reasonable timeframe, the LT is the entity that resolves the issue.
 
 ### Other Teams
 

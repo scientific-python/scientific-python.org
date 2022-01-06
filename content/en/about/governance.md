@@ -36,13 +36,13 @@ activities that takes place on the project's private management forum.
 The decision to invite a new Community Manager must be made by "lazy consensus",
 meaning unanimous agreement by all responding existing Community Managers.
 Invitation must take place at least one week after initial nomination,
-to allow existing members time to voice any objections.
+to allow existing members time to voice objections.
 
 ### Community Leaders
 
 Community Leaders are Community Managers who have additional responsibilities to ensure the smooth running of the Scientific Python project.
 Community Leaders are expected to participate in strategic planning, approve changes to the governance model, and make decisions about funding granted to the Scientific Python project.
-(Funding to community members is theirs to pursue and manage.)
+(Funding to community members/projects is theirs to pursue and manage.)
 Community Leaders should ensure smooth progress on the big-picture [roadmap]({{< relref "roadmap.md" >}}).
 Changes that impact the full project require analysis informed by long experience with both the project and the larger ecosystem.
 When the Community Managers (including the Community Leaders) fail to reach such a consensus in a reasonable timeframe, the Community Leaders may resolve the issue.

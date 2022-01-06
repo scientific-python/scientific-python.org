@@ -36,7 +36,7 @@ to allow existing members time to voice any objections.
 The Leadership Team (LT) are community managers who have additional responsibilities to ensure the smooth running of the project.
 LT members are expected to participate in strategic planning, approve changes to the governance model, and make decisions about funding granted to the project itself.
 (Funding to community members is theirs to pursue and manage.)
-The purpose of the LT is to ensure smooth progress from the big-picture perspective.
+The purpose of the LT is to ensure smooth progress on the big-picture [roadmap]{{< relref "roadmap.md" >}}.
 Changes that impact the full project require analysis informed by long experience with both the project and the larger ecosystem.
 When the core developer community (including the LT members) fails to reach such a consensus in a reasonable timeframe, the LT is the entity that resolves the issue.
 

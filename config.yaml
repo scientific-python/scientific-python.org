@@ -90,6 +90,8 @@ languages:
               link: /about/
             - text: Code of Conduct
               link: /code_of_conduct/
+            - text: Roadmap
+              link: /roadmap/
         column2:
           title: "Maintainers"
           links:

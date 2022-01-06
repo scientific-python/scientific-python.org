@@ -15,7 +15,7 @@ deadlocks are resolved.
 
 ### Community Members
 
-The Scientific Python community consists of anyone working with the project in any way.
+The Scientific Python community consists of anyone working with the project.
 Community members must adhere to our [code of conduct]({{< relref "/code_of_conduct.md" >}}).
 
 ### Community Managers

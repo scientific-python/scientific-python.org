@@ -11,7 +11,14 @@ and participate in the decision making process.
 This document describes how that participation takes place, how to find consensus, and how
 deadlocks are resolved.
 
+Note that this document only applies to the Scientific Python project, which
+aims to better coordinate the ecosystem and
+prepare scientific Python for the next decade of data science.
+However, every project in the ecosystem has its own governance structure.
+
 ## Roles And Responsibilities
+
+The Scientific Python project has the following roles and responsibilities.
 
 ### Community Members
 
@@ -31,21 +38,19 @@ meaning unanimous agreement by all responding existing Community Managers.
 Invitation must take place at least one week after initial nomination,
 to allow existing members time to voice any objections.
 
-### Leadership Team
+### Community Leaders
 
-The Leadership Team (LT) are community managers who have additional responsibilities to ensure the smooth running of the project.
-LT members are expected to participate in strategic planning, approve changes to the governance model, and make decisions about funding granted to the project itself.
+Community Leaders are Community Managers who have additional responsibilities to ensure the smooth running of the Scientific Python project.
+Community Leaders are expected to participate in strategic planning, approve changes to the governance model, and make decisions about funding granted to the Scientific Python project.
 (Funding to community members is theirs to pursue and manage.)
-The purpose of the LT is to ensure smooth progress on the big-picture [roadmap]{{< relref "roadmap.md" >}}.
+Community Leaders should ensure smooth progress on the big-picture [roadmap]{{< relref "roadmap.md" >}}.
 Changes that impact the full project require analysis informed by long experience with both the project and the larger ecosystem.
-When the core developer community (including the LT members) fail to reach such a consensus in a reasonable timeframe, the LT is the entity that resolves the issue.
+When the Community Managers (including the Community Leaders) fail to reach such a consensus in a reasonable timeframe, the Community Leaders may resolve the issue.
 
 ### Other Teams
 
 Specific projects may have their own governance structures.
-For example,
-
-- The SPEC Steering Committee governance model is described [here]({{< relref "/specs/steering-committee/" >}}).
+For example, the SPEC Steering Committee governance model is described [here]({{< relref "/specs/steering-committee/" >}}).
 
 ## Decision Making Process
 
@@ -56,5 +61,5 @@ Occasionally, sensitive discussion may occur on a private list.
 Scientific Python uses a *consensus seeking* process for making decisions.
 The group tries to find a resolution that has no open objections among community managers.
 Community managers are expected to distinguish between fundamental objections to a proposal and minor perceived flaws that they can live with, and not hold up the decision making process for the latter.
-If no option can be found without an objection, the decision is escalated to the LT, which will itself use consensus seeking to come to a resolution.
-In the unlikely event that there is still a deadlock, the proposal will move forward if it has the support of a simple majority of the LT.
+If no option can be found without an objection, the decision is escalated to the Community Leaders, which will itself use consensus seeking to come to a resolution.
+In the unlikely event that there is still a deadlock, the proposal will move forward if it has the support of a simple majority of the Community Leaders.

@@ -23,7 +23,7 @@ Community members must adhere to our [code of conduct]({{< relref "/code_of_cond
 Community Managers are community members that have demonstrated continued
 commitment to the project through ongoing contributions.
 
-New Community Managers can be nominated by any existing Community Manager.
+A new Community Manager can be nominated by any existing Community Manager.
 Discussion about new Community Manager nominations is one of the few
 activities that takes place on the project\'s private management list.
 The decision to invite a new Community Manager must be made by "lazy consensus",

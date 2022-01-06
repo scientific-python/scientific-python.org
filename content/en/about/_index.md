@@ -15,6 +15,7 @@ for the next decade of data science.
 # People
 
 As a coordinating effort, the Scientific Python project has several teams that operate across the ecosystem.
+For more information, see our [governance and decision making process]({{< relref "/about/governance" >}}).
 
 {{< include-html "static/teams/leadership-team.html" >}}
 {{< include-html "static/teams/community-managers.html" >}}

@@ -27,7 +27,7 @@ A new Community Manager can be nominated by any existing Community Manager.
 Discussion about new Community Manager nominations is one of the few
 activities that takes place on the project's private management forum.
 The decision to invite a new Community Manager must be made by "lazy consensus",
-meaning unanimous agreement by all responding existing Community Manager.
+meaning unanimous agreement by all responding existing Community Managers.
 Invitation must take place at least one week after initial nomination,
 to allow existing members time to voice any objections.
 

@@ -61,5 +61,5 @@ Occasionally, sensitive discussion may occur on a private list.
 Scientific Python uses a *consensus seeking* process for making decisions.
 The group tries to find a resolution that has no open objections among community managers.
 Community managers are expected to distinguish between fundamental objections to a proposal and minor perceived flaws that they can live with, and not hold up the decision making process for the latter.
-If no option can be found without an objection, the decision is escalated to the Community Leaders, which will itself use consensus seeking to come to a resolution.
+If no option can be found without an objection, the decision is escalated to the Community Leaders, who will themselves use consensus seeking to come to a resolution.
 In the unlikely event that there is still a deadlock, the proposal will move forward if it has the support of a simple majority of the Community Leaders.

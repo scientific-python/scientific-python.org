@@ -33,7 +33,7 @@ to allow existing members time to voice any objections.
 
 ### Leadership Team
 
-The Leadership Team (LT) members are community managers who have additional responsibilities to ensure the smooth running of the project.
+The Leadership Team (LT) are community managers who have additional responsibilities to ensure the smooth running of the project.
 LT members are expected to participate in strategic planning, approve changes to the governance model, and make decisions about funding granted to the project itself.
 (Funding to community members is theirs to pursue and manage.)
 The purpose of the LT is to ensure smooth progress from the big-picture perspective.

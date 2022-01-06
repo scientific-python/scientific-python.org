@@ -50,7 +50,7 @@ For example,
 ## Decision Making Process
 
 Decisions about the future of the project are made through discussion with all members of the community.
-All non-sensitive project management discussion takes place on the public forums.
+All non-sensitive project management discussion takes place on the [public forum](https://discuss.scientific-python.org).
 Occasionally, sensitive discussion may occur on a private list.
 
 Scientific Python uses a *consensus seeking* process for making decisions.

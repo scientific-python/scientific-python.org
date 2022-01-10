@@ -11,6 +11,8 @@ markup:
 params:
   images:
   - /images/logo.svg
+  plausible:
+    dataDomain: scientific-python.org
   post_meta:
     - author
     - date

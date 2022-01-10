@@ -36,3 +36,10 @@ export GH_TOKEN=<personal-access-token>
 ```
 
 Then run `make teams`.
+
+
+## Analytics
+
+A self-hosted version of [Plausible.io](https://plausible.io) is used to gather simple
+and privacy-friendly analytics for the site. The dashboard can be accessed
+[here](https://analytics.scientific-python.org/scientific-python.org).

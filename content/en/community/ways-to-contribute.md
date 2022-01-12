@@ -13,7 +13,7 @@ draft: false
 ## Topic:
 Other ways to contribute to open source in which you don’t necessarily have to code.
 
-## Outline: 
+## Outline:
 - Issue testing and triaging
 - Reviewing PRs
 - Translations
@@ -29,52 +29,53 @@ Hello everyone, I’m Juanita.
 Welcome to the Scientific Python videos! Today I will be sharing with you some ways in which you can contribute to open source software projects without actually having to code.
 -->
 
-Scientific Python software is code designed by scientists and engineers for science and engineering.
-All projects have a license that determine what you can and cannot do; these licenses are typically very straightforward: you may use and modify the software, as long as you give credit to the original authors.
-It relies on peer review and community production.
-This is why you can engage in the Scientific Python community easily and contribute in any way that you feel comfortable.
+Scientific Python is code designed by scientists and engineers for science and engineering.
+All projects have a straightforward license that determine what you can and cannot do; typically, you may use and modify the software, as long as you give credit to the original authors.
+The entire ecosystem relies on peer review and community production, so your contribution is really important.
+There are many ways to contribute outside of coding—we'll discuss a few.
 
 ### Issue testing and triaging
 
-Every Scientific Python project has its own issue tracker where users post bugs, suggest UX improvements, and report other issues they are having.
-This allows support and improvement of projects.
-One way in which you can contribute is by testing and triaging these issues by doing the following:	
+Every Scientific Python project has its own issue tracker where users report bugs, suggest UX improvements, and discuss technical problems they are having.
+This lets developers support users and track improvement to the projects.
+One way in which you can contribute is by verifying and triaging issues.
 
-1. Check if older bugs are still present and comment on older issues to say they were solved and in which version of the software.
-2. Find duplicate issues and link related ones since usually the same issues are opened several times by many users.
-3. Add good self-contained reproducers to issues helping developers to find a reliable way to test them.
-4. Label issues correctly by adding tags to them.  This usually requires triage rights but you can just ask for them!
+For example:
+
+1. You can check if older issue are still relevant and let developers know if they were solved.
+2. You can find duplicate issues and link related ones, since usually the same problems are reported multiple times.
+3. You can add self-contained code snippets that reproduce issues, thereby helping developers to find the problem and test solutions.
+4. You can label issues by adding appropriate tags. This usually requires triage rights, but you can just ask for them!
 
 ### Reviewing PRs
 
-Pull requests (PRs) are the way in which Scientific Python projects add new code to their codebase.
-You can help even if you’re not familiar with it by:
+Pull requests (PRs) are the way in which Scientific Python projects incorporate new code.
+You can help, even if you’re not familiar with them, by:
 
-1. Summarizing discussions in PRs so that new contributors can be aware of the main points without reading the whole thread.
-2. Test proposed changes in PRs to make sure they don’t break any other functionality.
+1. Summarizing discussions in PRs so that newcomers to the conversation conversation can easily catch up without reading the whole thread.
+2. Testing proposed changes in PRs to make sure they function correctly and don’t break existing code.
 
 ### Improving documentation
 
-Documentation is crucial to every Scientific Python project since it is the way in which users can learn everything about it.
-One way to contribute to a project is by improving it’s documentation.
-This doesn’t mean you need to write new documentation (which you can by following the docs contributing guide), but there are other ways you can help.
+Another way to contribute to a project is by improving it’s documentation.
+Documentation is crucial for every Scientific Python project since that is how users learn how to use it.
+This doesn’t mean you need to write new documentation (which you can by following the docs contributing guide)—there are other ways you can help too.
 
 1. Many projects have tutorials which you can review and report confusing or missing parts.
 2. Find typos and minor errors in docs and report them in the docs repository issue tracker.
 3. If you feel like creating your own content, you can write your own guides and tutorials.
-There are several materials you can produce: how-to’s, deep-dive explanations, examples, notebooks, videos, etc.
-4. Improving docstrings within the code, and improving documentation style and design is also helpful.
+There are several categories of materials you can produce: how-tos, deep-dive explanations, gallery examples, notebooks, videos, etc.
+4. Apart from content, you can also improve documentation organization and style.
 
 ### Translations
 
-Most Scientific Python projects are developed in English, but an increasing number use platforms to translate their interface, webpage, or documentation.
-If you speak another language and feel comfortable translating, this is a way you can help.
-Projects use platforms as Transifex, weblate, or crowdin where you can join as a volunteer contributor.
+Most Scientific Python projects are developed in English, but an increasing number use online platforms such as Crowdin to translate their interface, webpage, and documentation.
+If you speak a language other than English and feel comfortable translating, this is yet another way you can help.
 
 ### Participating in the community
 
-Every Scientific Python project has its own community which you can be part of.
-You can get involved in online conversations and discussions about the projects, offer help to others, come to community meetings, or teach others about the project.
-You can even help with community outreach by sharing content on Twitter, organizing code sprints, participating in the newsletter or writing blogs.
+Every Scientific Python project has a community of volunteers that you can be part of.
+You can get involved in online conversations and discussions about the projects, offer help to newcomers, come to community meetings, or teach others about the project.
+You can even help with community outreach by sharing content on Twitter, organizing code sprints, posting newsletter updates, or writing blogs.
 
-There are many ways to contribute to Scientific Python projects so if you can think of another one, feel free to reach out to maintainers and I’m sure they will be happy to receive all the help they can get.
+As you've seen, there are many ways to contribute to Scientific Python! No matter what you have to offer, go ahead reach out to project maintainers: they will be happy to receive all the help they can get.

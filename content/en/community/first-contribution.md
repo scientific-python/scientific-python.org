@@ -40,7 +40,7 @@ Before you start, make sure you have the following:
 - Git installed in your computer
 - Conda installed in your computer
 
-There are some links below the video to help you get these elements ready in case you are missing some. *(We could also make short How-to videos to show people how to set up these things)*
+There are some links below the video to help you get these elements ready in case you are missing some.
 
 Now, we can get started.
 

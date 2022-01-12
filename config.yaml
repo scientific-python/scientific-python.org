@@ -84,6 +84,10 @@ languages:
         icon: github
       - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
         icon: youtube
+      - link: https://facebook.com/scientific.python
+        icon: facebook
+      - link: https://twitter.com/scipy_ecosystem
+        icon: twitter
       quicklinks:
         column1:
           title: ""

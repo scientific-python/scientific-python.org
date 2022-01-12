@@ -21,11 +21,11 @@ in the overall goals and decision-making processes for each project.
 ## Understanding the project
 
 Some projects (e.g., NumPy) are used by many projects in the ecosystem.
-Often these projects are mature and relatively full-featured.
-Given there central role in the ecosystem, working on these projects can have a huge impact.
-However, making large changes to these projects may be more challenging than in newer
+Such projects are mature and relatively full-featured.
+Given their central role in the ecosystem, working on these projects can have a huge impact.
+However, making changes to these projects may be more challenging than in newer
 and less central projects.
-It’s not uncommon for even core developers to have pull requests going through iterations for months before being merged.
+It’s not uncommon even for core developers to have pull requests going through iterations for months before being merged.
 
 For example, because NumPy affects pretty much the entire ecosystem, it is going to be very difficult to contribute larger features to and usually requires a NumPy Enhancement Proposal (NEP) to be approved before work is started on it.
 Enhancement Proposals are fairly common for core projects in the ecosystem and consist of a writeup of the planned changes, including a summary of the implementation, pros and cons of it, and sometimes a proof of concept coded up.
@@ -37,10 +37,11 @@ This is important to keep in mind when picking out a project to work on.
 ## Contributing to the ecosystem
 
 The open source Scientific Python community functions differently from a normal work environment because it is largely comprised of people contributing from different timezones in their free time.
-As such, it’s important to recognize that contributors and maintainers may not always be consistent when they’re able to work or get back to you.
+As such, it’s important to recognize that contributors and maintainers may not always be consistent in when they’re able to work or get back to you.
 
-Since so many members are volunteers, any and all contributions are highly valued.
-Sometimes people may miss out on notifications or read something and forget to respond, so if you haven’t heard back from them in a few days, it’s usually safe to ping them to check that they didn’t miss anything.
+Since so many community members are volunteers, any and all contributions are highly valued.
+Maintainers always want to help, but they are often over-subscribed and may miss notifications or read something and forget to respond.
+If you haven’t heard back from them in a few days, it’s usually safe to give them a friendly ping to check.
 
 ## Learn more about a project
 
@@ -49,7 +50,7 @@ projects and find a great fit.
 There are many ways to begin interacting with project communities:
  - Most projects have a developer mailing list.
  - Many projects also have other communication channels for developers and
-   newcomers, such as slack and discord.
+   newcomers, such as slack or discord.
  - Projects often have community meetings for developers or newcomers.
  - Consider [watching a project on GitHub][gh-watching].
 

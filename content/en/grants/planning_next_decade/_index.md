@@ -29,7 +29,7 @@ Our initial focus is on creating a recommendation infrastructure for
 community-wide policy and on improving common engineering infrastructure
 (see the [SPEC]({{< relref "specs" >}}) documents).
 
-Read the [full grant](../doc/scientific-python-planning-grant-2020.pdf).
+Read the [full grant](../../doc/scientific-python-planning-grant-2020.pdf).
 
 _This work is funded in part by the Gordon and Betty Moore Foundation through
 grant GBMF8599 to the University of California, Berkeley._

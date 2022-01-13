@@ -51,7 +51,7 @@ languages:
         # Main hero title
         title: Scientific Python
         # Hero subtitle (optional)
-        subtitle: Ecosystem for scientific computing
+        subtitle: Community owned and developed
         # Button text
         buttontext: Get started
         # Where the main hero button links to

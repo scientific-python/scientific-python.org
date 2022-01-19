@@ -86,7 +86,7 @@ languages:
         icon: youtube
       - link: https://facebook.com/scientific.python
         icon: facebook
-      - link: https://twitter.com/scipy_ecosystem
+      - link: https://twitter.com/scientific_py
         icon: twitter
       quicklinks:
         column1:

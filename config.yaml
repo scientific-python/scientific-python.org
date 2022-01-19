@@ -9,7 +9,7 @@ markup:
     noClasses: false
 
 params:
-  description: Community developed and owned ecosystem for Scientific Computing
+  description: Community developed and owned ecosystem for scientific computing
   images:
   - /images/logo.svg
   plausible:

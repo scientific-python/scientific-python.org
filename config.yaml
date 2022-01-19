@@ -79,10 +79,14 @@ languages:
         icon: github
       - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
         icon: youtube
-      - link: https://facebook.com/scientific.python
-        icon: facebook
       - link: https://twitter.com/scientific_py
         icon: twitter
+      - link: https://facebook.com/scientific.python
+        icon: facebook
+      - link: https://www.instagram.com/scientific.python/
+        icon: instagram
+      - link: https://www.tiktok.com/@scientific.python
+        icon: tiktok
       quicklinks:
         column1:
           title: ""

@@ -1,12 +1,16 @@
-.PHONY: html serve serve-dev serve-all clean github pull calendars themes teams teams-clean
-.DEFAULT_GOAL := html
+.PHONY: help prepare html serve serve-dev clean github calendars teams teams-clean
+.DEFAULT_GOAL := help
 SHELL:=/bin/bash
 
 
-themes/scientific-python-hugo-theme/themes/hugo-fresh:
-	git submodule update --init --recursive
+# Add help text after each target name starting with '\#\#'
+help:   ## show this help
+	@echo -e "Help for this makefile\n"
+	@echo "Possible commands are:"
+	@grep -h "##" $(MAKEFILE_LIST) | grep -v grep | sed -e 's/\(.*\):.*##\(.*\)/    \1: \2/'
 
-themes: themes/scientific-python-hugo-theme/themes/hugo-fresh
+prepare:
+	git submodule update --init
 
 
 CALENDAR_DIR = content/en/calendars
@@ -28,7 +32,6 @@ $(TEAMS_DIR):
 	mkdir -p $(TEAMS_DIR)
 
 $(TEAMS_DIR)/%.md: $(TEAMS_DIR)
-	$(eval TEAM_NAME=$(shell python -c "import re; print(' '.join(x.capitalize() for x in re.split('-|_', '$*')))"))
 	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(TEAMS_DIR)/$*.html
 
 teams-clean:
@@ -36,21 +39,18 @@ teams-clean:
 	  rm -f $(TEAMS_DIR)/$${team}.html ;\
 	done
 
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS))
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates numpy.org team gallery pages
 
 
-html: themes calendars
+html: prepare calendars ## build the website in ./public
 	@hugo --buildDrafts
 	@touch public/.nojekyll
 	@echo "scientific-python.org" > public/CNAME
 
-serve: themes calendars
+serve: prepare calendars ## serve the website
 	@hugo --i18n-warnings --buildDrafts server
 
-serve-all: themes calendars
-	@hugo --i18n-warnings --buildDrafts server
-
-serve-dev: themes calendars
+serve-dev: prepare calendars
 	@hugo --i18n-warnings --buildDrafts server --disableFastRender
 
 clean:
@@ -64,7 +64,3 @@ github: | clean html
 	  --message "Update website" \
 	  --force \
 	     ./public git@github.com:scientific-python/scientific-python.org-deployed
-
-pull:
-	git pull origin main
-	cd content/specs && git pull origin main

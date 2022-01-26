@@ -1,5 +1,5 @@
 {{ $page := . }}
-{{ $isMeta := gt (len (split .Path "/")) 2 }}
+{{ $isSpec := eq (len (findRE "^spec-\\d*" .File.ContentBaseName)) 1 }}
 <div class="spec-meta">
   <table>
     {{ $meta_fields := (slice "author" "discussion" "history" "endorsed-by") }}
@@ -18,7 +18,8 @@
         {{ $link := printf "https://github.com/scientific-python/specs/commits/main/%s" $path }}
         {{ $val = printf "<a href=\"%s\">%s</a>" $link $link }}
       {{- end -}}
-      {{ if not (and $isMeta (in (slice "endorsed-by" "discussion" ) $attr)) }}
+      {{ $isSpecField := (in (slice "endorsed-by" "discussion" ) $attr) }}
+      {{ if (or $isSpec (not $isSpecField)) }}
         <tr class="field">
           <td class="field-name">
             {{ $attr | humanize }}:

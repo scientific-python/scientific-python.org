@@ -13,7 +13,7 @@ and place it somewhere on your path.
 Before building, you will need the site theme:
 
 ```
-git submodule update --init --recursive
+git submodule update --init
 ```
 
 For development, start the development server using

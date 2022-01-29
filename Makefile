@@ -43,15 +43,15 @@ teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates team 
 
 
 html: prepare calendars ## build the website in ./public
-	@hugo --buildDrafts
+	@hugo
 	@touch public/.nojekyll
 	@echo "scientific-python.org" > public/CNAME
 
 serve: prepare calendars ## serve the website
-	@hugo --i18n-warnings --buildDrafts server
+	@hugo --i18n-warnings server
 
 serve-dev: prepare calendars
-	@hugo --i18n-warnings --buildDrafts server --disableFastRender
+	@hugo --i18n-warnings server --disableFastRender
 
 clean:
 	rm -rf public

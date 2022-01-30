@@ -1,4 +1,4 @@
-.PHONY: help prepare html serve serve-dev clean github calendars teams teams-clean
+.PHONY: help prepare html serve serve-dev clean calendars teams teams-clean
 .DEFAULT_GOAL := help
 SHELL:=/bin/bash
 
@@ -11,7 +11,6 @@ help:   ## show this help
 
 prepare:
 	git submodule update --init
-
 
 CALENDAR_DIR = content/calendars
 
@@ -44,8 +43,6 @@ teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates team 
 
 html: prepare calendars ## build the website in ./public
 	@hugo
-	@touch public/.nojekyll
-	@echo "scientific-python.org" > public/CNAME
 
 serve: prepare calendars ## serve the website
 	@hugo --i18n-warnings server
@@ -55,12 +52,3 @@ serve-dev: prepare calendars
 
 clean:
 	rm -rf public content/calendars/*.ics
-
-github: | clean html
-	./push_dir_to_repo.py \
-	  --branch main \
-	  --email sprintbot@sprintbot \
-	  --committer "sprintbot" \
-	  --message "Update website" \
-	  --force \
-	     ./public git@github.com:scientific-python/scientific-python.org-deployed

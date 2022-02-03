@@ -44,7 +44,7 @@ and since there are already two, we need to add a further
 {{ $transcript := $s | markdownify | safeHTML }}
 
 <div class="youtube">
-  <h{{ $levelOffset }} class="video-title">
+  <h{{ $levelOffset }} id="transcript-{{ $title | anchorize }}" class="video-title">
     {{ $title }}
   </h{{ $levelOffset }}>
   <iframe src="https://www.youtube.com/embed/{{ $id }}?enablejsapi=1&modestbranding=0" allowfullscreen class="youtube"></iframe>

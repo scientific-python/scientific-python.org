@@ -15,7 +15,8 @@ by running `python3`), you can skip to "Set up a virtual environment".
 
 ## Python.org
 
-This is the official Python distribution, which uses the `pip` package manager.
+This is the official Python distribution, which uses the `pip` package manager.  `pip` installs packages from Python Package Index, or [PyPI](https://pypi.org/) for short.
+
 Download the installer from https://www.python.org/downloads/.
 
 ### Set up a virtual environment

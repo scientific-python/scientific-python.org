@@ -26,8 +26,4 @@ Here are some useful links:
 
 {{< youtube_page page="ecosystem/install" levelOffset=2 >}}
 
-{{< youtube_page page="ecosystem/pip" levelOffset=2 >}}
-
-{{< youtube_page page="ecosystem/conda" levelOffset=2 >}}
-
 {{< youtube_page page="ecosystem/next-steps" levelOffset=2 >}}

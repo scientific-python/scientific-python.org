@@ -11,9 +11,9 @@ itself installed.  There are two, largely equivalent, ways of doing
 that, and we describe both below.
 
 If you have a working version of Python on your system already (check
-by running `python3`), you can skip to "Set up a virtual environment".
+by running `python3`), you can skip to setting up a virtual environment.
 
-## Python.org
+## Segment 1: Python.org
 
 This is the official Python distribution, which uses the `pip` package manager.  `pip` installs packages from Python Package Index, or [PyPI](https://pypi.org/) for short.
 
@@ -49,7 +49,18 @@ You are now ready to install Scientific Python packages using `pip`!  For exampl
 pip install ipython numpy scipy
 ```
 
-## Mambaforge
+You should now be able to run IPython (the interactive Python shell) to try out NumPy:
+
+```
+$ ipython
+
+In [1]: import numpy as np
+
+In [2]: np.linspace(0, 10, 5)
+Out[2]: array([ 0. ,  2.5,  5. ,  7.5, 10. ])
+```
+
+## Segment 2: Mambaforge
 
 Mambaforge is a small Python distribution based around the mamba
 package manager, and installs packages from the community repository
@@ -89,8 +100,6 @@ For example:
 ```
 mamba install ipython numpy scipy
 ```
-
-## Try it out!
 
 You should now be able to run IPython (the interactive Python shell) to try out NumPy:
 

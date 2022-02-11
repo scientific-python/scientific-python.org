@@ -1,5 +1,5 @@
 [submodule "content/specs"]
-	path = content/en/specs
+	path = content/specs
 	url = https://github.com/scientific-python/specs
 	branch = main
 [submodule "themes/scientific-python-hugo-theme"]

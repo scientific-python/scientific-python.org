@@ -14,6 +14,11 @@ draft: false
 - Contributing to Open Source: First steps
 -->
 
+<!--
+-Hello everyone, I’m Juanita.
+-Welcome to the Scientific Python videos! Today I will be sharing with you how to get started with Open Source.
+-->
+
 ## Choosing a project to work on
 
 How should you choose which project to work on?
@@ -40,9 +45,9 @@ Other tools we use daily include:
 Take a look below for links on how to learn these tools.
 
 - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-- ...
-- ...
-- ...
+- https://tutorial.djangogirls.org/en/intro_to_command_line/
+- https://transitionintotech.com/choose-your-code-editor/
+- https://realpython.com/python-ides-code-editors-guide/
 
 ## First contribution
 
@@ -61,10 +66,13 @@ The maintainers will be happy to help!
 
 For more details, also check out our `First contribution` video.
 
-## What next
+## What's next
 
 Once you’re comfortable making small changes to the project, you can start taking on bigger features.
 There are many different ways to help: you may, e.g., implement new features, write documentation, refactor and clean up code, improve testing, work on build infrastructure, and so forth.
 
 No matter what you contribute, or whether you contribution is big or small, it is much appreciated.
-Thank you for helping out!
+
+<!--
+-Thank you for helping out and welcome to Scientific Python!
+-->

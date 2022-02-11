@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+{{ $pageLink := .Permalink }}
+
+<section class="content-padding flex-row">
+    <div class="shortcuts-container">
+        <div class="shortcuts-title">
+            <img src="/images/icons/mui-icons_format-list-bulleted.svg"/>
+            On this page
+        </div>
+        <div id="shortcuts"></div>
+    </div>
+    <div class="content-container">
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">{{ .Title }}</h1>
+                <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
+                <div class="divider"></div>
+            </div>
+        </div>
+
+        {{ .Content }}
+
+        <div class="calendar-list">
+          {{ range $key, $value := $.Site.Data.calendars }}
+          <div class="calendar"><a href="{{ $key }}.ics">{{ .name }}</a>
+            <img
+              class="calendar-copy"
+              src="/images/content_copy.svg"
+              onclick="navigator.clipboard.writeText('{{ path.Join $pageLink (printf "%s.ics" $key) }}');"
+            />
+            {{ range .events }}
+            <div class="calendar-event">{{ .summary }}</div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+
+        <h3 id="subscribe-google-calendar">How to subscribe using Google Calendar</h3>
+        Instructions from <a href="https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop">the Google Calendar docs</a>:
+        <ol>
+          <li>Open Google Calendar</li>
+          <li>On the left, next to "Other calendars," click Add Add other calendars and then From URL.</li>
+          <li>Enter the calendar's address.</li>
+          <li>Click Add calendar. The calendar appears on the left, under "Other calendars."</li>
+        </ol>
+        It may take up to 12 hours for calendar changes to propagate.
+    </div>
+  </div>
+</section>
+
+{{ end }}

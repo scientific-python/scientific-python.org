@@ -19,7 +19,7 @@ $(CALENDAR_DIR):
 	mkdir -p $(CALENDAR_DIR)
 
 $(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
-	python calendars/yaml2ics/yaml2ics.py $< > $@
+	python tools/yaml2ics/yaml2ics.py $< > $@
 
 calendars: $(CALENDAR_DIR)/numpy.ics
 
@@ -54,7 +54,7 @@ serve-dev: prepare calendars
 	@hugo --i18n-warnings server --disableFastRender
 
 clean:
-	rm -rf public
+	rm -rf public content/en/calendars/*.ics
 
 github: | clean html
 	./push_dir_to_repo.py \

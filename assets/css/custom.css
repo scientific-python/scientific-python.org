@@ -214,3 +214,14 @@ code {
   background-color: #f1f1f1;
   padding: 1rem;
 }
+
+.calendar-list .calendar-copy {
+  height: 1rem;
+  cursor: pointer;
+  padding-left: 0.25rem;
+}
+
+.calendar-list .calendar-event {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+}

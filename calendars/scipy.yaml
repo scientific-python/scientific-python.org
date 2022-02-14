@@ -1,0 +1,29 @@
+name: SciPy Community Calendar
+events:
+  - summary: SciPy Community Call
+    description: |
+      This is the Europe/Asia-friendly meeting.
+
+      Meeting notes: https://hackmd.io/pyhudrC5TgSwdJtpPldHgQ
+    begin: 2022-02-02 12:00:00 +00:00
+    end: 2022-02-02 13:00:00 +00:00
+    url: https://us06web.zoom.us/j/6345425936
+    repeat:
+      interval:
+        # seconds, minutes, hours, days, weeks, months, years
+        days: 28
+      until: 2025-01-01 00:00:00 +00:00
+
+  - summary: SciPy Community Call
+    description: |
+      This is the US/Pacific-friendly meeting.
+
+      Meeting notes: https://hackmd.io/pyhudrC5TgSwdJtpPldHgQ
+    begin: 2022-02-16 20:00:00 +00:00
+    end: 2022-02-16 21:00:00 +00:00
+    url: https://us06web.zoom.us/j/6345425936
+    repeat:
+      interval:
+        # seconds, minutes, hours, days, weeks, months, years
+        days: 28
+      until: 2025-01-01 00:00:00 +00:00

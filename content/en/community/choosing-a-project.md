@@ -6,21 +6,26 @@ draft: false
 
 **[DRAFT] This video has not been recorded yet.**
 
+<!--
+-Hello everyone, I’m Juanita.
+-Welcome to the Scientific Python videos! Today I will help you choose a project to start contributing to the Scientific Python Ecosystem.
+-->
+
 ## Contributing to a Scientific Python project
 
 A common question from new contributors is: "how do I choose which project to
 contribute to"?
-Some people end up contributing to many different projects, whereas others
+Some people end up contributing to many different projects, while others
 tend to focus their effort on a single project.
 Ultimately, the most important factors in this decision are your own personal
 goals and interests!
 The projects in the ecosystem have a lot in common; however, it is important to
-recognize the each project has it's own community, so there may be differences
+recognize that each project has it's own community, so there may be differences
 in the overall goals and decision-making processes for each project.
 
 ## Understanding the project
 
-Some projects (e.g., NumPy) are used by many projects in the ecosystem.
+Some projects like NumPy are used by many projects in the ecosystem.
 Such projects are mature and relatively full-featured.
 Given their central role in the ecosystem, working on these projects can have a huge impact.
 However, making changes to these projects may be more challenging than in newer
@@ -55,3 +60,8 @@ There are many ways to begin interacting with project communities:
  - Consider [watching a project on GitHub][gh-watching].
 
 [gh-watching]: https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions
+
+<!--
+-I hope these tips help you find the right project to contribute to. Thanks for watching and welcome to Scientific Python!
+-->
+

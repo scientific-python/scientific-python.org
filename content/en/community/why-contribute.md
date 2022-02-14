@@ -18,14 +18,19 @@ Possible points to highlight, at least from the coding perspective:
 https://bids-numpy.github.io/workshop_site_AIMS_2021/day_1/why_oss/
 -->
 
+<!--
+-Hello everyone, I’m Juanita.
+-Welcome to the Scientific Python videos! Today I will be sharing why contributing to open source Scientific Python is impactful, and how it can benefit you.
+-->
+
 Your time is the most valuable thing you have, so when taking part in volunteer activities it is always worth asking "why?".
-We'd like to share why contributing to open source Scientific Python is impactful, and also how it can benefit you.
+Here are a few reasons:
 
 ## Advance science
 
-First, Scientific Python is about science.  And if you believe that science makes the world better, then improving scientific tooling is of utmost importance!
+First, Scientific Python is about science.  And if you believe that science makes the world better, then improving scientific tooling is extremely important!
 By putting better open source tools in the hands of researchers, we can help them to produce accurate results, do so in a transparent way, while also improving reproducibility.
-We believe that scientific tools should be open, and that it should belong to those who use it.
+We believe that scientific tools should be open, and that they should belong to those who use them.
 
 ## Make an impact
 

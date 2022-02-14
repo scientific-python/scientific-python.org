@@ -1,6 +1,6 @@
 name: SciPy Community Calendar
 events:
-  - summary: SciPy Community Call
+  - summary: SciPy Community Call (Europe/Asia)
     description: |
       This is the Europe/Asia-friendly meeting.
 
@@ -14,9 +14,9 @@ events:
         days: 28
       until: 2025-01-01 00:00:00 +00:00
 
-  - summary: SciPy Community Call
+  - summary: SciPy Community Call (Americas)
     description: |
-      This is the US/Pacific-friendly meeting.
+      This is the Americas-friendly meeting.
 
       Meeting notes: https://hackmd.io/pyhudrC5TgSwdJtpPldHgQ
     begin: 2022-02-16 20:00:00 +00:00

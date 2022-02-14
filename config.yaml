@@ -102,6 +102,8 @@ languages:
           links:
             - text: SPECs
               link: /specs/
+            - text: Calendars
+              link: /calendars
             - text: Grants
               link: /grants/
         column3:

@@ -2,4 +2,4 @@
 title: Community Calendars 📅
 ---
 
-Subscribe from any calender software that supports ICAL by **copying** the following URLs:
+Subscribe from any calender software that supports ICAL by either **copying** or **downloading** the following URLs:

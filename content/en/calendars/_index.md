@@ -2,6 +2,4 @@
 title: Community Calendars 📅
 ---
 
-These are calendars for projects in the Scientific Python community.
-You can subscribe to these calendars from any calender software that
-supports ICAL.
+Subscribe from any calender software that supports ICAL by either **copying** or **downloading** the following URLs:

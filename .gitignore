@@ -1,5 +1,5 @@
 .hugo_build.lock
-content/en/calendars/*.ics
+content/calendars/*.ics
 public
 resources
 *~

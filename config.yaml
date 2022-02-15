@@ -1,3 +1,4 @@
+title: Scientific Python
 baseURL: 'https://scientific-python.org'
 languageCode: en-us
 theme: scientific-python-hugo-theme
@@ -10,103 +11,102 @@ markup:
 
 params:
   description: Community developed and owned ecosystem for scientific computing
+
   images:
   - /images/logo.svg
+
   plausible:
     dataDomain: scientific-python.org
+
   post_meta:
     - author
     - date
+
   style:
     vars:
       highlightColor: '#004811'
       menuHighlightColor: '#5ca038'
 
-languages:
-  en:
+  navbarlogo:
+    image: logo.svg
+    altText: A green tree on a white hill at the end of a green path in the shape of the letter 'S'.
+    text: Scientific Python
+    link: /
+
+  navbar:
+    - title: Ecosystem
+      url: /ecosystem/
+    - title: Community
+      url: /community/
+    - title: Forum
+      url: https://discuss.scientific-python.org
+
+  hero:
+    # Main hero title
     title: Scientific Python
-    contentDir: content/en
+    # Hero subtitle (optional)
+    subtitle: Community developed, community owned
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: /ecosystem/
+    # Hero image (from static/images/___)
+    image: logo.svg
 
-    languageName: English
-    params:
-      navbarlogo:
-        image: logo.svg
-        altText: A green tree on a white hill at the end of a green path in the shape of the letter 'S'.
-        text: Scientific Python
-        link: /
-      navbar:
-        - title: Ecosystem
-          url: /ecosystem/
-        - title: Community
-          url: /community/
-        - title: Forum
-          url: https://discuss.scientific-python.org
+  keyfeatures:
+    features:
+    - title: Built on Python
+      text: Python is a powerful, general-purpose programming language. The scientific Python ecosystem provides the tools that make Python the premier language for scientific computing.
+    - title: Open source
+      text: Distributed under unrestrictive open source licenses, projects are developed and maintained publicly and accessible to all.
+    - title: Community-driven
+      text: Projects are developed by open communities composed primarily of the users of the software.
+    - title: Extensive and high quality
+      text: The scientific Python ecosystem comprises performant, well-tested libraries providing tools for computing across all scientific domains.
+    - title: Broadly applicable
+      text: The ecosystem is widely used in scientific research and teaching.
+    - title: Coordinated, readable, reproducible
+      text: Projects in the ecosystem are completely interoperable, providing the basis for readable, reproducible scientific computation.
 
-      hero:
-        # Main hero title
-        title: Scientific Python
-        # Hero subtitle (optional)
-        subtitle: Community developed, community owned
-        # Button text
-        buttontext: Get started
-        # Where the main hero button links to
-        buttonlink: /ecosystem/
-        # Hero image (from static/images/___)
-        image: logo.svg
+  section5: false
 
-      keyfeatures:
-        features:
-        - title: Built on Python
-          text: Python is a powerful, general-purpose programming language. The scientific Python ecosystem provides the tools that make Python the premier language for scientific computing.
-        - title: Open source
-          text: Distributed under unrestrictive open source licenses, projects are developed and maintained publicly and accessible to all.
-        - title: Community-driven
-          text: Projects are developed by open communities composed primarily of the users of the software.
-        - title: Extensive and high quality
-          text: The scientific Python ecosystem comprises performant, well-tested libraries providing tools for computing across all scientific domains.
-        - title: Broadly applicable
-          text: The ecosystem is widely used in scientific research and teaching.
-        - title: Coordinated, readable, reproducible
-          text: Projects in the ecosystem are completely interoperable, providing the basis for readable, reproducible scientific computation.
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+    - link: https://github.com/scientific-python/
+      icon: github
+    - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
+      icon: youtube
+    - link: https://twitter.com/scientific_py
+      icon: twitter
+    - link: https://facebook.com/scientific.python
+      icon: facebook
+    - link: https://www.instagram.com/scientific.python/
+      icon: instagram
+    - link: https://www.tiktok.com/@scientific.python
+      icon: tiktok
 
-      section5: false
-
-    footer:
-      logo: logo.svg
-      socialmediatitle: ""
-      socialmedia:
-      - link: https://github.com/scientific-python/
-        icon: github
-      - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
-        icon: youtube
-      - link: https://twitter.com/scientific_py
-        icon: twitter
-      - link: https://facebook.com/scientific.python
-        icon: facebook
-      - link: https://www.instagram.com/scientific.python/
-        icon: instagram
-      - link: https://www.tiktok.com/@scientific.python
-        icon: tiktok
-      quicklinks:
-        column1:
-          title: ""
-          links:
-            - text: About
-              link: /about/
-            - text: Roadmap
-              link: /roadmap/
-            - text: Code of Conduct
-              link: /code_of_conduct/
-        column2:
-          title: "Maintainers"
-          links:
-            - text: SPECs
-              link: /specs/
-            - text: Grants
-              link: /grants/
-            - text: Calendars
-              link: /calendars
-        column3:
-          links:
-            - text: Press kit
-              link: /press-kit
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: About
+            link: /about/
+          - text: Roadmap
+            link: /roadmap/
+          - text: Code of Conduct
+            link: /code_of_conduct/
+      column2:
+        title: "Maintainers"
+        links:
+          - text: SPECs
+            link: /specs/
+          - text: Grants
+            link: /grants/
+          - text: Calendars
+            link: /calendars
+      column3:
+        links:
+          - text: Press kit
+            link: /press-kit

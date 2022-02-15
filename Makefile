@@ -13,7 +13,7 @@ prepare:
 	git submodule update --init
 
 
-CALENDAR_DIR = content/en/calendars
+CALENDAR_DIR = content/calendars
 
 $(CALENDAR_DIR):
 	mkdir -p $(CALENDAR_DIR)
@@ -54,7 +54,7 @@ serve-dev: prepare calendars
 	@hugo --i18n-warnings server --disableFastRender
 
 clean:
-	rm -rf public content/en/calendars/*.ics
+	rm -rf public content/calendars/*.ics
 
 github: | clean html
 	./push_dir_to_repo.py \

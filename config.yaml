@@ -1,3 +1,4 @@
+title: Scientific Python
 baseURL: 'https://scientific-python.org'
 languageCode: en-us
 theme: scientific-python-hugo-theme
@@ -9,7 +10,6 @@ markup:
     noClasses: false
 
 params:
-  title: Scientific Python
   description: Community developed and owned ecosystem for scientific computing
 
   images:

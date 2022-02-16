@@ -27,7 +27,7 @@
             <img
               class="calendar-copy"
               src="/images/content_copy.svg"
-              onclick="navigator.clipboard.writeText('{{ path.Join $pageLink (printf "%s.ics" $key) }}');"
+              onclick="navigator.clipboard.writeText('{{ printf "%s%s.ics" $pageLink $key }}');"
             />
             {{ range .events }}
             <div class="calendar-event">{{ .summary }}</div>

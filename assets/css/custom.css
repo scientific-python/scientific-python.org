@@ -215,6 +215,15 @@ code {
   padding: 1rem;
 }
 
+.calendar-list .calendar {
+  padding-bottom: 1rem;
+}
+
+.calendar-list .calendar:last-of-type {
+  padding-bottom: 0rem;
+}
+
+
 .calendar-list .calendar-copy {
   height: 1rem;
   cursor: pointer;

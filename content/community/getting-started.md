@@ -38,16 +38,15 @@ As with any trade, there are certain fundamental tools you should learn.
 Since the ecosystem is built in Python, you'll need to know how to program in that language.
 Other tools we use daily include:
 
-- git and Github
+- a good editor,
 - the command-line terminal, and
-- a good editor.
+- git and Github.
 
 Take a look below for links on how to learn these tools.
 
-- https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-- https://tutorial.djangogirls.org/en/intro_to_command_line/
-- https://transitionintotech.com/choose-your-code-editor/
-- https://realpython.com/python-ides-code-editors-guide/
+- [Software Installation](../user/software/)
+- [Using the Bash Shell](../user/bash/)
+- [Introduction to Git](../user/git-intro/)
 
 ## First contribution
 

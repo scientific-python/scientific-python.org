@@ -20,9 +20,9 @@ Here are some useful links:
 - [cookbook](https://scipy-cookbook.readthedocs.io/)
 - [blogs](https://planet.scipy.org/)
 
--->
 
-{{< youtube_page page="ecosystem-introduction" levelOffset=2 >}}
+{{< youtube_page page="ecosystem/background" levelOffset=2 >}}
+-->
 
 {{< youtube_page page="ecosystem/install" levelOffset=2 >}}
 

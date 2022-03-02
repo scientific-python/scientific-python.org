@@ -74,18 +74,19 @@ params:
     logo: logo.svg
     socialmediatitle: ""
     socialmedia:
+      # Find icon names at https://fontawesome.com/search
     - link: https://github.com/scientific-python/
-      icon: github
+      icon: fa-brands fa-github
     - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
-      icon: youtube
+      icon: fa-brands fa-youtube
     - link: https://twitter.com/scientific_py
-      icon: twitter
+      icon: fa-brands fa-twitter
     - link: https://facebook.com/scientific.python
-      icon: facebook
+      icon: fa-brands fa-facebook
     - link: https://www.instagram.com/scientific.python/
-      icon: instagram
+      icon: fa-brands fa-instagram
     - link: https://www.tiktok.com/@scientific.python
-      icon: tiktok
+      icon: fa-brands fa-tiktok
 
     quicklinks:
       column1:

@@ -45,10 +45,10 @@ html: prepare calendars ## build the website in ./public
 	@hugo
 
 serve: prepare calendars ## serve the website
-	@hugo --i18n-warnings server
+	@hugo --printI18nWarnings server
 
 serve-dev: prepare calendars
-	@hugo --i18n-warnings server --disableFastRender
+	@hugo --printI18nWarnings --disableFastRender server
 
 clean:
 	rm -rf public content/calendars/*.ics

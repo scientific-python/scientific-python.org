@@ -14,6 +14,9 @@ https://github.com/gohugoio/hugo/releases
 
 and place it somewhere on your path.
 
+You will also require the development version of
+[ics](https://github.com/ics-py/ics-py).
+
 ## Building the website
 
 For development, start the development server using

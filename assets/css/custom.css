@@ -198,6 +198,27 @@ code {
   font-style: italic;
 }
 
+.video-transcript-button {
+  width: 640px;
+  max-width: 100%;
+  background-color: #ddd;
+  color: #444;
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.25rem;
+}
+
+.video-transcript-button:hover {
+  background-color: #bbb;
+}
+
+/* The little triangle on the transcript button */
+.video-transcript-button-pointer {
+}
+
 .video-transcript-button .video-transcript-button-pointer::before{
   content: "▼";
 }

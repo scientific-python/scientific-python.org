@@ -198,44 +198,6 @@ code {
   font-style: italic;
 }
 
-.video-transcript-button {
-  width: 640px;
-  max-width: 100%;
-  background-color: #ddd;
-  color: #444;
-  cursor: pointer;
-  padding: 1rem;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 1.25rem;
-}
-
-.video-transcript-button:hover {
-  background-color: #bbb;
-}
-
-/* The little triangle on the transcript button */
-.video-transcript-button-pointer {
-}
-
-.video-transcript-button .video-transcript-button-pointer::before{
-  content: "▼";
-}
-
-.video-transcript-button.active .video-transcript-button-pointer::before{
-  content: "▶";
-}
-
-.video-transcript {
-  max-width: 640px;
-  width: 100%;
-  display: block;
-  overflow: auto;
-  background-color: #f1f1f1;
-  padding: 1rem;
-}
-
 .calendar-list .calendar {
   padding-bottom: 1rem;
 }

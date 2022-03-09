@@ -47,53 +47,6 @@ table.spec__table thead {
 .readcode-code {
 }
 
-.notice {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  color: #666;
-}
-
-.notice-type {
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 0rem 1rem 0rem 1rem;
-  width: 100%;
-  color: white;
-  display: inline-block;
-}
-
-.notice-content {
-  padding: 0.5rem 1rem 0.5rem 1rem;
-}
-
-.note-notice .notice-type {
-  background: #6AB0DE;
-}
-.note-notice .notice-content {
-  background: #E7F2FA;
-}
-
-.info-notice .notice-type {
-  background: #F0B37E;
-}
-.info-notice .notice-content {
-  background: #FFF2DB;
-}
-
-.warning-notice .notice-type {
-  background: rgba(217, 83, 79, 0.8);
-}
-.warning-notice .notice-content {
-  background: #FAE2E2;
-}
-.tip-notice .notice-type {
-  background: rgba(92, 184, 92, 0.8);
-}
-
-.tip-notice .notice-content {
-  background: #E6F9E6;
-}
-
 .menu-spacer {
   margin-left: auto;
 }

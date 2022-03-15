@@ -1,6 +1,5 @@
 ---
 title: "Ecosystem"
-draft: false
 shortcutDepth: 1
 ---
 

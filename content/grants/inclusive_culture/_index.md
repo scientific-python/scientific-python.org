@@ -1,6 +1,5 @@
 ---
 title: "Advancing an inclusive culture in the scientific Python ecosystem"
-draft: false
 summary: |
   This joint NumPy, SciPy, Matplotlib, and Pandas project focuses on
   creating a DEI action plan and dedicated "Contributor Experience Lead" positions

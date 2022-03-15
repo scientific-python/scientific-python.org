@@ -1,6 +1,5 @@
 ---
 youtube_id: JjQM83nKZbk
-draft: false
 ---
 
 Hi everyone,

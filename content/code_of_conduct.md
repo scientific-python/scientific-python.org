@@ -1,6 +1,5 @@
 ---
 title: "Code of Conduct"
-draft: false
 ---
 
 This code of conduct applies to all spaces managed by the scientific Python

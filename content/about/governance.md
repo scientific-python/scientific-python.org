@@ -1,6 +1,5 @@
 ---
 title: "Governance and Decision Making"
-draft: false
 ---
 
 # Abstract

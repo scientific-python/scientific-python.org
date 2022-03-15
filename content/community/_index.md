@@ -1,6 +1,5 @@
 ---
 title: "Community"
-draft: false
 ---
 
 Healthy communities are built when everyone's voice is heard,

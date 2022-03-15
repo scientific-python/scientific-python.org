@@ -1,6 +1,5 @@
 ---
 title: "Planning for the Next Decade of Scientific Python"
-draft: false
 summary: |
   Project to better coordinate the ecosystem and develop a community-vetted decadal plan
   for the Python programming language for the future of data science.

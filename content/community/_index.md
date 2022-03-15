@@ -1,6 +1,5 @@
 ---
 title: "Community"
-draft: false
 ---
 
 Healthy communities are built when everyone's voice is heard,
@@ -17,16 +16,3 @@ Community members must adhere to our [code of conduct]({{< relref "/code_of_cond
 - [Diversity & Inclusion in Scientific Computing (DISC) group](https://numfocus.org/programs/diversity-inclusion)
 - [Advancing an inclusive culture in the scientific Python ecosystem]({{< relref "/inclusive_culture" >}})
 
-## How to contribute
-
-The scientific Python ecosystem welcomes your expertise and enthusiasm!
-
-{{< youtube_page page="why-contribute" levelOffset=3 >}}
-
-{{< youtube_page page="ways-to-contribute" levelOffset=3 >}}
-
-{{< youtube_page page="getting-started" levelOffset=3 >}}
-
-{{< youtube_page page="choosing-a-project" levelOffset=3 >}}
-
-{{< youtube_page page="first-contribution" levelOffset=3 >}}

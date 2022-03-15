@@ -1,6 +1,5 @@
 ---
 title: SPECs announced at SciPy 2021
-draft: false
 summary: |
   Scientific Python Ecosystem Coordination project announcement at SciPy2021.
 authors: ["Jarrod Millman"]
@@ -11,4 +10,4 @@ sidebar: false
 Stéfan van der Walt announces the Scientific Python Ecosystem Coordination project and
 talks about the SPEC documents during SciPy 2021.
 
-{{< youtube_page page="video" >}}
+{{< youtube page="video" >}}{{< /youtube >}}

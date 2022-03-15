@@ -1,6 +1,5 @@
 ---
 title: "About"
-draft: false
 ---
 
 With an extensive and high-quality ecosystem of libraries, scientific Python

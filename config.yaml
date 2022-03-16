@@ -68,13 +68,12 @@ params:
     - title: Coordinated, readable, reproducible
       text: Projects in the ecosystem are completely interoperable, providing the basis for readable, reproducible scientific computation.
 
-  section5: false
-
   footer:
     logo: logo.svg
     socialmediatitle: ""
     socialmedia:
-      # Find icon names at https://fontawesome.com/search
+    - link: https://scientific-python.org
+      icon: scientific-python
     - link: https://github.com/scientific-python/
       icon: github
     - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
@@ -87,6 +86,8 @@ params:
       icon: instagram
     - link: https://www.tiktok.com/@scientific.python
       icon: tiktok
+    - link: https://blog.scientific-python.org/atom.xml
+      icon: rss-feed
     - link: https://discuss.scientific-python.org
       icon: discourse
 

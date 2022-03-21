@@ -19,8 +19,8 @@ events:
       The fortnightly NumPy development triage call.
 
       Meeting notes: https://hackmd.io/68i_JvOYQfy9ERiHgXMPvg
-    begin: 2022-01-26 17:00:00 +00:00
-    end: 2022-01-26 18:00:00 +00:00
+    begin: 2022-03-23 16:00:00 +00:00
+    end: 2022-03-23 17:00:00 +00:00
     url: https://berkeley.zoom.us/j/762261535
     repeat:
       interval:

@@ -34,12 +34,16 @@ params:
     link: /
 
   navbar:
-    - title: Ecosystem
-      url: /ecosystem/
-    - title: Community
-      url: /community/
-    - title: Forum
-      url: https://discuss.scientific-python.org
+    - title: Home
+      url: /
+    - title: User Guide
+      url: https://learn.scientific-python.org/users/
+    - title: Contributor Guide
+      url: https://learn.scientific-python.org/contributors/
+    - title: Maintainer Guide
+      url: https://learn.scientific-python.org/maintainers/
+    - title: Blog
+      url: https://blog.scientific-python.org/
 
   hero:
     # Main hero title
@@ -49,7 +53,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: /ecosystem/
+    buttonlink: https://learn.scientific-python.org/
     # Hero image (from static/images/___)
     image: logo.svg
 

@@ -9,7 +9,7 @@ computing, and data science.
 This website is part of the Scientific Python project, which aims to better
 coordinate the ecosystem and prepare Scientific Python for the next decade.
 
-# Community
+## Community
 
 Healthy communities are built when everyone's voice is heard,
 when their perspective is valued, and when their work is recognized.
@@ -20,12 +20,12 @@ underrepresented in STEM and the open source scientific Python community.
 
 Community members must adhere to our [code of conduct]({{< relref "/code_of_conduct.md" >}}).
 
-## Diversity, Equity, and Inclusion
+### Diversity, Equity, and Inclusion
 
 - [Diversity & Inclusion in Scientific Computing (DISC) group](https://numfocus.org/programs/diversity-inclusion)
 - [Advancing an inclusive culture in the scientific Python ecosystem]({{< relref "/inclusive_culture" >}})
 
-# People
+## People
 
 As a coordinating effort, the Scientific Python project has several teams that operate across the ecosystem.
 For more information, see our [governance and decision making process]({{< relref "/about/governance" >}}).

@@ -44,7 +44,7 @@ params:
       url: https://learn.scientific-python.org/contributors/
     - title: Maintainer Guide
       url: https://learn.scientific-python.org/maintainers/
-    - title: "\u2197 Discussion Forum"
+    - title: "Discussion Forum \u2197"
       url: https://discuss.scientific-python.org/
 
   hero:

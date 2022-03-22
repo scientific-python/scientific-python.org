@@ -1,5 +1,5 @@
 name: Matplotlib Community Calendar
-timezone:  Europe/Berlin
+timezone: Europe/Berlin
 events:
   - summary: Weekly Matplotlib Call
     description: |

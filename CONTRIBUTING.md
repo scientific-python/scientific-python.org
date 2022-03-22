@@ -3,7 +3,7 @@
 We would love your help!
 
 Feel free to submit patches, issues, feature requests, and pull requests on the
-`GitHub repository <https://github.com/scientific-python/scientific-python.org>`_.
+`GitHub repository <https://github.com/scientific-python/scientific-python.org>`\_.
 
 ## How to submit an issue
 
@@ -56,7 +56,7 @@ Scientific Python projects using GitHub pull requests.
 
     - Go to GitHub. The new branch will show up with a green Pull Request (PR) button---click it.
 
-5.  Review process:
+4.  Review process:
 
     - Every PR update triggers a set of
       [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)
@@ -114,5 +114,5 @@ Once you've fixed all merge conflicts, do:
 
     git commit
 
-**_NOTE:_**  Advanced Git users may want to rebase instead of merge, but we squash
+**_NOTE:_** Advanced Git users may want to rebase instead of merge, but we squash
 and merge PRs either way.

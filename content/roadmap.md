@@ -13,7 +13,7 @@ prepare scientific Python for the next decade of data science.
 We provide resources, planning, and coordination for the community.
 
 Our roadmap indicates the type of large, fundamental changes to individual projects
-and the ecosystem more generally that are likely to take months or years to realize. 
+and the ecosystem more generally that are likely to take months or years to realize.
 Given the distributed decision-making processes of the ecosystem, progress on the
 roadmap is dependent on support and agreement from the community.
 

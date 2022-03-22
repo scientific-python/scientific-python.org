@@ -3,7 +3,7 @@
 We would love your help!
 
 Feel free to submit patches, issues, feature requests, and pull requests on the
-`GitHub repository <https://github.com/scientific-python/scientific-python.org>`\_.
+[GitHub repository](https://github.com/scientific-python/scientific-python.org).
 
 ## How to submit an issue
 

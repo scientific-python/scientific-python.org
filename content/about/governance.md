@@ -57,7 +57,7 @@ Decisions about the future of the project are made through discussion with all m
 All non-sensitive project management discussion takes place on the [public forum](https://discuss.scientific-python.org).
 Occasionally, sensitive discussion may occur on a private list.
 
-Scientific Python uses a *consensus seeking* process for making decisions.
+Scientific Python uses a _consensus seeking_ process for making decisions.
 The group tries to find a resolution that has no open objections among community managers.
 Community managers are expected to distinguish between fundamental objections to a proposal and minor perceived flaws that they can live with, and not hold up the decision making process for the latter.
 If no option can be found without an objection, the decision is escalated to the Community Leaders, who will themselves use consensus seeking to come to a resolution.

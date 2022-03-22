@@ -1,5 +1,5 @@
 title: Scientific Python
-baseURL: 'https://scientific-python.org'
+baseURL: "https://scientific-python.org"
 languageCode: en-us
 theme: scientific-python-hugo-theme
 DefaultContentLanguage: en
@@ -13,7 +13,7 @@ params:
   description: Community developed and owned ecosystem for scientific computing
 
   images:
-  - /images/logo.svg
+    - /images/logo.svg
 
   plausible:
     dataDomain: scientific-python.org
@@ -24,8 +24,8 @@ params:
 
   style:
     vars:
-      highlightColor: '#004811'
-      menuHighlightColor: '#5ca038'
+      highlightColor: "#004811"
+      menuHighlightColor: "#5ca038"
 
   navbarlogo:
     image: logo.svg
@@ -59,41 +59,41 @@ params:
 
   keyfeatures:
     features:
-    - title: Built on Python
-      text: Python is a powerful, general-purpose programming language. The scientific Python ecosystem provides the tools that make Python the premier language for scientific computing.
-    - title: Open source
-      text: Distributed under unrestrictive open source licenses, projects are developed and maintained publicly and accessible to all.
-    - title: Community-driven
-      text: Projects are developed by open communities composed primarily of the users of the software.
-    - title: Extensive and high quality
-      text: The scientific Python ecosystem comprises performant, well-tested libraries providing tools for computing across all scientific domains.
-    - title: Broadly applicable
-      text: The ecosystem is widely used in scientific research and teaching.
-    - title: Coordinated, readable, reproducible
-      text: Projects in the ecosystem are completely interoperable, providing the basis for readable, reproducible scientific computation.
+      - title: Built on Python
+        text: Python is a powerful, general-purpose programming language. The scientific Python ecosystem provides the tools that make Python the premier language for scientific computing.
+      - title: Open source
+        text: Distributed under unrestrictive open source licenses, projects are developed and maintained publicly and accessible to all.
+      - title: Community-driven
+        text: Projects are developed by open communities composed primarily of the users of the software.
+      - title: Extensive and high quality
+        text: The scientific Python ecosystem comprises performant, well-tested libraries providing tools for computing across all scientific domains.
+      - title: Broadly applicable
+        text: The ecosystem is widely used in scientific research and teaching.
+      - title: Coordinated, readable, reproducible
+        text: Projects in the ecosystem are completely interoperable, providing the basis for readable, reproducible scientific computation.
 
   footer:
     logo: logo.svg
     socialmediatitle: ""
     socialmedia:
-    - link: https://scientific-python.org
-      icon: scientific-python
-    - link: https://github.com/scientific-python/
-      icon: github
-    - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
-      icon: youtube
-    - link: https://twitter.com/scientific_py
-      icon: twitter
-    - link: https://facebook.com/scientific.python
-      icon: facebook
-    - link: https://www.instagram.com/scientific.python/
-      icon: instagram
-    - link: https://www.tiktok.com/@scientific.python
-      icon: tiktok
-    - link: https://blog.scientific-python.org/atom.xml
-      icon: rss-feed
-    - link: https://discuss.scientific-python.org
-      icon: discourse
+      - link: https://scientific-python.org
+        icon: scientific-python
+      - link: https://github.com/scientific-python/
+        icon: github
+      - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
+        icon: youtube
+      - link: https://twitter.com/scientific_py
+        icon: twitter
+      - link: https://facebook.com/scientific.python
+        icon: facebook
+      - link: https://www.instagram.com/scientific.python/
+        icon: instagram
+      - link: https://www.tiktok.com/@scientific.python
+        icon: tiktok
+      - link: https://blog.scientific-python.org/atom.xml
+        icon: rss-feed
+      - link: https://discuss.scientific-python.org
+        icon: discourse
 
     quicklinks:
       column1:

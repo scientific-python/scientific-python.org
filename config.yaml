@@ -36,14 +36,16 @@ params:
   navbar:
     - title: Home
       url: /
+    - title: Blog
+      url: https://blog.scientific-python.org/
     - title: User Guide
       url: https://learn.scientific-python.org/users/
     - title: Contributor Guide
       url: https://learn.scientific-python.org/contributors/
     - title: Maintainer Guide
       url: https://learn.scientific-python.org/maintainers/
-    - title: Blog
-      url: https://blog.scientific-python.org/
+    - title: "Discussion Forum \u2197"
+      url: https://discuss.scientific-python.org/
 
   hero:
     # Main hero title

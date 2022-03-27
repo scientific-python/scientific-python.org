@@ -38,12 +38,12 @@ params:
       url: /
     - title: Blog
       url: https://blog.scientific-python.org/
-    - title: User Guide
-      url: https://learn.scientific-python.org/users/
-    - title: Contributor Guide
-      url: https://learn.scientific-python.org/contributors/
-    - title: Maintainer Guide
-      url: https://learn.scientific-python.org/maintainers/
+    #- title: User Guide
+    #  url: https://learn.scientific-python.org/users/
+    #- title: Contributor Guide
+    #  url: https://learn.scientific-python.org/contributors/
+    #- title: Maintainer Guide
+    #  url: https://learn.scientific-python.org/maintainers/
     - title: Discussion Forum
       url: https://discuss.scientific-python.org/
       is_external: true

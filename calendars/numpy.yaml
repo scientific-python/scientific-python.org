@@ -44,13 +44,30 @@ events:
 
   - summary: NumPy Newcomers meeting
     description: |
-      The fortnightly NumPy call for newcomers.
+      This is a meeting with no agenda, meant to provide newcomers with the space 
+      to ask questions, meet other contributors, and chat about NumPy. 
+      Drop in any time and stay as long as you wish.
+      <br />
+      Join us via Zoom: https://us02web.zoom.us/j/87192457898
 
-    begin: 2022-02-10 16:00:00 +00:00
-    end: 2022-02-10 17:00:00 +00:00
-    url: https://us02web.zoom.us/j/87192457898
+    begin: 2022-04-21 16:00:00 +00:00
+    end: 2022-04-21 17:00:00 +00:00
     repeat:
       interval:
         # seconds, minutes, hours, days, weeks, months, years
         days: 14
       until: 2025-01-01 00:00:00 +00:00
+      
+      - summary: NumPy Newcomers meeting
+    description: |
+      SPEAKER: Mars Lee
+      TOPIC: Making NumPy accessible with community workshops: 
+      how we can involve more people with disabilities in data science.
+      <br />
+      Join us via Zoom: https://us02web.zoom.us/j/87192457898
+
+    begin: 2022-04-07 16:00:00 +00:00
+    end: 2022-04-07 17:00:00 +00:00
+  
+   
+      

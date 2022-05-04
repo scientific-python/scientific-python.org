@@ -18,8 +18,6 @@ events:
         days: 7
       until: 2025-01-01 00:00:00
 
-timezone: Europe/Berlin
-events:
   - summary: Monthly Matplotlib New Contributor Meeting
     description: |
       The monthly call for new contributors to the Matplotlib project 🎉

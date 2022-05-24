@@ -28,7 +28,7 @@ events:
         days: 28
       until: 2025-01-01 00:00:00 +00:00
 
-- summary: Monthly SciPy New Contributor Meeting
+  - summary: Monthly SciPy New Contributor Meeting
     description: |
       The monthly call for new contributors to SciPy 🎉
 

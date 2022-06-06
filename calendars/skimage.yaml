@@ -3,7 +3,7 @@ timezone: America/Los_Angeles
 events:
   - summary: scikit-image Community Call (Europe/Africa)
     description: |
-      The scikit-image Community Call. Friendly for Europe/Africa.
+      The scikit-image Community Call. Timezone-friendly for Europe/Africa.
 
       Meeting notes: https://hackmd.io/@alexdesiqueira/skimage_cc
     begin: 2022-06-14 10:00:00
@@ -15,7 +15,7 @@ events:
       until: 2025-01-01 00:00:00
   - summary: scikit-image Community Call (Americas/Oceania)
     description: |
-      The scikit-image Community Call. Friendly for Americas/Oceania.
+      The scikit-image Community Call. Timezone-friendly for Americas/Oceania.
 
       Meeting notes: https://hackmd.io/@alexdesiqueira/skimage_cc
     begin: 2022-06-21 15:00:00

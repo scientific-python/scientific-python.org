@@ -15,7 +15,7 @@ events:
       until: 2025-01-01 00:00:00
   - summary: scikit-image Community Call (Americas/Oceania)
     description: |
-      The scikit-image Community Call. Friendly for Europe/Africa.
+      The scikit-image Community Call. Friendly for Americas/Oceania.
 
       Meeting notes: https://hackmd.io/@alexdesiqueira/HyyHcIjQ9
     begin: 2022-06-21 15:00:00

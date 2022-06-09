@@ -3,7 +3,7 @@ timezone: America/Los_Angeles
 events:
   - summary: NetworkX Community Call (Americas/Oceania)
     description: |
-      The NetworkX Community Call. 
+      The NetworkX Community Call.
 
       Meeting notes: https://hackmd.io/ea2IhUuqSrG4kM9tokXuEw
     begin: 2022-06-09 10:00:00

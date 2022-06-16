@@ -2,11 +2,11 @@ name: NumPy Community Calendar
 events:
   - summary: NumPy Community Call
     description: |
-      A fortnightly meeting to share updates on everything 
+      A fortnightly meeting to share updates on everything
       that is happening in the NumPy community. Everyone is welcome
       to attend and contribute to a conversation.
 
-      To add to the meeting agenda the topics you’d like to discuss, 
+      To add to the meeting agenda the topics you’d like to discuss,
       follow the link: https://hackmd.io/76o-IxCjQX2mOXO_wwkcpg
     begin: 2022-01-19 18:00:00 +00:00
     end: 2022-01-19 19:00:00 +00:00
@@ -21,7 +21,7 @@ events:
     description: |
       A fortnightly meeting to synchronously triage prioritized PRs and issues.
       Everyone is welcome to attend and contribute to a conversation.
-      
+
       Please notify us of an issue or PR that you’d like to have triaged/reviewed by adding
       a GitHub link to it in the meeting agenda: https://hackmd.io/68i_JvOYQfy9ERiHgXMPvg
     begin: 2022-03-23 16:00:00 +00:00
@@ -35,11 +35,11 @@ events:
 
   - summary: NumPy Documentation Team meeting
     description: |
-      A fortnightly meeting to discuss everything related 
+      A fortnightly meeting to discuss everything related
       to the official NumPy documentation. Everyone is welcome to attend
       and contribute to a conversation.
 
-      To add to the meeting agenda the topics you’d like to discuss, 
+      To add to the meeting agenda the topics you’d like to discuss,
       follow the link: https://hackmd.io/oB_boakvRqKR-_2jRV-Qjg
     begin: 2022-01-17 16:00:00 +00:00
     end: 2022-01-17 17:00:00 +00:00
@@ -54,7 +54,7 @@ events:
     description: |
       A fortnightly meeting for newcomers to the NumPy contributor community.
 
-      To add to the meeting agenda the topics you’d like to discuss, 
+      To add to the meeting agenda the topics you’d like to discuss,
       follow the link: https://hackmd.io/3f3otyyuTte3FU9y3QzsLg
     begin: 2022-02-10 16:00:00 +00:00
     end: 2022-02-10 17:00:00 +00:00

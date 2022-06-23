@@ -62,6 +62,10 @@
                     },
                 {{ end }}
                 ],
+                eventClick: function(info) {
+                    info.jsEvent.preventDefault();
+                    alert('Event: ' + info.event.title + '\n' + info.event.extendedProps.description + '\n' + 'URL: ' +info.event.url);
+                }
             });
             calendar.render();
           });

@@ -45,6 +45,7 @@
         <script>
 
           document.addEventListener('DOMContentLoaded', function() {
+            var cal_colors = ["red", "blue", "green", "grey", "purple"];
             var community_calendar = document.getElementById('community_calendar');
             var calendar = new FullCalendar.Calendar(community_calendar, {
                 timeZone: 'local',
@@ -58,14 +59,16 @@
                 {{ range $key, $value := $.Site.Data.calendars }}
                     {
                         url: '{{ $key }}.ics',
-                        format: 'ics'
+                        format: 'ics',
+                        backgroundColor: cal_colors.pop(),
                     },
                 {{ end }}
                 ],
                 eventClick: function(info) {
                     info.jsEvent.preventDefault();
                     alert('Event: ' + info.event.title + '\n' + info.event.extendedProps.description + '\n' + 'URL: ' +info.event.url);
-                }
+                },
+                eventDisplay: 'block',
             });
             calendar.render();
           });

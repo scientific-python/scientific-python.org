@@ -48,19 +48,20 @@
             var cal_colors = vega.scheme('category10');
             var community_calendar = document.getElementById('community_calendar');
             var calendar = new FullCalendar.Calendar(community_calendar, {
+                aspectRatio: 1,
                 timeZone: 'local',
                 initialView: 'dayGridMonth',
                 headerToolbar: {
                   left: "prev,next today",
                   center: "title",
-                  right: "dayGridMonth,timeGridWeek,timeGridDay",
+                  right: "dayGridMonth,timeGridWeek,listWeek",
                 },
                 eventSources: [
                 {{ range $key, $value := $.Site.Data.calendars }}
                     {
                         url: '{{ $key }}.ics',
                         format: 'ics',
-                        backgroundColor: cal_colors.shift(),
+                        color: cal_colors.shift(),
                     },
                 {{ end }}
                 ],

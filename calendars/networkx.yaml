@@ -12,4 +12,4 @@ events:
     repeat:
       interval:
         days: 7
-      until: 2025-08-26 00:00:00
+      until: 2025-08-26 00:00:00 +00:00

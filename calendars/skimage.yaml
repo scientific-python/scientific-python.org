@@ -11,7 +11,7 @@ events:
     repeat:
       interval:
         days: 14
-      until: 2025-01-01 00:00:00
+      until: 2025-01-01 00:00:00 +00:00
   - summary: scikit-image Community Call (Americas/Oceania)
     description: |
       The scikit-image Community Call. Timezone-friendly for Americas/Oceania.
@@ -23,4 +23,4 @@ events:
     repeat:
       interval:
         days: 14
-      until: 2025-01-01 00:00:00
+      until: 2025-01-01 00:00:00 +00:00

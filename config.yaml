@@ -83,7 +83,7 @@ params:
         icon: scientific-python
       - link: https://github.com/scientific-python/
         icon: github
-      - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
+      - link: https://www.youtube.com/c/ScientificPython-org
         icon: youtube
       - link: https://twitter.com/scientific_py
         icon: twitter

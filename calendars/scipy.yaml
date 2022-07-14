@@ -36,11 +36,11 @@ events:
 
       Meeting notes: https://hackmd.io/@melissawm/H15ahr5wq
 
-    begin: 2022-05-27 19:00:00
-    end: 2022-05-27 20:00:00
+    begin: 2022-05-27 19:00:00 +00:00
+    end: 2022-05-27 20:00:00 +00:00
     url: https://us06web.zoom.us/j/6345425936?pwd=aDVFQzVmbk9SVU5jU0Jwc0s3YWUrdz09
     repeat:
       interval:
         # seconds, minutes, hours, days, weeks, months, years
         days: 28
-      until: 2025-01-01 00:00:00
+      until: 2025-01-01 00:00:00 +00:00

@@ -93,6 +93,8 @@ params:
         icon: instagram
       - link: https://www.tiktok.com/@scientific.python
         icon: tiktok
+      - link: https://discord.com/invite/vur45CbwMz
+        icon: discord
       - link: https://blog.scientific-python.org/atom.xml
         icon: rss-feed
       - link: https://discuss.scientific-python.org

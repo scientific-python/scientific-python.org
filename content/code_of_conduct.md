@@ -110,8 +110,8 @@ Scientific Python Ecosystem Core Team directly, or ask the Team for advice, in
 confidence.
 
 You can report issues to the
-[Scientific Python Ecosystem Core Team](https://github.com/orgs/scientific-python/teams/core-team/members),
-at <scientific-python@groups.io>.
+[Scientific Python Community Managers]({{< relref "/about/#community-managers" >}}),
+at <community-managers@discuss.scientific-python.org>.
 
 <!--
 If your report involves any members of the Team, or if they feel they

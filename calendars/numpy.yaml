@@ -10,7 +10,7 @@ events:
       follow the link: https://hackmd.io/76o-IxCjQX2mOXO_wwkcpg
     begin: 2022-01-19 18:00:00 +00:00
     end: 2022-01-19 19:00:00 +00:00
-    url: https://berkeley.zoom.us/j/762261535
+    url:  https://us06web.zoom.us/j/83278611437?pwd=ekhoLzlHRjdWc0NOY2FQM0NPemdkZz09
     repeat:
       interval:
         # seconds, minutes, hours, days, weeks, months, years
@@ -26,7 +26,7 @@ events:
       a GitHub link to it in the meeting agenda: https://hackmd.io/68i_JvOYQfy9ERiHgXMPvg
     begin: 2022-03-23 16:00:00 +00:00
     end: 2022-03-23 17:00:00 +00:00
-    url: https://berkeley.zoom.us/j/762261535
+    url: https://us06web.zoom.us/j/82096749952?pwd=MW9oUmtKQ1c3a2gydGk1RTdYUUVXZz09
     repeat:
       interval:
         # seconds, minutes, hours, days, weeks, months, years
@@ -56,8 +56,8 @@ events:
 
       To add to the meeting agenda the topics you’d like to discuss,
       follow the link: https://hackmd.io/3f3otyyuTte3FU9y3QzsLg
-    begin: 2022-02-10 16:00:00 +00:00
-    end: 2022-02-10 17:00:00 +00:00
+    begin: 2022-02-10 14:00:00 +00:00
+    end: 2022-02-10 15:00:00 +00:00
     url: https://us02web.zoom.us/j/87192457898
     repeat:
       interval:

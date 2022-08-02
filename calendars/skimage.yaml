@@ -4,10 +4,11 @@ events:
     description: |
       The scikit-image Community Call. Timezone-friendly for Europe/Africa.
 
-      Meeting notes: https://hackmd.io/@alexdesiqueira/skimage_cc
+      Meeting notes: https://image.etherpad.com/p/skimage_cc
+      Archive — Meeting Notes: https://github.com/scikit-image/meeting-notes
     begin: 2022-06-14 17:00:00 +00:00
     end: 2022-06-14 18:00:00 +00:00
-    url: https://berkeley.zoom.us/j/4760246500?pwd=dC9jVVB0ZzlHT0VpdlBkc21oYmVUQT09
+    url: https://meet.google.com/icq-geqg-yix
     repeat:
       interval:
         days: 14
@@ -16,10 +17,11 @@ events:
     description: |
       The scikit-image Community Call. Timezone-friendly for Americas/Oceania.
 
-      Meeting notes: https://hackmd.io/@alexdesiqueira/skimage_cc
+      Meeting notes: https://image.etherpad.com/p/skimage_cc
+      Archive — Meeting Notes: https://github.com/scikit-image/meeting-notes
     begin: 2022-06-21 22:00:00 +00:00
     end: 2022-06-21 23:00:00 +00:00
-    url: https://berkeley.zoom.us/j/4760246500?pwd=dC9jVVB0ZzlHT0VpdlBkc21oYmVUQT09
+    url: https://meet.google.com/icq-geqg-yix
     repeat:
       interval:
         days: 14

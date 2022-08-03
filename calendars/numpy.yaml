@@ -43,7 +43,7 @@ events:
       follow the link: https://hackmd.io/oB_boakvRqKR-_2jRV-Qjg
     begin: 2022-07-18 14:00:00 +00:00
     end: 2022-07-18 15:00:00 +00:00
-    url: https://zoom.us/j/96219574921?pwd=VTRNeGwwOUlrYVNYSENpVVBRRjlkZz09
+    url: https://us06web.zoom.us/j/85016474448?pwd=TWEvaWJ1SklyVEpwNXUrcHV1YmFJQT09
     repeat:
       interval:
         # seconds, minutes, hours, days, weeks, months, years

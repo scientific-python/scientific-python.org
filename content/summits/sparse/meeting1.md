@@ -18,20 +18,14 @@ title: "Meeting 1"
 
 Each topic should start with a brief 2-5 minute presentation followed by a 5-8 minute discussion.
 
-- Introduction (10 min)
+- (10 min) Jarrod and Stéfan discuss purpose of summit and goals (10 min)
 
-  - Jarrod and Stéfan
+- Topics
 
-- Short-term plan (10 min)
+  - (10 min) Dan and Ross will talk about the SciPy Sparse Array Interface
+    (see this [grant proposal](../../../doc/sparse-arrays-grant-2022.pdf)).
+  - (10 min)
+  - (10 min)
+  - (10 min)
 
-  - Dan and Ross
-  - scipy.sparse array interface (roadmap)
-
-- Long-term needs
-
-  - 10 min
-  - 10 min
-  - 10 min
-
-- Next steps (10 min)
-  - Jarrod and Stéfan
+- (10 min) Jarrod and Stéfan lead discussion about next steps.

@@ -19,15 +19,6 @@
   <div class="post-list">
     <article>
       <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-      <div class="post-authors">
-        {{- range .Params.Authors -}}
-        <div class="post-author">{{ . }}</div>
-        {{- end -}}
-      </div>
-      {{ if .Date }}
-      <div class="post-date">{{.Date.Format "January 2, 2006"}}</div>
-      {{ end }}
-      <div class="post-summary">{{ .Summary }}</div>
     </article>
   </div>
   {{ end }}

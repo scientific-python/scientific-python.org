@@ -1,0 +1,21 @@
+name: Bug report
+description: "Please describe the problem you have encountered."
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: If you have a general question about Scientific Python, please use our discussion forum https://discuss.scientific-python.org.
+  - type: markdown
+    attributes:
+      value: Provide a general summary of the issue in the Title above.
+  - type: textarea
+    attributes:
+      label: Please describe the bug or issue including how to reproduce it.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Add any other context about the problem here, screenshots, etc.
+    validations:
+      required: false

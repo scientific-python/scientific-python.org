@@ -1,5 +1,5 @@
 name: Discourse Category
-about: Request a new category for our discourse forum (https://discuss.scientific-python.org/).
+description: Request a new category for our discourse forum (https://discuss.scientific-python.org/).
 labels: ["discourse"]
 
 body:

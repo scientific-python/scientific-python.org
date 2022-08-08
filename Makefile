@@ -11,6 +11,7 @@ help:   ## show this help
 
 prepare:
 	git submodule update --init
+	pip install -r tools/yaml2ics/requirements.txt
 
 CALENDAR_DIR = content/calendars
 

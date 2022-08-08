@@ -16,8 +16,6 @@ There are many ways to get involved in the Scientific Python community:
 
 You can Join the Scientific Python [Discussion Forum](https://discuss.scientific-python.org) where you can be part of ongoing conversations about the Scientific Python ecosystem.
 
-
 ### Discord server
 
 You can join the discussion on our [Discord server](https://discord.gg/vur45CbwMz) for synchronous communication with members of our community.
-

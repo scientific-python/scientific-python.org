@@ -44,9 +44,8 @@ params:
     #  url: https://learn.scientific-python.org/contributors/
     #- title: Maintainer Guide
     #  url: https://learn.scientific-python.org/maintainers/
-    - title: Discussion Forum
-      url: https://discuss.scientific-python.org/
-      is_external: true
+    - title: Community
+      url: /community/
 
   hero:
     # Main hero title

@@ -9,6 +9,13 @@ body:
   - type: markdown
     attributes:
       value: Before continuing, you may want to review the difference between [categories and tags](https://blog.discourse.org/2017/10/its-time-we-talked-about-tags/).
+  - type: markdown
+    attributes:
+      value: |
+        The most common reason for creating a new category is that you want a "mailing list" for your open source Scientific Python community project.
+        If this is the case, please provide a link to the source repository and license.
+        Also specify if you want a public developer list and / or a public user list.
+        Finally, if you want a private list for sensitive developer discussions, you will need to tell us the discourse login name of who you want to own the private list.
   - type: textarea
     attributes:
       label: Describe the purpose of the new category.

@@ -1,0 +1,13 @@
+name: Xarray Community Calendar
+events:
+  - summary: Bi-Weekly Xarray Community Developers Meeting
+    description: |
+      The bi-weekly call for the xarray community.
+      Agenda: https://hackmd.io/Vv6g2ABzTPKbe2MWBQqS1w
+    begin: 2022-08-17 11:30:00 +04:00
+    end: 2022-08-17 12:00:00 +04:00
+    url: https://github.com/pydata/xarray/issues/4001
+    repeat:
+      interval:
+        days: 14
+      until: 2025-01-01 00:00:00 +00:00

@@ -5,6 +5,3 @@
 [submodule "themes/scientific-python-hugo-theme"]
 	path = themes/scientific-python-hugo-theme
 	url = https://github.com/scientific-python/scientific-python-hugo-theme.git
-[submodule "tools/yaml2ics"]
-	path = tools/yaml2ics
-	url = https://github.com/scientific-python/yaml2ics

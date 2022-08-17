@@ -1,1 +1,2 @@
 pre-commit>=2.19
+yaml2ics @ git+https://github.com/scientific-python/yaml2ics.git@42638740cf3d1c6d52222e9934313579411ebecf#egg=yaml2ics

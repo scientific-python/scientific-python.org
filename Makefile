@@ -11,7 +11,8 @@ help:   ## show this help
 
 prepare:
 	git submodule update --init
-	pip install -r tools/yaml2ics/requirements.txt
+	pip install -r requirements.txt
+	pre-commit install
 
 CALENDAR_DIR = content/calendars
 
@@ -19,7 +20,7 @@ $(CALENDAR_DIR):
 	mkdir -p $(CALENDAR_DIR)
 
 $(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
-	python tools/yaml2ics/yaml2ics.py $< > $@
+	yaml2ics $< > $@
 
 calendars: $(CALENDAR_DIR)/numpy.ics $(CALENDAR_DIR)/scipy.ics $(CALENDAR_DIR)/matplotlib.ics $(CALENDAR_DIR)/skimage.ics $(CALENDAR_DIR)/networkx.ics $(CALENDAR_DIR)/poliastro.ics $(CALENDAR_DIR)/sunpy.ics $(CALENDAR_DIR)/xarray.ics
 

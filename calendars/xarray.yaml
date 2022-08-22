@@ -4,8 +4,8 @@ events:
     description: |
       The bi-weekly call for the xarray community.
       Agenda: https://hackmd.io/Vv6g2ABzTPKbe2MWBQqS1w
-    begin: 2022-08-17 11:30:00 +04:00
-    end: 2022-08-17 12:00:00 +04:00
+    begin: 2022-08-17 15:30:00 +00:00
+    end: 2022-08-17 16:00:00 +00:00
     url: https://github.com/pydata/xarray/issues/4001
     repeat:
       interval:

@@ -112,10 +112,10 @@ params:
       column2:
         title: "Maintainers"
         links:
-          - text: Summits
-            link: /summits/
           - text: SPECs
             link: /specs/
+          - text: Summits
+            link: /summits/
           - text: Calendars
             link: /calendars
       column3:

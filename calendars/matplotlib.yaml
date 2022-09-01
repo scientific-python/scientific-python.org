@@ -18,7 +18,7 @@ events:
         days: 7
       until: 2025-01-01 00:00:00
 
-  - summary: Monthly Matplotlib New Contributor Meeting
+  - summary: Matplotlib Monthly New Contributor Meeting
     description: |
       The monthly call for new contributors to the Matplotlib project 🎉
 

@@ -1,13 +1,13 @@
 name: Matplotlib Community Calendar
 timezone: Europe/Berlin
 events:
-  - summary: Plot Plotting (weekly open projet call)
+  - summary: Matplotlib — Plot Plotting (open project call)
     description: |
-      The Weekly Matplotlib call.
+      The Weekly Matplotlib project call.
 
       All are welcome.
 
-      Meeting notes: https://hackmd.io/@matplotlib
+      Meeting notes and agenda: https://hackmd.io/@matplotlib
 
     begin: 2022-03-24 21:00:00
     end: 2022-03-24 22:00:00

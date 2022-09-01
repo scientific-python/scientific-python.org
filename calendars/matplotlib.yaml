@@ -1,7 +1,7 @@
 name: Matplotlib Community Calendar
 timezone: Europe/Berlin
 events:
-  - summary: Weekly Matplotlib Call
+  - summary: Plot Plotting (weekly open projet call)
     description: |
       The Weekly Matplotlib call.
 

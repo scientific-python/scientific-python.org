@@ -11,7 +11,7 @@ events:
     url: https://us06web.zoom.us/j/88060567580?pwd=THRpaWFnSFNwK0Fycy9FVk5RYnV5UT09
     repeat:
       interval:
-        days: 28
+        days: 14
       until: 2025-01-01 00:00:00 +00:00
   - summary: scikit-image Community Call (Americas/Oceania)
     description: |
@@ -24,5 +24,5 @@ events:
     url: https://us06web.zoom.us/j/89135215899?pwd=ck8xRGg1SVNEWmlGMjlSd1BiOVZtZz09
     repeat:
       interval:
-        days: 28
+        days: 14
       until: 2025-01-01 00:00:00 +00:00

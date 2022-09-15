@@ -7,7 +7,7 @@ authors: ["K. Jarrod Millman", "Stéfan van der Walt"]
 date: 2021-04-21
 ---
 
-{{< page_gallery pages="." >}}
+{{< page_gallery pages="./personnel" >}}
 
 With an extensive and high-quality ecosystem of libraries, scientific Python
 has emerged as the leading platform for data analysis.

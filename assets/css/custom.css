@@ -170,3 +170,55 @@ code {
   padding-left: 1rem;
   font-size: 0.8rem;
 }
+
+.grant {
+  margin-bottom: 1rem;
+  background: #9dcde4;
+  padding: 1rem;
+}
+
+.grant .title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.grant .title .pdf {
+  display: inline;
+}
+
+.grant .title a {
+  color: #004811;
+  text-decoration: none;
+}
+
+.grant .authors {
+  display: inline;
+}
+
+.grant .author {
+  display: inline;
+  font-weight: bold;
+}
+
+.grant .date::before {
+  content: '·';
+}
+
+.grant .date {
+  display: inline;
+}
+
+.grant .summary {
+  padding-top: 0.5rem;
+  font-style: italic;
+}
+
+.grant .status-label {
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 0.75rem;
+}
+
+.grant .status {
+  display: inline;
+}

@@ -6,9 +6,11 @@ summary: |
   to identify, document, and implement practices to foster inclusive open-source communities.
 authors: ["Melissa Weber Mendonça"]
 date: 2021-08-21
+status: funded
+pdf_url: https://figshare.com/articles/online_resource/Advancing_an_inclusive_culture_in_the_scientific_Python_ecosystem/16548063
 ---
 
-{{< page_gallery pages="." >}}
+{{< page_gallery pages="./personnel" >}}
 
 We are happy to announce the Chan Zuckerberg Initiative has [awarded a grant](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) to support the onboarding, inclusion, and retention of people from historically marginalized groups on scientific Python projects, and to structurally improve the community dynamics for NumPy, SciPy, Matplotlib, and Pandas.
 

@@ -5,9 +5,13 @@ summary: |
   for the Python programming language for the future of data science.
 authors: ["K. Jarrod Millman", "Stéfan van der Walt"]
 date: 2021-04-21
+funder: Gordon & Betty Moore Foundation
+funder_url: https://www.moore.org/grant-detail?grantId=GBMF8599
+status: funded
+pdf_url: https://scientific-python.org/doc/scientific-python-planning-grant-2020.pdf
 ---
 
-{{< page_gallery pages="." >}}
+{{< page_gallery pages="./personnel" >}}
 
 With an extensive and high-quality ecosystem of libraries, scientific Python
 has emerged as the leading platform for data analysis.

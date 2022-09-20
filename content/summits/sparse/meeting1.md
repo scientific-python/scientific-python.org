@@ -4,28 +4,36 @@ title: "Meeting 1"
 
 ## Information
 
-- Date: TBD (tentatively planned for September 2022)
+- Date: Monday, [September 26th 11AM - 12PM Pacific time (click for your timezone)](https://www.timeanddate.com/worldclock/converter.html?iso=20220926T180000&p1=224)
 - Discord / Zoom information: TBD
 
 ## Participants
 
-- Jarrod Millman
-- Stéfan van der Walt
+- Hameer Abbasi
 - Ross Barnowski
+- Julien Jerphanion
+- Jim Kitchen
+- Jarrod Millman
 - Dan Schult
+- Stéfan van der Walt
+- Isaac Virshup
+- Erik Welch
 
 ## Agenda
 
-Each topic should start with a brief 2-5 minute presentation followed by a 5-8 minute discussion.
+The summit is scheduled for 1 hour and will consist of a series of high-level
+birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
 
-- (10 min) Jarrod and Stéfan discuss purpose of summit and goals (10 min)
+1. (5 min) Welcome & Introductions (Jarrod Millman)
 
-- Topics
+2. (20 min) BoF Presentations (4 min each)
 
-  - (10 min) Dan and Ross will talk about the SciPy Sparse Array Interface
-    (see this [grant proposal](../../../doc/sparse-arrays-grant-2022.pdf)).
-  - (10 min)
-  - (10 min)
-  - (10 min)
+   - Dan Schult: Proposal for array semantics in `scipy.sparse`
+   - Hameer Abbasi: Pydata-sparse current and future work
+   - Jim Kitchen: needs/roles of sparse in GraphBLAS
+   - Isaac Virshup: needs/roles of sparse in scverse
+   - Julien Jerphanion: needs/roles of sparse in `scikit-learn`
 
-- (10 min) Jarrod and Stéfan lead discussion about next steps.
+3. (30 min) Discussion
+
+4. (5 min) Wrap up and next steps

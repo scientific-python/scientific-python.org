@@ -1,2 +1,2 @@
 pre-commit>=2.20
-yaml2ics==0.1rc3
+yaml2ics==0.1

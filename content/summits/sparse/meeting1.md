@@ -32,7 +32,7 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
    - Hameer Abbasi: Pydata-sparse current and future work
    - Jim Kitchen: needs/roles of sparse in GraphBLAS
    - Isaac Virshup: needs/roles of sparse in scverse
-   - Julien Jerphanion: needs/roles of sparse in `scikit-learn`
+   - [Julien Jerphanion: usage and needs for sparse data in `scikit-learn`](https://docs.google.com/presentation/d/1wsl03LXpmmhlKKkcnKUToCq0xaaLPyAmXP9vypjvsfg/edit?usp=sharing)
 
 3. (30 min) Discussion
 

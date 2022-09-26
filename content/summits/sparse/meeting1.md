@@ -29,7 +29,7 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
 2. (20 min) BoF Presentations (4 min each)
 
    - Dan Schult: Proposal for array semantics in `scipy.sparse`
-   - Hameer Abbasi: Pydata-sparse current and future work
+   - Hameer Abbasi: [PyData/Sparse -- Future Plans](https://raw.githubusercontent.com/scientific-python/scientific-python.org-blobs/main/summits/sparse/meeting1/hameer-abbasi.pdf)
    - Jim Kitchen: needs/roles of sparse in GraphBLAS
    - Isaac Virshup: needs/roles of sparse in scverse
    - [Julien Jerphanion: usage and needs for sparse data in `scikit-learn`](https://raw.githubusercontent.com/scientific-python/scientific-python.org-blobs/main/summits/sparse/meeting1/julien-jerphanion.pdf)

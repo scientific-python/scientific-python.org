@@ -6,6 +6,7 @@ title: "Meeting 1"
 
 - Date: Monday, [September 26th 11AM - 12PM Pacific time (click for your timezone)](https://www.timeanddate.com/worldclock/converter.html?iso=20220926T180000&p1=224)
 - Zoom Link (sign in required): https://berkeley.zoom.us/j/96628687450?pwd=Q29oeDc5NnJEYlFHVU1yVUFITzNQUT09
+- Meeting Notes: https://hackmd.io/gaL-4PhRQR6jAGUZ0QF3BQ
 
 ## Participants
 
@@ -28,11 +29,11 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
 
 2. (20 min) BoF Presentations (4 min each)
 
-   - [Dan Schult: Proposal for array semantics in `scipy.sparse`](https://scientific-python.org/doc/sparse-arrays-grant-2022.pdf)
-   - Hameer Abbasi: Pydata-sparse current and future work
+   - Dan Schult: [Proposal for array semantics in `scipy.sparse`](https://scientific-python.org/doc/sparse-arrays-grant-2022.pdf)
+   - Hameer Abbasi: [PyData/Sparse -- Future Plans](https://raw.githubusercontent.com/scientific-python/scientific-python.org-blobs/main/summits/sparse/meeting1/hameer-abbasi.pdf)
    - Jim Kitchen: needs/roles of sparse in GraphBLAS
    - Isaac Virshup: needs/roles of sparse in scverse
-   - [Julien Jerphanion: usage and needs for sparse data in `scikit-learn`](https://raw.githubusercontent.com/scientific-python/scientific-python.org-blobs/main/summits/sparse/meeting1/julien-jerphanion.pdf)
+   - Julien Jerphanion: [Usage and needs for sparse data in `scikit-learn`](https://raw.githubusercontent.com/scientific-python/scientific-python.org-blobs/main/summits/sparse/meeting1/julien-jerphanion.pdf)
 
 3. (30 min) Discussion
 

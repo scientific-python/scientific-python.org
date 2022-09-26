@@ -5,7 +5,7 @@ title: "Meeting 1"
 ## Information
 
 - Date: Monday, [September 26th 11AM - 12PM Pacific time (click for your timezone)](https://www.timeanddate.com/worldclock/converter.html?iso=20220926T180000&p1=224)
-- Discord / Zoom information: TBD
+- Zoom Link (sign in required): https://berkeley.zoom.us/j/96628687450?pwd=Q29oeDc5NnJEYlFHVU1yVUFITzNQUT09
 
 ## Participants
 

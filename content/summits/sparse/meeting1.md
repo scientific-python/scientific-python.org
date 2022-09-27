@@ -10,7 +10,10 @@ title: "Meeting 1"
 ## Participants
 
 - Hameer Abbasi
+- Nezar Abdennur
 - Ross Barnowski
+- CJ Carey
+- Jérémie du Boisberranger
 - Julien Jerphanion
 - Jim Kitchen
 - Jarrod Millman
@@ -18,6 +21,7 @@ title: "Meeting 1"
 - Stéfan van der Walt
 - Isaac Virshup
 - Erik Welch
+- Meekail Zain
 
 ## Agenda
 

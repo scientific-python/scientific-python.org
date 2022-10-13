@@ -12,7 +12,7 @@ table.spec__table thead {
 }
 
 .spec__title a {
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -60,7 +60,7 @@ table.spec__table thead {
 }
 
 .spec-meta {
-  background: #EEE;
+  background: #eee;
   padding: 0.5rem;
   display: inline-block;
   margin-top: 0.5rem;
@@ -136,13 +136,13 @@ code {
 }
 
 .gallery .photo img {
-    width: 60px;
-    border-radius: 50%;
-    margin-bottom: 0.5rem;
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
 }
 
 .gallery .name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .gallery .project {
@@ -158,7 +158,6 @@ code {
 .calendar-list .calendar:last-of-type {
   padding-bottom: 0rem;
 }
-
 
 .calendar-list .calendar-copy {
   height: 1rem;
@@ -201,7 +200,7 @@ code {
 }
 
 .grant .date::before {
-  content: '·';
+  content: "·";
 }
 
 .grant .date {

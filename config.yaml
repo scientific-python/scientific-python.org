@@ -44,8 +44,8 @@ params:
     #  url: https://learn.scientific-python.org/contributors/
     #- title: Maintainer Guide
     #  url: https://learn.scientific-python.org/maintainers/
-    - title: Community
-      url: /community/
+    - title: SPECs
+      url: /specs/
 
   hero:
     # Main hero title
@@ -112,8 +112,8 @@ params:
       column2:
         title: "Maintainers"
         links:
-          - text: SPECs
-            link: /specs/
+          - text: Community
+            link: /community/
           - text: Summits
             link: /summits/
           - text: Calendars

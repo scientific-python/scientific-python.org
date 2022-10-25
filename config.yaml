@@ -114,10 +114,10 @@ params:
         links:
           - text: Community
             link: /community/
-          - text: Summits
-            link: /summits/
           - text: Calendars
             link: /calendars
+          - text: Summits
+            link: /summits/
       column3:
         links:
           - text: Press kit

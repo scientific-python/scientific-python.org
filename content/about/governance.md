@@ -49,7 +49,7 @@ When the Community Managers (including the Community Leaders) fail to reach such
 ### Other Teams
 
 Specific projects may have their own governance structures.
-For example, the SPEC Steering Committee governance model is described [here]({{< relref "/specs/steering-committee/" >}}).
+For example, the SPEC Steering Committee governance model is described [here](https://specs.scientific-python.org/steering-committee/).
 
 ## Decision Making Process
 

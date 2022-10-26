@@ -2,5 +2,9 @@
   PYTHON_VERSION = "3.8"
   HUGO_VERSION = "0.104.3"
 
+[[redirects]]
+  from = "/specs"
+  to = "https://specs.scientific-python.org"
+
 [[plugins]]
   package = "netlify-plugin-checklinks"

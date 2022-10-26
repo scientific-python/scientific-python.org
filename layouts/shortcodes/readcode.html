@@ -1,9 +1,0 @@
-{{ $filename := (path.Join .Page.File.Dir (.Get "file")) }}
-<div class="readcode">
-  <div class="readcode-download">
-    <a href='{{ .Get "file" }}' download>Download {{ path.Base $filename }}</a>
-  </div>
-  <div class="readcode-code">
-    {{- print "```" (.Get "lang") "\n" (readFile $filename) "```" | safeHTML | markdownify -}}
-  </div>
-</div>

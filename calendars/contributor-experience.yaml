@@ -2,7 +2,7 @@ name: Contributor Experience Project Community Calendar
 events:
   - summary: Contributor Experience Project Community Call
     description: |
-      A bi-weekly meeting to discuss everything related to contributor experience. Everyone is welcome to attend and contribute to a conversation. 
+      A bi-weekly meeting to discuss everything related to contributor experience. Everyone is welcome to attend and contribute to a conversation.
     begin: 2022-10-31 09:00:00 +00:00
     end: 2022-10-31 10:00:00 +00:00
     url: https://us06web.zoom.us/j/88984371636?pwd=aTI1a1JZZUd6Wm93LzRrNVVjSHRhZz09
@@ -10,9 +10,9 @@ events:
       interval:
         days: 7
       until: 2025-01-01 00:00:00 +00:00
-  - summary: Contributor Experience Project Community Call 
+  - summary: Contributor Experience Project Community Call
     description: |
-      A bi-weekly meeting to discuss everything related to contributor experience. Everyone is welcome to attend and contribute to a conversation. 
+      A bi-weekly meeting to discuss everything related to contributor experience. Everyone is welcome to attend and contribute to a conversation.
     begin: 2022-11-11 15:00:00 +00:00
     end: 2022-11-11 16:00:00 +00:00
     url: https://us06web.zoom.us/j/88984371636?pwd=aTI1a1JZZUd6Wm93LzRrNVVjSHRhZz09

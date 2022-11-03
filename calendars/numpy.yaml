@@ -50,7 +50,7 @@ events:
         days: 14
       until: 2025-01-01 00:00:00 +00:00
 
-  - summary: NumPy Newcomers' Hour
+  - summary: NumPy Newcomers' Hour (Europe/Africa/Asia)
     description: |
       A fortnightly meeting for newcomers to the NumPy contributor community.
 
@@ -65,7 +65,7 @@ events:
         days: 28
       until: 2025-01-01 00:00:00 +00:00
 
-  - summary: NumPy Newcomers' Hour
+  - summary: NumPy Newcomers' Hour (Americas/Oceania)
     description: |
       A fortnightly meeting for newcomers to the NumPy contributor community.
 

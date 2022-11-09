@@ -36,8 +36,20 @@ events:
 
       Meeting notes: https://hackmd.io/@melissawm/H15ahr5wq
 
-    begin: 2022-08-19 12:00:00 +00:00
-    end: 2022-08-19 13:00:00 +00:00
+    begin: 2022-11-18 12:00:00 +00:00
+    end: 2022-11-18 13:00:00 +00:00
+    url: https://us06web.zoom.us/j/89085469494?pwd=dVFwK3dVczRyRUowZWZkckFtTmloUT09
+
+  - summary: Monthly SciPy New Contributor Meeting
+    description: |
+      The monthly call for new contributors to SciPy 🎉
+
+      All are welcome.
+
+      Meeting notes: https://hackmd.io/@melissawm/H15ahr5wq
+
+    begin: 2022-12-09 12:00:00 +00:00
+    end: 2022-12-09 13:00:00 +00:00
     url: https://us06web.zoom.us/j/89085469494?pwd=dVFwK3dVczRyRUowZWZkckFtTmloUT09
     repeat:
       interval:

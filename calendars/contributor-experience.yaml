@@ -15,7 +15,7 @@ events:
       A bi-weekly meeting to discuss everything related to contributor experience. Everyone is welcome to attend and contribute to a conversation.
     begin: 2022-11-11 15:00:00 +00:00
     end: 2022-11-11 16:00:00 +00:00
-    url: https://us06web.zoom.us/j/88984371636?pwd=aTI1a1JZZUd6Wm93LzRrNVVjSHRhZz09
+    url: https://numfocus-org.zoom.us/j/81082067424?pwd=bVNqWXhqSXZEdTl6ZzFsa1lJZ08xZz09
     repeat:
       interval:
         days: 7

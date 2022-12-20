@@ -19,8 +19,8 @@ events:
       This is the Americas-friendly meeting.
 
       Meeting notes: https://hackmd.io/pyhudrC5TgSwdJtpPldHgQ
-    begin: 2022-07-13 20:00:00 +00:00
-    end: 2022-07-13 21:00:00 +00:00
+    begin: 2023-01-25 20:00:00 +00:00
+    end: 2023-01-25 21:00:00 +00:00
     url: https://us06web.zoom.us/j/6345425936
     repeat:
       interval:
@@ -28,17 +28,14 @@ events:
         days: 28
       until: 2025-01-01 00:00:00 +00:00
 
-  - summary: Monthly SciPy New Contributor Meeting
+  - summary: CANCELED - SciPy Community Call (Americas)
     description: |
-      The monthly call for new contributors to SciPy 🎉
+      This meeting has been canceled. The next SciPy Community call will be held
+      on January 11, 2023.
 
-      All are welcome.
-
-      Meeting notes: https://hackmd.io/@melissawm/H15ahr5wq
-
-    begin: 2022-11-18 12:00:00 +00:00
-    end: 2022-11-18 13:00:00 +00:00
-    url: https://us06web.zoom.us/j/89085469494?pwd=dVFwK3dVczRyRUowZWZkckFtTmloUT09
+      Meeting notes: https://hackmd.io/pyhudrC5TgSwdJtpPldHgQ
+    begin: 2022-12-28 20:00:00 +00:00
+    end: 2022-12-28 21:00:00 +00:00
 
   - summary: Monthly SciPy New Contributor Meeting
     description: |

@@ -17,15 +17,15 @@ events:
         days: 14
       until: 2025-01-01 00:00:00 +00:00
 
-  - summary: NumPy Triage Call - CANCELED
+  - summary: NumPy Triage Call
     description: |
       A fortnightly meeting to synchronously triage prioritized PRs and issues.
       Everyone is welcome to attend and contribute to a conversation.
 
       Please notify us of an issue or PR that you’d like to have triaged/reviewed by adding
       a GitHub link to it in the meeting agenda: https://hackmd.io/68i_JvOYQfy9ERiHgXMPvg
-    begin: 2022-12-28 16:00:00 +00:00
-    end: 2022-12-28 17:00:00 +00:00
+    begin: 2023-01-11 17:00:00 +00:00
+    end: 2023-01-11 18:00:00 +00:00
     url: https://us06web.zoom.us/j/82096749952?pwd=MW9oUmtKQ1c3a2gydGk1RTdYUUVXZz09
     repeat:
       interval:

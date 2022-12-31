@@ -67,14 +67,14 @@ events:
         days: 28
       until: 2025-01-01 00:00:00 +00:00
 
-  - summary: NumPy Newcomers' Hour (Europe/Africa/Asia) - CANCELED
+  - summary: NumPy Newcomers' Hour (Europe/Africa/Asia)
     description: |
       A fortnightly meeting for newcomers to the NumPy contributor community.
 
       To add to the meeting agenda the topics you’d like to discuss,
       follow the link: https://hackmd.io/3f3otyyuTte3FU9y3QzsLg
-    begin: 2022-12-29 12:00:00 +00:00
-    end: 2022-12-29 13:00:00 +00:00
+    begin: 2023-01-26 12:00:00 +00:00
+    end: 2023-01-26 13:00:00 +00:00
     url: https://us06web.zoom.us/j/82563808729?pwd=ZFU3Z2dMcXBGb05YemRsaGE1OW5nQT09
     repeat:
       interval:

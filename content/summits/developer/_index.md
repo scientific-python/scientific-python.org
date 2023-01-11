@@ -1,7 +1,3 @@
 ---
-title: "Developer Summit"
+title: "Annual Developer Summits"
 ---
-
-The annual developer summits ...
-
-- 2023

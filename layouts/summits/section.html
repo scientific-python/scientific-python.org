@@ -15,11 +15,10 @@
   </div>
   {{ if .Content }}
   {{ .Content }}
+  <br/>
   {{ range .Pages }}
   <div class="post-list">
-    <article>
       <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-    </article>
   </div>
   {{ end }}
   {{ end }}

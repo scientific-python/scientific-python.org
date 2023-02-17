@@ -18,15 +18,32 @@ events:
         days: 7
       until: 2025-01-01 00:00:00
 
-  - summary: Matplotlib Monthly New Contributors Meeting
+  - summary: Matplotlib Monthly New Contributors Meeting (Americas)
     description: |
       The monthly call for new contributors to the Matplotlib project 🎉
+
+      This is the Americas-friendly meeting.
 
       All are welcome.
 
       Meeting notes: https://hackmd.io/@matplotlib
 
-    begin: 2022-12-06 19:00:00
-    end: 2022-12-06 20:00:00
+    begin: 2023-02-07 19:00:00
+    end: 2023-02-07 20:00:00
     url: https://us06web.zoom.us/j/81285851006?pwd=Tks2QjRkNWh5NGw0TmU1RUwwOVluZz09
-    ics: RRULE:FREQ=MONTHLY;BYDAY=1TU
+    ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2
+
+  - summary: Matplotlib Monthly New Contributors Meeting (Europe/Asia)
+    description: |
+      The monthly call for new contributors to the Matplotlib project 🎉
+
+      This is the Europe/Asia-friendly meeting.
+
+      All are welcome.
+
+      Meeting notes: https://hackmd.io/@matplotlib
+
+    begin: 2023-03-07 13:00:00
+    end: 2023-03-07 14:00:00
+    url: https://us06web.zoom.us/j/81285851006?pwd=Tks2QjRkNWh5NGw0TmU1RUwwOVluZz09
+    ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2

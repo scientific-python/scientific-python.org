@@ -11,6 +11,8 @@ title: "Meeting 1"
 
 - Jarrod Millman
 - Stéfan van der Walt
+- Brigitta Sipőcz
+- Juanita Gomez
 
 ## Agenda
 
@@ -49,7 +51,16 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
        - sparse arrays should support 1D and, eventually, N-D
        - sparse arrays should closely follows numpy array semantics
 
-   - Brigitta
+   - Brigitta Sipőcz: Shared infrastructure for SPECS and beyond
+
+     - SPECs: The current SPEC drafts are documents about policies the core libraries opt-in to follow (e.g. producing and using developer versions in testing), however, template implementation / suggested examples are needed to work out.
+     - Testing: Libraries facing the same or very similar doctesting and docs building challenges, aggregating the needs and centralizing these efforts
+     - Tutorial infrastructure
+
+   - Juanita Gomez: Community
+
+     - Community management
+     - Documentation
 
 4. (10 min) Discussion
 

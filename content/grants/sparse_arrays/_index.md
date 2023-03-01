@@ -5,8 +5,8 @@ summary: |
   to deprecate SciPy’s sparse matrices and numpy.matrix;
   to assist with sparse array adoption in downstream ecosystem packages.
 authors: ["Dan Schult", "Stéfan van der Walt", "K. Jarrod Millman"]
-date: 2022
-funder:
+date: 2022-11-30
+funder: Chan Zuckerberg Initiative
 funder_url: https://chanzuckerberg.com/eoss/proposals/sparse-arrays-for-scientific-python/
 status: funded
 pdf_url: https://scientific-python.org/doc/sparse-arrays-grant-2022.pdf

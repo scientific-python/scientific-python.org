@@ -22,7 +22,7 @@ $(CALENDAR_DIR):
 $(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
 	yaml2ics $< > $@
 
-calendars: $(CALENDAR_DIR)/numpy.ics $(CALENDAR_DIR)/scipy.ics $(CALENDAR_DIR)/matplotlib.ics $(CALENDAR_DIR)/skimage.ics $(CALENDAR_DIR)/networkx.ics $(CALENDAR_DIR)/poliastro.ics $(CALENDAR_DIR)/sunpy.ics $(CALENDAR_DIR)/xarray.ics $(CALENDAR_DIR)/contributor-experience.ics
+calendars: $(CALENDAR_DIR)/numpy.ics $(CALENDAR_DIR)/scipy.ics $(CALENDAR_DIR)/matplotlib.ics $(CALENDAR_DIR)/skimage.ics $(CALENDAR_DIR)/networkx.ics $(CALENDAR_DIR)/sunpy.ics $(CALENDAR_DIR)/xarray.ics $(CALENDAR_DIR)/contributor-experience.ics
 
 
 TEAMS_DIR = static/teams

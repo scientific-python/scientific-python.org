@@ -2,7 +2,7 @@
 title: "Governance and Decision Making"
 ---
 
-# Abstract
+## Abstract
 
 Scientific Python is a consensus-based community project.
 Anyone with an interest in the project can join the community, contribute to the project design,

@@ -18,7 +18,7 @@ environment and goals.
 Please try to follow this code in spirit as much as in letter, to create a
 friendly and productive environment that enriches the surrounding community.
 
-# Specific Guidelines
+## Specific Guidelines
 
 We strive to:
 
@@ -71,7 +71,7 @@ We strive to:
       In general, if someone asks you to stop, then stop.
     - Advocating for, or encouraging, any of the above behaviour.
 
-# Diversity Statement
+## Diversity Statement
 
 The scientific Python ecosystem project welcomes and encourages participation by everyone.
 We are committed to being a community that everyone enjoys being part of.
@@ -92,7 +92,7 @@ detailed in the Specific Guidelines above.
 Participants in our community should uphold these standards in all their
 interactions and help others to do so as well.
 
-# Reporting Guidelines
+## Reporting Guidelines
 
 We know that it is painfully common for internet communication to start
 at or devolve into obvious and flagrant abuse.
@@ -125,7 +125,7 @@ can also contact:
     <conduct@numfocus.org>.
 -->
 
-# Incident reporting resolution and enforcement
+## Incident reporting resolution and enforcement
 
 We will investigate and respond to all complaints.
 The Scientific Python Ecosystem Core Team will protect the identity of the
@@ -150,7 +150,7 @@ violation report will be:
 The Team will respond to any report as soon as possible, and at most
 within 72 hours.
 
-# Notes
+## Notes
 
 This document is adapted from the
 [SciPy Code of Conduct](http://scipy.github.io/devdocs/dev/conduct/code_of_conduct.html).

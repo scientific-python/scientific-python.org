@@ -4,7 +4,7 @@ events:
     begin: 2023-04-03 15:00:00 +00:00
     end: 2023-04-03 19:00:00 +00:00
     url: https://numfocus-org.zoom.us/j/87080449579?pwd=dmt5dktCT2l1NG5ZNGFvb3dKdUNIdz09
-    
+
   - summary: NumPy Community Call
     description: |
       A fortnightly meeting to share updates on everything

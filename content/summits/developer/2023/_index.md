@@ -40,6 +40,18 @@ This will be an invite-only event that requires upfront agreement to:
 (c) attend the one-week summit in-person, and
 (d) participate, to whatever degree possible, in several months of post-summit implementation.
 
+### Local Logistics
+
+#### Airport to hotel
+
+There is no need to get a rental car or taxi/ride-share, as the airport and the UW campus area is well-served by bus and rail.
+We recommend using Link Light Rail to get from the airport to the hotel. It takes approximately an hour and costs $3.25.
+The closest station to the hotel is "U-District" (0.3mi away), which is a new station opened in 2021 and is not to be confused with the station in Downtown called, "University St", neither with "University of Washinton".
+
+#### Food
+
+TBA
+
 ### Participants
 
 Participants will be recruited from the community of developers of packages

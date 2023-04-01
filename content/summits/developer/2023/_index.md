@@ -79,7 +79,7 @@ participating in a planning repository via PRs, issues—as both contributors an
 There is no heavy top-down structure: participants themselves will organize the work that needs to be done ahead of time.
 They will deciding on topics, divide the work, and schedule the meeting.
 
-See the [project board on GitHub](https://github.com/orgs/scientific-python/projects/4) for the main topics.
+See the [GitHub issues](https://github.com/scientific-python/summit-2023/issues) for the main topics.
 
 ### Summit Execution
 

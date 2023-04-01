@@ -46,7 +46,7 @@ This will be an invite-only event that requires upfront agreement to:
 
 There is no need to get a rental car or taxi/ride-share, as the airport and the UW campus area is well-served by bus and rail.
 We recommend using Link Light Rail to get from the airport to the hotel. It takes approximately an hour and costs $3.25.
-The closest station to the hotel is "U-District" (0.3mi away), which is a new station opened in 2021 and is not to be confused with the station in Downtown called, "University St", neither with "University of Washinton".
+The closest station to the hotel is "U-District" (0.3mi away), which is a new station opened in 2021 and is not to be confused with the station in Downtown called, "University St", neither with "University of Washington".
 
 #### Food
 
@@ -64,7 +64,7 @@ scikit-HEP.
 Participants will be expected to participate in two of the three planning meetings
 and the weekly long summit.
 
-- February planning meeting (TBD)
+- February planning meeting (2023-02-27), see `Meeting 1` below for more info
 - March planning meeting (TBD)
 - April planning meeting (TBD)
 - May 22-26, 2023 Summit
@@ -78,6 +78,8 @@ Participants will be responsible for attending two or more one-hour video meetin
 participating in a planning repository via PRs, issues—as both contributors and reviewers.
 There is no heavy top-down structure: participants themselves will organize the work that needs to be done ahead of time.
 They will deciding on topics, divide the work, and schedule the meeting.
+
+See the [project board on GitHub](https://github.com/orgs/scientific-python/projects/4) for the main topics.
 
 ### Summit Execution
 

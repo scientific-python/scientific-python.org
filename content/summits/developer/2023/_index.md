@@ -54,10 +54,46 @@ TBA
 
 ### Participants
 
-Participants will be recruited from the community of developers of packages
+Participants are recruited from the community of developers of packages
 such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn,
 NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and
 scikit-HEP.
+
+- Anderson Banihirwe
+- Brigitta Sipőcz
+- CJ Carey
+- Dan Allen
+- Dan McCloy
+- Dan Schult
+- Greg Lee
+- Henry Schreiner
+- Inessa Pawson
+- Isaac Virshup
+- Jarrod Millman
+- Jim Pivarski
+- John Kirkham
+- Juanita Gomez
+- Julien Jerphanion
+- Kira Evans
+- Kyle Sunden
+- Lars Grüter
+- Leah Wasser
+- Levi Wolf
+- Madicken Munk
+- Martin Fleischmann
+- Matt Haberland
+- Matthias Bussonnier
+- Mridul Seth
+- Pamphile Roy
+- Paul Ivanov
+- Pey Lian Lim
+- Ross Barnowski
+- Sanket Verma
+- Sarah Kaiser
+- Sebastian Berg
+- Stéfan van der Walt
+- Tim Head
+- Tyler Reddy
 
 ### Dates
 

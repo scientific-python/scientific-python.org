@@ -62,7 +62,7 @@ scikit-HEP.
 - Anderson Banihirwe
 - Brigitta Sipőcz
 - CJ Carey
-- Dan Allen
+- Dan Allan
 - Dan McCloy
 - Dan Schult
 - Greg Lee

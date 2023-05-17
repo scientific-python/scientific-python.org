@@ -59,41 +59,41 @@ such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn,
 NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and
 scikit-HEP.
 
-- Anderson Banihirwe
-- Brigitta Sipőcz
-- CJ Carey
-- Dan Allan
-- Dan McCloy
-- Dan Schult
-- Greg Lee
-- Henry Schreiner
-- Inessa Pawson
-- Isaac Virshup
-- Jarrod Millman
-- Jim Pivarski
-- John Kirkham
-- Juanita Gomez
-- Julien Jerphanion
-- Kira Evans
-- Kyle Sunden
-- Lars Grüter
-- Leah Wasser
-- Levi Wolf
-- Madicken Munk
-- Martin Fleischmann
-- Matt Haberland
-- Matthias Bussonnier
-- Mridul Seth
-- Pamphile Roy
-- Paul Ivanov
-- Pey Lian Lim
-- Ross Barnowski
-- Sanket Verma
-- Sarah Kaiser
-- Sebastian Berg
-- Stéfan van der Walt
-- Tim Head
-- Tyler Reddy
+- Anderson Banihirwe @andersy005
+- Brigitta Sipőcz @bsipocz
+- CJ Carey @perimosocordiae
+- Dan Allan @danielballan
+- Dan McCloy @drammock
+- Dan Schult @dschult
+- Greg Lee @grlee77
+- Henry Schreiner @henryiii
+- Inessa Pawson @InessaPawson
+- Isaac Virshup @ivirshup
+- Jarrod Millman @jarrodmillman
+- Jim Pivarski @jpivarski
+- John Kirkham @jakirkham
+- Juanita Gomez @juanis2112
+- Julien Jerphanion @jjerphan
+- Kira Evans @kne42
+- Kyle Sunden @ksunden
+- Lars Grüter @lagru
+- Leah Wasser @lwasser
+- Levi Wolf @ljwolf
+- Madicken Munk @munkm
+- Martin Fleischmann @martinfleis
+- Matt Haberland @mdhaber
+- Matthias Bussonnier @Carreau
+- Mridul Seth @MridulS
+- Pamphile Roy @tupui
+- Paul Ivanov @ivanov
+- Pey Lian Lim @pllim
+- Ross Barnowski @rossbar
+- Sanket Verma @MSanKeys963
+- Sarah Kaiser @crazy4pi314
+- Sebastian Berg @seberg
+- Stéfan van der Walt @stefanv
+- Tim Head @betatim
+- Tyler Reddy @tylerjereddy
 
 ### Dates
 

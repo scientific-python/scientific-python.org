@@ -59,41 +59,41 @@ such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn,
 NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and
 scikit-HEP.
 
-- Anderson Banihirwe @andersy005
-- Brigitta Sipőcz @bsipocz
-- CJ Carey @perimosocordiae
-- Dan Allan @danielballan
-- Dan McCloy @drammock
-- Dan Schult @dschult
-- Greg Lee @grlee77
-- Henry Schreiner @henryiii
-- Inessa Pawson @InessaPawson
-- Isaac Virshup @ivirshup
-- Jarrod Millman @jarrodmillman
-- Jim Pivarski @jpivarski
-- John Kirkham @jakirkham
-- Juanita Gomez @juanis2112
-- Julien Jerphanion @jjerphan
-- Kira Evans @kne42
-- Kyle Sunden @ksunden
-- Lars Grüter @lagru
-- Leah Wasser @lwasser
-- Levi Wolf @ljwolf
-- Madicken Munk @munkm
-- Martin Fleischmann @martinfleis
-- Matt Haberland @mdhaber
-- Matthias Bussonnier @Carreau
-- Mridul Seth @MridulS
-- Pamphile Roy @tupui
-- Paul Ivanov @ivanov
-- Pey Lian Lim @pllim
-- Ross Barnowski @rossbar
-- Sanket Verma @MSanKeys963
-- Sarah Kaiser @crazy4pi314
-- Sebastian Berg @seberg
-- Stéfan van der Walt @stefanv
-- Tim Head @betatim
-- Tyler Reddy @tylerjereddy
+- Anderson Banihirwe ([@andersy005](https://github.com/andersy005))
+- Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
+- CJ Carey ([@perimosocordiae](https://github.com/perimosocordiae))
+- Dan Allan ([@danielballan](https://github.com/danielballan))
+- Dan McCloy ([@drammock](https://github.com/drammock))
+- Dan Schult ([@dschult](https://github.com/dschult))
+- Greg Lee ([@grlee77](https://github.com/grlee77))
+- Henry Schreiner ([@henryiii](https://github.com/henryiii))
+- Inessa Pawson ([@InessaPawson](https://github.com/InessaPawson))
+- Isaac Virshup ([@ivirshup](https://github.com/ivirshup))
+- Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))
+- Jim Pivarski ([@jpivarski](https://github.com/jpivarski))
+- John Kirkham ([@jakirkham](https://github.com/jakirkham))
+- Juanita Gomez ([@juanis2112](https://github.com/juanis2112))
+- Julien Jerphanion ([@jjerphan](https://github.com/jjerphan))
+- Kira Evans ([@kne42](https://github.com/kne42))
+- Kyle Sunden ([@ksunden](https://github.com/ksunden))
+- Lars Grüter ([@lagru](https://github.com/lagru))
+- Leah Wasser ([@lwasser](https://github.com/lwasser))
+- Levi Wolf ([@ljwolf](https://github.com/ljwolf))
+- Madicken Munk ([@munkm](https://github.com/munkm))
+- Martin Fleischmann ([@martinfleis](https://github.com/martinfleis))
+- Matt Haberland ([@mdhaber](https://github.com/mdhaber))
+- Matthias Bussonnier ([@Carreau](https://github.com/Carreau))
+- Mridul Seth ([@MridulS](https://github.com/MridulS))
+- Pamphile Roy ([@tupui](https://github.com/tupui))
+- Paul Ivanov ([@ivanov](https://github.com/ivanov))
+- Pey Lian Lim ([@pllim](https://github.com/pllim))
+- Ross Barnowski ([@rossbar](https://github.com/rossbar))
+- Sanket Verma ([@MSanKeys963](https://github.com/MSanKeys963))
+- Sarah Kaiser ([@crazy4pi314](https://github.com/crazy4pi314))
+- Sebastian Berg ([@seberg](https://github.com/seberg))
+- Stéfan van der Walt ([@stefanv](https://github.com/stefanv))
+- Tim Head ([@betatim](https://github.com/betatim))
+- Tyler Reddy ([@tylerjereddy](https://github.com/tylerjereddy))
 
 ### Dates
 

@@ -1,5 +1,5 @@
 ---
-title: "Meeting 1"
+title: "General Planning Meeting"
 ---
 
 ## Information

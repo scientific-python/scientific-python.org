@@ -11,9 +11,19 @@ date: 2023-01-11
 
 The event is held at the [eScience Institute, UW Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Seattle](https://goo.gl/maps/EfkoHtvZad3fYMx77).
 
+<br/>
+<iframe
+  src="https://www.google.com/maps/d/embed?mid=1eWqjU_k7dkYF8Z58sNQ9zJaYbR8HXPM&ehbc=2E312F"
+  width="100%" height="480"
+>
+</iframe>
+&nbsp;<br/>
+
 _A friendly reminder that we are guests of the eScience Institute, and
 that some members of their research staff will continue working in the space
 during our event._
+
+&nbsp;<br/>
 
 {{< details "**Sunday**" >}}
 | Time | Description |
@@ -25,6 +35,7 @@ during our event._
 {{< details "**Monday**" >}}
 | Time | Description |
 |------|-------------|
+| 08:40 | Meet in hotel lobby (or 9am at eScience) |
 | 9:00 | Breakfast |
 | 9:00--9:30 | Welcome & coordination |
 | 9:30--13:00 | Work session |

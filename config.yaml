@@ -8,6 +8,9 @@ disableKinds: ["term", "taxonomy"]
 markup:
   highlight:
     noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   description: Community developed and owned ecosystem for scientific computing

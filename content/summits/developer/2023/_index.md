@@ -7,6 +7,10 @@ authors: ["Brigitta Sipőcz", "K. Jarrod Millman", "Stéfan van der Walt"]
 date: 2023-01-11
 ---
 
+## [Work log](https://hackmd.io/@scientific-python/r1sq5vNHn)
+
+Use the above link to keep notes and to track work done.
+
 ## Agenda
 
 The event is held at the [eScience Institute, UW Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Seattle](https://goo.gl/maps/EfkoHtvZad3fYMx77).

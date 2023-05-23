@@ -3,7 +3,7 @@
   <table>
     {{ $meta_fields := (slice "homepage" "repository" "pypi" "libraries-io" "license" "license-type") }}
     {{- range $attr := $meta_fields -}}
-      {{ $val := $.Params.Get $attr }}
+      {{ $val := index $.Params $attr }}
       <tr class="field">
         <td class="field-name">
           {{ $attr | humanize }}:
@@ -22,7 +22,7 @@
   <ul class="endorsed-specs-list">
     {{- range $specs -}}
       {{ if not (in (lower .Title) "meta") }}
-        {{ if in (.Params.Get "endorsed-by") $root.File.BaseFileName }}
+        {{ if in ( index .Params "endorsed-by" ) $root.File.BaseFileName }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{- end }}
       {{- end }}

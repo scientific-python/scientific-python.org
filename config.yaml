@@ -49,6 +49,8 @@ params:
     #  url: https://learn.scientific-python.org/maintainers/
     - title: SPECs
       url: /specs/
+    - title: BOT
+      url: /bot/
 
   hero:
     # Main hero title

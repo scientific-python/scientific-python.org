@@ -50,7 +50,7 @@ serve: prepare calendars ## serve the website
 	@hugo --printI18nWarnings server
 
 serve-dev: prepare calendars
-	@hugo --printI18nWarnings server--disableFastRender
+	@hugo --printI18nWarnings server --disableFastRender
 
 clean:
 	rm -rf public content/calendars/*.ics

@@ -4,3 +4,5 @@
 
 [[plugins]]
   package = "netlify-plugin-checklinks"
+  [plugins.inputs]
+  skipPatterns = ['*bot*']

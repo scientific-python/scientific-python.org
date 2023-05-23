@@ -52,7 +52,6 @@ params:
     - title: BOT
       url: /bot/
 
-
   hero:
     # Main hero title
     title: Scientific Python

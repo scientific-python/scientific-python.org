@@ -4,7 +4,7 @@
   <table>
     {{ $meta_fields := (slice "author" "discussion" "history" "endorsed-by") }}
     {{- range $attr := $meta_fields -}}
-      {{ $val := $.Params.Get $attr }}
+      {{ $val := index $.Params $attr }}
       {{ $attr := strings.TrimPrefix "spec_" $attr }}
       {{- if eq $attr "author" }}
         {{ $attr = "authors" }}

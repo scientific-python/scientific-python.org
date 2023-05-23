@@ -13,7 +13,7 @@
           </a>
         </td>
         <td class="spec__status">
-          {{- $endorsed_by := .Params.Get "endorsed-by" }}
+          {{- $endorsed_by := index .Params "endorsed-by" }}
           {{- $N := len (or $endorsed_by "") }}
           {{- if ge $N 2 }}
             {{- range $idx, $el := $endorsed_by  }}

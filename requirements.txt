@@ -1,2 +1,2 @@
-pre-commit>=3.1
+pre-commit>=3.3
 yaml2ics==0.2

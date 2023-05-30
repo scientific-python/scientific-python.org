@@ -1,0 +1,9 @@
+{
+	"name": "Devcontainer[website]",
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.10",
+	"features": {
+		"ghcr.io/devcontainers/features/hugo:1": {
+			"extended": true
+		}
+	}
+}

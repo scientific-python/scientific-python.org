@@ -4,6 +4,6 @@
     <a href='{{ .Get "file" }}' download>Download {{ path.Base $filename }}</a>
   </div>
   <div class="readcode-code">
-    {{- print "```" (.Get "lang") "\n" (readFile $filename) "```" | safeHTML | markdownify -}}
+    {{- highlight (readFile $filename) (.Get "lang") }}
   </div>
 </div>

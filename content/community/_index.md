@@ -2,20 +2,40 @@
 title: "Community"
 ---
 
-The Scientific Python community is the group of developers, maintainers, and users of tools in the Scientific Python ecosystem. We are dedicated to expanding our community in a welcoming and inclusive way so all community members must adhere to our [code of conduct](https://scientific-python.org/code_of_conduct/).
+Healthy communities are built when everyone's voice is heard,
+when their perspective is valued, and when their work is recognized.
+Better technical and social solutions can be found through wide participation.
+We are therefore dedicated to expanding our community in a welcoming and inclusive way,
+with particular focus on increased participation by people who identify with groups that are
+underrepresented in STEM and the open source scientific Python community.
 
-![community picture](images/community.png)
+The community consists of a group of developers, maintainers, and users of tools in the Scientific Python ecosystem.
 
-If you want to learn more about the Scientific Python community, visit our [Community Guide](https://learn.scientific-python.org/community/).
+Those who participate in the project must adhere to our [community code of conduct](https://scientific-python.org/code_of_conduct/).
 
 ## Join the community
 
-There are many ways to get involved in the Scientific Python community:
+There are many ways to get involved in the Scientific Python community, e.g.:
 
-### Discussion forum
+<div style="color: red; border: 2px solid; margin-top: 1rem; padding: 0.25rem;"><b>TODO add links or instructions to engage to the below</b></div>
 
-You can Join the Scientific Python [Discussion Forum](https://discuss.scientific-python.org) where you can be part of ongoing conversations about the Scientific Python ecosystem.
+Currently we have: "topic: action". Could also be "topic: short description"
 
-### Discord server
+- Social media compaign: write posts or create content.
+- Video recordings: help write & record interviews, guides, or demonstrations.
+- Blog: become and editor, or solicit new posts.
+- Community manager guide: co-author our continually evolving community-manager guide.
+- Developer statistics: produce actionable community reports.
 
-You can join the discussion on our [Discord server](https://discord.gg/vur45CbwMz) for synchronous communication with members of our community.
+Please reach out via our:
+
+- [Discussion forum](https://discuss.scientific-python.org), where you can be part of ongoing conversations about the Scientific Python ecosystem;
+- [Discord server](https://discord.gg/vur45CbwMz) for synchronous communication with members of the community.
+
+## People
+
+![community picture](images/community.png)
+
+{{< include-html "static/teams/community-managers.html" >}}
+{{< include-html "static/teams/spec-steering-committee.html" >}}
+{{< include-html "static/teams/community-leaders.html" >}}

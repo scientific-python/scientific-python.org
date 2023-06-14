@@ -2,41 +2,35 @@
 title: "About"
 ---
 
-The scientific Python _ecosystem_ is a loose federation of community
-developed and owned Python projects widely used in scientific
+This is the main website of the _Scientific Python project_.
+
+{{< notice mission >}}
+To better coordinate the ecosystem and support the community of contributors and maintainers.
+{{< /notice >}}
+
+The scientific Python _ecosystem_ is a loose federation of community-developed and -owned Python projects widely used in scientific
 research, technical computing, and data science.
+The scientific Python _community_ of contributors and maintainers are employed by a variety of universites, research labs, and companies.
+Historically, the community has been composed primarily of volunteers working in their free-time over nights and weekends.
+Given the growing importance of these tools, funding to work on these projects has been increasing.
+However, volunteers continue to drive the development of these tools.
+This is particularly true, since the existing funding is largely short-term and not certain to continue.
 
-This is the main website of the _Scientific Python project_, which
-aims to better coordinate the ecosystem and grow the community.
+{{< notice values >}}
 
-## Our mission
-
-1.
-2.
-3.
-
-## Our values
-
-1.
-2.
-3.
-
-## Who we are
-
-Learn more about the [community]({{< relref "/community" >}}) that
-power Scientific Python.
-
-## What We Do
-
-Read about the [grants]({{< relref "/grants" >}}) that fund the work we do.
+1. Open
+2. Community-driven
+3. Transparent
+4. Science-focused
+   {{< /notice >}}
 
 ## Ecosystem Projects
 
 There are a numerous projects that use Python for computing, but we focus specifically on projects that are:
 
-- **Built on Python**
+- **Science focused**
 
-  Python is a powerful, general-purpose programming language. The scientific Python ecosystem provides the tools that make Python the premier language for scientific computing.
+  Tools used by students, researchers, and scientists for teaching and discovery that are openly shared with the public.
 
 - **Open source**
 
@@ -46,14 +40,55 @@ There are a numerous projects that use Python for computing, but we focus specif
 
   Projects are developed by open communities composed primarily of the users of the software.
 
-- **Extensive and high quality**
+## Who we are
 
-  The scientific Python ecosystem comprises performant, well-tested libraries providing tools for computing across all scientific domains.
+Learn more about the [community]({{< relref "/community" >}}) that
+powers Scientific Python.
 
-- **Broadly applicable**
+## What We Do
 
-  The ecosystem is widely used in scientific research and teaching.
+We have several
 
-- **Coordinated, readable, reproducible**
+- **SPECs**
+  [Scientific Python Ecosystem Coordination]({{< relref "/specs" >}})
+  documents are a mechanism by which practices are
+  discussed and propagated throughout the ecosystem.
+- **Summits**
+  At the [summits]({{< relref "/summits" >}}), we get together both virtually and in-person
+  to plan and do ecosystem work.
+- **Development Guide**
+  Read this [community-maintained guide](https://learn.scientific-python.org/development/)
+  to learn best practices for library development.
+- **Lecture Notes**
+  Learn or teach the core libraries
+  of the scientific Python ecosystem with
+  [these classroom-style lecture materials](https://lectures.scientific-python.org).
+- **Sparse Arrays**
+  One of our current focuses is on improving and maintaining the
+  sparse array capabilities and inter-operability in the ecosystem.
+- **Community**
+  Our [community efforts]({{< relref "/community" >}}) focus
+  on broadening participation and better coordinating volunteer efforts.
 
-  Projects in the ecosystem are completely interoperable, providing the basis for readable, reproducible scientific computation.
+<!--
+- **Maintenance & Support**
+  We [maintain and support]({{< relref "/maintenance" >}})
+  several libraries and tools in the ecosystem.
+-->
+
+Read about the [grants]({{< relref "/grants" >}}) that fund the work we do.
+
+## Leadership
+
+The following people are involved with leading the overall project.
+For more information, see our [governance and decision making process]({{< relref "/about/governance" >}}).
+
+{{< include-html "static/teams/community-managers.html" >}}
+{{< include-html "static/teams/community-leaders.html" >}}
+{{< include-html "static/teams/emeritus-community-leaders.html" >}}
+
+### Other Teams
+
+As a coordinating effort, the Scientific Python project has several teams that operate across the ecosystem.
+Specific projects may have their own governance structures.
+For example, the SPEC Steering Committee governance model is described [here]({{< relref "/specs/steering-committee/" >}}).

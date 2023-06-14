@@ -41,10 +41,16 @@ params:
       url: /
     - title: Blog
       url: https://blog.scientific-python.org
+      is_external: true
+    - title: Devstats
+      url: https://devstats.scientific-python.org
+      is_external: true
     - title: Learn
       url: https://learn.scientific-python.org
+      is_external: true
     - title: Lectures
       url: https://lectures.scientific-python.org
+      is_external: true
 
   hero:
     # Main hero title
@@ -86,10 +92,11 @@ params:
         text: |
           Our [community efforts]({{< relref "/community" >}}) focus
           on broadening participation and better coordinating volunteer efforts.
-      - title: Maintenance & Support
-        text: |
-          We [maintain and support]({{< relref "/maintenance" >}})
-          several libraries and tools in the ecosystem.
+
+        #      - title: Maintenance & Support
+        #        text: |
+        #          We [maintain and support]({{< relref "/maintenance" >}})
+        #          several libraries and tools in the ecosystem.
 
   footer:
     logo: logo.svg
@@ -129,12 +136,12 @@ params:
       column2:
         title: "Maintainers"
         links:
-          - text: Community
-            link: /community/
-          - text: Calendars
-            link: /calendars
+          - text: SPECs
+            link: /specs/
           - text: Summits
             link: /summits/
+          - text: Calendars
+            link: /calendars
       column3:
         links:
           - text: Press kit

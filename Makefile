@@ -1,4 +1,4 @@
-.PHONY: help prepare html serve serve-dev clean calendars teams teams-clean
+.PHONY: help prepare html serve serve-dev clean calendars teams teams-clean core-project-json
 .DEFAULT_GOAL := help
 SHELL:=/bin/bash
 
@@ -42,11 +42,16 @@ teams-clean:
 
 teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates team gallery pages
 
+core-project-json: content/specs/core-projects/core-projects.json
 
-html: prepare calendars ## build the website in ./public
+content/specs/core-projects/core-projects.json: content/specs/core-projects/[^_]*.md
+	@echo "Generating project JSON: $@"
+	@python tools/md-header-to-json.py $? > $@
+
+html: prepare calendars core-project-json ## build the website in ./public
 	@hugo
 
-serve: prepare calendars ## serve the website
+serve: prepare calendars core-project-json ## serve the website
 	@hugo --printI18nWarnings server
 
 serve-dev: prepare calendars

@@ -3,6 +3,7 @@
 import sys
 import os
 import yaml
+import json
 
 files = sys.argv[1:]
 
@@ -15,4 +16,4 @@ for mdfile in files:
         header = yaml.load("".join(data), Loader=yaml.SafeLoader)
         out.append(header)
 
-print(yaml.dump(out))
+print(json.dumps(out, indent=2))

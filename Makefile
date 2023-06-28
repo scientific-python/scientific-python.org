@@ -26,7 +26,7 @@ calendars: $(CALENDAR_DIR)/numpy.ics $(CALENDAR_DIR)/scipy.ics $(CALENDAR_DIR)/m
 
 
 TEAMS_DIR = static/teams
-TEAMS = community-managers spec-steering-committee community-leaders emeritus-community-leaders
+TEAMS = community-managers spec-steering-committee community-leaders emeritus-spec-steering-committee emeritus-community-leaders
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
 $(TEAMS_DIR):

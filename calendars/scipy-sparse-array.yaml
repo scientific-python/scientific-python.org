@@ -10,7 +10,7 @@ events:
       Meeting notes: https://hackmd.io/9UCjKdRUTEeoS8KdQNll-A
     begin: 2023-06-17 13:00:00
     end: 2023-06-17 14:00:00
-    url:  https://meet.google.com/qvk-bydd-tem
+    url: https://meet.google.com/qvk-bydd-tem
     repeat:
       interval:
         days: 14

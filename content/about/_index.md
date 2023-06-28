@@ -32,3 +32,4 @@ For more information, see our [governance and decision making process]({{< relre
 {{< include-html "static/teams/community-managers.html" >}}
 {{< include-html "static/teams/spec-steering-committee.html" >}}
 {{< include-html "static/teams/community-leaders.html" >}}
+{{< include-html "static/teams/emeritus-community-leaders.html" >}}

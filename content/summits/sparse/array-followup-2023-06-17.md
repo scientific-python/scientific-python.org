@@ -1,8 +1,6 @@
 ---
-tags: scipy, sparse, scientific-python-summit
+title: "Summit Follow Up June 17"
 ---
-
-## title: "First Meeting June 17, 2023"
 
 # Friday June 17 2023, 14:00 to 15:00 UTC
 

@@ -11,8 +11,8 @@ help:   ## show this help
 
 prepare:
 	git submodule update --init
-	pip install -r requirements.txt
-	pre-commit install
+	((python -c 'import yaml2ics' && pre-commit) > /dev/null 2>&1) || pip install -q -r requirements.txt
+	test -f .git/hooks/pre-commit || pre-commit install
 
 CALENDAR_DIR = content/calendars
 
@@ -22,16 +22,8 @@ $(CALENDAR_DIR):
 $(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
 	yaml2ics $< > $@
 
-calendars: $(CALENDAR_DIR)/numpy.ics
-calendars: $(CALENDAR_DIR)/scipy.ics
-calendars: $(CALENDAR_DIR)/matplotlib.ics
-calendars: $(CALENDAR_DIR)/skimage.ics
-calendars: $(CALENDAR_DIR)/networkx.ics
-calendars: $(CALENDAR_DIR)/sunpy.ics
-calendars: $(CALENDAR_DIR)/xarray.ics
-calendars: $(CALENDAR_DIR)/contributor-experience.ics
-calendars: $(CALENDAR_DIR)/sparse-array.ics
-
+CALENDAR_SOURCES = $(wildcard calendars/*.yaml)
+calendars: $(subst calendars,$(CALENDAR_DIR),$(CALENDAR_SOURCES:.yaml=.ics))
 
 TEAMS_DIR = static/teams
 TEAMS = community-managers spec-steering-committee community-leaders emeritus-spec-steering-committee emeritus-community-leaders

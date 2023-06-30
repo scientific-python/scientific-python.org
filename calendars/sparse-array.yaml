@@ -1,10 +1,10 @@
-name: Scipy Sparse Arrays Group
+name: Sparse Arrays Group
 timezone: CEST
 events:
-  - summary: Scipy Sparse Array discussions
+  - summary: Sparse Array discussions
     description: |
       Followup meetings from the Scientific Python Summit
-      and topics about implementing sparse arrays in scipy
+      and topics about implementing sparse arrays
 
       Meeting Link:  https://meet.google.com/qvk-bydd-tem
       Meeting notes: https://hackmd.io/9UCjKdRUTEeoS8KdQNll-A

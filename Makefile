@@ -30,7 +30,7 @@ calendars: $(CALENDAR_DIR)/networkx.ics
 calendars: $(CALENDAR_DIR)/sunpy.ics
 calendars: $(CALENDAR_DIR)/xarray.ics
 calendars: $(CALENDAR_DIR)/contributor-experience.ics
-calendars: $(CALENDAR_DIR)/scipy-sparse-array.ics
+calendars: $(CALENDAR_DIR)/sparse-array.ics
 
 
 TEAMS_DIR = static/teams

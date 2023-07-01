@@ -21,7 +21,6 @@ This is particularly true, since the existing funding is largely short-term and 
 1. Open
 2. Community-driven
 3. Transparent
-4. Science-focused
    {{< /notice >}}
 
 ## Ecosystem Projects

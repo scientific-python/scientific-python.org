@@ -14,7 +14,7 @@ The scientific Python _community_ of contributors and maintainers are employed b
 Historically, the community has been composed primarily of volunteers working in their free-time over nights and weekends.
 Given the growing importance of these tools, funding to work on these projects has been increasing.
 However, volunteers continue to drive the development of these tools.
-This is particularly true, since the existing funding is largely short-term and not certain to continue.
+This is true, in particular, because existing funding is largely short-term and not certain to continue.
 
 {{< notice values >}}
 
@@ -46,7 +46,6 @@ powers Scientific Python.
 
 ## What We Do
 
-We have several
 
 - **SPECs**
   [Scientific Python Ecosystem Coordination]({{< relref "/specs" >}})

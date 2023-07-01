@@ -48,9 +48,6 @@ params:
     - title: Learn
       url: https://learn.scientific-python.org
       is_external: true
-    - title: Lectures
-      url: https://lectures.scientific-python.org
-      is_external: true
 
   hero:
     # Main hero title

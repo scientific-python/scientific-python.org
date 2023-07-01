@@ -46,7 +46,6 @@ powers Scientific Python.
 
 ## What We Do
 
-
 - **SPECs**
   [Scientific Python Ecosystem Coordination]({{< relref "/specs" >}})
   documents are a mechanism by which practices are

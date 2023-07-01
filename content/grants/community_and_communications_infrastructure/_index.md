@@ -11,10 +11,12 @@ authors:
     "Melissa Mendonça",
   ]
 date: 2022-07-06
-funder:
+funder: Chan Zuckerberg Initiative
 funder_url:
-status: proposed
+status: funded
 pdf_url: https://scientific-python.org/doc/scientific-python-community-and-communications-infrastructure-2022.pdf
 ---
+
+{{< page_gallery pages="./personnel" >}}
 
 Submitted.

@@ -46,11 +46,6 @@ Community Leaders should ensure smooth progress on the big-picture [roadmap]({{<
 Changes that impact the full project require analysis informed by long experience with both the project and the larger ecosystem.
 When the Community Managers (including the Community Leaders) fail to reach such a consensus in a reasonable timeframe, the Community Leaders may resolve the issue.
 
-### Other Teams
-
-Specific projects may have their own governance structures.
-For example, the SPEC Steering Committee governance model is described [here]({{< relref "/specs/steering-committee/" >}}).
-
 ## Decision Making Process
 
 Decisions about the future of the project are made through discussion with all members of the community.

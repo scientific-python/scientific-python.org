@@ -2,7 +2,9 @@
 title: "Community"
 ---
 
+<!---
 <div style="color: red; border: 2px solid; margin-top: 1rem; padding: 0.25rem;"><b>TODO add alttext and make this a gallery of pictures (maybe cycling and clickable)</b></div>
+-->
 
 ![community picture](images/community.png)
 

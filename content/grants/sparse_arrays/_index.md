@@ -21,4 +21,6 @@ provide array semantics to enable straightforward interaction with sparse data.
 This includes the design and implementation of 1D and 2D sparse array data
 structures, as well as expanding on the existing scipy.sparse package.
 
-Read the [full grant](../../doc/sparse-arrays-grant-2022.pdf).
+For more information, please see the
+[full grant](../../doc/sparse-arrays-grant-2022.pdf)
+and the [sparse data summits page]({{< relref "/summits/sparse" >}}).

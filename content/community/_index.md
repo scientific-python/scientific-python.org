@@ -2,11 +2,7 @@
 title: "Community"
 ---
 
-<!---
-<div style="color: red; border: 2px solid; margin-top: 1rem; padding: 0.25rem;"><b>TODO add alttext and make this a gallery of pictures (maybe cycling and clickable)</b></div>
--->
-
-![community picture](images/community.png)
+![Group of about 30 community members wearing Scientific Python t-shirts taken outside University of Texas at Austin during the SciPy 2022 conference.](images/community.png)
 
 ## Join the discussion
 

@@ -84,7 +84,8 @@ params:
       - title: Sparse Arrays
         text: |
           One of our current focuses is on improving and maintaining the
-          sparse array capabilities and inter-operability in the ecosystem.
+          [sparse array]({{< relref "/grants/sparse_arrays/" >}}) capabilities and
+          inter-operability in the ecosystem.
       - title: Community
         text: |
           Our [community efforts]({{< relref "/community" >}}) focus

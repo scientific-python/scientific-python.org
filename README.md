@@ -40,3 +40,33 @@ Then run `make teams`.
 A self-hosted version of [Plausible.io](https://plausible.io) is used to gather simple
 and privacy-friendly analytics for the site. The dashboard can be accessed
 [here](https://views.scientific-python.org/scientific-python.org).
+
+## Development instructions
+
+If you wish to contribute to scientific-python.org:
+
+1. Fork and clone the repository
+2. Create a new branch with your proposed feature or change to the package repository
+
+### Code Style / Pre-commit
+
+We use `pre-commit` to ensure the code style is consistent. To install pre-commit locally:
+
+1. First install pre-commit: `pip install pre-commit`
+2. Install all of the pre-commit hooks by running `pre-commit install`
+
+Once you have `pre-commit` installed, the code stylers and linters
+defined in the `.pre-commit-config.yaml` will run each time you
+commit modified changes to git locally.
+
+### Precommit.ci Bot
+
+We use the pre-commit CI bot to run linting tests and to auto fix
+pull requests. How it works:
+
+- Pre-commit.ci will run the CI checks via a CI run in the PR.
+- After the PR is approved but before it's merged, a maintainer can run the bot to apply linting fixes via a commit to the PR. To run the bot write:
+
+`pre-commit.ci autofix` in a comment in the PR. This will trigger another CI run to double check that the linting / code style fixes are as expected. Then you can merge!
+
+NOTE: the pre-commit CI bot CI action will allow you to see what checks pass. It will also remind you of the command to autofix the code in the pr.

@@ -1,8 +1,8 @@
 ---
 title: 2023 Developer Summit
-subtitle: The First Annual Scientific Python Developer Summit
+subtitle: The First Scientific Python Developer Summit
 summary: |
-  The first annual Scientific Python Developer Summit (May 22-26, 2023) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
+  The first Scientific Python Developer Summit (May 22-26, 2023) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
 authors: ["Brigitta Sipőcz", "K. Jarrod Millman", "Stéfan van der Walt"]
 date: 2023-01-11
 ---

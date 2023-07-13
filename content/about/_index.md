@@ -57,7 +57,7 @@ powers Scientific Python.
   Read this [community-maintained guide](https://learn.scientific-python.org/development/)
   to learn best practices for library development.
 - **Lecture Notes**
-  Learn or teach the core libraries
+  Learn or teach the libraries
   of the scientific Python ecosystem with
   [these classroom-style lecture materials](https://lectures.scientific-python.org).
 - **Sparse Arrays**

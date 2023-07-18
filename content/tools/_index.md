@@ -1,11 +1,6 @@
 ---
-title: Ecosystem Maintenance
+title: Tools
 ---
-
-We work broadly across the ecosystem to relieve the maintenance burden on community volunteers.
-This work is generally along one of three directions: tool building, maintenance, and release management.
-
-## Tools
 
 We maintain a collection of tools, small and large, that help projects across the ecosystem:
 
@@ -29,21 +24,5 @@ We maintain a collection of tools, small and large, that help projects across th
 - [attach-next-milestone-action](https://github.com/scientific-python/attach-next-milestone-action)
 - [invite-new-members-action](https://github.com/scientific-python/invite-new-members-action)
 - [reverse-dependency-testing](https://github.com/scientific-python/reverse-dependency-testing)
-
-## Maintenance?
-
-We perform regular maintenance on the following projects:
-
--
--
--
-
-## Release management
-
-The community maintenance team are release managers for the following packages:
-
-- [scikit-image](https://github.com/scikit-image/scikit-image)
-- [networkx](https://github.com/networkx/networkx)
-- [numpydoc](https://github.com/numpy/numpydoc)
-- [pygraphviz](https://github.com/pygraphviz/pygraphviz)
-  ...
+- [action-check-changelogfile](https://github.com/scientific-python/action-check-changelogfile)
+- [action-towncrier-changelog](https://github.com/scientific-python/action-towncrier-changelog)

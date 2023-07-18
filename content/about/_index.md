@@ -68,9 +68,9 @@ powers Scientific Python.
   on broadening participation and better coordinating volunteer efforts.
 
 <!--
-- **Maintenance & Support**
-  We [maintain and support]({{< relref "/maintenance" >}})
-  several libraries and tools in the ecosystem.
+- **Tools**
+  We maintain a collection of [tools]({{< relref "/tools" >}})
+  used across the ecosystem.
 -->
 
 Read about the [grants]({{< relref "/grants" >}}) that fund the work we do.

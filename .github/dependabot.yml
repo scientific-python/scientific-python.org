@@ -8,3 +8,9 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    allow:
+      - dependency-name: "content/specs"
+    schedule:
+      interval: "daily"

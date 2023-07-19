@@ -183,7 +183,7 @@ in Scientific Python Ecosystem Coordination documents (SPECs), as well
 as, but not limited to, tools for documentation, testing, benchmarking,
 packaging, and Continuous Integration (CI).
 
-### 2. Better coordinate core projects
+### 2. Better coordination of the ecosystem
 
 A central goal of the Scientific Python project and, by implication, the summit, is to better coordinate maintenance of the different projects.
 We want to write up a maintenance manual with community best practices, agree on a common release schedule, establish channels for regular cross-project communication, and decide on joint governance structures.

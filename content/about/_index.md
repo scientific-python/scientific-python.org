@@ -57,7 +57,7 @@ powers Scientific Python.
   Read this [community-maintained guide](https://learn.scientific-python.org/development/)
   to learn best practices for library development.
 - **Lecture Notes**
-  Learn or teach with these [classroom-style lecture notes](https://lectures.scientific-python.org) on the scientific Python ecosystem.
+  Learn or teach using the scientific Python ecosystem with [these classroom-style lecture notes](https://lectures.scientific-python.org).
 - **Sparse Arrays**
   One of our current focuses is on improving and maintaining the
   sparse array capabilities and inter-operability in the ecosystem.

@@ -60,7 +60,7 @@ powers Scientific Python.
   Learn or teach how to use the scientific Python ecosystem with [classroom-style lecture notes](https://lectures.scientific-python.org).
 - **Sparse Arrays**
   One of our current focuses is on improving and maintaining the
-  sparse array capabilities and inter-operability in the ecosystem.
+  sparse array capabilities and interoperability in the ecosystem.
 - **Community**
   Our [community efforts]({{< relref "/community" >}}) focus
   on broadening participation and better coordinating volunteer efforts.

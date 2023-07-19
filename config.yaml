@@ -78,7 +78,7 @@ params:
           to learn best practices for library development.
       - title: Lecture Notes
         text: |
-          Learn or teach using the scientific Python ecosystem with [these classroom-style lecture notes](https://lectures.scientific-python.org).
+          Learn or teach how to use the scientific Python ecosystem with [classroom-style lecture notes](https://lectures.scientific-python.org).
       - title: Sparse Arrays
         text: |
           One of our current focuses is on improving and maintaining the

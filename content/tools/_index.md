@@ -3,23 +3,23 @@ title: Tools
 ---
 
 We maintain a collection of tools, small and large, that help projects across the ecosystem.
-All tools must:
+All tools:
 
-- be released under the 3-Clause BSD License
-- follow our [Code of Conduct](https://scientific-python.org/code_of_conduct/)
-- use the [Scientific Python GitHub Organization](https://github.com/scientific-python/) to host their source code repository
-- provide functionality generally needed by projects or packages in the ecosystem
+- are released under the [3-Clause BSD License](https://opensource.org/license/bsd-3-clause/);
+- follow our [Code of Conduct](https://scientific-python.org/code_of_conduct/);
+- use the [Scientific Python GitHub Organization](https://github.com/scientific-python/) to host their source code repository; and
+- provide general functionality needed by projects or packages across the ecosystem.
 
 ### Web theme
 
-Our [Hugo](https://gohugo.io/) theme used by [NumPy](https://numpy.org/), [SciPy](https://scipy.org/),
+Our [Hugo](https://gohugo.io/) theme is used by [NumPy](https://numpy.org/), [SciPy](https://scipy.org/),
 [Scientific Python](https://scientific-python.org/), and other sites.
 
 - [scientific-python-hugo-theme](https://github.com/scientific-python/scientific-python-hugo-theme)
 
 ### Python packages
 
-The following Python packages that provide functionality widely useable by packages across the ecosystem.
+The following Python packages provide functionality widely useable by packages across the ecosystem.
 
 - [lazy_loader](https://github.com/scientific-python/lazy_loader/)
 - [spin](https://github.com/scientific-python/spin)
@@ -31,7 +31,7 @@ The following Python packages that provide functionality widely useable by packa
 
 ### Actions
 
-The following GitHub actions provide workflows to simplify various developer tasks.
+The following GitHub actions provide workflows that simplify various developer tasks.
 
 - [upload-nightly-action](https://github.com/scientific-python/upload-nightly-action)
 - [attach-next-milestone-action](https://github.com/scientific-python/attach-next-milestone-action)
@@ -42,9 +42,9 @@ The following GitHub actions provide workflows to simplify various developer tas
 
 ## New tools
 
-If you have an existing tool that you would like to contribute to the Scientific Python project,
+If you have an existing tool that you would like to host and maintain as part of the Scientific Python project,
 please [create a New Topic](https://discuss.scientific-python.org/new-topic?category=contributor&tags=propose)
-describing your tool and it developer community.
+describing your tool, its target audience, and its developer community.
 
-Typically, we will only accept tools that are actively maintained and will work with you to give your
-existing developer community full access to continue managing your reposistory.
+We only host tools that are actively maintained, and will give your existing
+developer community full access to continue managing your repository.

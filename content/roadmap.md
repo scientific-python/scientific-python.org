@@ -25,7 +25,7 @@ roadmap is dependent on support and agreement from the community.
 - Shared benchmarking
 - Developer Operations (DevOps)
 
-## Better coordination of core projects
+## Better coordination of the ecosystem
 
 - Community best operating and development practices manual
 - Coordinated release schedule

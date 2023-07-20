@@ -6,6 +6,7 @@ We maintain a collection of tools, small and large, that help projects across th
 All tools:
 
 - are released under the [3-Clause BSD](https://opensource.org/license/bsd-3-clause/) or [MIT](https://opensource.org/license/mit/) License;
+- attribute copyright to `Scientific Python Developers`;
 - follow our [Code of Conduct](https://scientific-python.org/code_of_conduct/);
 - use the [Scientific Python GitHub Organization](https://github.com/scientific-python/) to host their source code repository; and
 - provide general functionality needed by projects or packages across the ecosystem.

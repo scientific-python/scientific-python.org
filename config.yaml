@@ -41,13 +41,8 @@ params:
       url: /
     - title: Blog
       url: https://blog.scientific-python.org
-      is_external: true
-    - title: Devstats
-      url: https://devstats.scientific-python.org
-      is_external: true
     - title: Learn
       url: https://learn.scientific-python.org
-      is_external: true
 
   hero:
     # Main hero title
@@ -83,7 +78,7 @@ params:
         text: |
           One of our current focuses is on improving and maintaining the
           [sparse array]({{< relref "/grants/sparse_arrays/" >}}) capabilities and
-          inter-operability in the ecosystem.
+          interoperability in the ecosystem.
       - title: Community
         text: |
           Our [community efforts]({{< relref "/community" >}}) focus

@@ -33,11 +33,11 @@ title: "Summit Follow Up June 17"
     - CJ's fork, make PRs onto branch there
     - Using the view on the diff on GitHub might prevent the creation of spurious Draft PR
   - Dense pretending to be sparse can be ephermeral, never needs to go to scipy
-  - Dan will make a branch for exploration that people can fork and make PRs to. Dan will try to keep it uptodate with the main branch too.
+  - Dan will make a branch for exploration that people can fork and make PRs to. Dan will try to keep it up-to-date with the main branch too.
 - 1d sparse array support
-  Timeline? - Dan + CJ working on it - Targetting 1.12
+  Timeline? - Dan + CJ working on it - Targeting 1.12
 - nd sparse array support
-  - Julien, CJ: seems like low priority and this would be a huge maintainance cost SciPy for relatively rare use-cases
+  - Julien, CJ: seems like low priority and this would be a huge maintenance cost SciPy for relatively rare use-cases
   - CJ: Array api makes interop easier, we can lean on external packages for now
 - creation functions [scipy#18592](https://github.com/scipy/scipy/issues/18592)
   - Want to get them out in a single release
@@ -56,7 +56,7 @@ title: "Summit Follow Up June 17"
       - Personally would like scikit-learn to follow SPEC 0
       - See discussion for [1.3](https://github.com/scikit-learn/scikit-learn/issues/26438)
       - [Dedicated RFC](https://github.com/scikit-learn/scikit-learn/issues/26418)
-      - Some part of scikit-learn's behavior depends on SciPy's version (e.g. see [this one](https://github.com/scikit-learn/scikit-learn/blob/784ba9ef9f65d5e4e33087dd7f5b87d65b605efc/sklearn/preprocessing/_polynomial.py#L61-L73)); we might potentialy rely on similar mechanism for the support of sparse arrays (e.g. reshaping outputs)
+      - Some part of scikit-learn's behavior depends on SciPy's version (e.g. see [this one](https://github.com/scikit-learn/scikit-learn/blob/784ba9ef9f65d5e4e33087dd7f5b87d65b605efc/sklearn/preprocessing/_polynomial.py#L61-L73)); we might potentially rely on similar mechanism for the support of sparse arrays (e.g. reshaping outputs)
       - scikit-learn uses nightly builds to test the developer version of SciPy and NumPy and failing tests are updated in [this issue](https://github.com/scikit-learn/scikit-learn/issues/26154). We can watch those for breakage in scikit-learn when we make changes in SciPy.
 - General speed ups
   - "Fast path for canonical"

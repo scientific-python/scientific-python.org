@@ -41,6 +41,13 @@ repos:
       - id: pyupgrade
         args: [--py38-plus]
 
+  - repo: https://github.com/codespell-project/codespell
+    rev: "v2.2.5"
+    hooks:
+      - id: codespell
+        args:
+          ["-L", "recuse,nd,coo", "-w", "--skip=static/teams/bots-graphs.html"]
+
 ci:
   autofix_prs: false
   autofix_commit_msg: "[pre-commit.ci 🤖] Apply code format tools to PR"

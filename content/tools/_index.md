@@ -20,7 +20,7 @@ Our [Hugo](https://gohugo.io/) theme is used by [NumPy](https://numpy.org/), [Sc
 
 ### Python packages
 
-The following Python packages provide functionality widely useable by packages across the ecosystem.
+The following Python packages provide functionality widely usable by packages across the ecosystem.
 
 - [lazy_loader](https://github.com/scientific-python/lazy_loader/)
 - [spin](https://github.com/scientific-python/spin)

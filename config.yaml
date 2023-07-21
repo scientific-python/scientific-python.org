@@ -41,13 +41,8 @@ params:
       url: /
     - title: Blog
       url: https://blog.scientific-python.org
-      is_external: true
-    - title: Devstats
-      url: https://devstats.scientific-python.org
-      is_external: true
     - title: Learn
       url: https://learn.scientific-python.org
-      is_external: true
 
   hero:
     # Main hero title

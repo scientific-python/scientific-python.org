@@ -46,6 +46,10 @@ powers Scientific Python.
 
 ## What We Do
 
+We release all our work openly. In particular, all our code is released under a
+[3-Clause BSD](https://opensource.org/license/bsd-3-clause/) or [MIT](https://opensource.org/license/mit/) license
+and documentation is released under the [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
+
 - **SPECs**
   [Scientific Python Ecosystem Coordination]({{< relref "/specs" >}})
   documents are a mechanism by which practices are
@@ -57,12 +61,10 @@ powers Scientific Python.
   Read this [community-maintained guide](https://learn.scientific-python.org/development/)
   to learn best practices for library development.
 - **Lecture Notes**
-  Learn or teach the libraries
-  of the scientific Python ecosystem with
-  [these classroom-style lecture materials](https://lectures.scientific-python.org).
+  Learn or teach how to use the scientific Python ecosystem with [classroom-style lecture notes](https://lectures.scientific-python.org).
 - **Sparse Arrays**
   One of our current focuses is on improving and maintaining the
-  sparse array capabilities and inter-operability in the ecosystem.
+  sparse array capabilities and interoperability in the ecosystem.
 - **Community**
   Our [community efforts]({{< relref "/community" >}}) focus
   on broadening participation and better coordinating volunteer efforts.

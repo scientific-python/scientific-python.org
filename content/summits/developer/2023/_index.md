@@ -183,7 +183,7 @@ in Scientific Python Ecosystem Coordination documents (SPECs), as well
 as, but not limited to, tools for documentation, testing, benchmarking,
 packaging, and Continuous Integration (CI).
 
-### 2. Better coordinate core projects
+### 2. Better coordination of the ecosystem
 
 A central goal of the Scientific Python project and, by implication, the summit, is to better coordinate maintenance of the different projects.
 We want to write up a maintenance manual with community best practices, agree on a common release schedule, establish channels for regular cross-project communication, and decide on joint governance structures.
@@ -229,4 +229,4 @@ The Scientific Python project also has funding to further develop some of these 
 - [May 15, SPECs](https://hackmd.io/MmbP4VTATyG129_U56xdJQ)
 - [May 18, Community & Documentation](https://hackmd.io/YL5DNtsaSsS-1ZU3Pxkrxg)
 - [May 19, Build Systems & CI Infrastructure](https://hackmd.io/0M1Yh7KwTnaXSsU14BiyQw)
-- [May 19, PyTest plugins & Sphinx extentions](https://hackmd.io/JL5slkxORA-q7VRN79v1sA)
+- [May 19, PyTest plugins & Sphinx extensions](https://hackmd.io/JL5slkxORA-q7VRN79v1sA)

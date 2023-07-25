@@ -36,7 +36,7 @@ The following GitHub actions provide workflows that simplify various developer t
 
 - [upload-nightly-action](https://github.com/scientific-python/upload-nightly-action)
 - [attach-next-milestone-action](https://github.com/scientific-python/attach-next-milestone-action)
-- [invite-new-members-action](https://github.com/scientific-python/invite-new-members-action)
+- [sync-teams-action](https://github.com/scientific-python/sync-teams-action)
 - [reverse-dependency-testing](https://github.com/scientific-python/reverse-dependency-testing)
 - [action-check-changelogfile](https://github.com/scientific-python/action-check-changelogfile)
 - [action-towncrier-changelog](https://github.com/scientific-python/action-towncrier-changelog)

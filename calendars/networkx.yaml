@@ -28,5 +28,5 @@ events:
     url: https://anaconda.zoom.us/j/94192874965?pwd=K0wvcmhXem41ZlVSQ2l4TXlUaDgxdz09
     repeat:
       interval:
-        days: 14
+        days: 7
       until: 2025-12-31 00:00:00

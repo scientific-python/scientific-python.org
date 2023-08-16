@@ -1,0 +1,37 @@
+name: GraphBLAS Community Calendar
+timezone: US/Pacific
+events:
+  - summary: Python-graphblas Community Call
+    description: |
+      The weekly GraphBLAS community call to discuss everything related to
+      python-graphblas, graphblas-algorithms, GraphBLAS, etc.
+
+      All are welcome. New attendees are given priority.
+
+      Meeting link: https://anaconda.zoom.us/j/97267234756?pwd=Q00wSjE2dDV6NmF3eFBZSFBtVDFSQT09
+      Meeting notes: https://hackmd.io/7UXW319yTG-Hf9E034EH5A
+      Meeting info: https://github.com/python-graphblas/python-graphblas/issues/247
+      Zoom meeting ID: 972 6723 4756
+      Zoom meeting passcode: 584468
+
+    begin: 2023-08-16 07:00:00
+    end: 2023-08-16 08:00:00
+    url: https://anaconda.zoom.us/j/97267234756?pwd=Q00wSjE2dDV6NmF3eFBZSFBtVDFSQT09
+    repeat:
+      interval:
+        days: 7
+      until: 2025-12-31 00:00:00
+
+  - summary: GraphBLAS Monthly Community Call
+    description: |
+      The monthly GraphBLAS call where the broader GraphBLAS community
+      discusses specs, implementations, applications, conferences, etc.
+
+      Meeting link: https://mitll.zoomgov.com/j/1606277061?pwd=YUdEZGlkV1lCbUlITEhaak9MdTJvUT09
+      Zoom meeting ID: 160 627 7061
+      Zoom meeting passcode: 677995
+
+    begin: 2023-09-08 09:00:00
+    end: 2023-09-08 10:00:00
+    url: https://mitll.zoomgov.com/j/1606277061?pwd=YUdEZGlkV1lCbUlITEhaak9MdTJvUT09
+    ics: RRULE:FREQ=MONTHLY;BYDAY=2FR

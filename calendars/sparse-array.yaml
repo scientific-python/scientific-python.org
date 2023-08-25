@@ -28,7 +28,7 @@ events:
     repeat:
       interval:
         days: 14
-      until: 2025-09-09 00:00:00
+      until: 2023-09-09 00:00:00
   - summary: Sparse Array discussions
     description: |
       Followup meetings from the Scientific Python Summit

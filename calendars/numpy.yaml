@@ -75,6 +75,25 @@ events:
         days: 28
       until: 2025-01-01 00:00:00 +00:00
 
+  - summary: NumPy Optimization Team meeting
+    description: |
+      A meeting to discuss everything related
+      to NumPy optimization. Everyone is welcome to attend
+      and contribute to a conversation.
+
+      To add to the meeting agenda the topics you'd like to discuss,
+      follow the link: https://hackmd.io/dVdSlQ0TThWkOk0OkmGsmw
+
+      Join us via Zoom: https://numfocus-org.zoom.us/j/88162122074?pwd=a3h0cTZubzlLcTZzMVhCL1AxUVFMdz09
+    begin: 2023-08-07 16:00:00 +00:00
+    end: 2023-08-07 17:00:00 +00:00
+    url: https://numfocus-org.zoom.us/j/88162122074?pwd=a3h0cTZubzlLcTZzMVhCL1AxUVFMdz09
+    repeat:
+      interval:
+        # seconds, minutes, hours, days, weeks, months, years
+        days: 21
+      until: 2025-01-01 00:00:00 +00:00
+
   - summary: NumPy Newcomers' Hour (Europe/Africa/Asia)
     description: |
       A fortnightly meeting for newcomers to the NumPy contributor community.

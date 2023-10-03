@@ -44,7 +44,7 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
 
    - Stéfan van der Walt: Sparse work
 
-     - In the previous release of SciPy we introduced experiemental Sparse Arrays
+     - In the previous release of SciPy we introduced experimental Sparse Arrays
      - These arrays are limited to 2D, since they are built on top of Sparse Matrices
      - We hope to refactor scipy.sparse:
        - matrices should be built on top of arrays (if not deprecated entirely)

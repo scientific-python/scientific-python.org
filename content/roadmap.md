@@ -19,7 +19,7 @@ roadmap is dependent on support and agreement from the community.
 
 ## Improved common infrastructure & process
 
-- Re-usable libraries with commonly used functionality
+- Reusable libraries with commonly used functionality
 - Shared build system for binary packaging
 - Integrated websites and expanded documentation
 - Shared benchmarking

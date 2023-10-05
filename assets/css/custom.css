@@ -61,7 +61,7 @@ table.spec__table thead {
 }
 
 .spec-meta {
-  background: #eee;
+  background: var(--colorBlockBackground);
   padding: 0.5rem;
   display: inline-block;
   margin-top: 0.5rem;

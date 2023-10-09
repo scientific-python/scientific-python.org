@@ -37,7 +37,7 @@ events:
         days: 14
       until: 2025-01-01 00:00:00 +00:00
 
-  - summary: NumPy Documentation Team meeting (Americas/Oceania)
+  - summary: NumPy Documentation Team meeting
     description: |
       A fortnightly meeting to discuss everything related
       to the official NumPy documentation. Everyone is welcome to attend

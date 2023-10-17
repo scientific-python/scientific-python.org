@@ -200,12 +200,12 @@ table.spec__table thead {
 }
 
 .grant .post-date {
-  color: var(--colorText);    
+  color: var(--colorText);
   display: inline;
 }
 
 .grant .post-summary {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 
 .grant .status-label {

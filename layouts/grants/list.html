@@ -22,32 +22,34 @@
 
         <!-- This renders the list of grants -->
         {{ if eq .CurrentSection.Title "Grants" }}
-          <div id="grants-list">
+          <div class="post-list">
             {{- range .Pages.ByDate.Reverse }}
-            <div class="grant">
-              <div class="title">
-                {{ if .Params.pdf_url }}
-                <div class="pdf">
-                  <a href="{{ .Params.pdf_url }}"><img src="/images/pdf-document.svg" width="25px"/></a>
+            <article class="grant">
+              <div class="post-meta">
+                <div class="post-title">
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  {{ if .Params.pdf_url }}
+                  <div class="pdf">
+                    <a href="{{ .Params.pdf_url }}"><img src="/images/pdf-document.svg" width="25px"/></a>
+                  </div>
+                  {{ end }}
                 </div>
-                {{ end }}
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <span class="post-date">
+                  {{- partial "svg-icon" "calendar" -}}
+                  {{ .Date.Format "2006-01-02" }}
+                </span>
+                <span class="post-authors">
+                  {{- partial "svg-icon" "person" -}}
+                  {{ range $index, $author := .Params.authors }}
+                  <div class="post-author">
+                    {{ . }}
+                  </div>
+                  {{ end }}
+                </span>
               </div>
-              <div class="authors">
-                {{- $N := len .Params.Authors }}
-                {{ range $index, $author := .Params.authors }}
-                <div class="author">
-                  {{ . }}
-                  {{- if (not (eq $index (sub $N 1))) }},{{ end }}
-                </div>
-                {{ end }}
-              </div>
-              <div class="date">
-                {{ .Date.Format "2006-01-02" }}
-              </div>
-              <div class="summary">{{ .Summary }}</div>
+              <div class="post-summary">{{ .Summary }}</div>
               <div class="status-label">Status:</div> <div class="status">{{ .Params.status }}</div>
-            </div>
+            </article>
             {{- end }}
           </div>
         {{ end }}

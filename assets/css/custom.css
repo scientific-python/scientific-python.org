@@ -169,7 +169,7 @@ table.spec__table thead {
 
 .grant {
   margin-bottom: 1rem;
-  background: #9dcde4;
+  background: var(--colorBlockBackground);
   padding: 1rem;
 }
 
@@ -178,8 +178,10 @@ table.spec__table thead {
   margin-bottom: 0.5rem;
 }
 
-.grant .title .pdf {
+.pdf {
   display: inline;
+  padding-left: 0.25em;
+  vertical-align: sub;
 }
 
 .grant .title a {
@@ -187,34 +189,32 @@ table.spec__table thead {
   text-decoration: none;
 }
 
-.grant .authors {
+.grant .post-authors {
+  display: inline;
+  margin-left: 1em;
+}
+
+.grant .post-author {
+  color: var(--colorText);
   display: inline;
 }
 
-.grant .author {
-  display: inline;
-  font-weight: bold;
-}
-
-.grant .date::before {
-  content: "·";
-}
-
-.grant .date {
+.grant .post-date {
+  color: var(--colorText);    
   display: inline;
 }
 
-.grant .summary {
-  padding-top: 0.5rem;
-  font-style: italic;
+.grant .post-summary {
+    margin-left: 1em;
 }
 
 .grant .status-label {
   display: inline-block;
-  font-weight: bold;
   padding-top: 0.75rem;
+  text-transform: uppercase;
 }
 
 .grant .status {
   display: inline;
+  text-transform: uppercase;
 }

@@ -169,7 +169,7 @@ table.spec__table thead {
 
 .grant {
   margin-bottom: 1rem;
-  background: #9dcde4;
+  background: var(--colorBlockBackground);
   padding: 1rem;
 }
 
@@ -183,7 +183,7 @@ table.spec__table thead {
 }
 
 .grant .title a {
-  color: #004811;
+  color: var(--colorText);
   text-decoration: none;
 }
 
@@ -192,6 +192,7 @@ table.spec__table thead {
 }
 
 .grant .author {
+  color: var(--colorText);
   display: inline;
   font-weight: bold;
 }
@@ -201,6 +202,7 @@ table.spec__table thead {
 }
 
 .grant .date {
+  color: var(--colorText);
   display: inline;
 }
 

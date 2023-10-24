@@ -12,7 +12,7 @@
     curl -LJO ${DART_SASS_URL}/${DART_SASS_VERSION}/${DART_SASS_TARBALL} && \
     tar -xf ${DART_SASS_TARBALL} && \
     rm ${DART_SASS_TARBALL} && \
-    export PATH=/opt/build/repo/doc/dart-sass:$PATH && \
+    export PATH=/opt/build/repo/dart-sass:$PATH && \
     make html \
     """
 

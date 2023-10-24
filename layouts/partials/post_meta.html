@@ -2,7 +2,7 @@
 
 {{ if eq .CurrentSection.Title "SPEC Core Projects" }}
   {{- partial "post_meta/project_meta.html" $root }}
-{{ else if eq .Section "specs" }}
+{{ else if eq .context.Section "specs" }}
   {{- partial "post_meta/spec_meta.html" $root }}
 {{ else }}
   {{- with .context.Param "post_meta" -}}

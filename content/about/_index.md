@@ -4,9 +4,9 @@ title: "About"
 
 This is the main website of the _Scientific Python project_.
 
-{{< notice mission >}}
+{{< admonition mission >}}
 To better coordinate the ecosystem and support the community of contributors and maintainers.
-{{< /notice >}}
+{{< /admonition >}}
 
 The scientific Python _ecosystem_ is a loose federation of community-developed and -owned Python projects widely used in scientific
 research, technical computing, and data science.
@@ -16,12 +16,13 @@ Given the growing importance of these tools, funding to work on these projects h
 However, volunteers continue to drive the development of these tools.
 This is true, in particular, because existing funding is largely short-term and not certain to continue.
 
-{{< notice values >}}
+{{< admonition values >}}
 
 1. Open
 2. Community-driven
 3. Transparent
-   {{< /notice >}}
+
+{{< /admonition >}}
 
 ## Ecosystem Projects
 

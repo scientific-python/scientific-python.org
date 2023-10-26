@@ -167,6 +167,11 @@ table.spec__table thead {
   font-size: 0.8rem;
 }
 
+.fc-event-time {
+  margin-right: 3px;
+  min-width: fit-content;
+}
+
 .grant {
   margin-bottom: 1rem;
   background: var(--colorBlockBackground);

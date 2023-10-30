@@ -148,6 +148,10 @@ table.spec__table thead {
   font-style: italic;
 }
 
+.calendar-list {
+  padding-top: 1rem;
+}
+
 .calendar-list .calendar {
   padding-bottom: 1rem;
 }

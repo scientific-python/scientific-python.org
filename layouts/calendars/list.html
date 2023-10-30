@@ -4,7 +4,7 @@
 
 <section class="content-padding flex-row">
     <div class="shortcuts-container">
-	<div><i class="fa-solid fa-list"></i> On this page</div>
+        <div><i class="fa-solid fa-list"></i> On this page</div>
         <div id="shortcuts"></div>
     </div>
     <div class="content-container">
@@ -20,12 +20,12 @@
 
         <div class="calendar-list">
           {{ range $key, $value := $.Site.Data.calendars }}
-          <div class="calendar"><a href="{{ $key }}.ics">{{ .name }}</a>
-            <img
-              class="calendar-copy"
-              src="/images/content_copy.svg"
-              onclick="navigator.clipboard.writeText('{{ printf "%s%s.ics" $pageLink $key }}');"
-            />
+          {{ $url := (index $value "external-ics") | default (printf "%s%s.ics" $pageLink $key) }}
+          <div class="calendar">
+            <a href="{{ $url }}">{{ if isset $value "external-ics" }}<i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;{{ end }}{{ .name }}</a>
+            <i class="fa-regular fa-copy calendar-copy"
+               onclick="navigator.clipboard.writeText('{{ $url }}');" >
+            </i>
             {{ range .events }}
             <div class="calendar-event">{{ .summary }}</div>
             {{ end }}
@@ -56,13 +56,13 @@
                 eventSources: [
                 {{ range $key, $value := $.Site.Data.calendars }}
                     {
-                        url: '{{ $key }}.ics',
-                        format: 'ics',
-                        color: cal_colors.shift(),
+                      url: '{{ $key }}.ics',
+                      format: 'ics',
+                      color: cal_colors.shift(),
                     },
                 {{ end }}
                 ],
-                eventClick: function(info) {
+              eventClick: function(info) {
                     info.jsEvent.preventDefault();
                     alert('Event: ' + info.event.title + '\n' + info.event.extendedProps.description + '\n' + 'URL: ' +info.event.url);
                 },

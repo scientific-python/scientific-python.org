@@ -23,6 +23,7 @@
           {{ $url := (index $value "external-ics") | default (printf "%s%s.ics" $pageLink $key) }}
           <div class="calendar">
             <a href="{{ $url }}">{{ if isset $value "external-ics" }}<i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;{{ end }}{{ .name }}</a>
+            {{ if isset $value "external-ics" }}(<i class="fas fa-sync"></i> {{ now.Format "2006/01/02" }}){{ end }}
             <i class="fa-regular fa-copy calendar-copy"
                onclick="navigator.clipboard.writeText('{{ $url }}');" >
             </i>

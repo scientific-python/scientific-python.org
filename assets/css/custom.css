@@ -49,11 +49,13 @@ table.spec__table thead {
 }
 
 .spec-meta {
-  background: var(--colorBlockBackground);
-  padding: 0.5rem;
+  background-color: var(--pst-color-surface);
+  border: 1px solid var(--pst-color-border);
+  border-radius: 0.25rem;
+  line-height: 1.2em;
+  margin: 1.5em 0;
+  padding: 1rem;
   display: inline-block;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
 }
 
 .spec-meta table {
@@ -64,33 +66,9 @@ table.spec__table thead {
 }
 
 .spec-meta .field-name {
-  width: 1rem;
   white-space: nowrap;
   font-weight: bold;
   vertical-align: top;
-}
-
-.spec-meta .field-value {
-}
-
-.spec-meta .field-value a {
-  color: #1e87f0;
-  font-weight: bold;
-}
-
-.endorsed-specs {
-  padding-top: 1rem;
-  font-size: 0.9rem;
-}
-
-.endorsed-specs-list {
-  margin-left: 1rem;
-  list-style-type: none;
-}
-
-.endorsed-specs-list a {
-  color: #1e87f0;
-  font-weight: bold;
 }
 
 .endorse-icon {
@@ -156,8 +134,11 @@ table.spec__table thead {
 }
 
 .grant {
-  margin-bottom: 1rem;
-  background: var(--colorBlockBackground);
+  background-color: var(--pst-color-surface);
+  border: 1px solid var(--pst-color-border);
+  border-radius: 0.25rem;
+  line-height: 1.2em;
+  margin: 1.5em 0;
   padding: 1rem;
 }
 

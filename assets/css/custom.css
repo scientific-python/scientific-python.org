@@ -8,21 +8,13 @@ table.spec__table thead {
   font-weight: bold;
 }
 
-.spec__title {
-  font-size: 1.2rem;
-}
-
-.spec__title a {
-  font-size: 1rem;
-  font-weight: bold;
-}
-
 .spec__status {
   width: 20rem;
 }
 
 .spec__status a {
   font-weight: normal;
+  text-decoration: none;
 }
 
 .readcode {
@@ -32,20 +24,12 @@ table.spec__table thead {
 .readcode-download {
   position: absolute;
   right: 1rem;
-  top: 0.5rem;
+  top: 1.75rem;
   text-align: right;
 }
 
 .readcode-download a {
-  color: #efefef;
-  font-size: 1rem;
-}
-
-.readcode-download a:hover {
-  color: #efefef;
-}
-
-.readcode-code {
+  text-decoration: none;
 }
 
 .menu-spacer {
@@ -173,18 +157,8 @@ table.spec__table thead {
   padding: 1rem;
 }
 
-.grant .title {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
 .grant .title .pdf {
   display: inline;
-}
-
-.grant .title a {
-  color: var(--colorText);
-  text-decoration: none;
 }
 
 .grant .authors {
@@ -192,7 +166,6 @@ table.spec__table thead {
 }
 
 .grant .author {
-  color: var(--colorText);
   display: inline;
   font-weight: bold;
 }
@@ -202,7 +175,6 @@ table.spec__table thead {
 }
 
 .grant .date {
-  color: var(--colorText);
   display: inline;
 }
 

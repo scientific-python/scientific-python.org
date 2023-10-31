@@ -21,8 +21,7 @@ This is true, in particular, because existing funding is largely short-term and 
 1. Open
 2. Community-driven
 3. Transparent
-
-{{< /admonition >}}
+   {{< /admonition >}}
 
 ## Ecosystem Projects
 

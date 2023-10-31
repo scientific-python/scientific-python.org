@@ -1,28 +1,24 @@
 {{ define "main" }}
 
 <section class="content-padding flex-row">
-<div class="shortcuts-container">
-  <div><i class="fa-solid fa-list"></i> On this page</div>
-  <div id="shortcuts"></div>
-</div>
-<div class="content-container">
-  <div class="columns">
-    <div class="column is-centered-tablet-portrait">
-      <h1 class="title section-title">{{ .Title }}</h1>
-      <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
-      <div class="divider"></div>
+  <div id="shortcuts-container">
+    <div><i class="fa-solid fa-list"></i> On this page</div>
+    <div id="shortcuts"></div>
+  </div>
+  <div class="content-container">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.Subtitle }}
+    <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
+    {{ end }}
+    {{ .Content }}
+    <br/>
+    <div class="post-list">
+      {{ range .Pages }}
+      <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+      {{ end }}
     </div>
   </div>
-  {{ if .Content }}
-  {{ .Content }}
-  <br/>
-  {{ range .Pages }}
-  <div class="post-list">
-      <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-  </div>
-  {{ end }}
-  {{ end }}
-</div>
 </section>
 
 {{ end }}

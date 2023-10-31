@@ -1,3 +1,7 @@
+.navbar-logo-text {
+  font-family: "Lato";
+}
+
 table.spec__table {
   width: 100%;
   margin-top: 1.2rem;
@@ -8,21 +12,13 @@ table.spec__table thead {
   font-weight: bold;
 }
 
-.spec__title {
-  font-size: 1.2rem;
-}
-
-.spec__title a {
-  font-size: 1rem;
-  font-weight: bold;
-}
-
 .spec__status {
   width: 20rem;
 }
 
 .spec__status a {
   font-weight: normal;
+  text-decoration: none;
 }
 
 .readcode {
@@ -32,40 +28,22 @@ table.spec__table thead {
 .readcode-download {
   position: absolute;
   right: 1rem;
-  top: 0.5rem;
+  top: 1.75rem;
   text-align: right;
 }
 
 .readcode-download a {
-  color: #efefef;
-  font-size: 1rem;
-}
-
-.readcode-download a:hover {
-  color: #efefef;
-}
-
-.readcode-code {
-}
-
-.menu-spacer {
-  margin-left: auto;
-}
-
-.widget-search__form {
-  background: #2a2a2a;
-}
-
-.widget-search__field {
-  height: 1.6rem;
+  text-decoration: none;
 }
 
 .spec-meta {
-  background: var(--colorBlockBackground);
-  padding: 0.5rem;
+  background-color: var(--pst-color-surface);
+  border: 1px solid var(--pst-color-border);
+  border-radius: 0.25rem;
+  line-height: 1.2em;
+  margin: 1.5em 0;
+  padding: 1rem;
   display: inline-block;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
 }
 
 .spec-meta table {
@@ -76,43 +54,14 @@ table.spec__table thead {
 }
 
 .spec-meta .field-name {
-  width: 1rem;
   white-space: nowrap;
   font-weight: bold;
   vertical-align: top;
 }
 
-.spec-meta .field-value {
-}
-
-.spec-meta .field-value a {
-  color: #1e87f0;
-  font-weight: bold;
-}
-
-.endorsed-specs {
-  padding-top: 1rem;
-  font-size: 0.9rem;
-}
-
-.endorsed-specs-list {
-  margin-left: 1rem;
-  list-style-type: none;
-}
-
-.endorsed-specs-list a {
-  color: #1e87f0;
-  font-weight: bold;
-}
-
 .endorse-icon {
   width: 1.5rem;
   margin-right: 0.25rem;
-}
-
-.team-section {
-  padding-top: 1.5rem;
-  padding-bottom: 1.25rem;
 }
 
 .gallery {
@@ -168,23 +117,16 @@ table.spec__table thead {
 }
 
 .grant {
-  margin-bottom: 1rem;
-  background: var(--colorBlockBackground);
+  background-color: var(--pst-color-surface);
+  border: 1px solid var(--pst-color-border);
+  border-radius: 0.25rem;
+  line-height: 1.2em;
+  margin: 1.5em 0;
   padding: 1rem;
-}
-
-.grant .title {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
 }
 
 .grant .title .pdf {
   display: inline;
-}
-
-.grant .title a {
-  color: var(--colorText);
-  text-decoration: none;
 }
 
 .grant .authors {
@@ -192,7 +134,6 @@ table.spec__table thead {
 }
 
 .grant .author {
-  color: var(--colorText);
   display: inline;
   font-weight: bold;
 }
@@ -202,7 +143,6 @@ table.spec__table thead {
 }
 
 .grant .date {
-  color: var(--colorText);
   display: inline;
 }
 

@@ -1,7 +1,9 @@
 {{ $filename := (path.Join .Page.File.Dir (.Get "file")) }}
 <div class="readcode">
   <div class="readcode-download">
-    <a href='{{ .Get "file" }}' download>Download {{ path.Base $filename }}</a>
+    <a href='{{ .Get "file" }}' download>
+      <i class="fa fa-download" aria-hidden="true"></i>
+    </a>
   </div>
   <div class="readcode-code">
     {{- highlight (readFile $filename) (.Get "lang") }}

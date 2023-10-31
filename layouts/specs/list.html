@@ -1,23 +1,20 @@
 {{ define "main" }}
 
 <section class="content-padding flex-row">
-    <div class="shortcuts-container">
-        <div><i class="fa-solid fa-list"></i> On this page</div>
-        <div id="shortcuts"></div>
-    </div>
-    <div class="content-container">
-        <div class="columns">
-            <div class="column is-centered-tablet-portrait">
-                <h1 class="title section-title">{{ .Title }}</h1>
-                <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
-                <div class="divider"></div>
-            </div>
-        </div>
-        {{ .Content }}
-        {{ if eq .CurrentSection.Title "Scientific Python Ecosystem Coordination" }}
-        {{ partial "specs/spec_list.html" . }}
-        {{ end }}
-    </div>
+  <div id="shortcuts-container">
+    <div><i class="fa-solid fa-list"></i> On this page</div>
+    <div id="shortcuts"></div>
+  </div>
+  <div class="content-container">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.Subtitle }}
+    <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
+    {{ end }}
+    {{ .Content }}
+    {{ if eq .CurrentSection.Title "Scientific Python Ecosystem Coordination" }}
+    {{ partial "specs/spec_list.html" . }}
+    {{ end }}
   </div>
 </section>
 

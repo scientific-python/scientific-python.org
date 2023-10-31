@@ -36,18 +36,6 @@ table.spec__table thead {
   text-decoration: none;
 }
 
-.menu-spacer {
-  margin-left: auto;
-}
-
-.widget-search__form {
-  background: #2a2a2a;
-}
-
-.widget-search__field {
-  height: 1.6rem;
-}
-
 .spec-meta {
   background-color: var(--pst-color-surface);
   border: 1px solid var(--pst-color-border);
@@ -74,11 +62,6 @@ table.spec__table thead {
 .endorse-icon {
   width: 1.5rem;
   margin-right: 0.25rem;
-}
-
-.team-section {
-  padding-top: 1.5rem;
-  padding-bottom: 1.25rem;
 }
 
 .gallery {

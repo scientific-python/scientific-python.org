@@ -1,10 +1,6 @@
 {{ define "main" }}
 
 <section class="content-padding flex-row">
-  <div id="shortcuts-container">
-    <div><i class="fa-solid fa-list"></i> On this page</div>
-    <div id="shortcuts"></div>
-  </div>
   <div class="content-container">
     {{ partial "breadcrumbs.html" . }}
     <h1>{{ .Title }}</h1>
@@ -18,6 +14,10 @@
       <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
       {{ end }}
     </div>
+  </div>
+  <div id="shortcuts-container">
+    <div><i class="fa-solid fa-list"></i> On this page</div>
+    <div id="shortcuts"></div>
   </div>
 </section>
 

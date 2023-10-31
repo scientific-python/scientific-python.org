@@ -20,7 +20,13 @@ $(CALENDAR_DIR):
 	mkdir -p $(CALENDAR_DIR)
 
 $(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
-	yaml2ics $< > $@
+	@if [[ -z "$(shell grep -E 'external-ics:' $<)" ]]; then \
+	  echo "yaml2ics $< > $@"; \
+	  yaml2ics $< > $@; \
+	else \
+	  echo "python tools/fetch-external-ics.py $< > $@"; \
+	  python tools/fetch-external-ics.py $< > $@; \
+	fi
 
 CALENDAR_SOURCES = $(wildcard calendars/*.yaml)
 calendars: $(subst calendars,$(CALENDAR_DIR),$(CALENDAR_SOURCES:.yaml=.ics))

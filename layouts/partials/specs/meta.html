@@ -1,13 +1,13 @@
 {{- $root := . -}}
 
 {{ if eq .CurrentSection.Title "SPEC Core Projects" }}
-  {{- partial "specs/meta/project_meta.html" $root }}
+  {{- partial "specs/project_meta.html" $root }}
 {{ else if eq .Section "specs" }}
-  {{- partial "specs/meta/spec_meta.html" $root }}
+  {{- partial "specs/spec_meta.html" $root }}
 {{ else }}
   {{- with .Param "post_meta" -}}
     {{- range $field := . -}}
-      {{- $p := printf "specs/meta/%s.html" $field -}}
+      {{- $p := printf "specs/%s.html" $field -}}
       {{- partial $p $root -}}
     {{- end -}}
   {{- end -}}

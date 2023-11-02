@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="article content-padding flex-row">
+  <div class="content-container">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.Subtitle }}
+    <h5 class="subtitle">{{ .Params.Subtitle }}</h5>
+    {{ end }}
+    {{ with partial "specs/meta.html" . -}}
+    <div class="post-meta">{{ . }}</div>
+    {{- end }}
+
+    <div class="article-content">
+        {{ .Content }}
+    </div>
+  </div>
+  {{ partial "shortcuts.html" . }}
+</section>
+{{ end }}

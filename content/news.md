@@ -14,4 +14,4 @@ See [summit website]({{< relref "/summits/developer/2023/" >}}).
 Stéfan van der Walt announces the Scientific Python Ecosystem Coordination project and
 talks about the SPEC documents during SciPy 2021.
 
-{{< youtube page="video" >}}{{< /youtube >}}
+{{< youtube id="JjQM83nKZbk">}}{{< /youtube >}}

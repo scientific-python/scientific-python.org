@@ -1,44 +1,13 @@
-name: Sparse Arrays Group
-timezone: UTC
+name: Sparse Arrays WG
+timezone: America/Los_Angeles
 events:
-  - summary: Sparse Array discussions
+  - summary: Sparse Array Work Session
     description: |
-      Followup meetings from the Scientific Python Summit
-      and topics about implementing sparse arrays
-
-      Meeting Link:  https://meet.google.com/qvk-bydd-tem
+      Meeting Link:  https://framatalk.org/sp-sparse-arrays
       Meeting notes: https://hackmd.io/9UCjKdRUTEeoS8KdQNll-A
-    begin: 2023-07-07 14:00:00
-    end: 2023-07-07 15:00:00
-    url: https://meet.google.com/qvk-bydd-tem
-    repeat:
-      interval:
-        days: 14
-      until: 2023-08-05 00:00:00
-  - summary: Sparse Array discussions
-    description: |
-      Followup meetings from the Scientific Python Summit
-      and topics about implementing sparse arrays
-
-      Meeting Link:  https://meet.google.com/qvk-bydd-tem
-      Meeting notes: https://hackmd.io/9UCjKdRUTEeoS8KdQNll-A
-    begin: 2023-08-25 14:00:00
-    end: 2023-08-25 15:00:00
-    url: https://meet.google.com/qvk-bydd-tem
-    repeat:
-      interval:
-        days: 14
-      until: 2023-09-09 00:00:00
-  - summary: Sparse Array discussions
-    description: |
-      Followup meetings from the Scientific Python Summit
-      and topics about implementing sparse arrays
-
-      Meeting Link:  https://meet.google.com/qvk-bydd-tem
-      Meeting notes: https://hackmd.io/9UCjKdRUTEeoS8KdQNll-A
-    begin: 2023-09-15 14:00:00
-    end: 2023-09-15 15:00:00
-    url: https://meet.google.com/qvk-bydd-tem
+    begin: 2023-11-27 11:00:00
+    end: 2023-11-27 12:00:00
+    url: https://framatalk.org/sp-sparse-arrays
     repeat:
       interval:
         days: 14

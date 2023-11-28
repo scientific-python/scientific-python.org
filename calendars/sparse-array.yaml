@@ -5,8 +5,8 @@ events:
     description: |
       Meeting Link:  https://framatalk.org/sp-sparse-arrays
       Meeting notes: https://hackmd.io/9UCjKdRUTEeoS8KdQNll-A
-    begin: 2023-11-27 11:00:00
-    end: 2023-11-27 12:00:00
+    begin: 2023-12-04 11:00:00
+    end: 2023-12-04 12:00:00
     url: https://framatalk.org/sp-sparse-arrays
     repeat:
       interval:

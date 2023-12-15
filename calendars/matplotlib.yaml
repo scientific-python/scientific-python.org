@@ -49,7 +49,7 @@ events:
     ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2
 
 
-    -summary: Matplotlib Documentation Meeting
+  - summary: Matplotlib Documentation Meeting
     description: |
       Meeting every other week to discuss all things Matplotlib documentation. 
       Contributing, planning, strategy, content - anybody with curiosity, interest, 

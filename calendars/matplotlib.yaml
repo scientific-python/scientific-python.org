@@ -48,18 +48,15 @@ events:
     url: https://us06web.zoom.us/j/81285851006?pwd=Tks2QjRkNWh5NGw0TmU1RUwwOVluZz09
     ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2
 
-
   - summary: Matplotlib Documentation Meeting
     description: |
-      Meeting every other week to discuss all things Matplotlib documentation. 
-      Contributing, planning, strategy, content - anybody with curiosity, interest, 
-      or an opinion is welcome.  
-      
+      Meeting every other week to discuss all things Matplotlib documentation.
+      Contributing, planning, strategy, content - anybody with curiosity, interest,
+      or an opinion is welcome.
+
       Meeting notes: https://hackmd.io/@matplotlib/dwg
 
     begin: 2023-12-15 19:00:00
     end: 2023-12-15 20:00:00
     url: https://us06web.zoom.us/j/81285851006?pwd=Tks2QjRkNWh5NGw0TmU1RUwwOVluZz09
     ics: RRULE:FREQ=WEEKLY;BYDAY=FR;INTERVAL=2
-    
-   

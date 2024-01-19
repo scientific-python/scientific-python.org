@@ -1,5 +1,5 @@
 name: GraphBLAS Community Calendar
-timezone: US/Pacific
+timezone: America/Los_Angeles
 events:
   - summary: Python-graphblas Community Call
     description: |

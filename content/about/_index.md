@@ -10,8 +10,8 @@ To better coordinate the ecosystem and support the community of contributors and
 
 The scientific Python _ecosystem_ is a loose federation of community-developed and -owned Python projects widely used in scientific
 research, technical computing, and data science.
-The scientific Python _community_ of contributors and maintainers are employed by a variety of universites, research labs, and companies.
-Historically, the community has been composed primarily of volunteers working in their free-time over nights and weekends.
+The scientific Python _community_ of contributors and maintainers are employed by a variety of universities, research labs, and companies.
+Historically, the community has been composed primarily of volunteers working in their free time over nights and weekends.
 Given the growing importance of these tools, funding to work on these projects has been increasing.
 However, volunteers continue to drive the development of these tools.
 This is true, in particular, because existing funding is largely short-term and not certain to continue.

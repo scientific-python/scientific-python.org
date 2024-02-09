@@ -93,26 +93,16 @@ params:
     logo: logo.svg
     socialmediatitle: ""
     socialmedia:
-      - link: https://scientific-python.org
-        icon: scientific-python
       - link: https://github.com/scientific-python/
         icon: github
       - link: https://www.youtube.com/c/ScientificPython-org
         icon: youtube
-      - link: https://twitter.com/scientific_py
-        icon: twitter
-      - link: https://facebook.com/scientific.python
-        icon: facebook
-      - link: https://www.instagram.com/scientific.python/
-        icon: instagram
-      - link: https://www.tiktok.com/@scientific.python
-        icon: tiktok
-      - link: https://discord.com/invite/vur45CbwMz
-        icon: discord
-      - link: https://blog.scientific-python.org/atom.xml
-        icon: rss-feed
+      - link: https://fosstodon.org/scientific_python
+        icon: mastodon
       - link: https://discuss.scientific-python.org
         icon: discourse
+      - link: https://discord.com/invite/vur45CbwMz
+        icon: discord
 
     quicklinks:
       column1:

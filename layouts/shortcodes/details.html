@@ -1,8 +1,0 @@
-{{ $summary:= .Get 0 | markdownify }}
-{{ $content := .Inner | markdownify }}
-<p>
-  <details>
-      <summary>{{$summary}}</summary>
-      <p>{{$content}}</p>
-  </details>
-</p>

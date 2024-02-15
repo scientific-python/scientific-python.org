@@ -2,6 +2,11 @@
 title: Tools & Services
 ---
 
+{{< admonition attention >}}
+This content is being moved to tools.scientific-python.org. This will be a redirect when the site goes live.
+See https://github.com/scientific-python/tools.scientific-python.org/pull/23
+{{< /admonition >}}
+
 We maintain a collection of tools, small and large, that help projects across the ecosystem.
 All tools:
 

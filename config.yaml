@@ -56,39 +56,6 @@ params:
     # Hero image (from static/images/___)
     image: logo.svg
 
-  keyfeatures:
-    features:
-      - title: SPECs
-        text: |
-          [Scientific Python Ecosystem Coordination]({{< relref "/specs" >}})
-          documents are a mechanism by which practices are
-          discussed and propagated throughout the ecosystem.
-      - title: Summits
-        text: |
-          At the [summits]({{< relref "/summits" >}}), we get together both virtually and in-person
-          to plan and do ecosystem work.
-      - title: Development Guide
-        text: |
-          Read this [community-maintained guide](https://learn.scientific-python.org/development/)
-          to learn best practices for library development.
-      - title: Lecture Notes
-        text: |
-          Learn or teach how to use the scientific Python ecosystem with [classroom-style lecture notes](https://lectures.scientific-python.org).
-      - title: Sparse Arrays
-        text: |
-          One of our current focuses is on improving and maintaining the
-          [sparse array]({{< relref "/grants/sparse_arrays/" >}}) capabilities and
-          interoperability in the ecosystem.
-      - title: Community
-        text: |
-          Our [community efforts]({{< relref "/community" >}}) focus
-          on broadening participation and better coordinating volunteer efforts.
-
-        #      - title: Tools
-        #        text: |
-        #          We maintain a collection of [tools]({{< relref "/tools" >}})
-        #          used across the ecosystem.
-
   footer:
     logo: logo.svg
     socialmediatitle: ""

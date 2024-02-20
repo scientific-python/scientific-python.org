@@ -80,7 +80,7 @@ Read about the [grants]({{< relref "/grants" >}}) that fund the work we do.
 ## Leadership
 
 The following people are involved with leading the overall project.
-For more information, see our [governance and decision making process]({{< relref "/about/governance" >}}).
+For more information, see our [governance and decision making process]({{% relref "/about/governance" %}}).
 
 {{< include-html "static/teams/community-managers.html" >}}
 {{< include-html "static/teams/community-leaders.html" >}}
@@ -90,4 +90,4 @@ For more information, see our [governance and decision making process]({{< relre
 
 As a coordinating effort, the Scientific Python project has several teams that operate across the ecosystem.
 Specific projects may have their own governance structures.
-For example, the SPEC Steering Committee governance model is described [here]({{< relref "/specs/steering-committee/" >}}).
+For example, the SPEC Steering Committee governance model is described [here]({{% relref "/specs/steering-committee" %}}).

@@ -12,6 +12,11 @@ markup:
     renderer:
       unsafe: true
 
+module:
+  mounts:
+    source: calendars
+    target: data/calendars
+
 params:
   description: Community developed and owned ecosystem for scientific computing
 

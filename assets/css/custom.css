@@ -21,21 +21,6 @@ table.spec__table thead {
   text-decoration: none;
 }
 
-.readcode {
-  position: relative;
-}
-
-.readcode-download {
-  position: absolute;
-  right: 1rem;
-  top: 1.75rem;
-  text-align: right;
-}
-
-.readcode-download a {
-  text-decoration: none;
-}
-
 .spec-meta {
   background-color: var(--pst-color-surface);
   border: 1px solid var(--pst-color-border);

@@ -21,29 +21,24 @@ table.spec__table thead {
   text-decoration: none;
 }
 
-.spec-meta {
-  background-color: var(--pst-color-surface);
-  border: 1px solid var(--pst-color-border);
-  border-radius: 0.25rem;
+.admonition.spec-meta {
+  margin: 0.5625rem auto 1.5625rem;
+}
+
+table.spec-meta {
+  margin-bottom: 0;
   line-height: 1.2em;
-  margin: 1.5em 0;
-  padding: 1rem;
   display: inline-block;
 }
 
-.spec-meta table {
-  margin-bottom: 0;
+.spec-field {
 }
 
-.spec-meta .field {
-}
-
-.spec-meta .field-name {
+.spec-field-name {
   white-space: nowrap;
   font-weight: bold;
   vertical-align: top;
 }
-
 .gallery {
   display: flex;
   flex-wrap: wrap;

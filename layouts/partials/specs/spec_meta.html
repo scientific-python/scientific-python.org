@@ -1,7 +1,11 @@
 {{ $page := . }}
 {{ $isSpec := eq (len (findRE "^spec-\\d*" .File.ContentBaseName)) 1 }}
-<div class="spec-meta">
-  <table>
+<div class="sd-container-fluid sd-mb-4" >
+<div class="sd-row">
+<div class="sd-col sd-d-flex-row">
+<div class="sd-card sd-w-100 sd-shadow-sm">
+<div class="sd-card-body">
+    <table class="spec-meta">
     {{ $meta_fields := (slice "author" "discussion" "history" "endorsed-by") }}
     {{- range $attr := $meta_fields -}}
       {{ $val := index $.Params $attr }}
@@ -20,13 +24,13 @@
       {{- end -}}
       {{ $isSpecField := (in (slice "endorsed-by" "discussion" ) $attr) }}
       {{ if (or $isSpec (not $isSpecField)) }}
-        <tr class="field">
-          <td class="field-name">
+        <tr class="spec-field">
+          <td class="spec-field-name">
             {{ $attr | humanize }}:
           </td>
           {{- if (reflect.IsSlice $val) -}}
             {{ $len := len $val }}
-            <td class="field-value">
+            <td class="spec-field-value">
             {{- range $idx, $el := $val }}
               {{ if eq $attr "endorsed-by" }}
                 <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
@@ -37,29 +41,26 @@
             {{ end }}
             </td>
           {{- else }}
-            <td class="field-value">
+            <td class="spec-field-value">
               {{ $val | markdownify }}
             </td>
           {{- end -}}
         </tr>
-      {{/* add warning that this is a draft, i.e. has not been endorsed by 2 projects or more */}}
-      {{- if (and (eq $attr "endorsed-by") (lt (len (or $val "")) 2)) }}
-          {{/* add blank line */}}
-          <tr class="field">
-              <td class="field-name">&nbsp;</td>
-              <td class="field-value"></td>
-          </tr>
-          {{/* add warning */}}
-          <tr class="field" style="background-color:crimson;color:white;">
-            <td class="field-name">
-              &nbsp; WARNING:
-            </td>
-            <td class="field-value">
-              Draft document.
-            </td>
+      {{- end -}}
+    {{/* add warning that this is a draft, i.e. has not been endorsed by 2 projects or more */}}
+    {{- if (and (eq $attr "endorsed-by") (lt (len (or $val "")) 2)) -}}
+        {{/* add warning */}}
+        <div class="admonition attention spec-meta">
+          <div class="admonition-title">
+            Attention
           </div>
-      {{- end -}}
-      {{- end -}}
+          <p>This is a draft document.</p>
+        </div>
     {{- end -}}
-  </table>
+    {{- end -}}
+    </table>
+</div>
+</div>
+</div>
+</div>
 </div>

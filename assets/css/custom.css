@@ -101,8 +101,9 @@ table.spec__table thead {
 }
 
 .calendar-list .calendar-copy {
-  height: 1rem;
+  display: inline-block;
   cursor: pointer;
+  height: 1rem;
   padding-left: 0.25rem;
 }
 

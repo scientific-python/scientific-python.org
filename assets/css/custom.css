@@ -59,11 +59,6 @@ table.spec__table thead {
   vertical-align: top;
 }
 
-.endorse-icon {
-  width: 1.5rem;
-  margin-right: 0.25rem;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;

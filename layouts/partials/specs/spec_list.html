@@ -23,7 +23,7 @@
               {{ $project_page := $.GetPage (printf "core-projects/%s" $el) }}
               {{ $url := $project_page.RelPermalink }}
               <a href="{{ $url }}">
-                <img title="{{ $project_page.Title }}" src="{{ $project_page.Params.avatar }}" class="endorse-icon"/>
+                <img title="{{ $project_page.Title }}" src="{{ $project_page.Params.avatar }}" class="icon"/>
               </a>
             {{ end }}
           {{ else }}

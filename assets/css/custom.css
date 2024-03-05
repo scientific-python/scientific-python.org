@@ -21,24 +21,6 @@ table.spec__table thead {
   text-decoration: none;
 }
 
-.admonition.spec-meta {
-  margin: 0.5625rem auto 1.5625rem;
-}
-
-table.spec-meta {
-  margin-bottom: 0;
-  line-height: 1.2em;
-  display: inline-block;
-}
-
-.spec-field {
-}
-
-.spec-field-name {
-  white-space: nowrap;
-  font-weight: bold;
-  vertical-align: top;
-}
 .gallery {
   display: flex;
   flex-wrap: wrap;

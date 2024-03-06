@@ -7,7 +7,7 @@
       </td>
     </tr>
   </thead>
-  {{- range $.Paginator.Pages.ByTitle }}
+  {{- range ($.Paginator.Pages.ByParam "number") }}
     {{- if and (hasPrefix .Title "SPEC") (in .Title "—") }}
       <tr class="spec">
         <td class="spec__title">

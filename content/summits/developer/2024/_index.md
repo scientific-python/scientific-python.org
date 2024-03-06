@@ -2,7 +2,7 @@
 title: 2024 Developer Summit
 subtitle: The Second Scientific Python Developer Summit
 summary: |
-  The first Scientific Python Developer Summit (May 22-26, 2023) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
+  The second Scientific Python Developer Summit (June 3-7, 2024) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
 authors: ["Brigitta Sipőcz", "K. Jarrod Millman", "Stéfan van der Walt"]
 date: 2024-03-05
 ---
@@ -128,7 +128,7 @@ such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn,
 NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and
 scikit-HEP.
 
-{{< details "**List of participants**" >}}
+{{< details "**List of participants** (we add names to the list as they confirm attendance)" >}}
 
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
 - Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))

@@ -19,7 +19,7 @@
   <h2>Endorsed SPECs</h1>
   {{- $specs := where $.Site.Pages "Section" "specs" -}}
   <ul class="endorsed-specs-list">
-    {{- range $specs -}}
+    {{- range ($specs.ByParam "number") -}}
       {{- if not (in (lower .Title) "meta") -}}
         {{- if in ( index .Params "endorsed-by" ) $root.File.BaseFileName }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>

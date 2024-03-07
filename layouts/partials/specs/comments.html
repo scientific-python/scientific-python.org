@@ -45,14 +45,14 @@
   // Call on Discourse to create a comment iframe
   // See https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963
   DiscourseEmbed = {
-    discourseURL: discourse_url,
+    discourseUrl: `${discourse_url}/`,
     {{ printf "discourseEmbedUrl: '%s'" $page.Permalink | safeJS }},
     // className: 'CLASS_NAME',
   };
 
   (function () {
     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    d.src = `${DiscourseEmbed.discourseUrl}javascripts/embed.js`;
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
   })();
 

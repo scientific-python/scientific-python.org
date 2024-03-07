@@ -1,0 +1,59 @@
+<!-- Definitive version lives at https://github.com/scientific-python/blog.scientific-python.org -->
+{{ $page := . }}
+<div id='discourse-comments'></div>
+<script type="text/javascript">
+  // For an explanation of the flow of information here, see:
+  // https://meta.discourse.org/t/automatic-dark-mode-for-embedded-comments-as-well/184347/19?u=stéfan_van_der_walt
+
+  const discourse_url = "https://discuss.scientific-python.org";
+
+  // Send a message to the iframe to let it know the dark/light mode choice
+  const notifyIFrameOfTheme = () => {
+    const iframe = document.getElementById("discourse-embed-frame");
+    if (iframe && iframe.contentWindow) {
+      iframe.contentWindow.postMessage(
+        {
+          theme: document.documentElement.getAttribute("data-theme")
+        },
+        discourse_url
+      );
+    }
+  };
+
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.attributeName == "data-theme") {
+        notifyIFrameOfTheme();
+      }
+    });
+
+  });
+  observer.observe(document.querySelector("html"), {
+    subtree: false,
+    attributes: true,
+  });
+
+  // Call notifyIFrameOfTheme once we receive a message from Discourse
+  // that the comments iframe has loaded
+  const handleMessageListener = (event) => {
+    var origin = event.origin;
+    if ((origin === discourse_url) && (event.data == "iframe loaded")) {
+      notifyIFrameOfTheme();
+    }
+  };
+
+  // Call on Discourse to create a comment iframe
+  // See https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963
+  DiscourseEmbed = {
+    discourseUrl: '{{ . }}',
+    discourseEmbedUrl: '{{ $page.Permalink }}',
+  };
+
+  (function () {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+
+  window.addEventListener("message", handleMessageListener);
+</script>

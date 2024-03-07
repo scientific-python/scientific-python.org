@@ -11,3 +11,5 @@ Recently, a [sparse array API](https://github.com/scipy/scipy/pull/14822) was ad
 This effort is complimentary to work being done on the [PyData sparse](https://sparse.pydata.org/en/stable/index.html) package, which provides n-dimensional sparse data structures that support array semantics appropriate for Numba compiled code.
 
 The summits bring together developers and users of sparse arrays to discuss shortcomings of the current implementations, the needs of various scientific communities, and to develop a shared roadmap and vision for better supporting sparse arrays.
+
+{{< toctree levels=1 >}}

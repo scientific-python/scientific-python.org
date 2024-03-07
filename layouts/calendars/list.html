@@ -31,15 +31,13 @@
 
         <br>
         <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-        <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.5/main.min.css' rel='stylesheet' />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.5.0/ical.min.js"></script>
-        <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.5/main.min.js'></script>
-        <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@5.11.5/main.global.min.js"></script>
-
+        <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.11/index.global.min.js"></script>
         <script>
           document.addEventListener('DOMContentLoaded', function() {
             var cal_colors = vega.scheme('category10');
-            var community_calendar = document.getElementById('community_calendar');
+            var community_calendar = document.getElementById('community-calendar');
             var calendar = new FullCalendar.Calendar(community_calendar, {
                 aspectRatio: 1,
                 timeZone: 'local',
@@ -68,7 +66,7 @@
           });
 
         </script>
-        <div id='community_calendar'></div>
+        <div id='community-calendar'></div>
 
         <h3 id="subscribe-google-calendar">Google Calendar</h3>
         Instructions from <a href="https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop">the Google Calendar docs</a>:

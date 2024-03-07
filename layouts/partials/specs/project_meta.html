@@ -1,31 +1,30 @@
 {{- $root := . -}}
-<div class="spec-meta">
-  <table>
+<div class="sd-card sd-mb-3 sd-shadow-sm">
+  <div class="sd-card-body">
     {{ $meta_fields := (slice "homepage" "repository" "pypi" "libraries-io" "license" "license-type") }}
+    <dl class="field-list">
     {{- range $attr := $meta_fields -}}
       {{ $val := index $.Params $attr }}
-      <tr class="field">
-        <td class="field-name">
-          {{ $attr | humanize }}:
-        </td>
-        <td class="field-value">
-          {{ $val | markdownify }}
-        </td>
-      </tr>
+      <dt class="field-odd">
+        {{ $attr | humanize }}:
+      </dt>
+      <dd class="field-odd">
+        {{ $val | markdownify }}
+      </dd>
     {{- end -}}
-  </table>
+    </dl>
+  </div>
 </div>
-
-<div class="endorsed-specs">
-  <h1>Endorsed SPECs</h1>
-  {{ $specs := where $.Site.Pages "Section" "specs" }}
+<div class="article-content">
+  <h2>Endorsed SPECs</h1>
+  {{- $specs := where $.Site.Pages "Section" "specs" -}}
   <ul class="endorsed-specs-list">
-    {{- range $specs -}}
-      {{ if not (in (lower .Title) "meta") }}
-        {{ if in ( index .Params "endorsed-by" ) $root.File.BaseFileName }}
+    {{- range ($specs.ByParam "number") -}}
+      {{- if not (in (lower .Title) "meta") -}}
+        {{- if in ( index .Params "endorsed-by" ) $root.File.BaseFileName }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{- end }}
-      {{- end }}
+        {{- end -}}
+      {{- end -}}
     {{- end -}}
   </ul>
 </div>

@@ -21,44 +21,6 @@ table.spec__table thead {
   text-decoration: none;
 }
 
-.readcode {
-  position: relative;
-}
-
-.readcode-download {
-  position: absolute;
-  right: 1rem;
-  top: 1.75rem;
-  text-align: right;
-}
-
-.readcode-download a {
-  text-decoration: none;
-}
-
-.spec-meta {
-  background-color: var(--pst-color-surface);
-  border: 1px solid var(--pst-color-border);
-  border-radius: 0.25rem;
-  line-height: 1.2em;
-  margin: 1.5em 0;
-  padding: 1rem;
-  display: inline-block;
-}
-
-.spec-meta table {
-  margin-bottom: 0;
-}
-
-.spec-meta .field {
-}
-
-.spec-meta .field-name {
-  white-space: nowrap;
-  font-weight: bold;
-  vertical-align: top;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;

@@ -45,8 +45,9 @@
   // Call on Discourse to create a comment iframe
   // See https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963
   DiscourseEmbed = {
-    discourseUrl: '{{ . }}',
-    discourseEmbedUrl: '{{ $page.Permalink }}',
+    discourseURL: discourse_url,
+    {{ printf "discourseEmbedUrl: '%s'" $page.Permalink | safeJS }},
+    // className: 'CLASS_NAME',
   };
 
   (function () {

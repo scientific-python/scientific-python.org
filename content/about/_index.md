@@ -82,9 +82,17 @@ Read about the [grants]({{< relref "/grants" >}}) that fund the work we do.
 The following people are involved with leading the overall project.
 For more information, see our [governance and decision making process]({{% relref "/about/governance" %}}).
 
-{{< include-html "static/teams/community-managers.html" >}}
-{{< include-html "static/teams/community-leaders.html" >}}
-{{< include-html "static/teams/emeritus-community-leaders.html" >}}
+### Community Managers
+
+{{< grid1 file="community-managers.toml" columns="2 3 4 5" />}}
+
+### Community Leaders
+
+{{< grid1 file="community-leaders.toml" columns="2 3 4 5" />}}
+
+### Emeritus Community Leaders
+
+{{< grid1 file="emeritus-community-leaders.toml" columns="2 3 4 5" />}}
 
 ### Other Teams
 

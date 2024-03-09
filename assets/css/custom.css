@@ -21,39 +21,6 @@ table.spec__table thead {
   text-decoration: none;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery .entry {
-  padding: 1rem;
-  margin: 0.25rem;
-  width: 11rem;
-  text-align: center;
-  vertical-align: top;
-}
-
-.gallery .photo {
-  display: block;
-}
-
-.gallery .photo img {
-  width: 60px;
-  border-radius: 50%;
-  margin-bottom: 0.5rem;
-}
-
-.gallery .name {
-  font-weight: bold;
-}
-
-.gallery .project {
-  display: block;
-  font-size: 0.8rem;
-  font-style: italic;
-}
-
 .calendar-list .calendar {
   padding-bottom: 1rem;
 }

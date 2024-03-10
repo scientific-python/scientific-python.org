@@ -1,49 +1,49 @@
 [[item]]
 type = 'card'
 classcard = 'text-center'
-header = 'Jarrod Millman'
 body = '''{{< image >}}
 src = 'https://avatars3.githubusercontent.com/u/123428'
 alt = 'Avatar of Jarrod Millman'
-{{< /image >}}'''
+{{< /image >}}
+Jarrod Millman'''
 link = 'https://github.com/jarrodmillman'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-header = 'Melissa Weber Mendonça'
 body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/3949932'
 alt = 'Avatar of Melissa Weber Mendonça'
-{{< /image >}}'''
+{{< /image >}}
+Melissa Weber Mendonça'''
 link = 'https://github.com/melissawm'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-header = 'Ralf Gommers'
 body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/98330'
 alt = 'Avatar of Ralf Gommers'
-{{< /image >}}'''
+{{< /image >}}
+Ralf Gommers'''
 link = 'https://github.com/rgommers'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-header = 'Stéfan van der Walt'
 body = '''{{< image >}}
 src = 'https://avatars3.githubusercontent.com/u/45071'
 alt = 'Avatar of Stéfan van der Walt'
-{{< /image >}}'''
+{{< /image >}}
+Stéfan van der Walt'''
 link = 'https://github.com/stefanv'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-header = 'Tania Allard'
 body = '''{{< image >}}
 src = 'https://avatars.githubusercontent.com/u/23552331'
 alt = 'Avatar of Tania Allard'
-{{< /image >}}'''
+{{< /image >}}i
+Tania Allard''''
 link = 'https://github.com/trallard'

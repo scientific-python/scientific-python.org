@@ -1,61 +1,40 @@
-{{ $page := . }}
-{{ $isSpec := eq (len (findRE "^spec-\\d*" .File.ContentBaseName)) 1 }}
-<div class="sd-card sd-mb-3 sd-shadow-sm">
-<div class="sd-card-body">
-    {{ $meta_fields := (slice "author" "discussion" "history" "endorsed-by") }}
-    {{ $warn := "" }}
-    <dl class="field-list">
-    {{- range $attr := $meta_fields -}}
-      {{ $val := index $.Params $attr }}
-      {{ $attr := strings.TrimPrefix "spec_" $attr }}
-      {{- if eq $attr "author" }}
-        {{ $attr = "authors" }}
-        {{- if not (reflect.IsSlice $val) }}
-          {{ $val = slice $val }}
-        {{ end }}
-      {{- else if eq $attr "date" }}
-        {{ $val = $val.Format "2006-01-02" }}
-      {{- else if (eq $attr "history") }}
-        {{ $path := index (split $page.Path "specs/") 1 }}
-        {{ $link := printf "https://github.com/scientific-python/specs/commits/main/%s" $path }}
-        {{ $val = printf "<a href=\"%s\">%s</a>" $link $link }}
-      {{- end -}}
-      {{ $isSpecField := (in (slice "endorsed-by" "discussion" ) $attr) }}
-      {{ if (or $isSpec (not $isSpecField)) }}
-          <dt class="field-odd">
-            {{ $attr | humanize }}<span class="colon">:</span></dt>
-          </dt>
-          {{- if (reflect.IsSlice $val) -}}
-            {{ $len := len $val }}
-            <dd class="field-odd">
-            {{- range $idx, $el := $val }}
-              {{ if eq $attr "endorsed-by" }}
-                <a href="{{ relref $.Page.CurrentSection (printf "core-projects/%s" $el) }}">{{ $el }}</a>
-              {{- else }}
-                {{ $el }}
-              {{- end -}}
-              {{- if not (eq (add $idx 1) $len) -}},{{ end }}
-            {{ end }}
-            </dd>
-          {{- else }}
-            <dd class="field-odd">
-              {{ $val | markdownify }}
-            </dd>
-          {{- end -}}
-      {{- end -}}
-    {{/* add warning that this is a draft, i.e. has not been endorsed by 2 projects or more */}}
-    {{- if (and (eq $attr "endorsed-by") (lt (len (or $val "")) 2)) -}}
-        {{ $warn = "True" }}
+{{- $filename := .File.ContentBaseName -}}
+{{- $endorsed := false -}}
+
+{{/* Create field list */}}
+{{- $fieldList := slice -}}
+{{- range $term := slice "author" "discussion" "history" "endorsed-by" -}}
+  {{- $def := index $.Params $term }}
+  {{- if eq $term "author" }}
+    {{- $term = "authors" }}
+    {{- if not (reflect.IsSlice $def) }}
+      {{- $def = slice $def }}
+    {{- end }}
+    {{- $def = delimit $def ", " }}
+  {{- else if (eq $term "discussion") }}
+    {{- $def = $def | markdownify }}
+  {{- else if (eq $term "history") }}
+    {{- $def = printf "https://github.com/scientific-python/specs/commits/main/%s" $filename | markdownify }}
+  {{- else if and (eq $term "endorsed-by") (reflect.IsSlice $def) }}
+    {{- $def = apply $def "printf" "[%s](../core-projects/%s)" "." "." }}
+    {{- $def = delimit $def ", " }}
+    {{- $def = $def | markdownify }}
+    {{- if ge (len $def) 2 -}}
+      {{ $endorsed = true }}
     {{- end -}}
-    {{- end -}}
-    </dl>
-    {{- if $warn }}
-        <div class="admonition attention">
-          <div class="admonition-title">
-            Attention
-          </div>
-          <p>This is a draft document.</p>
-        </div>
-    {{- end -}}
-</div>
-</div>
+  {{- end }}
+  {{- $fieldList = $fieldList | append (dict "term" ( $term | humanize )  "def" $def ) -}}
+{{- end -}}
+{{- $specMetaBody := partial "_elements/field-list.html" (dict "entries" $fieldList) -}}
+
+{{/* Add warning if SPEC not endorsed */}}
+{{- if not $endorsed }}
+  {{- $title := "attention" -}}
+  {{- $body := "This is a draft document." -}}
+  {{- $admonition := partial "_elements/admonition.html" (dict "title" $title "body" $body) -}}
+  {{- $specMetaBody = printf "%s %s" $specMetaBody $admonition -}}
+{{- end -}}
+
+{{/* Put the SPEC meta data in a card */}}
+{{- $card := dict "body" $specMetaBody -}}
+{{- partial "_elements/card.html" (dict "card" $card) -}}

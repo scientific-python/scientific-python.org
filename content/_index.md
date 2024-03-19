@@ -2,7 +2,7 @@
 title:
 ---
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -53,4 +53,4 @@ Our [community efforts]({{% relref "/community" %}}) focus
 on broadening participation and better coordinating volunteer efforts.
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}

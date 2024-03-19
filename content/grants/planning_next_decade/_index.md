@@ -11,7 +11,7 @@ status: funded
 pdf_url: https://scientific-python.org/doc/scientific-python-planning-grant-2020.pdf
 ---
 
-{{< grid1 file="team.toml" columns="2 3 4 5" />}}
+{{< grid file="team.toml" columns="2 3 4 5" />}}
 
 With an extensive and high-quality ecosystem of libraries, scientific Python
 has emerged as the leading platform for data analysis.

@@ -84,15 +84,15 @@ For more information, see our [governance and decision making process]({{% relre
 
 ### Community Managers
 
-{{< grid1 file="community-managers.toml" columns="2 3 4 5" />}}
+{{< grid file="community-managers.toml" columns="2 3 4 5" />}}
 
 ### Community Leaders
 
-{{< grid1 file="community-leaders.toml" columns="2 3 4 5" />}}
+{{< grid file="community-leaders.toml" columns="2 3 4 5" />}}
 
 ### Emeritus Community Leaders
 
-{{< grid1 file="emeritus-community-leaders.toml" columns="2 3 4 5" />}}
+{{< grid file="emeritus-community-leaders.toml" columns="2 3 4 5" />}}
 
 ### Other Teams
 

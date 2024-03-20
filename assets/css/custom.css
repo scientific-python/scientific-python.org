@@ -49,6 +49,10 @@ table.spec__table thead {
   padding: 1rem;
 }
 
+.grant .title:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
 .grant .title .pdf {
   display: inline;
 }

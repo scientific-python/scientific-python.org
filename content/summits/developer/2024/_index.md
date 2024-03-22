@@ -166,7 +166,7 @@ The plan will also be used by the community for support when applying for federa
 Participants will be expected to participate in at least two planning meetings
 as well as the weekly long summit.
 
-The summit is held June 3-7, 2024 in Seattle, WA.
+The summit is held June 3-5, 2024 in Seattle, WA.
 
 Attendees should preferably arrive the day before the summit starts, and stay for the entire duration of the summit.
 

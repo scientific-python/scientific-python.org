@@ -2,7 +2,7 @@
 title: 2024 Developer Summit
 subtitle: The Second Scientific Python Developer Summit
 summary: |
-  The second Scientific Python Developer Summit (June 3-7, 2024) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
+  The second Scientific Python Developer Summit (June 3-5, 2024) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
 authors: ["Brigitta Sipőcz", "K. Jarrod Millman", "Stéfan van der Walt"]
 date: 2024-03-05
 ---
@@ -29,7 +29,7 @@ during our event._
 | Time | Description |
 |------|-------------|
 | | Arrive |
-| | Dinner (self organized) |
+| | Dinner (self-organized) |
 {{< /details >}}
 
 {{< details "**Monday**" >}}
@@ -43,7 +43,7 @@ during our event._
 | 14:30--17:00 | Work session |
 | 17:30--18:00 | Check-in |
 | 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self organized) |
+| 18:00 | Dinner (self-organized) |
 {{< /details >}}
 
 {{< details "**Tuesday**" >}}
@@ -55,7 +55,7 @@ during our event._
 | 14:30--17:00 | Work session |
 | 17:15--17:45 | Check-in |
 | 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self organized) |
+| 18:00 | Dinner (self-organized) |
 {{< /details >}}
 
 {{< details "**Wednesday**" >}}
@@ -67,42 +67,19 @@ during our event._
 | 14:30--17:00 | Work session |
 | 17:30--18:00 | Check-in |
 | 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self organized) |
+| 18:00 | Dinner (self-organized) |
 {{< /details >}}
 
 {{< details "**Thursday**" >}}
 | Time | Description |
 |------|-------------|
-| 9:00 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--17:00 | Work session |
-| 17:30--18:00 | Check-in |
-| 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self organized) |
-{{< /details >}}
-
-{{< details "**Friday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--16:00 | Work session |
-| 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self organized) |
-{{< /details >}}
-
-{{< details "**Saturday**" >}}
-| Time | Description |
-|------|-------------|
 | | Depart |
-| | Breakfast (self organized) |
+| | Breakfast (self-organized) |
 {{< /details >}}
 
 ## Logistics
 
-We have funding (i.e., for travel, food, and lodging) and space for 40 participants for five days and six nights.
+We have funding (i.e., for travel, food, and lodging) and space for 40 participants for three days and four nights.
 This will be an invite-only event that requires upfront agreement to:
 (a) take part in two of the three one-hour pre-summit planning meetings,
 (b) collaborate with fellow participants on a work plan,
@@ -177,7 +154,7 @@ See [planning issues](https://github.com/scientific-python/summit-2024/issues).
 Participants will be responsible for attending two or more one-hour video meetings (the planning meetings mentioned above) and for
 participating in a planning repository via PRs, issues—as both contributors and reviewers.
 There is no heavy top-down structure: participants themselves will organize the work that needs to be done ahead of time.
-They will deciding on topics, divide the work, and schedule the meeting.
+They will decide on topics, divide the work, and schedule the meeting.
 
 ### Summit Execution
 

@@ -1,5 +1,5 @@
 ---
-title: 2024 Developer Summit
+title: 2024 Developer Summit – June 3-5 – Seattle, WA
 subtitle: The Second Scientific Python Developer Summit
 summary: |
   The second Scientific Python Developer Summit (June 3-5, 2024) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.

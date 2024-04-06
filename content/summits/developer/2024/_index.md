@@ -107,10 +107,25 @@ scikit-HEP.
 
 {{< details "**List of participants** (we add names to the list as they confirm attendance)" >}}
 
+- Ariel Rokem ()
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
+- CJ Carey ()
+- Dan McCloy ()
+- Dan Schult ()
+- Eric Larson ()
+- Guen Prawiroatmodjo ()
 - Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))
+- Juanita Gomez ()
+- Kyle Sunden ()
+- Lars Grüter ()
+- Madicken Munk (
 - Matthias Bussonnier ([@Carreau](https://github.com/Carreau))
+- Nabil Freij ()
+- Nick Smith ()
+- Pamphile Roy ()
 - Stéfan van der Walt ([@stefanv](https://github.com/stefanv))
+- Thomas Fan ()
+- Tim Head ()
 
 {{< /details >}}
 

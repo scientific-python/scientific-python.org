@@ -1,0 +1,22 @@
+{{/*
+
+doc: A SPEC Badge.
+
+{{< spec_badge number="0" title="Minimum Supported Dependencies" >}}
+
+*/}}
+
+{{- $number := .Get "number" }}
+{{- $title := .Get "title" }}
+{{- $tabs := slice }}
+{{- $name := "Rendered badge" }}
+{{- $content := printf "[![SPEC %s — %s](https://img.shields.io/badge/SPEC-%s-blue)](https://scientific-python.org/specs/spec-%0*s/)" $number $title $number 4 $number }}
+{{- $tabs := $tabs | append (dict "name" $name "content" $content) }}
+{{- $name := "Markdown" }}
+{{- $content := printf "`[![SPEC %s — %s](https://img.shields.io/badge/SPEC-%s-blue)](https://scientific-python.org/specs/spec-%0*s/)`" $number $title $number 4 $number }}
+{{- $tabs := $tabs | append (dict "name" $name "content" $content) }}
+
+
+{{- $groupId := .Page.Scratch.Get "tabgroup" | default 0 -}}
+{{- .Page.Scratch.Set "tabgroup" (add $groupId 1) -}}
+{{ partial "_elements/tabs" (dict "ctx" . "tabs" $tabs) }}

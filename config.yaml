@@ -81,21 +81,21 @@ params:
         title: ""
         links:
           - text: About
-            link: /about/
+            link: about
           - text: Roadmap
-            link: /roadmap/
+            link: roadmap
           - text: Code of Conduct
-            link: /code_of_conduct/
+            link: code_of_conduct
       column2:
         title: "Maintainers"
         links:
           - text: SPECs
-            link: /specs/
+            link: specs
           - text: Summits
-            link: /summits/
+            link: summits
           - text: Calendars
-            link: /calendars
+            link: calendars
       column3:
         links:
           - text: Press kit
-            link: /press-kit
+            link: press-kit

@@ -110,7 +110,7 @@ Scientific Python Ecosystem Core Team directly, or ask the Team for advice, in
 confidence.
 
 You can report issues to the
-[Scientific Python Community Managers](/about#community-managers),
+[Scientific Python Community Managers](/about/#community-managers),
 at <community-managers@discuss.scientific-python.org>.
 
 <!--

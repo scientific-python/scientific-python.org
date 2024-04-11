@@ -30,7 +30,7 @@ for the next decade of data science, we will:
 
 Our initial focus is on creating a recommendation infrastructure for
 community-wide policy and on improving common engineering infrastructure
-(see the [SPEC](specs) documents).
+(see the [SPEC](/specs) documents).
 
 Read the [full grant](../../doc/scientific-python-planning-grant-2020.pdf).
 

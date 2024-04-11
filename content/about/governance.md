@@ -42,7 +42,7 @@ to allow existing members time to voice objections.
 Community Leaders are Community Managers who have additional responsibilities to ensure the smooth running of the Scientific Python project.
 Community Leaders are expected to participate in strategic planning, approve changes to the governance model, and make decisions about funding granted to the Scientific Python project.
 (Funding to community members/projects is theirs to pursue and manage.)
-Community Leaders should ensure smooth progress on the big-picture [roadmap](roadmap).
+Community Leaders should ensure smooth progress on the big-picture [roadmap](/roadmap).
 Changes that impact the full project require analysis informed by long experience with both the project and the larger ecosystem.
 When the Community Managers (including the Community Leaders) fail to reach such a consensus in a reasonable timeframe, the Community Leaders may resolve the issue.
 

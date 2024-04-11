@@ -8,7 +8,7 @@ title:
 type = 'card'
 title = 'SPECs'
 body = '''
-[Scientific Python Ecosystem Coordination]({{% relref "/specs" %}}) documents are a mechanism by which practices are
+[Scientific Python Ecosystem Coordination](/specs) documents are a mechanism by which practices are
 discussed and propagated throughout the ecosystem.
 '''
 
@@ -16,7 +16,7 @@ discussed and propagated throughout the ecosystem.
 type = 'card'
 title = 'Summits'
 body = '''
-At the [summits]({{% relref "/summits" %}}), we get together both virtually and in-person
+At the [summits](/summits), we get together both virtually and in-person
 to plan and do ecosystem work.
 '''
 
@@ -41,7 +41,7 @@ type = 'card'
 title = 'Sparse Arrays'
 body = '''
 One of our current focuses is on improving and maintaining the
-[sparse array]({{% relref "/grants/sparse_arrays" %}}) capabilities and
+[sparse array](/grants/sparse_arrays) capabilities and
 interoperability in the ecosystem.
 '''
 
@@ -49,7 +49,7 @@ interoperability in the ecosystem.
 type = 'card'
 title = 'Community'
 body = '''
-Our [community efforts]({{% relref "/community" %}}) focus
+Our [community efforts](/community) focus
 on broadening participation and better coordinating volunteer efforts.
 '''
 

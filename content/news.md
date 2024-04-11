@@ -11,7 +11,7 @@ See [summit website]({{% relref "/summits/developer/2024" %}}).
 
 ## 2023--05--30: First Developer Summit held in Seattle
 
-See [summit website]({{% relref "/summits/developer/2023" %}}).
+See [summit website](/summits/developer/2023).
 
 ## 2021--04--21: SPECs announced at SciPy 2021
 

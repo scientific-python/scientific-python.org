@@ -23,4 +23,4 @@ structures, as well as expanding on the existing scipy.sparse package.
 
 For more information, please see the
 [full grant](../../doc/sparse-arrays-grant-2022.pdf)
-and the [sparse data summits page]({{< relref "/summits/sparse" >}}).
+and the [sparse data summits page](/summits/sparse).

@@ -17,14 +17,14 @@ events:
 
   - summary: NetworkX Dispatching Call
     description: |
-      Discuss NetworkX dispatching development and plugins such as GraphBLAS, cugraph, and nx-parallel.
+      Discuss NetworkX dispatching development and backends such as GraphBLAS, cugraph, and nx-parallel.
 
       Meeting link: https://anaconda.zoom.us/j/94192874965?pwd=K0wvcmhXem41ZlVSQ2l4TXlUaDgxdz09
       Meeting notes: https://hackmd.io/rqs_pWMxSLmICXCpI3w-Ug
       Zoom meeting ID: 941 9287 4965
       Zoom meeting passcode: 572126
-    begin: 2023-07-27 08:00:00
-    end: 2023-07-27 09:00:00
+    begin: 2024-04-25 10:00:00
+    end: 2024-04-25 11:00:00
     url: https://anaconda.zoom.us/j/94192874965?pwd=K0wvcmhXem41ZlVSQ2l4TXlUaDgxdz09
     repeat:
       interval:

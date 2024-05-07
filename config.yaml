@@ -17,6 +17,8 @@ module:
     target: data/calendars
 
 params:
+  author:
+    name: Scientific Python team
   description: Community developed and owned ecosystem for scientific computing
 
   images:

@@ -109,6 +109,7 @@ scikit-HEP.
 
 {{< details "**List of participants** (we add names to the list as they confirm attendance)" >}}
 
+- Albert Steppi ([@steppi](https://github.com/steppi))
 - Ariel Rokem ([@arokem](https://github.com/arokem))
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
 - CJ Carey ([@perimosocordiae](https://github.com/perimosocordiae))
@@ -117,8 +118,10 @@ scikit-HEP.
 - Elliott Sales de Andrade ([@QuLogic](https://github.com/QuLogic))
 - Eric Larson ([@larsoner](https://github.com/larsoner))
 - Erik Welch ([@eriknw](https://github.com/eriknw))
+- Fernando Perez ([@fperez](https://github.com/fperez))
 - Guen Prawiroatmodjo ([@guenp](https://github.com/guenp))
-- Henry Schreiner ([@henryiii](https://github.com/henryiii))
+- Inessa Pawson ([@InessaPawson](https://github.com/InessaPawson))
+- Jake Bowhay ([@j-bowhay](https://github.com/j-bowhay))
 - Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))
 - John Kirkham ([@jakirkham](https://github.com/jakirkham))
 - Juanita Gomez ([@juanis2112](https://github.com/juanis2112))
@@ -128,6 +131,7 @@ scikit-HEP.
 - Matt Haberland ([@mdhaber](https://github.com/mdhaber))
 - Matthew Feickert ([@matthewfeickert](https://github.com/matthewfeickert))
 - Matthias Bussonnier ([@Carreau](https://github.com/Carreau))
+- Melissa Mendonça ([@melissawm](https://github.com/melissawm))
 - Mridul Seth ([@MridulS](https://github.com/MridulS))
 - Nabil Freij ([@nabobalis](https://github.com/nabobalis))
 - Nick Smith ([@nsmith-](https://github.com/nsmith-))
@@ -135,11 +139,13 @@ scikit-HEP.
 - Paul Ivanov ([@ivanov](https://github.com/ivanov))
 - Ross Barnowski ([@rossbar](https://github.com/rossbar))
 - Sanket Verma ([@MSanKeys963](https://github.com/MSanKeys963))
+- Sarah Kaiser ([@crazy4pi314](https://github.com/crazy4pi314))
 - Scott Henderson ([@scottyhq](https://github.com/scottyhq))
 - Sebastian Berg ([@seberg](https://github.com/seberg))
 - Stéfan van der Walt ([@stefanv](https://github.com/stefanv))
 - Thomas Fan ([@thomasjpfan](https://github.com/thomasjpfan))
 - Tim Head ([@betatim](https://github.com/betatim))
+
 
 {{< /details >}}
 

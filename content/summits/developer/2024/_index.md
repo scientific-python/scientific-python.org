@@ -146,7 +146,6 @@ scikit-HEP.
 - Thomas Fan ([@thomasjpfan](https://github.com/thomasjpfan))
 - Tim Head ([@betatim](https://github.com/betatim))
 
-
 {{< /details >}}
 
 ## Goals

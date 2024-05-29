@@ -9,9 +9,62 @@ authors: ["Brigitta Sipőcz", "K. Jarrod Millman", "Stéfan van der Walt"]
 date: 2024-03-05
 ---
 
+## During the event
+
+- [worklog](https://hackmd.io/@scientific-python/BJwUFMr4A/edit)
+- [issues](https://github.com/scientific-python/summit-2024/issues/)
+- [Discord channel](https://discord.com/channels/786703927705862175/1235328192294817912)
+- There is also a WhatsApp group for travel coordination
+
 ## Agenda
 
+{{< details "**Sunday**" >}}
+| Time | Description |
+|------|-------------|
+| | Arrive |
+| 19:00 | Dinner (Cedars or at hotel, TBD) |
+{{< /details >}}
+
+{{< details "**Monday**" >}}
+| Time | Description |
+|------|-------------|
+| 08:40 | Meet in hotel lobby (or 9am at eScience) |
+| 9:00--9:30 | Breakfast |
+| 9:00--9:30 | Welcome & coordination |
+| 9:30--13:00 | Work session |
+| 13:00--14:30 | Lunch & campus/coffee walks |
+| 14:30--17:30 | Work session |
+| 17:30--18:00 | Check-in / discussion |
+| 18:30 | Dinner (Costas) |
+{{< /details >}}
+
+{{< details "**Tuesday**" >}}
+| Time | Description |
+|------|-------------|
+| 9:00--9:30 | Breakfast |
+| 9:30--13:00 | Work session |
+| 13:00--14:30 | Lunch & campus/coffee walks |
+| 14:30--17:30 | Work session |
+| 17:30--18:00 | Check-in / discussion |
+| 19:00 | Dinner (Big Time Brewery) |
+{{< /details >}}
+
+{{< details "**Wednesday**" >}}
+| Time | Description |
+|------|-------------|
+| 9:00--9:30 | Breakfast |
+| 9:30--13:00 | Work session |
+| 13:00--14:30 | Lunch & campus/coffee walks |
+| 14:30--16:45 | Work session |
+| 16:45--17:30 | Discussion & closing |
+| 18:30 | Informal group dinner (beach/papusas?) |
+{{< /details >}}
+
 The event is held at the [eScience Institute, UW Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Seattle](https://goo.gl/maps/EfkoHtvZad3fYMx77).
+
+_A friendly reminder that we are guests of the eScience Institute, and
+that some members of their research staff will continue working in the space
+during our event._
 
 <br/>
 <iframe
@@ -19,86 +72,26 @@ The event is held at the [eScience Institute, UW Physics/Astronomy Tower, 6th Fl
   width="100%" height="480"
 >
 </iframe>
-&nbsp;<br/>
-
-_A friendly reminder that we are guests of the eScience Institute, and
-that some members of their research staff will continue working in the space
-during our event._
-
-&nbsp;<br/>
-
-{{< details "**Sunday**" >}}
-| Time | Description |
-|------|-------------|
-| | Arrive |
-| | Dinner (self-organized) |
-{{< /details >}}
-
-{{< details "**Monday**" >}}
-| Time | Description |
-|------|-------------|
-| 08:40 | Meet in hotel lobby (or 9am at eScience) |
-| 9:00 | Breakfast |
-| 9:00--9:30 | Welcome & coordination |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--17:00 | Work session |
-| 17:30--18:00 | Check-in |
-| 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self-organized) |
-{{< /details >}}
-
-{{< details "**Tuesday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--17:00 | Work session |
-| 17:15--17:45 | Check-in |
-| 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self-organized) |
-{{< /details >}}
-
-{{< details "**Wednesday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--17:00 | Work session |
-| 17:30--18:00 | Check-in |
-| 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self-organized) |
-{{< /details >}}
-
-{{< details "**Thursday**" >}}
-| Time | Description |
-|------|-------------|
-| | Depart |
-| | Breakfast (self-organized) |
-{{< /details >}}
 
 ## Logistics
 
 We have funding (i.e., for travel, food, and lodging) and space for 40 participants for three days and four nights.
 This will be an invite-only event that requires upfront agreement to:
-(a) take part in two of the three one-hour pre-summit planning meetings,
+(a) take part in one or more pre-summit planning meetings,
 (b) collaborate with fellow participants on a work plan,
-(c) attend the one-week summit in-person, and
+(c) attend the summit in-person, and
 (d) participate, to whatever degree possible, in several months of post-summit implementation.
 
-### Local Logistics
-
-#### Airport to hotel
+### Airport to hotel
 
 There is no need to get a rental car or taxi/ride-share, as the airport and the UW campus area is well-served by bus and rail.
 We recommend using Link Light Rail to get from the airport to the hotel. It takes approximately an hour and costs $3.25.
 The closest station to the hotel is "U-District" (0.3mi away), which is a new station opened in 2021 and is not to be confused with the station in Downtown called, "University St", neither with "University of Washington".
 
-#### Food
+### Food
 
-Please keep all slips, no alcoholic beverages covered, max 20 USD per dinner and 15 USD per breakfast.
+We provide most meals, but if you incur extra travel costs that you need covered, we are able to reimburse you.
+Please keep all slips, no alcoholic beverages covered, max 25 USD per dinner and 20 USD per breakfast.
 
 ### Participants
 
@@ -148,12 +141,14 @@ scikit-HEP.
 
 {{< /details >}}
 
-## Goals
+## About
+
+### Goals
 
 The Scientific Python Developer Summit provides an opportunity for core developers
 from the scientific Python ecosystem to come together to:
 
-### 1. Improve joint infrastructure
+#### 1. Improve joint infrastructure
 
 Collaborate to adopt and improve infrastructure, tools, and processes
 used across projects. This includes infrastructure already described
@@ -161,21 +156,17 @@ in Scientific Python Ecosystem Coordination documents (SPECs), as well
 as, but not limited to, tools for documentation, testing, benchmarking,
 packaging, and Continuous Integration (CI).
 
-### 2. Better coordination of the ecosystem
+#### 2. Better coordination of the ecosystem
 
 A central goal of the Scientific Python project and, by implication, the summit, is to better coordinate maintenance of the different projects.
-We want to write up a maintenance manual with community best practices, agree on a common release schedule, establish channels for regular cross-project communication, and decide on joint governance structures.
 
-### 3. Work on a shared strategic plan
+#### 3. Work on shared strategic goals
 
-The strategic plan will identify core needs and future challenges of the scientific Python community.
+A strategic plan would identify core needs and future challenges of the scientific Python community.
 Rather than focusing on the technical details of one particular project or domain area, the strategic plan would discuss the challenges shared across projects and domains.
-The plan will also be used by the community for support when applying for federal grants.
+The plan can be used by the community as supporting evidence when applying for grants.
 
 ### Dates
-
-Participants will be expected to participate in at least two planning meetings
-as well as the weekly long summit.
 
 The summit is held June 3-5, 2024 in Seattle, WA.
 
@@ -202,4 +193,4 @@ The Scientific Python project also has funding to further develop some of these 
 
 ## Meeting notes
 
-...
+To be posted.

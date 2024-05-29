@@ -63,7 +63,7 @@ table {
 | 13:00--14:30 | Lunch & campus/coffee walks |
 | 14:30--16:45 | Work session |
 | 16:45--17:30 | Discussion & closing |
-| 18:30 | Informal group dinner (beach/papusas?) |
+| 18:30 | Informal group dinner (beach/arepas?) |
 {{< /details >}}
 
 </div>

@@ -18,6 +18,12 @@ date: 2024-03-05
 
 ## Agenda
 
+<style type="text/css">
+table {
+  margin-left: 0 !important;
+}
+</style>
+
 {{< details "**Sunday**" >}}
 | Time | Description |
 |------|-------------|
@@ -59,6 +65,8 @@ date: 2024-03-05
 | 16:45--17:30 | Discussion & closing |
 | 18:30 | Informal group dinner (beach/papusas?) |
 {{< /details >}}
+
+</div>
 
 The event is held at the [eScience Institute, UW Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Seattle](https://goo.gl/maps/EfkoHtvZad3fYMx77).
 

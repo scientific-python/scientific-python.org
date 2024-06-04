@@ -3,7 +3,10 @@
     <tr>
       <td>Recommendations</td>
       <td title="The following projects support these recommendations">
-          Endorsed By
+        Endorsed By
+      </td>
+      <td>
+        Tags
       </td>
     </tr>
   </thead>
@@ -22,13 +25,18 @@
             {{- range $idx, $el := $endorsed_by  }}
               {{ $project_page := $.GetPage (printf "core-projects/%s" $el) }}
               {{ $url := $project_page.RelPermalink }}
-              <a href="{{ $url }}">
-                <img title="{{ $project_page.Title }}" src="{{ $project_page.Params.avatar }}" class="icon"/>
-              </a>
-            {{ end }}
+          <a href="{{ $url }}">
+            <img title="{{ $project_page.Title }}" src="{{ $project_page.Params.avatar }}" class="icon"/>
+          </a>
+          {{ end }}
           {{ else }}
-            DRAFT
+          DRAFT
           {{ end -}}
+        </td>
+        <td class="spec__tags">
+          {{ range .Params.tags }}
+          <span class="spec__label"> {{ . }}</span>
+          {{ end }}
         </td>
       </tr>
     {{ end }}

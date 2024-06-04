@@ -100,3 +100,5 @@ params:
         links:
           - text: Press kit
             link: /press-kit
+          - text: Bot
+            link: /bot

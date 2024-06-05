@@ -49,6 +49,8 @@ params:
       url: https://blog.scientific-python.org
     - title: Learn
       url: https://learn.scientific-python.org
+    - title: Tools
+      url: https://tools.scientific-python.org
 
   hero:
     # Main hero title

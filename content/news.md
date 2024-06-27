@@ -1,7 +1,7 @@
 ---
 title: News
-newsHeader: Second Developer Summit will be held in Seattle – June 2-5, 2024
-date: 2024-04-11
+newsHeader: Second Developer Summit held in Seattle – June 2-5, 2024
+date: 2024-06-06
 sidebar: false
 ---
 

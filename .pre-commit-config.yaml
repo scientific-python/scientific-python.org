@@ -31,7 +31,7 @@ repos:
       - id: black
 
   - repo: https://github.com/asottile/blacken-docs
-    rev: 960ead214cd1184149d366c6d27ca6c369ce46b6 # frozen: 1.16.0
+    rev: 4c97c4a0d921007af6fefae92d8447cfbf63720b # frozen: 1.18.0
     hooks:
       - id: blacken-docs
 

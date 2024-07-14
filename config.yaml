@@ -21,6 +21,10 @@ params:
     name: Scientific Python team
   description: Community developed and owned ecosystem for scientific computing
 
+  fonts:
+    - name: "Lato"
+      weights: [400, 900]
+
   images:
     - /images/logo.svg
 

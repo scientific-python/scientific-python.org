@@ -17,6 +17,16 @@ table.spec__table thead {
   width: 20rem;
 }
 
+.spec__label {
+  border-radius: 10px;
+  background: var(--pst-color-info-bg);
+  color: var(--pst-color-info);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .spec__status a {
   font-weight: normal;
   text-decoration: none;

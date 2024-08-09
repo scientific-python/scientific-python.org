@@ -9,13 +9,23 @@ doc: A SPEC Badge.
 {{- $number := .Get "number" }}
 {{- $title := .Get "title" }}
 {{- $tabs := slice }}
+{{- $backticks := print "```" }}
+{{- $alttext := printf "SPEC %s — %s" $number $title }}
+{{- $badge := printf "https://img.shields.io/badge/SPEC-%s-green" $number }}
+{{- $badge := print $badge "?labelColor=%23004811&color=%235CA038" }}
+{{- $url := printf "https://scientific-python.org/specs/spec-%0*s/" 4 $number }}
 {{- $name := "Rendered badge" }}
-{{- $content := printf "[![SPEC %s — %s](https://img.shields.io/badge/SPEC-%s-blue)](https://scientific-python.org/specs/spec-%0*s/)" $number $title $number 4 $number }}
+{{- $content := printf "[![%s](%s)](%s)" $alttext $badge $url }}
 {{- $tabs := $tabs | append (dict "name" $name "content" $content) }}
 {{- $name := "Markdown" }}
-{{- $content := printf "`[![SPEC %s — %s](https://img.shields.io/badge/SPEC-%s-blue)](https://scientific-python.org/specs/spec-%0*s/)`" $number $title $number 4 $number }}
+{{- $content := print $backticks "\n" $content "\n" $backticks }}
 {{- $tabs := $tabs | append (dict "name" $name "content" $content) }}
-
+{{- $name := "reStructuredText" }}
+{{- $line1 := printf "|%s| " $alttext }}
+{{- $line2 := printf ".. |%s| image:: %s" $alttext $badge }}
+{{- $line3 := printf "   :target: %s" $url }}
+{{- $content := print $backticks "\n" $line1 "\n\n" $line2 "\n" $line3 "\n" $backticks }}
+{{- $tabs := $tabs | append (dict "name" $name "content" $content) }}
 
 {{- $groupId := .Page.Scratch.Get "tabgroup" | default 0 -}}
 {{- .Page.Scratch.Set "tabgroup" (add $groupId 1) -}}

@@ -27,8 +27,8 @@
 {{- end -}}
 {{- $specMetaBody := partial "_elements/field-list.html" (dict "entries" $fieldList) -}}
 
-{{/* Add warning if SPEC not endorsed */}}
-{{- if not $endorsed }}
+{{/* Add draft warning */}}
+{{- if (index $.Params "is-draft") }}
   {{- $title := "attention" -}}
   {{- $body := "This is a draft document." -}}
   {{- $admonition := partial "_elements/admonition.html" (dict "title" $title "body" $body) -}}

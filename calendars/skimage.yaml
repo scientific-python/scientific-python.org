@@ -13,26 +13,16 @@ events:
       interval:
         days: 14
       until: 2025-01-01 00:00:00 +00:00
-  - summary: scikit-image Community Call (Americas/Oceania)
-    description: |
-      The scikit-image Community Call. Timezone-friendly for Americas/Oceania.
+  # - summary: scikit-image Community Call (Americas/Oceania)
+  #   description: |
+  #     The scikit-image Community Call. Timezone-friendly for Americas/Oceania.
 
-      Meeting notes: https://hackmd.io/@scientific-python/HJWUBDVNi
-      Archive: https://github.com/scikit-image/meeting-notes
-    begin: 2022-09-20 23:00:00 +00:00
-    end: 2022-09-21 00:00:00 +00:00
-    url: https://us06web.zoom.us/j/88060567580?pwd=THRpaWFnSFNwK0Fycy9FVk5RYnV5UT09
-    repeat:
-      interval:
-        days: 14
-      until: 2025-01-01 00:00:00 +00:00
-  - summary: "skimage core team: 2.0 transition"
-    description: |
-      Plan for the upcoming skimage2 release.
-
-      - transition plan
-      - open issues / decisions
-      - work division and schedule
-      - questions
-    begin: 2024-01-29 20:00:00 +00:00
-    end: 2024-01-29 21:00:00 +00:00
+  #     Meeting notes: https://hackmd.io/@scientific-python/HJWUBDVNi
+  #     Archive: https://github.com/scikit-image/meeting-notes
+  #   begin: 2022-09-20 23:00:00 +00:00
+  #   end: 2022-09-21 00:00:00 +00:00
+  #   url: https://us06web.zoom.us/j/88060567580?pwd=THRpaWFnSFNwK0Fycy9FVk5RYnV5UT09
+  #   repeat:
+  #     interval:
+  #       days: 14
+  #     until: 2025-01-01 00:00:00 +00:00

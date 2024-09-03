@@ -19,7 +19,7 @@
     {{- $def = apply $def "printf" "[%s](../core-projects/%s)" "." "." }}
     {{- $def = delimit $def ", " }}
     {{- $def = $def | markdownify }}
-    {{- if ge (len $def) 2 -}}
+    {{- if ge (len $def) 1 -}}
       {{ $endorsed = true }}
     {{- end -}}
   {{- end }}

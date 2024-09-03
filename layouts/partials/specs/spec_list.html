@@ -7,9 +7,9 @@
       </td>
     </tr>
   </thead>
-  {{- range ($.Paginator.Pages.ByParam "number") }}
+  {{- range $i, $page := $.Paginator.Pages.ByParam "number" }}
     {{- if and (hasPrefix .Title "SPEC") (in .Title "—") }}
-      <tr class="spec">
+      <tr class="spec{{ cond (eq (mod $i 2) 0) "" " alt-row" }}">
         <td class="spec__title">
           <a href="{{ .RelPermalink }}">
             {{- .Title }}
@@ -17,17 +17,17 @@
         </td>
         <td class="spec__status">
           {{ if (index .Params "is-draft") }}
-          DRAFT
+            DRAFT
           {{ else }}
-          {{- $endorsed_by := index .Params "endorsed-by" }}
-          {{- range $idx, $el := $endorsed_by  }}
-          {{ $project_page := $.GetPage (printf "core-projects/%s" $el) }}
-          {{ $url := $project_page.RelPermalink }}
-          <a href="{{ $url }}">
-            <img title="{{ $project_page.Title }}" src="{{ $project_page.Params.avatar }}" class="icon"/>
-          </a>
-          {{ end }}
-          {{ end -}}
+            {{- $endorsed_by := index .Params "endorsed-by" }}
+            {{- range $idx, $el := $endorsed_by  }}
+              {{ $project_page := $.GetPage (printf "core-projects/%s" $el) }}
+              {{ $url := $project_page.RelPermalink }}
+              <a href="{{ $url }}">
+                <img title="{{ $project_page.Title }}" src="{{ $project_page.Params.avatar }}" class="icon"/>
+              </a>
+            {{- end }}
+          {{- end }}
         </td>
       </tr>
     {{ end }}

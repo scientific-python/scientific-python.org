@@ -8,11 +8,11 @@ events:
       To add to the meeting agenda the topics you'd like to discuss,
       follow the link: https://hackmd.io/QcgnpSe_SnWx7DmdkGCUSw
 
-      Join us via Google Meet: https://meet.google.com/rru-xrax-rps
+      Join us via Zoom: https://us02web.zoom.us/s/82394007198?pwd=zuAd2e6CydecnMSq8DgT0QKCQfUv4E.1
     begin: 2024-05-24 13:30:00 +00:00
     end: 2024-05-24 14:30:00 +00:00
-    url: https://meet.google.com/rru-xrax-rps
+    url: https://us02web.zoom.us/s/82394007198?pwd=zuAd2e6CydecnMSq8DgT0QKCQfUv4E.1
     repeat:
       interval:
         days: 28
-      until: 2025-01-01 00:00:00 +00:00
+      until: 2026-01-01 00:00:00 +00:00

@@ -41,12 +41,20 @@ tr.spec img {
   vertical-align: middle;
 }
 
-tr.spec.alt-row {
+html[data-theme="light"] tr.spec.alt-row {
   background-color: #efefef;
 }
 
-tr.spec:hover {
+html[data-theme="light"] tr.spec:hover {
   background-color: #e0e0e0;
+}
+
+html[data-theme="dark"] tr.spec.alt-row {
+  background-color: #202020;
+}
+
+html[data-theme="dark"] tr.spec:hover {
+  background-color: #2f2f2f;
 }
 
 .calendar-list .calendar {

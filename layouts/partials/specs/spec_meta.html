@@ -16,7 +16,7 @@
   {{- else if (eq $term "history") }}
     {{- $def = printf "https://github.com/scientific-python/specs/commits/main/%s" $filename | markdownify }}
   {{- else if and (eq $term "endorsed-by") (reflect.IsSlice $def) }}
-    {{- $def = apply $def "printf" "[%s](../core-projects/%s)" "." "." }}
+    {{- $def = apply (sort $def) "printf" "[%s](../core-projects/%s)" "." "." }}
     {{- $def = delimit $def ", " }}
     {{- $def = $def | markdownify }}
     {{- if ge (len $def) 1 -}}

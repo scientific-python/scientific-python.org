@@ -6,9 +6,9 @@ events:
 
       Meeting notes: https://hackmd.io/@scientific-python/HJWUBDVNi
       Archive: https://github.com/scikit-image/meeting-notes
-    begin: 2022-09-13 17:00:00 +00:00
-    end: 2022-09-13 18:00:00 +00:00
-    url: https://us06web.zoom.us/j/88060567580?pwd=THRpaWFnSFNwK0Fycy9FVk5RYnV5UT09
+    begin: 2022-09-13 18:00:00 +00:00
+    duration: { minutes: 60 }
+    url: https://meet.evolix.org/skimage-meeting
     repeat:
       interval:
         days: 14

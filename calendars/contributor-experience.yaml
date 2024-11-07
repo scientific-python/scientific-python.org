@@ -9,10 +9,22 @@ events:
       follow the link: https://hackmd.io/QcgnpSe_SnWx7DmdkGCUSw
 
       Join us via Zoom: https://us02web.zoom.us/s/82394007198?pwd=zuAd2e6CydecnMSq8DgT0QKCQfUv4E.1
-    begin: 2024-05-24 13:30:00 +00:00
-    end: 2024-05-24 14:30:00 +00:00
+    begin: 2024-12-06 13:30:00 +00:00
+    end: 2024-12-06 14:30:00 +00:00
     url: https://us02web.zoom.us/s/82394007198?pwd=zuAd2e6CydecnMSq8DgT0QKCQfUv4E.1
     repeat:
       interval:
         days: 28
       until: 2026-01-01 00:00:00 +00:00
+  - summary: Contributor Experience Project Community Call
+    description: |
+      A monthly meeting to discuss everything related to contributor experience.
+      Everyone is welcome to attend and contribute to a conversation.
+
+      To add to the meeting agenda the topics you'd like to discuss,
+      follow the link: https://hackmd.io/QcgnpSe_SnWx7DmdkGCUSw
+
+      Join us via Zoom: https://us02web.zoom.us/s/82394007198?pwd=zuAd2e6CydecnMSq8DgT0QKCQfUv4E.1
+    begin: 2024-11-22 13:30:00 +00:00
+    end: 2024-11-22 14:30:00 +00:00
+    url: https://us02web.zoom.us/s/82394007198?pwd=zuAd2e6CydecnMSq8DgT0QKCQfUv4E.1

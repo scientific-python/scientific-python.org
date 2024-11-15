@@ -75,7 +75,7 @@ events:
         days: 21
       until: 2025-01-01 00:00:00 +00:00
 
-  - summary: NumPy New Contributors' Hour (Americas/Oceania)
+  - summary: NumPy New Contributors' Hour
     description: |
       A monthly meeting for new NumPy contributors.
 

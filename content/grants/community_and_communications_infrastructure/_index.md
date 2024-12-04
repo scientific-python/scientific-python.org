@@ -17,6 +17,6 @@ status: funded
 pdf_url: https://scientific-python.org/doc/scientific-python-community-and-communications-infrastructure-2022.pdf
 ---
 
-{{< page_gallery pages="./personnel" >}}
+{{< grid file="team.toml" columns="2 3 4 5" />}}
 
 Submitted.

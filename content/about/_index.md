@@ -41,7 +41,7 @@ There are a numerous projects that use Python for computing, but we focus specif
 
 ## Who we are
 
-Learn more about the [community]({{< relref "/community" >}}) that
+Learn more about the [community](/community) that
 powers Scientific Python.
 
 ## What We Do
@@ -51,11 +51,11 @@ We release all our work openly. In particular, all our code is released under a
 and documentation is released under the [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
 
 - **SPECs**
-  [Scientific Python Ecosystem Coordination]({{< relref "/specs" >}})
+  [Scientific Python Ecosystem Coordination](/specs)
   documents are a mechanism by which practices are
   discussed and propagated throughout the ecosystem.
 - **Summits**
-  At the [summits]({{< relref "/summits" >}}), we get together both virtually and in-person
+  At the [summits](/summits), we get together both virtually and in-person
   to plan and do ecosystem work.
 - **Development Guide**
   Read this [community-maintained guide](https://learn.scientific-python.org/development/)
@@ -66,28 +66,36 @@ and documentation is released under the [CC-BY](https://creativecommons.org/lice
   One of our current focuses is on improving and maintaining the
   sparse array capabilities and interoperability in the ecosystem.
 - **Community**
-  Our [community efforts]({{< relref "/community" >}}) focus
+  Our [community efforts](/community) focus
   on broadening participation and better coordinating volunteer efforts.
 
 <!--
 - **Tools**
-  We maintain a collection of [tools]({{< relref "/tools" >}})
+  We maintain a collection of [tools](/tools)
   used across the ecosystem.
 -->
 
-Read about the [grants]({{< relref "/grants" >}}) that fund the work we do.
+Read about the [grants](/grants) that fund the work we do.
 
 ## Leadership
 
 The following people are involved with leading the overall project.
-For more information, see our [governance and decision making process]({{% relref "/about/governance" %}}).
+For more information, see our [governance and decision making process](/about/governance).
 
-{{< include-html "static/teams/community-managers.html" >}}
-{{< include-html "static/teams/community-leaders.html" >}}
-{{< include-html "static/teams/emeritus-community-leaders.html" >}}
+### Community Managers
+
+{{< grid file="community-managers.toml" columns="2 3 4 5" />}}
+
+### Community Leaders
+
+{{< grid file="community-leaders.toml" columns="2 3 4 5" />}}
+
+### Emeritus Community Leaders
+
+{{< grid file="emeritus-community-leaders.toml" columns="2 3 4 5" />}}
 
 ### Other Teams
 
 As a coordinating effort, the Scientific Python project has several teams that operate across the ecosystem.
 Specific projects may have their own governance structures.
-For example, the SPEC Steering Committee governance model is described [here]({{% relref "/specs/steering-committee" %}}).
+For example, the SPEC Steering Committee governance model is described [here](/specs/steering-committee).

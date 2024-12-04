@@ -1,20 +1,17 @@
 {{- $root := . -}}
-<div class="sd-card sd-mb-3 sd-shadow-sm">
-  <div class="sd-card-body">
-    {{ $meta_fields := (slice "homepage" "repository" "pypi" "libraries-io" "license" "license-type") }}
-    <dl class="field-list">
-    {{- range $attr := $meta_fields -}}
-      {{ $val := index $.Params $attr }}
-      <dt class="field-odd">
-        {{ $attr | humanize }}:
-      </dt>
-      <dd class="field-odd">
-        {{ $val | markdownify }}
-      </dd>
-    {{- end -}}
-    </dl>
-  </div>
-</div>
+
+{{/* Create field list */}}
+{{- $fieldList := slice -}}
+{{- range $term := slice "homepage" "repository" "pypi" "libraries-io" "license" "license-type" -}}
+  {{- $def := index $.Params $term | markdownify }}
+  {{- $fieldList = $fieldList | append (dict "term" ( $term | humanize )  "def" $def ) -}}
+{{- end -}}
+{{- $projectMetaBody := partial "_elements/field-list.html" (dict "entries" $fieldList) -}}
+
+{{/* Put the project meta data in a card */}}
+{{- $card := dict "body" $projectMetaBody -}}
+{{- partial "_elements/card.html" (dict "card" $card) -}}
+
 <div class="article-content">
   <h2>Endorsed SPECs</h1>
   {{- $specs := where $.Site.Pages "Section" "specs" -}}

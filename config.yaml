@@ -3,7 +3,6 @@ baseURL: "https://scientific-python.org"
 languageCode: en-us
 theme: scientific-python-hugo-theme
 DefaultContentLanguage: en
-relativeURLs: true
 disableKinds: ["term", "taxonomy"]
 markup:
   highlight:
@@ -18,7 +17,13 @@ module:
     target: data/calendars
 
 params:
+  author:
+    name: Scientific Python team
   description: Community developed and owned ecosystem for scientific computing
+
+  fonts:
+    - name: "Lato"
+      weights: [400, 900]
 
   images:
     - /images/logo.svg
@@ -48,6 +53,8 @@ params:
       url: https://blog.scientific-python.org
     - title: Learn
       url: https://learn.scientific-python.org
+    - title: Tools
+      url: https://tools.scientific-python.org
 
   hero:
     # Main hero title

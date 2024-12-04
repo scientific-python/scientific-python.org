@@ -25,22 +25,28 @@ $(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
 CALENDAR_SOURCES = $(wildcard calendars/*.yaml)
 calendars: $(subst calendars,$(CALENDAR_DIR),$(CALENDAR_SOURCES:.yaml=.ics))
 
-TEAMS_DIR = static/teams
-TEAMS = community-managers spec-steering-committee community-leaders emeritus-spec-steering-committee emeritus-community-leaders
+TEAMS_DIR = content/about
+SPEC_DIR = content/specs/steering-committee
+TEAMS = community-managers community-leaders emeritus-community-leaders
+SPEC_TEAMS = spec-steering-committee emeritus-spec-steering-committee
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
-$(TEAMS_DIR):
-	mkdir -p $(TEAMS_DIR)
+$(TEAMS_DIR)/%.toml:
+	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(TEAMS_DIR)/$*.toml
 
-$(TEAMS_DIR)/%.md: $(TEAMS_DIR)
-	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(TEAMS_DIR)/$*.html
+$(SPEC_DIR)/%.toml:
+	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(SPEC_DIR)/$*.toml
 
 teams-clean:
 	for team in $(TEAMS); do \
-	  rm -f $(TEAMS_DIR)/$${team}.html ;\
+	  rm -f $(TEAMS_DIR)/$${team}.toml ;\
+	done
+	for team in $(SPEC_TEAMS); do \
+	  rm -f $(SPEC_DIR)/$${team}.toml ;\
 	done
 
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates team gallery pages
+# generates team gallery pages
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.toml,$(TEAMS)) $(patsubst %,$(SPEC_DIR)/%.toml,$(SPEC_TEAMS))
 
 core-project-json: content/specs/core-projects/core-projects.json
 

@@ -12,7 +12,7 @@ status: funded
 pdf_url: https://scientific-python.org/doc/sparse-arrays-grant-2022.pdf
 ---
 
-{{< page_gallery pages="./personnel" >}}
+{{< grid file="team.toml" columns="2 3 4 5" />}}
 
 Sparse data refers to datasets where a high percentage of the values are zero
 or empty, which occurs where relationships across dimensions don’t exist or are
@@ -23,4 +23,4 @@ structures, as well as expanding on the existing scipy.sparse package.
 
 For more information, please see the
 [full grant](../../doc/sparse-arrays-grant-2022.pdf)
-and the [sparse data summits page]({{< relref "/summits/sparse" >}}).
+and the [sparse data summits page](/summits/sparse).

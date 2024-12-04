@@ -1,0 +1,19 @@
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars3.githubusercontent.com/u/123428'
+alt = 'Avatar of Jarrod Millman'
+{{< /image >}}
+Jarrod Millman'''
+link = 'https://github.com/jarrodmillman'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://avatars3.githubusercontent.com/u/45071'
+alt = 'Avatar of Stéfan van der Walt'
+{{< /image >}}
+Stéfan van der Walt'''
+link = 'https://github.com/stefanv'

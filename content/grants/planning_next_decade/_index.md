@@ -11,7 +11,7 @@ status: funded
 pdf_url: https://scientific-python.org/doc/scientific-python-planning-grant-2020.pdf
 ---
 
-{{< page_gallery pages="./personnel" >}}
+{{< grid file="team.toml" columns="2 3 4 5" />}}
 
 With an extensive and high-quality ecosystem of libraries, scientific Python
 has emerged as the leading platform for data analysis.
@@ -30,7 +30,7 @@ for the next decade of data science, we will:
 
 Our initial focus is on creating a recommendation infrastructure for
 community-wide policy and on improving common engineering infrastructure
-(see the [SPEC]({{< relref "specs" >}}) documents).
+(see the [SPEC](/specs) documents).
 
 Read the [full grant](../../doc/scientific-python-planning-grant-2020.pdf).
 

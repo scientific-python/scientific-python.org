@@ -1,3 +1,4 @@
+.hero-title,
 .navbar-logo-text {
   font-family: "Lato";
 }
@@ -21,37 +22,39 @@ table.spec__table thead {
   text-decoration: none;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
+.spec__table {
+  border-spacing: 0;
 }
 
-.gallery .entry {
-  padding: 1rem;
-  margin: 0.25rem;
-  width: 11rem;
-  text-align: center;
-  vertical-align: top;
+tr.spec td {
+  padding-top: 0.35rem;
+  padding-bottom: 0.45rem;
+  padding-left: 0.5rem;
 }
 
-.gallery .photo {
-  display: block;
+td.spec__title a {
+  display: inline-block;
+  width: 100%;
 }
 
-.gallery .photo img {
-  width: 60px;
-  border-radius: 50%;
-  margin-bottom: 0.5rem;
+tr.spec img {
+  vertical-align: middle;
 }
 
-.gallery .name {
-  font-weight: bold;
+html[data-theme="light"] tr.spec.alt-row {
+  background-color: #efefef;
 }
 
-.gallery .project {
-  display: block;
-  font-size: 0.8rem;
-  font-style: italic;
+html[data-theme="light"] tr.spec:hover {
+  background-color: #e0e0e0;
+}
+
+html[data-theme="dark"] tr.spec.alt-row {
+  background-color: #202020;
+}
+
+html[data-theme="dark"] tr.spec:hover {
+  background-color: #2f2f2f;
 }
 
 .calendar-list .calendar {
@@ -80,6 +83,10 @@ table.spec__table thead {
   line-height: 1.2em;
   margin: 1.5em 0;
   padding: 1rem;
+}
+
+.grant .title:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
 
 .grant .title .pdf {

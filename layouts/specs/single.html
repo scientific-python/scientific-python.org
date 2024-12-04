@@ -11,10 +11,10 @@
     {{- end }}
 
     <div class="article-content">
-        {{ .Content }}
+      {{ .Content }}
+      {{ partial "specs/comments.html" . }}
     </div>
   </div>
   {{ partial "shortcuts.html" . }}
-  {{ partial "specs/comments.html" . }}
 </section>
 {{ end }}

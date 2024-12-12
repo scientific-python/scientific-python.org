@@ -4,7 +4,7 @@ events:
     description: |
       The NetworkX Community Call.
 
-      Meeting Link:  https://colgate.zoom.us/j/92619161786
+      Meeting link: https://colgate.zoom.us/j/92619161786
       Meeting notes: https://hackmd.io/ea2IhUuqSrG4kM9tokXuEw
     begin: 2024-10-03 18:00:00 +00:00
     end: 2024-10-03 19:00:00 +00:00
@@ -18,7 +18,7 @@ events:
     description: |
       Discuss NetworkX dispatching development and backends such as GraphBLAS, cugraph, and nx-parallel.
 
-      Meeting link: https://anaconda.zoom.us/j/94192874965?pwd=K0wvcmhXem41ZlVSQ2l4TXlUaDgxdz09
+      Meeting link: https://colgate.zoom.us/j/92619161786
       Meeting notes: https://hackmd.io/rqs_pWMxSLmICXCpI3w-Ug
       Zoom meeting ID: 941 9287 4965
       Zoom meeting passcode: 572126

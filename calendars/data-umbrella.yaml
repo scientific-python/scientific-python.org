@@ -3,6 +3,7 @@ events:
   - summary: Make Your Own JupyterLab Extension
     description: |
       Make your own JupyterLab extension in this tutorial. JupyterLab is a free and open source, browser based integrated development environment (IDE) that is the successor to Jupyter Notebook. Designed from the core to be extensible, JupyterLab is itself an extension of the Jupyter framework. Since its release, open source developers have contributed hundreds of third party extensions (652 third-party extensions as of 2024-10-15).
+
       Meetup: https://www.meetup.com/data-umbrella/events/304917194/
       Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
       Video: https://www.youtube.com/@DataUmbrella
@@ -16,6 +17,7 @@ events:
       fundamental concepts, explore its practical applications, and
       learn how to efficiently use both the command line and the Visual
       Studio Code graphical user interface (GUI).
+
       Meetup: https://www.meetup.com/data-umbrella/events/304521945/
       Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
       Video: https://youtu.be/edCiPBn_dj8?feature=shared
@@ -32,6 +34,7 @@ events:
       which pandas users might not be familiar with. This talk is a
       deep dive into one of those concepts (expressions) and will focus
       on how you can understand them from a pandas perspective.
+
       Meetup: https://www.meetup.com/data-umbrella/events/304005848/
       Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
       Video: https://youtu.be/kPtUPe5Egak

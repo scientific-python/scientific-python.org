@@ -1,32 +1,13 @@
 name: Data Umbrella Events Calendar
 events:
-  - summary: Introduction to Git
-    description: |
-      Join us for an introductory session on Git. Discover some
-      fundamental concepts, explore its practical applications, and
-      learn how to efficiently use both the command line and the Visual
-      Studio Code graphical user interface (GUI).
 
-      Meetup: https://www.meetup.com/data-umbrella/events/304521945/
+  - summary: Make Your Own JupyterLab Extension
+    description: |
+      Make your own JupyterLab extension in this tutorial. JupyterLab is a free and open source, browser based integrated development environment (IDE) that is the successor to Jupyter Notebook. Designed from the core to be extensible, JupyterLab is itself an extension of the Jupyter framework. Since its release, open source developers have contributed hundreds of third party extensions (652 third-party extensions as of 2024-10-15).
+
+      Meetup: https://www.meetup.com/data-umbrella/events/304917194/
       Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
       Video: https://www.youtube.com/@DataUmbrella
-    begin: 2024-12-10 17:00:00 +00:00
-    end: 2024-12-10 18:00:00 +00:00
-    url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
-
-  - summary: Polars & Narwhals - Understanding Expressions When You're Used to pandas
-    description: |
-      When it comes to dataframes, pandas is the go-to library for
-      many people. Yet Polars is taking the world by storm, and so
-      many data practitioners are curious about trying it out. There
-      is a learning curve though, as Polars introduces some concepts
-      which pandas users might not be familiar with. This talk is a
-      deep dive into one of those concepts (expressions) and will focus
-      on how you can understand them from a pandas perspective.
-
-      Meetup: https://www.meetup.com/data-umbrella/events/304005848/
-      Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
-      Video: https://youtu.be/kPtUPe5Egak
-    begin: 2024-11-19 17:00:00 +00:00
-    end: 2024-11-19 18:00:00 +00:00
+    begin: 2025-01-07 17:00:00 +00:00
+    end: 2025-01-07 18:00:00 +00:00
     url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar

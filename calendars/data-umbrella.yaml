@@ -9,7 +9,7 @@ events:
     begin: 2025-01-07 17:00:00 +00:00
     end: 2025-01-07 18:00:00 +00:00
     url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
-
+-
   - summary: Introduction to Git
     description: |
       Join us for an introductory session on Git. Discover some
@@ -22,7 +22,7 @@ events:
     begin: 2024-12-10 17:00:00 +00:00
     end: 2024-12-10 18:00:00 +00:00
     url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
-
+-
   - summary: Polars & Narwhals - Understanding Expressions When You're Used to pandas
     description: |
       When it comes to dataframes, pandas is the go-to library for
@@ -38,3 +38,4 @@ events:
     begin: 2024-11-19 17:00:00 +00:00
     end: 2024-11-19 18:00:00 +00:00
     url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
+-

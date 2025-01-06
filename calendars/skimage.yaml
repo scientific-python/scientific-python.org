@@ -5,24 +5,13 @@ events:
       The scikit-image Community Call. Timezone-friendly for Europe/Africa.
 
       Meeting notes: https://hackmd.io/@scientific-python/HJWUBDVNi
-      Archive: https://github.com/scikit-image/meeting-notes
+      Archive: https://github.com/scikit-image/skimage-archive/tree/main/meeting-notes
     begin: 2022-09-13 18:00:00 +00:00
     duration: { minutes: 60 }
     url: https://meet.evolix.org/skimage-meeting
     repeat:
       interval:
         days: 14
-      until: 2025-01-01 00:00:00 +00:00
-  # - summary: scikit-image Community Call (Americas/Oceania)
-  #   description: |
-  #     The scikit-image Community Call. Timezone-friendly for Americas/Oceania.
-
-  #     Meeting notes: https://hackmd.io/@scientific-python/HJWUBDVNi
-  #     Archive: https://github.com/scikit-image/meeting-notes
-  #   begin: 2022-09-20 23:00:00 +00:00
-  #   end: 2022-09-21 00:00:00 +00:00
-  #   url: https://us06web.zoom.us/j/88060567580?pwd=THRpaWFnSFNwK0Fycy9FVk5RYnV5UT09
-  #   repeat:
-  #     interval:
-  #       days: 14
-  #     until: 2025-01-01 00:00:00 +00:00
+      # Switch to daylight saving time on 2025-03-30
+      # Move meeting time to 17:00 UTC after that
+      until: 2025-03-29 00:00:00 +00:00

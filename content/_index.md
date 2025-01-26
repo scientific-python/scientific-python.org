@@ -1,5 +1,5 @@
 ---
-title:
+title: Scientific Python
 ---
 
 {{< grid columns="1 2 2 3" >}}

@@ -14,9 +14,33 @@ https://github.com/gohugoio/hugo/releases
 
 and place it somewhere on your path.
 
-## Building the website
+## Building and Running the Website Locally
 
-For development, start the development server using
+To set up and run the website locally, follow these steps:
+
+### Step 1: Create a Virtual Environment
+First, create a new virtual environment to isolate the project dependencies. Run the following command:
+```
+conda create --name venv
+```
+Replace venv with your preferred name for the environment if desired.
+### Step 2: Activate the Virtual Environment
+
+After the environment has been created, activate it by running:
+```
+conda activate venv
+```
+Once activated, you will see the environment name (e.g., (venv)) in your command prompt, indicating that you are working within the virtual environment.
+
+### Step 3: Install Project Dependencies
+
+With the virtual environment active, install the required dependencies by running:
+```
+pip install -r requirements.txt
+```
+This command will install all necessary packages into your virtual environment, ensuring that no system-wide conflicts occur.
+
+### Step 4: For development, start the development server using
 
 ```
 make serve-dev

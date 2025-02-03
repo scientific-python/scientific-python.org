@@ -3,7 +3,7 @@
 
 {{/* Create field list */}}
 {{- $fieldList := slice -}}
-{{- range $term := slice "author" "discussion" "history" "endorsed-by" -}}
+{{- range $term := slice "author" "history" "endorsed-by" -}}
   {{- $def := index $.Params $term }}
   {{- if eq $term "author" }}
     {{- $term = "authors" }}
@@ -11,8 +11,6 @@
       {{- $def = slice $def }}
     {{- end }}
     {{- $def = delimit $def ", " }}
-  {{- else if (eq $term "discussion") }}
-    {{- $def = $def | markdownify }}
   {{- else if (eq $term "history") }}
     {{- $def = printf "https://github.com/scientific-python/specs/commits/main/%s" $filename | markdownify }}
   {{- else if and (eq $term "endorsed-by") (reflect.IsSlice $def) }}
@@ -25,6 +23,7 @@
   {{- end }}
   {{- $fieldList = $fieldList | append (dict "term" ( $term | humanize )  "def" $def ) -}}
 {{- end -}}
+{{ $fieldList = $fieldList | append (dict "term" "Discussion" "def" ("[Comments below](#discourse-comments)" | markdownify)) }}
 {{- $specMetaBody := partial "_elements/field-list.html" (dict "entries" $fieldList) -}}
 
 {{/* Add draft warning */}}

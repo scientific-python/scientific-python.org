@@ -25,7 +25,7 @@ events:
       Zoom meeting passcode: 572126
     begin: 2025-02-25 11:30:00
     duration: { minutes: 60 }
-    url: https://anaconda.zoom.us/j/94192874965?pwd=K0wvcmhXem41ZlVSQ2l4TXlUaDgxdz09
+    url: https://colgate.zoom.us/j/92619161786
     repeat:
       interval:
         days: 7
@@ -37,7 +37,8 @@ events:
 
       Meeting link: https://colgate.zoom.us/j/281534728
       Meeting notes: https://hackmd.io/BkTLclPh0
-    begin: 2025-02-14 15:30:00Z
+    timezone: Etc/UTC
+    begin: 2025-02-14 15:30:00
     duration: { minutes: 60 }
     url: https://colgate.zoom.us/j/281534728
     repeat:

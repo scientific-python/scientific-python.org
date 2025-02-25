@@ -43,4 +43,4 @@ events:
     repeat:
       interval:
         days: 7
-      until: 2026-12-31 00:00:00 +00:00
+      until: 2026-12-31 00:00:00

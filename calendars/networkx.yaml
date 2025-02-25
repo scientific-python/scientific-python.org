@@ -7,7 +7,7 @@ events:
 
       Meeting link: https://colgate.zoom.us/j/92619161786
       Meeting notes: https://hackmd.io/ea2IhUuqSrG4kM9tokXuEw
-    begin: 2025-02-28 11:00:00
+    begin: 2025-02-28 11:00:00Z
     duration: { minutes: 60 }
     url: https://colgate.zoom.us/j/92619161786
     repeat:
@@ -23,7 +23,7 @@ events:
       Meeting notes: https://hackmd.io/rqs_pWMxSLmICXCpI3w-Ug
       Zoom meeting ID: 941 9287 4965
       Zoom meeting passcode: 572126
-    begin: 2025-02-25 11:30:00
+    begin: 2025-02-25 11:30:00Z
     duration: { minutes: 60 }
     url: https://colgate.zoom.us/j/92619161786
     repeat:
@@ -37,10 +37,10 @@ events:
 
       Meeting link: https://colgate.zoom.us/j/281534728
       Meeting notes: https://hackmd.io/BkTLclPh0
-    begin: 2025-02-14 10:30:00
+    begin: 2025-02-14 15:30:00Z
     duration: { minutes: 60 }
     url: https://colgate.zoom.us/j/281534728
     repeat:
       interval:
         days: 7
-      until: 2026-12-31 00:00:00
+      until: 2026-12-31 00:00:00 +00:00

@@ -1,4 +1,5 @@
 name: NetworkX Community Calendar
+timezone: America/New_York
 events:
   - summary: NetworkX Community Call
     description: |
@@ -6,7 +7,6 @@ events:
 
       Meeting link: https://colgate.zoom.us/j/92619161786
       Meeting notes: https://hackmd.io/ea2IhUuqSrG4kM9tokXuEw
-    timezone: America/New_York
     begin: 2025-02-28 11:00:00
     duration: { minutes: 60 }
     url: https://colgate.zoom.us/j/92619161786
@@ -23,7 +23,6 @@ events:
       Meeting notes: https://hackmd.io/rqs_pWMxSLmICXCpI3w-Ug
       Zoom meeting ID: 941 9287 4965
       Zoom meeting passcode: 572126
-    timezone: America/New_York
     begin: 2025-02-25 11:30:00
     duration: { minutes: 60 }
     url: https://colgate.zoom.us/j/92619161786
@@ -38,8 +37,7 @@ events:
 
       Meeting link: https://colgate.zoom.us/j/281534728
       Meeting notes: https://hackmd.io/BkTLclPh0
-    timezone: Etc/UTC
-    begin: 2025-02-14 15:30:00
+    begin: 2025-02-14 10:30:00
     duration: { minutes: 60 }
     url: https://colgate.zoom.us/j/281534728
     repeat:

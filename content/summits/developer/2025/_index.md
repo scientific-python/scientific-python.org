@@ -1,12 +1,12 @@
 ---
-title: 2024 Developer Summit
+title: 2025 Developer Summit
 subtitle: |
   The Third Scientific Python Developer Summit
   11-15 May 2025 – Seattle, WA
 summary: |
-  The third Scientific Python Developer Summit (May 11-15, 2024) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
-authors: ["Brigitta Sipőcz", "K. Jarrod Millman", "Stéfan van der Walt"]
-date: 2024-03-05
+  The third Scientific Python Developer Summit (May 11-15, 2025) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
+authors: ["Brigitta Sipőcz", "K. Jarrod Millman", "Kirstie Whitaker", "Stéfan van der Walt"]
+date: 2025-03-05
 ---
 
 ## During the event
@@ -66,6 +66,14 @@ during our event._
 >
 </iframe>
 
+## Funding
+
+Unlike previous years, participation costs for this year's summit are covered
+only for those invited as part of the special track on statistics (for that, we have targeted grant funding).
+
+Project maintainers, please reach out to your individual projects to determine
+whether they have funds to sponsor your attendance.
+
 ## Logistics
 
 We have space for 40 participants for three days and four nights.
@@ -96,6 +104,7 @@ scikit-HEP.
 
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
 - Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))
+- Kirstie Whitaker ([@KirstieJane](https://github.com/KirstieJane))
 - Stéfan van der Walt ([@stefanv](https://github.com/stefanv))
 
 {{< /details >}}
@@ -127,7 +136,7 @@ The plan can be used by the community as supporting evidence when applying for g
 
 ### Dates
 
-The summit is held May 11-15, 2024 in Seattle, WA.
+The summit is held May 11-15, 2025 in Seattle, WA.
 
 Attendees should preferably arrive the day before the summit starts, and stay for the entire duration of the summit.
 

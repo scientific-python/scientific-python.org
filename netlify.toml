@@ -14,11 +14,18 @@
     tar -xf ${DART_SASS_TARBALL} && \
     rm ${DART_SASS_TARBALL} && \
     export PATH=/opt/build/repo/dart-sass:$PATH && \
+    if ! command -v make &> /dev/null; then apt-get update && apt-get install -y make; fi && \
     npx --yes pagefind --site public && \
     make html \
     """
 
 [[plugins]]
   package = "netlify-plugin-checklinks"
+
   [plugins.inputs]
-  skipPatterns = ['*bot*', 'https://fonts.gstatic.com', 'https://fonts.googleapis.com', 'https://cdn.jsdelivr.net']
+  skipPatterns = [
+    '*bot*',
+    'https://fonts.gstatic.com',
+    'https://fonts.googleapis.com',
+    'https://cdn.jsdelivr.net'
+  ]

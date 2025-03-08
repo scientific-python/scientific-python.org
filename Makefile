@@ -2,6 +2,7 @@
 .DEFAULT_GOAL := help
 SHELL:=/bin/bash
 
+SEARCH = (echo "Installing \`pagefind\` and generating search index..." && npx --yes pagefind --site public)
 
 # Add help text after each target name starting with '\#\#'
 help:   ## show this help

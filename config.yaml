@@ -20,7 +20,7 @@ params:
   author:
     name: Scientific Python team
   description: Community developed and owned ecosystem for scientific computing
-
+  search: true
   fonts:
     - name: "Lato"
       weights: [400, 900]

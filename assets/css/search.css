@@ -1,0 +1,26 @@
+.search-button {
+  border-radius: 20px;
+  padding: 8px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.search-dialog {
+  padding: 15px;
+  width: 80%;
+  border-radius: 1rem;
+}
+.search-dialog::backdrop {
+  background-color: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+}
+.search-dialog input {
+  padding: 10px 15px;
+  color: #333;
+}
+.pagefind-ui button {
+  border: none;
+}
+/* unset a pagefind color setting to make results more legible in dark mode */
+.pagefind-ui__result-title > .pagefind-ui__result-link {
+  color: unset !important;
+}

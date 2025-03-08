@@ -13,6 +13,7 @@
     tar -xf ${DART_SASS_TARBALL} && \
     rm ${DART_SASS_TARBALL} && \
     export PATH=/opt/build/repo/dart-sass:$PATH && \
+    npx --yes pagefind --site public
     make html \
     """
 

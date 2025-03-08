@@ -1,7 +1,6 @@
 [build.environment]
   PYTHON_VERSION = "3.13"
   HUGO_VERSION = "0.141.0"
-  NODE_VERSION = "20"
   DART_SASS_VERSION = "1.83.4"
   DART_SASS_URL = "https://github.com/sass/dart-sass/releases/download/"
 
@@ -14,10 +13,7 @@
     tar -xf ${DART_SASS_TARBALL} && \
     rm ${DART_SASS_TARBALL} && \
     export PATH=/opt/build/repo/dart-sass:$PATH && \
-    python3 -m pip install nox && \
-    nox -s themes && \
-    nox -s html && \
-    nox -s search
+    make html \
     """
 
 [[plugins]]

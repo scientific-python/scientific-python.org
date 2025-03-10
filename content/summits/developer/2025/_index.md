@@ -67,7 +67,7 @@ during our event._
 
 <br/>
 <iframe
-  src="https://www.google.com/maps/d/embed?mid=1eWqjU_k7dkYF8Z58sNQ9zJaYbR8HXPM&ehbc=2E312F"
+  src="https://www.google.com/maps/d/embed?mid=1EYtbQdkFmCCFasChSgf_RcZKz5ztKvw&ehbc=2E312F" 
   width="100%" height="480"
 >
 </iframe>

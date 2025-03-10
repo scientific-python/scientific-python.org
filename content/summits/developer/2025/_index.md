@@ -5,7 +5,13 @@ subtitle: |
   11-15 May 2025 – Seattle, WA
 summary: |
   The third Scientific Python Developer Summit (May 11-15, 2025) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
-authors: ["Brigitta Sipőcz", "K. Jarrod Millman", "Kirstie Whitaker", "Stéfan van der Walt"]
+authors:
+  [
+    "Brigitta Sipőcz",
+    "K. Jarrod Millman",
+    "Kirstie Whitaker",
+    "Stéfan van der Walt",
+  ]
 date: 2025-03-05
 ---
 
@@ -113,7 +119,9 @@ scikit-HEP.
 
 ### Goals
 
-The Scientific Python Developer Summit provides an opportunity for core developers
+The 2025 Scientific Python Developer Summit will focus on statistics, optimization, sparse data, plotting, and dataframes.
+
+The Developer Summit provides an opportunity for core developers
 from the scientific Python ecosystem to come together to:
 
 #### 1. Improve joint infrastructure

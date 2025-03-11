@@ -26,10 +26,7 @@ events:
     begin: 2025-02-25 11:30:00
     duration: { minutes: 60 }
     url: https://anaconda.zoom.us/j/94192874965?pwd=K0wvcmhXem41ZlVSQ2l4TXlUaDgxdz09
-    repeat:
-      interval:
-        days: 7
-      until: 2026-12-31 00:00:00
+    ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=1
 
   - summary: "NetworkX's nx-parallel backend call"
     description: |

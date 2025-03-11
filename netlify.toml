@@ -1,8 +1,7 @@
 [build.environment]
   PYTHON_VERSION = "3.13"
-  HUGO_VERSION = "0.142.0"
-  NODE_VERSION = "20"
-  DART_SASS_VERSION = "1.79.4"
+  HUGO_VERSION = "0.141.0"
+  DART_SASS_VERSION = "1.83.4"
   DART_SASS_URL = "https://github.com/sass/dart-sass/releases/download/"
 
 [build]

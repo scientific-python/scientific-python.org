@@ -2,9 +2,9 @@
 title: 2025 Developer Summit
 subtitle: |
   The Third Scientific Python Developer Summit
-  11-15 May 2025 – Seattle, WA
+  11-14 May 2025 – Seattle, WA
 summary: |
-  The third Scientific Python Developer Summit (May 11-15, 2025) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
+  The third Scientific Python Developer Summit (May 11-14, 2025) will be hosted by the eScience Institute at the University of Washington. The week-long summit will bring together forty participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
 authors:
   [
     "Brigitta Sipőcz",
@@ -57,6 +57,12 @@ table {
 | 09:00 | Meet at eScience |
 {{< /details >}}
 
+{{< details "**Thursday**" >}}
+| Time | Description |
+|------|-------------|
+| | Depart |
+{{< /details >}}
+
 </div>
 
 The event is held at the [eScience Institute, UW Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Seattle](https://goo.gl/maps/EfkoHtvZad3fYMx77).
@@ -84,7 +90,7 @@ whether they have funds to sponsor your attendance.
 
 We have space for 40 participants for three days and four nights.
 This will be an invite-only event that requires upfront agreement to:
-(a) take part in one or more pre-summit planning meetings,
+(a) take part in at least one pre-summit planning meeting,
 (b) collaborate with fellow participants on a work plan,
 (c) attend the summit in-person, and
 (d) participate, to whatever degree possible, in several months of post-summit implementation.
@@ -117,34 +123,19 @@ scikit-HEP.
 
 ## About
 
-### Goals
+### Work Topics
 
-The 2025 Scientific Python Developer Summit will focus on statistics, optimization, sparse data, plotting, and dataframes.
+The 2025 Scientific Python Developer Summit will focus on the following work topics:
 
-The Developer Summit provides an opportunity for core developers
-from the scientific Python ecosystem to come together to:
-
-#### 1. Improve joint infrastructure
-
-Collaborate to adopt and improve infrastructure, tools, and processes
-used across projects. This includes infrastructure already described
-in Scientific Python Ecosystem Coordination documents (SPECs), as well
-as, but not limited to, tools for documentation, testing, benchmarking,
-packaging, and Continuous Integration (CI).
-
-#### 2. Better coordination of the ecosystem
-
-A central goal of the Scientific Python project and, by implication, the summit, is to better coordinate maintenance of the different projects.
-
-#### 3. Work on shared strategic goals
-
-A strategic plan would identify core needs and future challenges of the scientific Python community.
-Rather than focusing on the technical details of one particular project or domain area, the strategic plan would discuss the challenges shared across projects and domains.
-The plan can be used by the community as supporting evidence when applying for grants.
+- **Data analysis**: statistics, optimization, sparse data, plotting, and dataframes.
+- **SPECS**: Community & governance SPECs, new SPECs, infrastructure & tools, etc.
+- **Tools**: CI, build, testing, cookie-cutter, new tools (https://tools.scientific-python.org), etc.
+- **Communications & teaching**: devstats, mystmd, lecture notes & learn
+- **Security**: supply chain, pull request review, tooling & infrastructure, web of trust
 
 ### Dates
 
-The summit is held May 11-15, 2025 in Seattle, WA.
+The summit is held May 11-14, 2025 in Seattle, WA.
 
 Attendees should preferably arrive the day before the summit starts, and stay for the entire duration of the summit.
 
@@ -152,8 +143,7 @@ Attendees should preferably arrive the day before the summit starts, and stay fo
 
 See [planning issues](https://github.com/scientific-python/summit-2025/issues).
 
-Participants will be responsible for attending two or more one-hour video meetings (the planning meetings mentioned above) and for
-participating in a planning repository via PRs, issues—as both contributors and reviewers.
+Participants will be responsible for attending at least one video meetings and for participating in a planning repository via PRs, issues—as both contributors and reviewers.
 There is no heavy top-down structure: participants themselves will organize the work that needs to be done ahead of time.
 They will decide on topics, divide the work, and schedule the meeting.
 

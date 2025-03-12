@@ -57,15 +57,12 @@ content/specs/core-projects/core-projects.json: content/specs/core-projects/[^_]
 	@python tools/md-header-to-json.py $? > $@
 
 html: prepare calendars core-project-json ## build the website in ./public
-	hugo --themesDir="./themes";
 	@hugo
 
 serve: prepare calendars core-project-json ## serve the website
-	hugo --themesDir="./themes";
 	@hugo --printI18nWarnings server
 
 serve-dev: prepare calendars
-	hugo --themesDir="../";
 	@hugo --printI18nWarnings server --disableFastRender
 
 clean:

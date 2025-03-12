@@ -2,6 +2,7 @@
 .DEFAULT_GOAL := help
 SHELL:=/bin/bash
 
+
 # Add help text after each target name starting with '\#\#'
 help:   ## show this help
 	@echo -e "Help for this makefile\n"
@@ -12,6 +13,7 @@ prepare:
 	git submodule update --init
 	((python -c 'import yaml2ics' && pre-commit) > /dev/null 2>&1) || pip install -q -r requirements.txt
 	test -f .git/hooks/pre-commit || pre-commit install
+	hugo;  $(SEARCH)
 
 CALENDAR_DIR = content/calendars
 
@@ -56,17 +58,14 @@ content/specs/core-projects/core-projects.json: content/specs/core-projects/[^_]
 
 html: prepare calendars core-project-json ## build the website in ./public
 	hugo --themesDir="./themes";
-	$(SEARCH)
 	@hugo
 
 serve: prepare calendars core-project-json ## serve the website
 	hugo --themesDir="./themes";
-	$(SEARCH)
 	@hugo --printI18nWarnings server
 
 serve-dev: prepare calendars
 	hugo --themesDir="../";
-	$(SEARCH)
 	@hugo --printI18nWarnings server --disableFastRender
 
 clean:

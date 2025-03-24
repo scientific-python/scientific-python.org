@@ -114,10 +114,32 @@ scikit-HEP.
 
 {{< details "**List of participants** (we add names to the list as they confirm attendance)" >}}
 
+
+- Ariel Rokem ([@arokem](https://github.com/arokem))
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
+- Dan Allan ([@danielballan](https://github.com/danielballan))
+- Dan McCloy ([@drammock](https://github.com/drammock))
+- Dan Schult ([@dschult](https://github.com/dschult))
+- Erik Welch ([@eriknw](https://github.com/eriknw))
+- Guen Prawiroatmodjo ([@guenp](https://github.com/guenp))
+- Jake Bowhay ([@j-bowhay](https://github.com/j-bowhay))
 - Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))
+- Juanita Gomez ([@juanis2112](https://github.com/juanis2112))
+- Kira Evans ([@kne42](https://github.com/kne42))
 - Kirstie Whitaker ([@KirstieJane](https://github.com/KirstieJane))
+- Kyle Sunden ([@ksunden](https://github.com/ksunden))
+- Madicken Munk ([@munkm](https://github.com/munkm))
+- Matt Haberland ([@mdhaber](https://github.com/mdhaber))
+- Matthew Brett ([@matthew-brett ](https://github.com/matthew-brett))
+- Matthew Feickert ([@matthewfeickert](https://github.com/matthewfeickert))
+- Nabil Freij ([@nabobalis](https://github.com/nabobalis))
+- Ross Barnowski ([@rossbar](https://github.com/rossbar))
+- Sanket Verma ([@MSanKeys963](https://github.com/MSanKeys963))
+- Sebastian Berg ([@seberg](https://github.com/seberg))
 - Stéfan van der Walt ([@stefanv](https://github.com/stefanv))
+- Tyler Reddy ([@tylerjereddy](https://github.com/tylerjereddy))
+- Virgil Chan ([@virchan](https://github.com/virchan))
+
 
 {{< /details >}}
 

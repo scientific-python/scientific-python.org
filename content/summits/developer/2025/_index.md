@@ -114,7 +114,6 @@ scikit-HEP.
 
 {{< details "**List of participants** (we add names to the list as they confirm attendance)" >}}
 
-
 - Ariel Rokem ([@arokem](https://github.com/arokem))
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
 - Dan Allan ([@danielballan](https://github.com/danielballan))
@@ -139,7 +138,6 @@ scikit-HEP.
 - Stéfan van der Walt ([@stefanv](https://github.com/stefanv))
 - Tyler Reddy ([@tylerjereddy](https://github.com/tylerjereddy))
 - Virgil Chan ([@virchan](https://github.com/virchan))
-
 
 {{< /details >}}
 

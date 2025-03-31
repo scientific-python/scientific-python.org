@@ -139,7 +139,7 @@ scikit-HEP.
 - Pamphile Roy ([@tupui](https://github.com/tupui))
 - Paul Ivanov ([@ivanov](https://github.com/ivanov))
 - Ross Barnowski ([@rossbar](https://github.com/rossbar))
-- Sanket Verma ([@MSanKeys963](https://github.com/MSanKeys963))
+- Sanket Verma ([@sanketverma1704](https://github.com/sanketverma1704))
 - Sarah Kaiser ([@crazy4pi314](https://github.com/crazy4pi314))
 - Scott Henderson ([@scottyhq](https://github.com/scottyhq))
 - Sebastian Berg ([@seberg](https://github.com/seberg))

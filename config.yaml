@@ -78,6 +78,8 @@ params:
         icon: youtube
       - link: https://fosstodon.org/@scientific_python
         icon: mastodon
+      - link: https://bsky.app/profile/scientific-python.org
+        icon: bluesky
       - link: https://discuss.scientific-python.org
         icon: discourse
       - link: https://discord.com/invite/vur45CbwMz

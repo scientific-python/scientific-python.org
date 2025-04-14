@@ -13,6 +13,7 @@ prepare:
 	git submodule update --init
 	((python -c 'import yaml2ics' && pre-commit) > /dev/null 2>&1) || pip install -q -r requirements.txt
 	test -f .git/hooks/pre-commit || pre-commit install
+	hugo;  $(SEARCH)
 
 CALENDAR_DIR = content/calendars
 
@@ -30,6 +31,7 @@ SPEC_DIR = content/specs/steering-committee
 TEAMS = community-managers community-leaders emeritus-community-leaders
 SPEC_TEAMS = spec-steering-committee emeritus-spec-steering-committee
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
+SEARCH = (echo "Installing \`pagefind\` and generating search index..." && npx --yes pagefind --site public)
 
 $(TEAMS_DIR)/%.toml:
 	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(TEAMS_DIR)/$*.toml

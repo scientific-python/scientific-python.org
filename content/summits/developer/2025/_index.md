@@ -132,6 +132,7 @@ scikit-HEP.
 - Matt Haberland ([@mdhaber](https://github.com/mdhaber))
 - Matthew Brett ([@matthew-brett ](https://github.com/matthew-brett))
 - Matthew Feickert ([@matthewfeickert](https://github.com/matthewfeickert))
+- Mihai Maruseac ([@mihaimaruseac](https://github.com/mihaimaruseac))
 - Nabil Freij ([@nabobalis](https://github.com/nabobalis))
 - Ross Barnowski ([@rossbar](https://github.com/rossbar))
 - Sanket Verma ([@sanketverma1704](https://github.com/sanketverma1704))

@@ -59,7 +59,7 @@ events:
 
     begin: 2023-03-03 20:00:00 +00:00
     end: 2023-03-03 21:00:00 +00:00
-    url: https://us06web.zoom.us/j/89085469494?pwd=dVFwK3dVczRyRUowZWZkckFtTmloUT09
+    url: https://us06web.zoom.us/j/84441463701?pwd=Wtsa0aLa251coic5f3ka8aZD1uwnd2.1
     repeat:
       interval:
         # seconds, minutes, hours, days, weeks, months, years

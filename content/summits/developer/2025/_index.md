@@ -114,15 +114,18 @@ scikit-HEP.
 
 {{< details "**List of participants** (we add names to the list as they confirm attendance)" >}}
 
+- Angus Hollands ([@agoose77](https://github.com/agoose77))
 - Ariel Rokem ([@arokem](https://github.com/arokem))
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
 - Dan Allan ([@danielballan](https://github.com/danielballan))
 - Dan McCloy ([@drammock](https://github.com/drammock))
 - Dan Schult ([@dschult](https://github.com/dschult))
 - Erik Welch ([@eriknw](https://github.com/eriknw))
+- Franklin Koch ([@fwkoch](https://github.com/fwkoch))
 - Guen Prawiroatmodjo ([@guenp](https://github.com/guenp))
 - Jake Bowhay ([@j-bowhay](https://github.com/j-bowhay))
 - Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))
+- John Kirkham ([@jakirkham](https://github.com/jakirkham))
 - Juanita Gomez ([@juanis2112](https://github.com/juanis2112))
 - Kira Evans ([@kne42](https://github.com/kne42))
 - Kirstie Whitaker ([@KirstieJane](https://github.com/KirstieJane))

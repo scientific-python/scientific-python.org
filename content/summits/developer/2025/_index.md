@@ -117,6 +117,7 @@ scikit-HEP.
 - Angus Hollands ([@agoose77](https://github.com/agoose77))
 - Ariel Rokem ([@arokem](https://github.com/arokem))
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
+- Chris Holdgraf ([@choldgraf](https://github.com/choldgraf))
 - Dan Allan ([@danielballan](https://github.com/danielballan))
 - Dan McCloy ([@drammock](https://github.com/drammock))
 - Dan Schult ([@dschult](https://github.com/dschult))

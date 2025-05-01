@@ -15,6 +15,77 @@ authors:
 date: 2025-03-05
 ---
 
+## Sponsors
+
+We would like to thank the following institutions and projects for sponsoring this year's summit:
+
+<p>&nbsp;</p>
+
+{{< grid columns="1 2 3 4" >}}
+[[item]]
+body = '''
+{{< image >}}
+src = 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Berkeley_Institute_for_Data_Science_-_Logo.png'
+alt = 'BIDS logo'
+width = 100
+{{< /image >}}
+'''
+
+[[item]]
+body = '''
+{{< image >}}
+src = 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/1280px-Seal_of_the_California_Institute_of_Technology.svg.png'
+alt = 'Caltech logo'
+width = 100
+{{< /image >}}
+'''
+
+[[item]]
+body = '''
+{{< image >}}
+src = 'https://raw.githubusercontent.com/zarr-developers/zarr-logo/refs/heads/main/zarr-pink-stacked.svg'
+alt = 'Zarr logo'
+width = 100
+{{< /image >}}
+'''
+
+[[item]]
+body = '''
+{{< image >}}
+src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NSF_logo.svg/1280px-NSF_logo.svg.png'
+alt = 'NSF logo'
+width = 100
+{{< /image >}}
+'''
+
+[[item]]
+body = '''
+{{< image >}}
+src = 'https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/logos/Iris-hep-4-no-long-name.png?raw=true'
+alt = 'Iris-HEP logo'
+width = 100
+{{< /image >}}
+'''
+
+[[item]]
+body = '''
+{{< image >}}
+src = 'https://raw.githubusercontent.com/scikit-hep/scikit-hep.github.io/refs/heads/main/assets/images/logo.svg'
+alt = 'Scikit-HEP logo'
+width = 100
+{{< /image >}}
+'''
+
+[[item]]
+body = '''
+{{< image >}}
+src = 'cogs_logo.webp'
+alt = 'COGS logo'
+{{< /image >}}
+'''
+
+{{< /grid >}}
+
 ## During the event
 
 Coming soon.

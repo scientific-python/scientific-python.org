@@ -35,6 +35,16 @@ height = 120
 [[item]]
 body = '''
 {{< image >}}
+lightsrc = 'eScience-logo.svg'
+darksrc = 'eScience-logo-dark.svg'
+alt = 'eScience Institute logo'
+height = 120
+{{< /image >}}
+'''
+
+[[item]]
+body = '''
+{{< image >}}
 src = 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/1280px-Seal_of_the_California_Institute_of_Technology.svg.png'
 alt = 'Caltech logo'
 height = 120

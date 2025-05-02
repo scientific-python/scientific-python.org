@@ -17,11 +17,25 @@ date: 2025-03-05
 
 ## Sponsors
 
-We would like to thank the following institutions and projects for sponsoring this year's summit:
+We would like to thank the following institutions and projects for sponsoring this year's summit.
 
-<p>&nbsp;</p>
+**Presenting sponsor**
 
-{{< grid columns="1 2 3 4" >}}
+*This year's Summit is funded by the NSF POSE Phase 1 award: [An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)*
+
+[[item]]
+body = '''
+{{< image >}}
+src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NSF_logo.svg/1280px-NSF_logo.svg.png'
+alt = 'NSF logo'
+height = 120
+{{< /image >}}
+'''
+
+**Delivery sponsors**
+
+*Thank you to Berkeley Institute for Data Science and eScience Institute for providing staff and venue in-kind support for the Summit.*
+
 [[item]]
 body = '''
 {{< image >}}
@@ -42,6 +56,11 @@ height = 120
 {{< /image >}}
 '''
 
+**Travel sponsors**
+
+*The following projects have financially support team members to attend the Summit.*
+
+{{< grid columns="1 2 3 4" >}}
 [[item]]
 body = '''
 {{< image >}}
@@ -56,15 +75,6 @@ body = '''
 {{< image >}}
 src = 'https://raw.githubusercontent.com/zarr-developers/zarr-logo/refs/heads/main/zarr-pink-stacked.svg'
 alt = 'Zarr logo'
-height = 120
-{{< /image >}}
-'''
-
-[[item]]
-body = '''
-{{< image >}}
-src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NSF_logo.svg/1280px-NSF_logo.svg.png'
-alt = 'NSF logo'
 height = 120
 {{< /image >}}
 '''

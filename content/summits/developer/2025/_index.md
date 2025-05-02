@@ -17,11 +17,15 @@ date: 2025-03-05
 
 ## Sponsors
 
-We would like to thank the following institutions and projects for sponsoring this year's summit.
+We would like to thank the following institutions and projects for sponsoring this year's Summit.
 
 **Presenting sponsor**
 
 *This year's Summit is funded by the NSF POSE Phase 1 award: [An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)*
+
+<p>&nbsp;</p>
+
+{{< grid columns="1" >}}
 
 [[item]]
 body = '''
@@ -35,6 +39,10 @@ height = 120
 **Delivery sponsors**
 
 *Thank you to Berkeley Institute for Data Science and eScience Institute for providing staff and venue in-kind support for the Summit.*
+
+<p>&nbsp;</p>
+
+{{< grid columns="1 2" >}}
 
 [[item]]
 body = '''
@@ -59,6 +67,8 @@ height = 120
 **Travel sponsors**
 
 *The following projects have financially support team members to attend the Summit.*
+
+<p>&nbsp;</p>
 
 {{< grid columns="1 2 3 4" >}}
 [[item]]

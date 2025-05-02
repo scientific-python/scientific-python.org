@@ -33,6 +33,7 @@ alt = 'NSF logo'
 height = 120
 {{< /image >}}
 '''
+{{< /grid >}}
 
 **Delivery sponsors**
 
@@ -61,6 +62,8 @@ alt = 'eScience Institute logo'
 height = 120
 {{< /image >}}
 '''
+
+{{< /grid >}}
 
 **Travel sponsors**
 

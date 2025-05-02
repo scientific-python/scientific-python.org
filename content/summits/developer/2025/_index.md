@@ -25,8 +25,6 @@ We would like to thank the following institutions and projects for sponsoring th
 
 <p>&nbsp;</p>
 
-{{< grid columns="1" >}}
-
 [[item]]
 body = '''
 {{< image >}}

@@ -21,19 +21,16 @@ We would like to thank the following institutions and projects for sponsoring th
 
 **Presenting sponsor**
 
-*This year's Summit is funded by the NSF POSE Phase 1 award:
+*Contributions to the statistical Python ecosystem at this year's Summit are funded by the NSF POSE Phase 1 award:
 [An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)*
 
 <p>&nbsp;</p>
 
-[[item]]
-body = '''
 {{< image >}}
 src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NSF_logo.svg/1280px-NSF_logo.svg.png'
 alt = 'NSF logo'
 height = 120
 {{< /image >}}
-'''
 
 **Delivery sponsors**
 
@@ -93,9 +90,10 @@ height = 120
 [[item]]
 body = '''
 {{< image >}}
-src = 'https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/logos/Iris-hep-4-no-long-name.png?raw=true'
-alt = 'Iris-HEP logo'
-width = 130
+lightsrc = 'GOSST-logo.png'
+darksrc = 'GOSST-logo-dark.png'
+alt = 'GOSST logo'
+width = 120
 {{< /image >}}
 '''
 
@@ -120,10 +118,9 @@ alt = 'COGS logo'
 [[item]]
 body = '''
 {{< image >}}
-lightsrc = 'GOSST-logo.png'
-darksrc = 'GOSST-logo-dark.png'
-alt = 'GOSST logo'
-width = 120
+src = 'https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/logos/Iris-hep-4-no-long-name.png?raw=true'
+alt = 'Iris-HEP logo'
+width = 130
 {{< /image >}}
 '''
 

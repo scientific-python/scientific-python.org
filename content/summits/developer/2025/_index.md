@@ -21,8 +21,8 @@ We would like to thank the following institutions and projects for sponsoring th
 
 **Presenting sponsor**
 
-*Contributions to the statistical Python ecosystem at this year's Summit are funded by the NSF POSE Phase 1 award:
-[An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)*
+_Contributions to the statistical Python ecosystem at this year's Summit are funded by the NSF POSE Phase 1 award:
+[An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)_
 
 <p>&nbsp;</p>
 
@@ -34,7 +34,7 @@ height = 120
 
 **Delivery sponsors**
 
-*Thank you to Berkeley Institute for Data Science and eScience Institute for providing staff and venue in-kind support for the Summit.*
+_Thank you to Berkeley Institute for Data Science and eScience Institute for providing staff and venue in-kind support for the Summit._
 
 <p>&nbsp;</p>
 
@@ -64,7 +64,7 @@ height = 120
 
 **Travel sponsors**
 
-*The following projects financially supported team members to attend the Summit.*
+_The following projects financially supported team members to attend the Summit._
 
 <p>&nbsp;</p>
 

@@ -66,7 +66,7 @@ height = 120
 
 **Travel sponsors**
 
-*The following projects have financially support team members to attend the Summit.*
+*The following projects financially supported team members to attend the Summit.*
 
 <p>&nbsp;</p>
 

@@ -106,6 +106,16 @@ alt = 'COGS logo'
 {{< /image >}}
 '''
 
+[[item]]
+body = '''
+{{< image >}}
+lightsrc = 'GOSST-logo.png'
+darksrc = 'GOSST-logo-dark.png'
+alt = 'GOSST logo'
+width = 120
+{{< /image >}}
+'''
+
 {{< /grid >}}
 
 ## During the event

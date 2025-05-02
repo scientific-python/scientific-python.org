@@ -21,7 +21,8 @@ We would like to thank the following institutions and projects for sponsoring th
 
 **Presenting sponsor**
 
-*This year's Summit is funded by the NSF POSE Phase 1 award: [An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)*
+*This year's Summit is funded by the NSF POSE Phase 1 award:
+[An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)*
 
 <p>&nbsp;</p>
 
@@ -33,7 +34,6 @@ alt = 'NSF logo'
 height = 120
 {{< /image >}}
 '''
-{{< /grid >}}
 
 **Delivery sponsors**
 

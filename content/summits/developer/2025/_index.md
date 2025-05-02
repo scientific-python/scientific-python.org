@@ -17,11 +17,29 @@ date: 2025-03-05
 
 ## Sponsors
 
-We would like to thank the following institutions and projects for sponsoring this year's summit:
+We would like to thank the following institutions and projects for sponsoring this year's Summit.
+
+**Presenting sponsor**
+
+_Contributions to the statistical Python ecosystem at this year's Summit are funded by the NSF POSE Phase 1 award:
+[An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)_
 
 <p>&nbsp;</p>
 
-{{< grid columns="1 2 3 4" >}}
+{{< image >}}
+src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NSF_logo.svg/1280px-NSF_logo.svg.png'
+alt = 'NSF logo'
+height = 120
+{{< /image >}}
+
+**Delivery sponsors**
+
+_Thank you to Berkeley Institute for Data Science and eScience Institute for providing staff and venue in-kind support for the Summit._
+
+<p>&nbsp;</p>
+
+{{< grid columns="1 2" >}}
+
 [[item]]
 body = '''
 {{< image >}}
@@ -42,6 +60,15 @@ height = 120
 {{< /image >}}
 '''
 
+{{< /grid >}}
+
+**Travel sponsors**
+
+_The following projects financially supported team members to attend the Summit._
+
+<p>&nbsp;</p>
+
+{{< grid columns="1 2 3 4" >}}
 [[item]]
 body = '''
 {{< image >}}
@@ -63,18 +90,10 @@ height = 120
 [[item]]
 body = '''
 {{< image >}}
-src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NSF_logo.svg/1280px-NSF_logo.svg.png'
-alt = 'NSF logo'
-height = 120
-{{< /image >}}
-'''
-
-[[item]]
-body = '''
-{{< image >}}
-src = 'https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/logos/Iris-hep-4-no-long-name.png?raw=true'
-alt = 'Iris-HEP logo'
-width = 130
+lightsrc = 'GOSST-logo.png'
+darksrc = 'GOSST-logo-dark.png'
+alt = 'GOSST logo'
+width = 120
 {{< /image >}}
 '''
 
@@ -99,10 +118,9 @@ alt = 'COGS logo'
 [[item]]
 body = '''
 {{< image >}}
-lightsrc = 'GOSST-logo.png'
-darksrc = 'GOSST-logo-dark.png'
-alt = 'GOSST logo'
-width = 120
+src = 'https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/logos/Iris-hep-4-no-long-name.png?raw=true'
+alt = 'Iris-HEP logo'
+width = 130
 {{< /image >}}
 '''
 

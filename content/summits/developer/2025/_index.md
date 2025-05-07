@@ -128,7 +128,7 @@ width = 130
 
 ## During the event
 
-- [Worklog](https://hackmd.io/@scientific-python/summit_2025/edit)
+- [Worklog](https://hackmd.io/@bsipocz/summit_2025/edit)
 - [Pre-planning issues](https://github.com/scientific-python/summit-2025/issues/)
 - [Discord channel](https://discord.com/channels/786703927705862175/1349085945856524298)
 - There is also a WhatsApp group for travel coordination

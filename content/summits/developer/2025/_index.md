@@ -133,7 +133,6 @@ width = 130
 - [Discord channel](https://discord.com/channels/786703927705862175/1349085945856524298)
 - There is also a WhatsApp group for travel coordination
 
-
 ## Agenda
 
 <style type="text/css">
@@ -160,7 +159,6 @@ table {
 | 17:30--18:00 | Check-in / discussion |
 {{< /details >}}
 
-
 {{< details "**Monday**" >}}
 | Time | Description |
 |------|-------------|
@@ -171,7 +169,6 @@ table {
 | 14:30--17:30 | Work session |
 | 17:30--18:00 | Check-in / discussion |
 {{< /details >}}
-
 
 {{< details "**Tuesday**" >}}
 | Time | Description |
@@ -184,7 +181,6 @@ table {
 | 17:30--18:00 | Check-in / discussion |
 {{< /details >}}
 
-
 {{< details "**Wednesday**" >}}
 | Time | Description |
 |------|-------------|
@@ -195,7 +191,6 @@ table {
 | 14:30--17:30 | Work session |
 | 17:30--18:00 | Check-in / discussion |
 {{< /details >}}
-
 
 {{< details "**Thursday**" >}}
 | Time | Description |

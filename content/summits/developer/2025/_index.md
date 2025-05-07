@@ -128,7 +128,11 @@ width = 130
 
 ## During the event
 
-Coming soon.
+- [Worklog](https://hackmd.io/@scientific-python/summit_2025/edit)
+- [Pre-planning issues](https://github.com/scientific-python/summit-2025/issues/)
+- [Discord channel](https://discord.com/channels/786703927705862175/1349085945856524298)
+- There is also a WhatsApp group for travel coordination
+
 
 ## Agenda
 
@@ -147,26 +151,51 @@ table {
 {{< details "**Sunday**" >}}
 | Time | Description |
 |------|-------------|
-| 09:00 | Meet at eScience |
+| 08:40 | Meet in hotel lobby (or 9am at eScience) |
+| 9:00--9:30 | Breakfast |
+| 9:00--9:30 | Welcome & coordination |
+| 9:30--13:00 | Work session |
+| 13:00--14:30 | Lunch & campus/coffee walks |
+| 14:30--17:30 | Work session |
+| 17:30--18:00 | Check-in / discussion |
 {{< /details >}}
+
 
 {{< details "**Monday**" >}}
 | Time | Description |
 |------|-------------|
-| 09:00 | Meet at eScience |
+| 9:00--9:30 | Breakfast |
+| 9:00--9:30 | Welcome & coordination |
+| 9:30--13:00 | Work session |
+| 13:00--14:30 | Lunch & campus/coffee walks |
+| 14:30--17:30 | Work session |
+| 17:30--18:00 | Check-in / discussion |
 {{< /details >}}
+
 
 {{< details "**Tuesday**" >}}
 | Time | Description |
 |------|-------------|
-| 09:00 | Meet at eScience |
+| 9:00--9:30 | Breakfast |
+| 9:00--9:30 | Welcome & coordination |
+| 9:30--13:00 | Work session |
+| 13:00--14:30 | Lunch & campus/coffee walks |
+| 14:30--17:30 | Work session |
+| 17:30--18:00 | Check-in / discussion |
 {{< /details >}}
+
 
 {{< details "**Wednesday**" >}}
 | Time | Description |
 |------|-------------|
-| 09:00 | Meet at eScience |
+| 9:00--9:30 | Breakfast |
+| 9:00--9:30 | Welcome & coordination |
+| 9:30--13:00 | Work session |
+| 13:00--14:30 | Lunch & campus/coffee walks |
+| 14:30--17:30 | Work session |
+| 17:30--18:00 | Check-in / discussion |
 {{< /details >}}
+
 
 {{< details "**Thursday**" >}}
 | Time | Description |

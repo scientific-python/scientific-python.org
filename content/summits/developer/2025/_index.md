@@ -83,7 +83,7 @@ body = '''
 {{< image >}}
 src = 'Colgate_logo.jpg'
 alt = 'Colgate logo'
-width = 120
+height = 120
 {{< /image >}}
 '''
 

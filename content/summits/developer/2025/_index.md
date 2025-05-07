@@ -81,7 +81,7 @@ height = 120
 [[item]]
 body = '''
 {{< image >}}
-src = 'Colgate-logo.jpg'
+src = 'Colgate_logo.jpg'
 alt = 'Colgate logo'
 width = 120
 {{< /image >}}

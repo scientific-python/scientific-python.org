@@ -81,6 +81,15 @@ height = 120
 [[item]]
 body = '''
 {{< image >}}
+src = 'Colgate-logo.jpg'
+alt = 'Colgate logo'
+width = 120
+{{< /image >}}
+'''
+
+[[item]]
+body = '''
+{{< image >}}
 src = 'https://raw.githubusercontent.com/zarr-developers/zarr-logo/refs/heads/main/zarr-pink-stacked.svg'
 alt = 'Zarr logo'
 height = 120

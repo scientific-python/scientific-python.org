@@ -154,6 +154,7 @@ table {
 | Time | Description |
 |------|-------------|
 | | Arrive |
+| 18:30 | Informal group dinner (meet in lobby) |
 {{< /details >}}
 
 {{< details "**Sunday**" >}}
@@ -251,7 +252,10 @@ The closest station to the hotel is "U-District" (0.3mi away), which is a new st
 
 ### Food
 
-Coming soon
+Breakfasts, lunches, and dinners are provided during the working days of the summit.
+On the arrival day, there will be an informal group dinner (meet in the hotel lobby at 6:30).
+On Wednesday evening, we will likely gather at the Gasworks park for an informal outside dinner.
+Also refer to the schedule above.
 
 ### Participants
 
@@ -260,7 +264,7 @@ such as NumPy, SciPy, matplotlib, xarray, pandas, scikit-image, scikit-learn,
 NetworkX, and IPython, as well as domain stacks including Astropy, Pangeo, and
 scikit-HEP.
 
-{{< details "**List of participants** (we add names to the list as they confirm attendance)" >}}
+{{< details "**List of confirmed participants**" >}}
 
 - Angus Hollands ([@agoose77](https://github.com/agoose77))
 - Ariel Rokem ([@arokem](https://github.com/arokem))
@@ -303,11 +307,11 @@ scikit-HEP.
 
 The 2025 Scientific Python Developer Summit will focus on the following work topics:
 
-- **Data analysis**: statistics, optimization, sparse data, plotting, and dataframes.
-- **SPECS**: Community & governance SPECs, new SPECs, infrastructure & tools, etc.
-- **Tools**: CI, build, testing, cookie-cutter, new tools (https://tools.scientific-python.org), etc.
-- **Communications & teaching**: devstats, mystmd, lecture notes & learn
-- **Security**: supply chain, pull request review, tooling & infrastructure, web of trust
+- **Data analysis**: statistics, optimization, sparse data, plotting, and dataframes. _(Leads: Matt Haberland, Ross Barnowski)_
+- **SPECS**: Community & governance SPECs, new SPECs, infrastructure & tools, etc. _(Leads: Sanket Verma, Jarrod Millman)_
+- **Tools**: CI, build, testing, cookie-cutter, new tools (https://tools.scientific-python.org), etc. _(Leads: Nabil Freij, Brigitta Sipőcz)_
+- **Communications & teaching**: devstats, mystmd, lecture notes & learn _(Leads: Dan McCloy, Stéfan van der Walt)_
+- **Security**: supply chain, pull request review, tooling & infrastructure, web of trust _(Leads: Matthew Feickert, Juanita Gomez)_
 
 ### Dates
 

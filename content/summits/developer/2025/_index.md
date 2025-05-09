@@ -311,7 +311,7 @@ The 2025 Scientific Python Developer Summit will focus on the following work top
 - **SPECS**: Community & governance SPECs, new SPECs, infrastructure & tools, etc. _(Leads: Sanket Verma, Jarrod Millman)_
 - **Tools**: CI, build, testing, cookie-cutter, new tools (https://tools.scientific-python.org), etc. _(Leads: Nabil Freij, Brigitta Sipőcz)_
 - **Communications & teaching**: devstats, mystmd, lecture notes & learn _(Leads: Dan McCloy, Stéfan van der Walt)_
-- **Security**: supply chain, pull request review, tooling & infrastructure, web of trust _(Leads: Matthew Feickert, Juanita Gomez)_
+- **Security**: supply chain, pull request review, tooling & infrastructure, web of trust _(Lead: Juanita Gomez)_
 
 ### Dates
 

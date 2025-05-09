@@ -166,6 +166,7 @@ table {
 | 13:00--14:30 | Lunch & campus/coffee walks |
 | 14:30--17:30 | Work session |
 | 17:30--18:00 | Check-in / discussion |
+| 19:00 | Dinner (Taste of Xian) |
 {{< /details >}}
 
 {{< details "**Monday**" >}}
@@ -177,6 +178,7 @@ table {
 | 13:00--14:30 | Lunch & campus/coffee walks |
 | 14:30--17:30 | Work session |
 | 17:30--18:00 | Check-in / discussion |
+| 18:30 | Dinner (Costas) |
 {{< /details >}}
 
 {{< details "**Tuesday**" >}}
@@ -188,6 +190,7 @@ table {
 | 13:00--14:30 | Lunch & campus/coffee walks |
 | 14:30--17:30 | Work session |
 | 17:30--18:00 | Check-in / discussion |
+| 19:00 | Dinner (Big Time Brewery) |
 {{< /details >}}
 
 {{< details "**Wednesday**" >}}
@@ -199,6 +202,7 @@ table {
 | 13:00--14:30 | Lunch & campus/coffee walks |
 | 14:30--17:30 | Work session |
 | 17:30--18:00 | Check-in / discussion |
+| 18:30 | Informal group dinner |
 {{< /details >}}
 
 {{< details "**Thursday**" >}}

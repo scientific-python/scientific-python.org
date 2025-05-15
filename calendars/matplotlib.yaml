@@ -1,5 +1,4 @@
 name: Matplotlib Community Calendar
-timezone: Europe/Berlin
 events:
   - summary: Matplotlib — Plot Plotting (open project call)
     description: |

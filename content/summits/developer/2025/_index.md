@@ -26,11 +26,10 @@ _Contributions to the statistical Python ecosystem at this year's Summit are fun
 
 <p>&nbsp;</p>
 
-{{< image >}}
-src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NSF_logo.svg/1280px-NSF_logo.svg.png'
-alt = 'NSF logo'
-height = 120
-{{< /image >}}
+{{< image
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/NSF_logo.svg/1280px-NSF_logo.svg.png"
+    alt="NSF logo"
+    height=120 >}}
 
 **Delivery sponsors**
 
@@ -42,23 +41,23 @@ _Thank you to Berkeley Institute for Data Science and eScience Institute for pro
 
 [[item]]
 body = '''
-{{< image >}}
-lightsrc = 'BIDS-logo.svg'
-darksrc = 'BIDS-logo-dark.svg'
-alt = 'BIDS logo'
-height = 120
-{{< /image >}}
-'''
+{{< image
+    lightsrc="BIDS-logo.svg"
+    darksrc="BIDS-logo-dark.svg"
+    alt="BIDS logo"
+    height=120 >}}
+
+> '''
 
 [[item]]
 body = '''
-{{< image >}}
-lightsrc = 'eScience-logo.svg'
-darksrc = 'eScience-logo-dark.svg'
-alt = 'eScience Institute logo'
-height = 120
-{{< /image >}}
-'''
+{{< image
+    lightsrc="eScience-logo.svg"
+    darksrc="eScience-logo-dark.svg"
+    alt="eScience Institute logo"
+    height=120 >}}
+
+> '''
 
 {{< /grid >}}
 
@@ -71,67 +70,67 @@ _The following projects financially supported team members to attend the Summit.
 {{< grid columns="1 2 3 4" >}}
 [[item]]
 body = '''
-{{< image >}}
-src = 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/1280px-Seal_of_the_California_Institute_of_Technology.svg.png'
-alt = 'Caltech logo'
-height = 120
-{{< /image >}}
-'''
+{{< image
+    src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/1280px-Seal_of_the_California_Institute_of_Technology.svg.png"
+    alt="Caltech logo"
+    height=120 >}}
+
+> '''
 
 [[item]]
 body = '''
-{{< image >}}
-src = 'Colgate_logo.jpg'
-alt = 'Colgate logo'
-height = 120
-{{< /image >}}
-'''
+{{< image
+    src="Colgate_logo.jpg"
+    alt="Colgate logo"
+    height=120 >}}
+
+> '''
 
 [[item]]
 body = '''
-{{< image >}}
-src = 'https://raw.githubusercontent.com/zarr-developers/zarr-logo/refs/heads/main/zarr-pink-stacked.svg'
-alt = 'Zarr logo'
-height = 120
-{{< /image >}}
-'''
+{{< image
+    src="https://raw.githubusercontent.com/zarr-developers/zarr-logo/refs/heads/main/zarr-pink-stacked.svg"
+    alt="Zarr logo"
+    height=120 >}}
+
+> '''
 
 [[item]]
 body = '''
-{{< image >}}
-lightsrc = 'GOSST-logo.png'
-darksrc = 'GOSST-logo-dark.png'
-alt = 'GOSST logo'
-width = 120
-{{< /image >}}
-'''
+{{< image
+    lightsrc="GOSST-logo.png"
+    darksrc="GOSST-logo-dark.png"
+    alt="GOSST logo"
+    width=120 >}}
+
+> '''
 
 [[item]]
 body = '''
-{{< image >}}
-src = 'https://raw.githubusercontent.com/scikit-hep/scikit-hep.github.io/refs/heads/main/assets/images/logo.svg'
-alt = 'Scikit-HEP logo'
-width = 120
-{{< /image >}}
-'''
+{{< image
+    src="https://raw.githubusercontent.com/scikit-hep/scikit-hep.github.io/refs/heads/main/assets/images/logo.svg"
+    alt="Scikit-HEP logo"
+    width=120 >}}
+
+> '''
 
 [[item]]
 body = '''
-{{< image >}}
-lightsrc = 'cogs_logo.webp'
-darksrc = 'cogs_logo_dark.webp'
-alt = 'COGS logo'
-{{< /image >}}
-'''
+{{< image
+    lightsrc="cogs_logo.webp"
+    darksrc="cogs_logo_dark.webp"
+    alt="COGS logo" >}}
+
+> '''
 
 [[item]]
 body = '''
-{{< image >}}
-src = 'https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/logos/Iris-hep-4-no-long-name.png?raw=true'
-alt = 'Iris-HEP logo'
-width = 130
-{{< /image >}}
-'''
+{{< image
+    src="https://github.com/iris-hep/iris-hep.github.io/blob/master/assets/logos/Iris-hep-4-no-long-name.png?raw=true"
+    alt="Iris-HEP logo"
+    width=130 >}}
+
+> '''
 
 {{< /grid >}}
 

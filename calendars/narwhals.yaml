@@ -2,16 +2,16 @@ name: Narhwals Community Calendar
 events:
   - summary: Narwhals Community Call
     description: |
-      Community call on the second Friday of each month. All welcome to attend!
+      Community call happening every 4 weeks on Fridays. All welcome to attend!
 
-      Meeting notes: https://hackmd.io/@mntOORP3TCesJJyvg-IdFQ/BklDRGAM1e
-    begin: 2025-06-13 14:30:00 +00:00
-    end: 2025-06-13 15:00:00 +00:00
+      Meeting notes:  https://hackmd.io/@mntOORP3TCesJJyvgIdFQ/BklDRGAM1e
+    begin: 2025-06-20 14:30:00 +00:00
+    end: 2025-06-20 15:00:00 +00:00
     url: https://meet.google.com/igm-dtqg-mrz
     repeat:
       interval:
-        months: 1
-      byweekday: 2fr
+        weeks: 4
+      byweekday: fr
       until: 2026-07-01 00:00:00 +00:00
 
   - summary: Narwhals Live Stream
@@ -35,7 +35,7 @@ events:
       Each week, we share issues we've tackled or projects we've "narwhalified."
     begin: 2025-06-06 15:00:00 +00:00
     end: 2025-06-06 16:00:00 +00:00
-    url: # TODO: happening where?
+    url: https://meet.google.com/rce-kzwp-opa
     repeat:
       interval:
         weeks: 2
@@ -50,7 +50,7 @@ events:
       Each week, we share issues we've tackled or projects we've "narwhalified."
     begin: 2025-06-13 13:00:00 +00:00
     end: 2025-06-13 14:00:00 +00:00
-    url: # TODO: happening where?
+    url: https://meet.google.com/rce-kzwp-opa
     repeat:
       interval:
         weeks: 2

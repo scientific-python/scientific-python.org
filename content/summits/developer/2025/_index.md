@@ -292,7 +292,6 @@ scikit-HEP.
 - Nabil Freij ([@nabobalis](https://github.com/nabobalis))
 - Ross Barnowski ([@rossbar](https://github.com/rossbar))
 - Sanket Verma ([@sanketverma1704](https://github.com/sanketverma1704))
-- Sarah Kaiser ([@crazy4pi314](https://github.com/crazy4pi314))
 - Sebastian Berg ([@seberg](https://github.com/seberg))
 - Sergio Rey ([@sjsrey](https://github.com/sjsrey))
 - Stéfan van der Walt ([@stefanv](https://github.com/stefanv))

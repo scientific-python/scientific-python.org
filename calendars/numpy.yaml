@@ -37,25 +37,6 @@ events:
         days: 14
       until: 2026-01-01 00:00:00 +00:00
 
-  - summary: NumPy Documentation Team meeting
-    description: |
-      A fortnightly meeting to discuss everything related
-      to the official NumPy documentation. Everyone is welcome to attend
-      and contribute to a conversation.
-
-      To add to the meeting agenda the topics you'd like to discuss,
-      follow the link: https://hackmd.io/oB_boakvRqKR-_2jRV-Qjg
-
-      Join us via Zoom: https://numfocus-org.zoom.us/j/85016474448?pwd=TWEvaWJ1SklyVEpwNXUrcHV1YmFJQT09
-    begin: 2025-01-13 19:00:00 +00:00
-    end: 2025-01-13 20:00:00 +00:00
-    url: https://numfocus-org.zoom.us/j/85016474448?pwd=TWEvaWJ1SklyVEpwNXUrcHV1YmFJQT09
-    repeat:
-      interval:
-        # seconds, minutes, hours, days, weeks, months, years
-        days: 14
-      until: 2026-01-01 00:00:00 +00:00
-
   - summary: NumPy Optimization Team meeting
     description: |
       A meeting to discuss everything related

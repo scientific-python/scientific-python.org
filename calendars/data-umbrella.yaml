@@ -1,12 +1,23 @@
 name: Data Umbrella Events Calendar
 events:
+  - summary: Contributing to the NumPy Documentation
+    description: |
+      NumPy is a fundamental, open-source Python library for N-dimensional array programming used extensively for data analysis and scientific programming. As a community-driven project, NumPy is mainly sustained by open-source contributions. This talk focuses on avenues of contribution to the project documentation, an integral part of the software.
+
+      Meetup: https://www.meetup.com/data-umbrella/events/308629209/
+      Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
+      Video: https://www.youtube.com/@DataUmbrella
+    begin: 2025-07-15 17:00:00 +00:00
+    end: 2025-07-15 18:00:00 +00:00
+    url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
+
   - summary: Make Your Own JupyterLab Extension
     description: |
       Make your own JupyterLab extension in this tutorial. JupyterLab is a free and open source, browser based integrated development environment (IDE) that is the successor to Jupyter Notebook. Designed from the core to be extensible, JupyterLab is itself an extension of the Jupyter framework. Since its release, open source developers have contributed hundreds of third party extensions (652 third-party extensions as of 2024-10-15).
 
       Meetup: https://www.meetup.com/data-umbrella/events/304917194/
       Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
-      Video: https://www.youtube.com/@DataUmbrella
+      Video: https://youtu.be/ERbe2yfXmFY
     begin: 2025-01-07 17:00:00 +00:00
     end: 2025-01-07 18:00:00 +00:00
     url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar

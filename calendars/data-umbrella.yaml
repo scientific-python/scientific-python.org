@@ -8,8 +8,8 @@ events:
       Meetup: https://www.meetup.com/data-umbrella/events/310039714/
       Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
       Video: https://www.youtube.com/@DataUmbrella
-    begin: 2025-08-12 17:00:00 +00:00
-    end: 2025-08-12 18:00:00 +00:00
+    begin: 2025-08-12 16:00:00 +00:00
+    end: 2025-08-12 17:00:00 +00:00
     url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
     
   - summary: Contributing to the NumPy Documentation
@@ -19,8 +19,8 @@ events:
       Meetup: https://www.meetup.com/data-umbrella/events/308629209/
       Webinarlink: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
       Video: https://youtu.be/wZmTzfhiu34
-    begin: 2025-07-15 17:00:00 +00:00
-    end: 2025-07-15 18:00:00 +00:00
+    begin: 2025-07-15 16:00:00 +00:00
+    end: 2025-07-15 17:00:00 +00:00
     url: https://www.bigmarker.com/neo4j/Data-Umbrella-Webinar
 
   - summary: Make Your Own JupyterLab Extension

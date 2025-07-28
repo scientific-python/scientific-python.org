@@ -1,6 +1,5 @@
 name: Data Umbrella Events Calendar
 events:
-
   - summary: A Tutorial for Getting Started with PyMC
     description: |
       This one-hour tutorial introduces new users to version 5 of PyMC, a powerful Python, open source library for probabilistic programming and Bayesian statistical modeling. Participants will learn the fundamentals of PyMC, best practices for installation and setup, and gain hands-on experience building their first Bayesian model.

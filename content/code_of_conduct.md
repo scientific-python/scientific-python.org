@@ -56,7 +56,6 @@ We strive to:
     we take responsibility for our own speech.
     Be kind to others.Do not insult or put down other participants.
     We will not accept harassment or other exclusionary behaviour, such as:
-
     - Violent threats or language directed against another person.
     - Sexist, racist, or otherwise discriminatory jokes and language.
     - Posting sexually explicit or violent material.

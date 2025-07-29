@@ -1,2 +1,2 @@
 pre-commit==4.5.0
-yaml2ics @ git+https://github.com/bsipocz/yaml2ics@b04ca6be8588ac8c4792e838a0d556f1a98e6a6b
+yaml2ics @ git+https://github.com/bsipocz/yaml2ics@17dc6c7267f428d16eac02510c3af4afc61e7063

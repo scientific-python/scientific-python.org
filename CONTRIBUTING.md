@@ -17,7 +17,6 @@ Scientific Python projects using GitHub pull requests.
 ### Development Workflow
 
 1.  If you are a first-time contributor:
-
     - Go to <https://github.com/scientific-python/scientific-python.org> and click the
       "fork" button to create your own copy of the project.
 
@@ -30,12 +29,10 @@ Scientific Python projects using GitHub pull requests.
           git remote add <your-username> git@github.com:<your-username>/scientific-python.org.git
 
     - Now, you have remote repositories named:
-
       - `origin`, which refers to the `scientific-python/scientific-python.org` repository
       - `<your-username>`, which refers to your personal fork
 
 2.  Develop your contribution:
-
     - Pull the latest changes from origin:
 
           git checkout main
@@ -49,7 +46,6 @@ Scientific Python projects using GitHub pull requests.
     - Commit locally as you progress (`git add` and `git commit`)
 
 3.  Submit your contribution:
-
     - Push your changes back to your fork on GitHub:
 
           git push <your-username> issue-148
@@ -57,7 +53,6 @@ Scientific Python projects using GitHub pull requests.
     - Go to GitHub. The new branch will show up with a green Pull Request (PR) button---click it.
 
 4.  Review process:
-
     - Every PR update triggers a set of
       [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)
       services that check that the code is up to standards and passes all our tests.

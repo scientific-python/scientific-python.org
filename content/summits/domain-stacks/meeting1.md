@@ -6,7 +6,6 @@ title: "Meeting 1"
 
 - When: September 6th 8am PDT
 - Where:
-
   - https://berkeley.zoom.us/j/93150321184?pwd=aEp4RGFhc1pLQ2l3b1VKNHJRUGpOUT09
   - Passcode: 029244
 
@@ -32,9 +31,7 @@ title: "Meeting 1"
 - (10 min) Stéfan discuss purpose of meeting and goals (10 min)
 
 - Topics
-
   - (20 min) Would something like
-
     - https://deploy-preview-286--scientific-python-org.netlify.app/software/
     - https://hackmd.io/1wioifmCTY2UVmGT-jcZsg
 

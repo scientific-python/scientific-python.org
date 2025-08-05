@@ -19,13 +19,10 @@ and what work can be accomplished during the [2023 Scientific Python developer s
 1. (5 min) Welcome & Introductions (Jarrod Millman)
 
 2. (50 min) Discussion
-
    - Who will be working on scipy sparse arrays during the summit?
-
      - How much time during the meeting will you be working on sparse?
 
    - What should/can we get done before the summit?
-
      - array creation PR merged ([PR 1](https://github.com/scipy/scipy/pull/16108) or [PR 2](https://github.com/scipy/scipy/pull/16033))?
      - 1d sparse arrays (Stefan); array semantics / indexing
 

@@ -31,7 +31,6 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
 1. (5 min) Welcome & Introductions (Jarrod Millman)
 
 2. (20 min) BoF Presentations (4 min each)
-
    - Dan Schult: Proposal for array semantics in `scipy.sparse` [(download)][scipy]
    - Hameer Abbasi: PyData/Sparse -- Future Plans [(download)][pydata-sparse]
    - Jim Kitchen: needs/roles of sparse in GraphBLAS

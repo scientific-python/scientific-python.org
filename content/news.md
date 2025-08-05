@@ -1,7 +1,7 @@
 ---
 title: News
 newsHeader: Third Developer Summit was held in Seattle – 11-14 May 2025
-date: 2025-07-08
+date: 2025-05-15
 sidebar: false
 ---
 

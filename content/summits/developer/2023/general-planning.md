@@ -24,14 +24,11 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
 2. (10 min) Logistics
 
 3. (30) Meeting Topics
-
    - Jarrod Millman: Goal
-
      - Unique opportunity to work on cross-project concerns
      - We should think big, but focus on achievable short-term goals
 
    - Stéfan van der Walt: Build systems
-
      - Starting to see Meson emerge as an excellent build option for compiled Scientific Python libraries
        - But there's no "standard" configuration/documentation for standard workflows yet; numpy/scipy/scikit-image are all feeling it out
        - Editable installs just arrived, but work slightly differently to what we're used to with pip install -e ..
@@ -43,7 +40,6 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
      - There is therefore technical, user interface, and documentation work to be done
 
    - Stéfan van der Walt: Sparse work
-
      - In the previous release of SciPy we introduced experimental Sparse Arrays
      - These arrays are limited to 2D, since they are built on top of Sparse Matrices
      - We hope to refactor scipy.sparse:
@@ -52,13 +48,11 @@ birds-of-a-feather (BoF)-style talks, followed by more focused discussion.
        - sparse arrays should closely follows numpy array semantics
 
    - Brigitta Sipőcz: Shared infrastructure for SPECS and beyond
-
      - SPECs: The current SPEC drafts are documents about policies the core libraries opt-in to follow (e.g. producing and using developer versions in testing), however, template implementation / suggested examples are needed to work out.
      - Testing: Libraries facing the same or very similar doctesting and docs building challenges, aggregating the needs and centralizing these efforts
      - Tutorial infrastructure
 
    - Juanita Gomez: Community
-
      - Community management
      - Documentation
 

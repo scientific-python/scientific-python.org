@@ -7,7 +7,7 @@ events:
 
       Meeting Link:  https://ucsc.zoom.us/j/98441337155?pwd=Mjl6TjdRTTNBc3ZGQzE3MTQyRVkyZz09
       Meeting notes: https://hackmd.io/WPTkRnNtSOeF7OhUTRHDwA
-    begin: 2023-09-05 9:00:00
-    end: 2023-09-05 10:00:00
+    begin: 2025-10-07 9:00:00
+    end: 2025-10-07 10:00:00
     url: https://ucsc.zoom.us/j/98441337155?pwd=Mjl6TjdRTTNBc3ZGQzE3MTQyRVkyZz09
-    ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=1
+    ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2

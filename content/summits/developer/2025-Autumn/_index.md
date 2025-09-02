@@ -1,5 +1,5 @@
 ---
-title: 2025 Autumn Developer Summit
+title: 2025 November Developer Summit
 subtitle: |
   The Fourth Scientific Python Developer Summit
   5-7 November 2025 – Copenhagen, Denmark

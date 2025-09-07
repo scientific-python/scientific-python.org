@@ -131,7 +131,7 @@ scikit-HEP.
 
 ### Work Topics
 
-The 2025 November Scientific Python Developer Summit will focus on the following work topics:
+The 2025 November Scientific Python Developer Summit will focus on work topics our participants express the most interest in. For comparison, these were the focus areas for the summit held in May, in Seattle:
 
 - **Data analysis**: statistics, optimization, sparse data, plotting, and dataframes.
 - **SPECS**: Community & governance SPECs, new SPECs, infrastructure & tools, etc.

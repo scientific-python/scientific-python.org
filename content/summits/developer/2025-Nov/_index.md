@@ -6,13 +6,8 @@ subtitle: |
 summary: |
   The fourth Scientific Python Developer Summit (5-7 November 2025) will be hosted in Copenhagen, Denmark. The summit will bring together participants, who will develop shared infrastructure for libraries in the Scientific Python ecosystem.
 authors:
-  [
-    "Mridul Seth",
-    "Brigitta Sipőcz",
-    "Stéfan van der Walt",
-    "K. Jarrod Millman",
-  ]
-date: 2025-09-01
+  ["Mridul Seth", "Brigitta Sipőcz", "Stéfan van der Walt", "K. Jarrod Millman"]
+date: 2025-09-07
 ---
 
 ## Sponsors
@@ -30,7 +25,6 @@ src = 'https://upload.wikimedia.org/wikipedia/commons/c/c7/ESS_logotype_cyan_S.p
 alt = 'ESS Logo'
 height = 120
 {{< /image >}}
-
 
 ## During the event
 
@@ -51,7 +45,7 @@ table {
 | Time | Description |
 |------|-------------|
 | | Arrive |
-| 18:30 | Informal group dinner (meet in lobby) |
+| 18:30 | Informal group dinner |
 {{< /details >}}
 
 {{< details "**Wednesday**" >}}
@@ -85,7 +79,6 @@ table {
 | 13:00--14:30 | Lunch & campus/coffee walks |
 | 14:30--17:30 | Work session |
 | 17:30--18:00 | Check-in / discussion |
-| 19:00 | Dinner (Big Time Brewery) |
 {{< /details >}}
 
 {{< details "**Saturday**" >}}
@@ -96,7 +89,7 @@ table {
 
 </div>
 
-The event is held at ...
+The event is held at [Pioneer Centre for AI - KU](https://maps.app.goo.gl/LzAeD6L2Hw1BV2gUA)
 
 ## Funding
 
@@ -104,10 +97,9 @@ Unfortunately, this year we do not have any dedicated funding to cover participa
 
 Project maintainers, please reach out to your individual projects or employers to determine whether they have funds to sponsor your attendance.
 
-
 ## Logistics
 
-We have space for 25 participants for three days and four nights.
+We have space for 20-25 participants for three days.
 This will be an invite-only event that requires upfront agreement to:
 (a) take part in at least one pre-summit planning meeting,
 (b) collaborate with fellow participants on a work plan,
@@ -139,7 +131,7 @@ scikit-HEP.
 
 ### Work Topics
 
-The 2025 Autumn Scientific Python Developer Summit will focus on the following work topics:
+The 2025 November Scientific Python Developer Summit will focus on the following work topics:
 
 - **Data analysis**: statistics, optimization, sparse data, plotting, and dataframes.
 - **SPECS**: Community & governance SPECs, new SPECs, infrastructure & tools, etc.
@@ -155,7 +147,7 @@ Attendees should preferably arrive the day before the summit starts, and stay fo
 
 ### Pre-Summit Planning
 
-See [planning issues](https://github.com/scientific-python/summit-2025-autumn/issues).
+See [planning issues](https://github.com/scientific-python/summit-2025-nov/issues).
 
 Participants will be responsible for attending at least one video meetings and for participating in a planning repository via PRs, issues—as both contributors and reviewers.
 There is no heavy top-down structure: participants themselves will organize the work that needs to be done ahead of time.

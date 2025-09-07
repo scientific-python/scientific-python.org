@@ -29,7 +29,7 @@ height = 120
 ## During the event
 
 - [Worklog]()
-- [Pre-planning issues](https://github.com/scientific-python/summit-2025-autumn/issues/)
+- [Pre-planning issues](https://github.com/scientific-python/summit-2025-nov/issues/)
 - [Discord channel]()
 - There is also a WhatsApp group for travel coordination
 

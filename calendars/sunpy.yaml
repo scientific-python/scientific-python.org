@@ -5,6 +5,6 @@ events:
       The weekly community call for the SunPy Project.
       It is always at 5pm British Time (UTC+1 in the summer, UTC in the winter) on Wednesdays.
     begin: 2022-07-20 16:00:00 +00:00
-    end: 2022-07-20 17:00:00 +00:00
+    duration: { minutes: 60 }
     url: https://sunpy.org/meeting
 ics: RRULE:FREQ=WEEKLY;BYDAY=WE;INTERVAL=1

@@ -10,3 +10,4 @@ events:
     repeat:
       interval:
         days: 7
+      until: 2050-01-01 00:00:00 +00:00

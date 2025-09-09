@@ -1,29 +1,29 @@
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars3.githubusercontent.com/u/45071'
-alt = 'Avatar of Stéfan van der Walt'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars3.githubusercontent.com/u/45071"
+    alt="Avatar of Stéfan van der Walt"
+>}}
 Stéfan van der Walt'''
 link = 'https://github.com/stefanv'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars.githubusercontent.com/u/915037'
-alt = 'Avatar of Dan Schult'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars.githubusercontent.com/u/915037"
+    alt="Avatar of Dan Schult"
+>}}
 Dan Schult'''
 link = 'https://github.com/dschult/'
 
 [[item]]
 type = 'card'
 classcard = 'text-center'
-body = '''{{< image >}}
-src = 'https://avatars3.githubusercontent.com/u/123428'
-alt = 'Avatar of Jarrod Millman'
-{{< /image >}}
+body = '''{{< image
+    src="https://avatars3.githubusercontent.com/u/123428"
+    alt="Avatar of Jarrod Millman"
+>}}
 Jarrod Millman'''
 link = 'https://github.com/jarrodmillman'

@@ -1,5 +1,4 @@
 name: NetworkX Community Calendar
-timezone: America/New_York
 events:
   - summary: NetworkX Community Call
     description: |
@@ -7,13 +6,13 @@ events:
 
       Meeting link: https://colgate.zoom.us/j/92619161786
       Meeting notes: https://hackmd.io/ea2IhUuqSrG4kM9tokXuEw
-    begin: 2025-05-29 12:00:00
+    begin: 2025-05-29 12:00:00 -04:00
     duration: { minutes: 60 }
     url: https://colgate.zoom.us/j/92619161786
     repeat:
       interval:
         days: 7
-      until: 2026-12-31 00:00:00
+      until: 2026-12-31 00:00:00 -04:00
 
   - summary: NetworkX Dispatching Call
     description: |
@@ -23,7 +22,7 @@ events:
       Meeting notes: https://hackmd.io/rqs_pWMxSLmICXCpI3w-Ug
       Zoom meeting ID: 941 9287 4965
       Zoom meeting passcode: 572126
-    begin: 2025-02-25 11:30:00
+    begin: 2025-02-25 11:30:00 -04:00
     duration: { minutes: 60 }
     url: https://anaconda.zoom.us/j/94192874965?pwd=K0wvcmhXem41ZlVSQ2l4TXlUaDgxdz09
     ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=1

@@ -1,17 +1,16 @@
 name: Sparse Arrays WG
-timezone: America/Los_Angeles
 events:
   - summary: Sparse Array Work Session
     description: |
       Meeting Link:  https://meet.google.com/jrp-qgcf-nxh
       Meeting notes: https://hackmd.io/9UCjKdRUTEeoS8KdQNll-A
-    begin: 2024-01-08 11:00:00
+    begin: 2024-01-08 11:00:00 -07:00
     duration: { minutes: 60 }
     url: https://meet.google.com/jrp-qgcf-nxh
     repeat:
       interval:
         days: 14
-      until: 2025-12-31 00:00:00
+      until: 2026-12-31 00:00:00
       except_on:
         - 2024-09-02 11:00:00
       also_on:

@@ -123,7 +123,25 @@ scikit-HEP.
 
 {{< details "**List of confirmed participants**" >}}
 
-- ...
+- Adrin Jalali ([@adrinjalali](https://github.com/adrinjalali))
+- Agriya Khetarpal ([@agriyakhetarpal](https://github.com/agriyakhetarpal))
+- Arturo Amor ([@ArturoAmorQ](https://github.com/ArturoAmorQ))
+- Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
+- Dan Schult ([@dschult](https://github.com/dschult))
+- Dea María Léon ([@DeaMariaLeon](https://github.com/DeaMariaLeon))
+- François Paugam ([@FrancoisPgm](https://github.com/FrancoisPgm))
+- Guillaume Lemaitre ([@glemaitre](https://github.com/glemaitre))
+- Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))
+- Lars Grüter ([@lagru](https://github.com/lagru))
+- Loïc Estève ([@lesteve](https://github.com/lesteve))
+- Mridul Seth ([@MridulS](https://github.com/MridulS))
+- Pamphile Roy ([@tupui](https://github.com/tupui))
+- Ross Barnowski ([@rossbar](https://github.com/rossbar))
+- Sebastian Berg ([@seberg](https://github.com/seberg))
+- Simon Høxbro Hansen ([@hoxbro](https://github.com/hoxbro))
+- Stefanie Senger ([@StefanieSenger](https://github.com/StefanieSenger))
+- Stuart Mumford ([@Cadair](https://github.com/Cadair))
+- Tim Head ([@betatim](https://github.com/betatim))
 
 {{< /details >}}
 

@@ -128,7 +128,6 @@ scikit-HEP.
 - Arturo Amor ([@ArturoAmorQ](https://github.com/ArturoAmorQ))
 - Brigitta Sipőcz ([@bsipocz](https://github.com/bsipocz))
 - Dan Schult ([@dschult](https://github.com/dschult))
-- Dea María Léon ([@DeaMariaLeon](https://github.com/DeaMariaLeon))
 - François Paugam ([@FrancoisPgm](https://github.com/FrancoisPgm))
 - Guillaume Lemaitre ([@glemaitre](https://github.com/glemaitre))
 - Jarrod Millman ([@jarrodmillman](https://github.com/jarrodmillman))

@@ -12,7 +12,7 @@ date: 2025-09-07
 
 ## Sponsors
 
-We would like to thank the following institutions and projects for sponsoring this year's Summit.
+We would like to thank the following institutions and projects for sponsoring this Summit.
 
 **Sponsors**
 
@@ -89,11 +89,11 @@ table {
 
 </div>
 
-The event is held at [Pioneer Centre for AI - KU](https://maps.app.goo.gl/LzAeD6L2Hw1BV2gUA)
+The event is held at the [Pioneer Centre for AI - KU](https://maps.app.goo.gl/LzAeD6L2Hw1BV2gUA)
 
 ## Funding
 
-Unfortunately, this year we do not have any dedicated funding to cover participants travel and accommodation costs.
+Unfortunately, this occasion we do not have any dedicated funding to cover participants travel and accommodation costs.
 
 Project maintainers, please reach out to your individual projects or employers to determine whether they have funds to sponsor your attendance.
 

@@ -52,7 +52,8 @@ table {
 | Time | Description |
 |------|-------------|
 | | Arrive |
-| 18:30 | Informal group dinner around Nørreport |
+| 09:30--17:00 | Pre-summit NetworkX day @ DTU Building 305 |
+| 19:00 | Informal group dinner around Nørreport |
 {{< /details >}}
 
 {{< details "**Wednesday**" >}}

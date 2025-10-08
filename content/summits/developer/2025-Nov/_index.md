@@ -34,7 +34,6 @@ alt = 'Pioneer Centre for AI Logo'
 height = 120
 {{< /image >}}
 
-
 ## During the event
 
 - [Worklog](https://hackmd.io/@MridulS/summit_nov_25/edit)

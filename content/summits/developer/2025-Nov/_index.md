@@ -26,12 +26,19 @@ alt = 'ESS Logo'
 height = 120
 {{< /image >}}
 
+_Thank you to Pioneer Centre for AI - Københavns Universitet for providing venue during the Summit._
+
+{{< image >}}
+src = 'PioneerAI_logo.png'
+alt = 'Pioneer Centre for AI Logo'
+height = 120
+{{< /image >}}
+
 ## During the event
 
-- [Worklog]()
+- [Worklog](https://hackmd.io/@MridulS/summit_nov_25/edit)
 - [Pre-planning issues](https://github.com/scientific-python/summit-2025-nov/issues/)
-- [Discord channel]()
-- There is also a WhatsApp group for travel coordination
+- [Discord channel](https://discord.com/channels/786703927705862175/1409959085318737940)
 
 ## Agenda
 
@@ -45,40 +52,41 @@ table {
 | Time | Description |
 |------|-------------|
 | | Arrive |
-| 18:30 | Informal group dinner |
+| 09:30--17:00 | Pre-summit NetworkX day @ DTU Building 305 |
+| 19:00 | Informal group dinner around Nørreport |
 {{< /details >}}
 
 {{< details "**Wednesday**" >}}
 | Time | Description |
 |------|-------------|
-| 9:00--9:30 | Breakfast |
-| 9:00--9:30 | Welcome & coordination |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus/coffee walks |
-| 14:30--17:30 | Work session |
-| 17:30--18:00 | Check-in / discussion |
+| - | Breakfast (not provided at the venue) |
+| 09:30--10:00 | Welcome & coordination |
+| 10:00--12:30 | Work session |
+| 12:30--14:00 | Lunch & walks |
+| 14:00--17:00 | Work session |
+| 17:00--17:30 | Check-in / discussion |
 {{< /details >}}
 
 {{< details "**Thursday**" >}}
 | Time | Description |
 |------|-------------|
-| 9:00--9:30 | Breakfast |
-| 9:00--9:30 | Welcome & coordination |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus/coffee walks |
-| 14:30--17:30 | Work session |
-| 17:30--18:00 | Check-in / discussion |
+| - | Breakfast (not provided at the venue) |
+| 09:30--10:00 | Welcome & coordination |
+| 10:00--12:30 | Work session |
+| 12:30--14:00 | Lunch & walks |
+| 14:00--17:00 | Work session |
+| 17:00--17:30 | Check-in / discussion |
 {{< /details >}}
 
 {{< details "**Friday**" >}}
 | Time | Description |
 |------|-------------|
-| 9:00--9:30 | Breakfast |
-| 9:00--9:30 | Welcome & coordination |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus/coffee walks |
-| 14:30--17:30 | Work session |
-| 17:30--18:00 | Check-in / discussion |
+| - | Breakfast (not provided at the venue) |
+| 09:30--10:00 | Welcome & coordination |
+| 10:00--12:30 | Work session |
+| 12:30--14:00 | Lunch & walks |
+| 14:00--17:00 | Work session |
+| 17:00--17:30 | Check-in / discussion |
 {{< /details >}}
 
 {{< details "**Saturday**" >}}
@@ -99,20 +107,20 @@ Project maintainers, please reach out to your individual projects or employers t
 
 ## Logistics
 
-We have space for 20-25 participants for three days.
+We have space for 20 participants for three days.
 This will be an invite-only event that requires upfront agreement to:
 (a) take part in at least one pre-summit planning meeting,
 (b) collaborate with fellow participants on a work plan,
 (c) attend the summit in-person, and
 (d) participate, to whatever degree possible, in several months of post-summit implementation.
 
-### Airport to hotel
+### Transportation
 
-...
+If you arrive at the airport, no need to take a Taxi/Uber/rent-a-car, you can take the metro into the city. Tickets can be bought via many public transport apps like [DOT](https://www.publictransport.dk/app), [DSB](https://www.dsb.dk/en/tickets-and-services/dsb-app/), [rejsebillet](https://dinoffentligetransport.dk/en/find-tickets/rejsebillet). You can also buy tickets from the machines at the metro stations. A ticket from the airport to city center is 30 DKK (~4€).
 
 ### Food
 
-...
+We will have lunch delivered at the venue, and we will have informal dinners.
 
 ### Participants
 
@@ -123,6 +131,7 @@ scikit-HEP.
 
 {{< details "**List of confirmed participants**" >}}
 
+- Aditi Juneja ([@Schefflera-Arboricola](https://github.com/Schefflera-Arboricola))
 - Adrin Jalali ([@adrinjalali](https://github.com/adrinjalali))
 - Agriya Khetarpal ([@agriyakhetarpal](https://github.com/agriyakhetarpal))
 - Arturo Amor ([@ArturoAmorQ](https://github.com/ArturoAmorQ))

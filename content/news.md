@@ -1,11 +1,11 @@
 ---
 title: News
-newsHeader: Fourth Scientific Python Summit in Copenhagen – 5-7 November, 2025
+newsHeader: Fourth Developer Summit in Copenhagen – 5-7 November, 2025
 date: 2025-10-08
 sidebar: false
 ---
 
-## 2025--10--08: Fourth Scientific Python Summit in Copenhagen -- 5-7 November, 2025
+## 2025--10--08: Fourth Developer Summit in Copenhagen -- 5-7 November, 2025
 
 See [summit website]({{% relref "/summits/developer/2025-nov" %}}).
 

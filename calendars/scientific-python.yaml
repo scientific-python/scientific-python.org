@@ -9,17 +9,15 @@ events:
       Meeting notes: https://hackmd.io/zVZtDmAvRduUY5zg0giMkg?both
     begin: 2025-07-15 17:00:00 +00:00
     duration: { minutes: 60 }
-    url: https://washington.zoom.us/j/92404931842
     ics: RRULE:FREQ=MONTHLY;BYDAY=3TU;INTERVAL=1
 
   - summary: Scientific Python Tools
     description: |
       Bimonthly community meeting to discuss and work on tools hosted and
-      maintaiend within the Scientific Python Project.
+      maintained within the Scientific Python Project.
 
       Meeting Link: https://berkeley.zoom.us/my/scientificpython
       Meeting notes: https://hackmd.io/@bsipocz/SP_tools_meeting
     begin: 2025-09-02 17:00:00 +00:00
     duration: { minutes: 60 }
-    url: https://caltech.zoom.us/meetings/86722664109/invitations?signature=-8E86H4IwZALVvlVrwg20JPQcpqM1yoJsycGDcrYS18
     ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2

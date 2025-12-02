@@ -8,5 +8,5 @@ events:
       Meeting notes: https://hackmd.io/WPTkRnNtSOeF7OhUTRHDwA
     begin: 2025-12-02 17:00:00 +00:00
     duration: { minutes: 60 }
-    url: https://ucsc.zoom.us/j/98441337155?pwd=Mjl6TjdRTTNBc3ZGQzE3MTQyRVkyZz09
+    url: https://berkeley.zoom.us/my/scientificpython
     ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2

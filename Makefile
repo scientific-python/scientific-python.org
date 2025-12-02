@@ -28,7 +28,7 @@ calendars: $(subst calendars,$(CALENDAR_DIR),$(CALENDAR_SOURCES:.yaml=.ics))
 TEAMS_DIR = content/about
 SPEC_DIR = content/specs/steering-committee
 TEAMS = community-managers community-leaders emeritus-community-leaders
-SPEC_TEAMS = spec-steering-committee emeritus-spec-steering-committee
+SPEC_TEAMS = spec-steering-committee emeritus-spec-steering-committee spec-steering-committee-chair
 TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
 
 $(TEAMS_DIR)/%.toml:

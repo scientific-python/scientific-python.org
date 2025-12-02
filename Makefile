@@ -11,7 +11,7 @@ help:   ## show this help
 
 prepare:
 	git submodule update --init
-	((python -c 'import yaml2ics' && pre-commit) > /dev/null 2>&1) || pip install -q -r requirements.txt
+	((python -c 'import yaml2ics' && pre-commit) > /dev/null 2>&1) || python -m pip install -q -r requirements.txt
 	test -f .git/hooks/pre-commit || pre-commit install
 
 CALENDAR_DIR = content/calendars

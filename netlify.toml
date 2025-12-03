@@ -20,4 +20,4 @@
 [[plugins]]
   package = "netlify-plugin-checklinks"
   [plugins.inputs]
-  skipPatterns = ['*bot*', 'https://fonts.gstatic.com', 'https://fonts.googleapis.com', 'https://cdn.jsdelivr.net']
+  skipPatterns = ['*bot*', 'https://fonts.gstatic.com', 'https://fonts.googleapis.com', 'https://cdn.jsdelivr.net', 'https://cdnjs.cloudflare.com']

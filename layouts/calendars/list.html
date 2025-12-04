@@ -31,36 +31,52 @@
 
         <br>
         <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.5.0/ical.min.js"></script>
-        <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
-        <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.15/index.global.min.js"></script>
+        <script src="https://unpkg.com/ical.js/dist/ical.es5.min.cjs"></script>
+        <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.18/index.global.min.js'></script>
+
+        <!-- This is a temporary workaround for https://github.com/fullcalendar/fullcalendar/issues/7456
+
+             PR proposed in https://github.com/fullcalendar/fullcalendar/pull/7450 was compiled and is sourced
+             below as `icalendar.js`
+
+             Build procedure:
+
+             0. Clone git@github.com:fullcalendar/fullcalendar.git
+             1. pnpm install
+             2. pnpm run build
+             3. Unzip resulting archive in ./dist
+             4. Copy /dist/fullcalendar-6.1.19/packages/icalendar/index.global.js to static/js-non-bundled/icalendar.js -->
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.19/index.global.min.js"></script> -->
+        <script src="/js-non-bundled/icalendar.js"></script>
+
         <script>
           document.addEventListener('DOMContentLoaded', function() {
             var cal_colors = vega.scheme('category10');
             var community_calendar = document.getElementById('community-calendar');
             var calendar = new FullCalendar.Calendar(community_calendar, {
-                aspectRatio: 1,
-                timeZone: 'local',
-                initialView: 'dayGridMonth',
-                headerToolbar: {
-                  left: "prev,next today",
-                  center: "title",
-                  right: "dayGridMonth,timeGridWeek,listWeek",
+              aspectRatio: 1,
+              timeZone: 'local',
+              initialView: 'timeGridWeek', // 'dayGridMonth',
+              headerToolbar: {
+                left: "prev,next today",
+                center: "title",
+                right: "dayGridMonth,timeGridWeek,listWeek",
+              },
+              eventSources: [
+                {{- range $key, $value:= $.Site.Data.calendars }}
+                {
+                  url: '{{ $key }}.ics',
+                  format: 'ics',
+                  backgroundColor: cal_colors.shift(),
                 },
-                eventSources: [
-                {{ range $key, $value := $.Site.Data.calendars }}
-                    {
-                        url: '{{ $key }}.ics',
-                        format: 'ics',
-                        color: cal_colors.shift(),
-                    },
-                {{ end }}
-                ],
-                eventClick: function(info) {
-                    info.jsEvent.preventDefault();
-                    alert('Event: ' + info.event.title + '\n' + info.event.extendedProps.description + '\n' + 'URL: ' +info.event.url);
-                },
-                eventDisplay: 'block',
+                {{- end }}
+              ],
+              eventClick: function(info) {
+                info.jsEvent.preventDefault();
+                alert('Event: ' + info.event.title + '\n' + info.event.extendedProps.description + '\n' + 'URL: ' +info.event.url);
+              },
+              eventDisplay: 'block',
             });
             calendar.render();
           });

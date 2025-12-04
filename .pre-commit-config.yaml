@@ -37,7 +37,13 @@ repos:
     hooks:
       - id: codespell
         args:
-          ["-L", "recuse,nd,coo", "-w", "--skip=static/teams/bots-graphs.html"]
+          [
+            "-L",
+            "recuse,nd,coo",
+            "-w",
+            "--skip=static/teams/bots-graphs.html",
+            "--skip=static/js-non-bundled/*",
+          ]
 
 ci:
   autofix_prs: false

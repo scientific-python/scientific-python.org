@@ -20,19 +20,27 @@ _Thank you to European Spallation Source ERIC for providing staff and sponsoring
 
 <p>&nbsp;</p>
 
-{{< image >}}
-src = 'https://upload.wikimedia.org/wikipedia/commons/c/c7/ESS_logotype_cyan_S.png'
-alt = 'ESS Logo'
-height = 120
-{{< /image >}}
+<!-- prettier-ignore-start -->
+
+{{< image
+  src="https://upload.wikimedia.org/wikipedia/commons/c/c7/ESS_logotype_cyan_S.png"
+  alt="ESS Logo"
+  height=120
+>}}
+
+<!-- prettier-ignore-end -->
 
 _Thank you to Pioneer Centre for AI - Københavns Universitet for providing venue during the Summit._
 
-{{< image >}}
-src = 'PioneerAI_logo.png'
-alt = 'Pioneer Centre for AI Logo'
-height = 120
-{{< /image >}}
+<!-- prettier-ignore-start -->
+
+{{< image
+  src='PioneerAI_logo.png'
+  alt='Pioneer Centre for AI Logo'
+  height=120
+>}}
+
+<!-- prettier-ignore-end -->
 
 ## During the event
 

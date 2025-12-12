@@ -1,7 +1,7 @@
 {{ $items := slice }}
 {{ $section := .Page.GetPage (.Get "files") }}
 {{ range (or $section.Pages ($section.Resources.ByType "page")) }}
-{{ $body := printf "{{< image >}}\n src = '%s'\n alt = '%s Logo'\n {{< /image >}}\n %s" .Params.avatar .Title .Title }}
+{{ $body := printf "{{< image\n   src=\"%s\"\n   alt=\"%s Logo\"\n>}}\n %s" .Params.avatar .Title .Title }}
   {{ $items = $items | append (dict "body" $body "link" .Params.repository "classcard" "text-center" "type" "card") }}
 {{ end }}
 {{- partial "_elements/grid.html" (merge .Params (dict "items" $items)) -}}

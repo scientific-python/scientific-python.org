@@ -2,7 +2,7 @@
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/6788290?u=d9a388224b87d55106cb3e6199d02ebc1d8e0553&v=4\""
+    src="https://avatars.githubusercontent.com/u/6788290?u=d9a388224b87d55106cb3e6199d02ebc1d8e0553&v=4"
     alt="Avatar of Brigitta Sipőcz"
 >}}
 Brigitta Sipőcz'''
@@ -12,7 +12,7 @@ link = 'https://github.com/bsipocz'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/123428?v=4\""
+    src="https://avatars.githubusercontent.com/u/123428?v=4"
     alt="Avatar of Jarrod Millman"
 >}}
 Jarrod Millman'''
@@ -22,7 +22,7 @@ link = 'https://github.com/jarrodmillman'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/18587879?u=83f10fabe466ae8e7052c03c5e6e9cde684a4e10&v=4\""
+    src="https://avatars.githubusercontent.com/u/18587879?u=83f10fabe466ae8e7052c03c5e6e9cde684a4e10&v=4"
     alt="Avatar of Juanita Gomez"
 >}}
 Juanita Gomez'''
@@ -32,7 +32,7 @@ link = 'https://github.com/juanis2112'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&v=4\""
+    src="https://avatars.githubusercontent.com/u/45071?u=c779b5e06448fbc638bc987cdfe305c7f9a7175e&v=4"
     alt="Avatar of Stefan van der Walt"
 >}}
 Stefan van der Walt'''
@@ -42,7 +42,7 @@ link = 'https://github.com/stefanv'
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/23188539?u=64445b52dbf3f75de8006ed4264fdd2afaed97a3&v=4\""
+    src="https://avatars.githubusercontent.com/u/23188539?u=64445b52dbf3f75de8006ed4264fdd2afaed97a3&v=4"
     alt="Avatar of Pamphile Roy"
 >}}
 Pamphile Roy'''

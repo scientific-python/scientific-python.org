@@ -2,7 +2,7 @@
 type = 'card'
 classcard = 'text-center'
 body = '''{{< image
-    src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&v=4\""
+    src="https://avatars.githubusercontent.com/u/3949932?u=aacac68df60d2cf64c17c7e5aa17adf8b738aa7b&v=4"
     alt="Avatar of Melissa Weber Mendonça"
 >}}
 Melissa Weber Mendonça'''

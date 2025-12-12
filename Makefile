@@ -20,7 +20,7 @@ $(CALENDAR_DIR):
 	mkdir -p $(CALENDAR_DIR)
 
 $(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
-	yaml2ics $< > $@
+	python -m yaml2ics $< > $@
 
 CALENDAR_SOURCES = $(wildcard calendars/*.yaml)
 calendars: $(subst calendars,$(CALENDAR_DIR),$(CALENDAR_SOURCES:.yaml=.ics))

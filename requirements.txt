@@ -1,2 +1,2 @@
 pre-commit==4.5.0
-yaml2ics==0.3rc0
+yaml2ics==0.3

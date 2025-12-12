@@ -35,8 +35,8 @@ _Thank you to Pioneer Centre for AI - Københavns Universitet for providing venu
 <!-- prettier-ignore-start -->
 
 {{< image
-  src='PioneerAI_logo.png'
-  alt='Pioneer Centre for AI Logo'
+  src="PioneerAI_logo.png"
+  alt="Pioneer Centre for AI Logo"
   height=120
 >}}
 

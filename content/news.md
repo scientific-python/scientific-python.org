@@ -1,19 +1,23 @@
 ---
 title: News
-newsHeader: Third Developer Summit will be held in Seattle – 11-14 May 2025
-date: 2025-03-28
+newsHeader: Fourth Developer Summit in Copenhagen – 5-7 November, 2025
+date: 2025-10-08
 sidebar: false
 ---
 
-## 2025--03--28: Third Developer Summit will be held in Seattle – 11-14 May 2025
+## 2025--10--08: Fourth Developer Summit in Copenhagen -- 5-7 November, 2025
+
+See [summit website]({{% relref "/summits/developer/2025-nov" %}}).
+
+## 2025--03--28: Third Developer Summit was held in Seattle – 11-14 May 2025
 
 See [summit website]({{% relref "/summits/developer/2025" %}}).
 
-## 2024--04--11: Second Developer Summit will be held in Seattle – June 2-5, 2024
+## 2024--04--11: Second Developer Summit was held in Seattle – June 2-5, 2024
 
 See [summit website]({{% relref "/summits/developer/2024" %}}).
 
-## 2023--05--30: First Developer Summit held in Seattle
+## 2023--05--30: First Developer Summit was held in Seattle
 
 See [summit website](/summits/developer/2023).
 

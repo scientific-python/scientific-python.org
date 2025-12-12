@@ -1,0 +1,24 @@
+name: Scientific Python Community Calls
+timezone: America/Los_Angeles
+events:
+  - summary: Scientific Python Learn & Lectures sites
+    description: |
+      Discussions around how to organize learning material for
+      Scientific Python.
+
+      Meeting Link: https://berkeley.zoom.us/my/scientificpython
+      Meeting notes: https://hackmd.io/zVZtDmAvRduUY5zg0giMkg?both
+    begin: 2025-07-15 09:00:00
+    duration: { minutes: 60 }
+    ics: RRULE:FREQ=MONTHLY;BYDAY=3TU;INTERVAL=1
+
+  - summary: Scientific Python Tools
+    description: |
+      Bimonthly community meeting to discuss and work on tools hosted and
+      maintained within the Scientific Python Project.
+
+      Meeting Link: https://berkeley.zoom.us/my/scientificpython
+      Meeting notes: https://hackmd.io/@bsipocz/SP_tools_meeting
+    begin: 2025-09-02 09:00:00
+    duration: { minutes: 60 }
+    ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2

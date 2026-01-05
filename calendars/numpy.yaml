@@ -17,7 +17,7 @@ events:
       interval:
         # seconds, minutes, hours, days, weeks, months, years
         days: 14
-      until: 2025-12-18 00:00:00 +00:00
+      until: 2027-01-01 00:00:00 +00:00
 
   - summary: NumPy Triage Call
     description: |

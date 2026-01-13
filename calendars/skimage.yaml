@@ -1,28 +1,43 @@
 name: scikit-image Community Calendar
+timezone: America/Los_Angeles
 events:
-  - summary: scikit-image Community Call (Europe/Africa)
-    description: |
-      The scikit-image Community Call. Timezone-friendly for Europe/Africa.
+  # - summary: scikit-image Community Call (Europe/Africa)
+  #   description: |
+  #     The scikit-image Community Call. Timezone-friendly for Europe/Africa.
 
-      Meeting notes: https://hackmd.io/-HCxhoU4RSiC-RzVMyoweg
+  #     Meeting notes: https://hackmd.io/-HCxhoU4RSiC-RzVMyoweg
+  #     Archive: https://github.com/scikit-image/skimage-archive/tree/main/meeting-notes
+  #   begin: 2022-09-13 17:00:00 +00:00
+  #   duration: { minutes: 60 }
+  #   url: https://meet.evolix.org/skimage-meeting
+  #   repeat:
+  #     interval:
+  #       days: 14
+  #     until: 2025-11-01 00:00:00 +00:00
+  # - summary: scikit-image Community Call (Europe/Africa)
+  #   description: |
+  #     The scikit-image Community Call. Timezone-friendly for Europe/Africa.
+
+  #     Meeting notes: https://hackmd.io/-HCxhoU4RSiC-RzVMyoweg
+  #     Archive: https://github.com/scikit-image/skimage-archive/tree/main/meeting-notes
+  #   begin: 2025-11-04 18:00:00 +00:00
+  #   duration: { minutes: 60 }
+  #   url: https://meet.evolix.org/skimage-meeting
+  #   repeat:
+  #     interval:
+  #       days: 14
+  #     until: 2026-03-07 00:00:00 +00:00
+  - summary: skimage 2.0 team sync
+    description: |
+      Bringing together the team members working on 2.0 for
+      weekly check-ins and planning.
+
+      Meeting notes: https://hackmd.io/_lEfDqKRRNCYSXSS4s9uRg
       Archive: https://github.com/scikit-image/skimage-archive/tree/main/meeting-notes
-    begin: 2022-09-13 17:00:00 +00:00
+    begin: 2026-01-13
     duration: { minutes: 60 }
-    url: https://meet.evolix.org/skimage-meeting
+    url: https://numfocus-org.zoom.us/j/86509289147?pwd=AXgP0r2sPYdekAyvenjbuztFbFwHvm.1
     repeat:
       interval:
-        days: 14
-      until: 2025-11-01 00:00:00 +00:00
-  - summary: scikit-image Community Call (Europe/Africa)
-    description: |
-      The scikit-image Community Call. Timezone-friendly for Europe/Africa.
-
-      Meeting notes: https://hackmd.io/-HCxhoU4RSiC-RzVMyoweg
-      Archive: https://github.com/scikit-image/skimage-archive/tree/main/meeting-notes
-    begin: 2025-11-04 18:00:00 +00:00
-    duration: { minutes: 60 }
-    url: https://meet.evolix.org/skimage-meeting
-    repeat:
-      interval:
-        days: 14
-      until: 2026-03-07 00:00:00 +00:00
+        days: 7
+      until: 2026-06-01 00:00:00

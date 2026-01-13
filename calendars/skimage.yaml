@@ -34,10 +34,10 @@ events:
 
       Meeting notes: https://hackmd.io/_lEfDqKRRNCYSXSS4s9uRg
       Archive: https://github.com/scikit-image/skimage-archive/tree/main/meeting-notes
-    begin: 2026-01-13 13:00:00
+    begin: 2026-01-13
     duration: { minutes: 60 }
     url: https://numfocus-org.zoom.us/j/86509289147?pwd=AXgP0r2sPYdekAyvenjbuztFbFwHvm.1
     repeat:
       interval:
         days: 7
-      until: 2026-06-01 00:00:00 +00:00
+      until: 2026-06-01 00:00:00

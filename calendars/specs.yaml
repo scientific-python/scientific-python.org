@@ -4,7 +4,7 @@ events:
     description: |
       This is the monthly meeting for the SPECs Steering Committee.
 
-      Meeting Link:  https://ucsc.zoom.us/j/98441337155?pwd=Mjl6TjdRTTNBc3ZGQzE3MTQyRVkyZz09
+      Meeting Link: https://berkeley.zoom.us/my/scientificpython
       Meeting notes: https://hackmd.io/WPTkRnNtSOeF7OhUTRHDwA
     begin: 2025-12-02 17:00:00 +00:00
     duration: { minutes: 60 }

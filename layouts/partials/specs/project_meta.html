@@ -12,7 +12,7 @@
 {{- $card := dict "body" $projectMetaBody -}}
 {{- partial "_elements/card.html" (dict "card" $card) -}}
 
-<h2>Endorsed SPECs</h1>
+<h2>Endorsed SPECs</h2>
 {{- $specs := where $.Site.Pages "Section" "specs" -}}
 <ul class="endorsed-specs-list">
   {{- range ($specs.ByParam "number") -}}

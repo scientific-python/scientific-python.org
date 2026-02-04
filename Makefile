@@ -56,6 +56,7 @@ content/specs/core-projects/core-projects.json: content/specs/core-projects/[^_]
 
 html: prepare calendars core-project-json ## build the website in ./public
 	@hugo
+	npx --yes pagefind --site public
 
 serve: prepare calendars core-project-json ## serve the website
 	@hugo --printI18nWarnings server

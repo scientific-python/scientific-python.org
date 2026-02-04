@@ -28,6 +28,8 @@ params:
   images:
     - /images/logo.svg
 
+  search: true
+
   plausible:
     dataDomain: scientific-python.org
 

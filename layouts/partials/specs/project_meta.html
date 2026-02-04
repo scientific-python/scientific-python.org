@@ -12,16 +12,14 @@
 {{- $card := dict "body" $projectMetaBody -}}
 {{- partial "_elements/card.html" (dict "card" $card) -}}
 
-<div class="article-content">
-  <h2>Endorsed SPECs</h1>
-  {{- $specs := where $.Site.Pages "Section" "specs" -}}
-  <ul class="endorsed-specs-list">
-    {{- range ($specs.ByParam "number") -}}
-      {{- if not (in (lower .Title) "meta") -}}
-        {{- if in ( index .Params "endorsed-by" ) $root.File.BaseFileName }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{- end -}}
+<h2>Endorsed SPECs</h1>
+{{- $specs := where $.Site.Pages "Section" "specs" -}}
+<ul class="endorsed-specs-list">
+  {{- range ($specs.ByParam "number") -}}
+    {{- if not (in (lower .Title) "meta") -}}
+      {{- if in ( index .Params "endorsed-by" ) $root.File.BaseFileName }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
       {{- end -}}
     {{- end -}}
-  </ul>
-</div>
+  {{- end -}}
+</ul>

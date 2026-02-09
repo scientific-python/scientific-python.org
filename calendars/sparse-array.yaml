@@ -8,7 +8,6 @@ events:
 
     begin: 2026-02-09 14:00:00
     duration: { minutes: 60 }
-    url: https://meet.google.com/jrp-qgcf-nxh
     repeat:
       interval:
         days: 14

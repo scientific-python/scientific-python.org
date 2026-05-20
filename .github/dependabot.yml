@@ -4,10 +4,14 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    cooldown:
+      default-days: 14
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "monthly"
+    cooldown:
+      default-days: 14
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     allow:

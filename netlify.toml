@@ -14,10 +14,17 @@
     export PATH=/opt/build/repo/dart-sass:$PATH && \
     python -m venv .py3 && \
     source .py3/bin/activate && \
-    make html \
+    make html && \
+    LYCHEE_TAG=$(curl -s https://api.github.com/repos/lycheeverse/lychee/releases/latest | jq -r .tag_name) && \
+    curl -LO "https://github.com/lycheeverse/lychee/releases/download/${LYCHEE_TAG}/lychee-x86_64-unknown-linux-gnu.tar.gz" && \
+    tar -xf lychee-x86_64-unknown-linux-gnu.tar.gz && \
+    ./lychee \
+      --no-progress \
+      --root-dir public \
+      --exclude 'fonts\\.gstatic\\.com' \
+      --exclude 'fonts\\.googleapis\\.com' \
+      --exclude 'cdn\\.jsdelivr\\.net' \
+      --exclude 'cdnjs\\.cloudflare\\.com' \
+      --exclude 'unpkg\\.com' \
+      public/ \
     """
-
-[[plugins]]
-  package = "netlify-plugin-checklinks"
-  [plugins.inputs]
-  skipPatterns = ['*bot*', 'https://fonts.gstatic.com', 'https://fonts.googleapis.com', 'https://cdn.jsdelivr.net', 'https://cdnjs.cloudflare.com', 'https://unpkg.com']

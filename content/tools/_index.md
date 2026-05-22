@@ -23,7 +23,7 @@ We also list a few hosted services provided for the community.
 
 - [scientific-python-hugo-theme](https://github.com/scientific-python/scientific-python-hugo-theme)
 
-  Our [Hugo](https://gohugo.io/) theme aims to align closely with the [PyData Sphinx Theme](pydata-sphinx-theme.readthedocs.io).
+  Our [Hugo](https://gohugo.io/) theme aims to align closely with the [PyData Sphinx Theme](https://pydata-sphinx-theme.readthedocs.io).
   It is used by [NumPy](https://numpy.org/), [SciPy](https://scipy.org/), [Scientific Python](https://scientific-python.org/), and other project sites.
 
 ### Developer utilities
@@ -62,7 +62,7 @@ See also [GitHub Actions](#github-actions) below.
 - [yaml2ics](https://github.com/scientific-python/yaml2ics)
 
   Convert plain-text descriptions of calendar events into ICS files that can be loaded into Google Calendar etc.
-  Used to host the Scientific Python [community calendars](https://scientific-python.org/calendar).
+  Used to host the Scientific Python [community calendars](https://scientific-python.org/calendars/).
 
 - [discuss.scientific-python.org](https://discuss.scientific-python.org)
 

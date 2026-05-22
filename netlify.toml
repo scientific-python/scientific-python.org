@@ -19,12 +19,8 @@
     curl -LO "https://github.com/lycheeverse/lychee/releases/download/${LYCHEE_TAG}/lychee-x86_64-unknown-linux-gnu.tar.gz" && \
     tar -xf lychee-x86_64-unknown-linux-gnu.tar.gz && \
     ./lychee-x86_64-unknown-linux-gnu/lychee \
+      --config .github/lychee.toml \
       --no-progress \
       --root-dir public \
-      --exclude 'fonts\\.gstatic\\.com' \
-      --exclude 'fonts\\.googleapis\\.com' \
-      --exclude 'cdn\\.jsdelivr\\.net' \
-      --exclude 'cdnjs\\.cloudflare\\.com' \
-      --exclude 'unpkg\\.com' \
       public/ \
     """

@@ -29,4 +29,4 @@ accept = "100..=103,200..=299,429"
 
 # Throttle requests to avoid rate limits (e.g., upload.wikimedia.org)
 max_concurrency = 1
-request_interval = 2
+host_request_interval = "200ms"

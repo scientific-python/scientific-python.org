@@ -8,5 +8,5 @@ In terms of data modeling, a stack would have a many-to-many relationship with p
 Another related set of questions involve what parts of already organized domain stacks should be "promoted" to the ecosystem level (i.e., Scientific Python). For example, would it make sense to merge discussion forums (using categories and tags to keep things organized); governance structures; and codes of conduct standards, reporting guidelines, and review committees.
 
 The summits bring together developers and users of specific domain stacks
-(e.g., [Pangeo](https://pangeo.io/packages.html), [Astropy](https://www.astropy.org/affiliated/index.html), [scikit-hep](https://scikit-hep.org/packages), [scverse](https://scverse.org/projects/), [NIPY](https://nipy.org/))
+(e.g., [Pangeo](https://pangeo.io/), [Astropy](https://www.astropy.org/affiliated/index.html), [scikit-hep](https://scikit-hep.org/packages), [scverse](https://scverse.org/projects/), [NIPY](https://nipy.org/))
 to discuss the shortcomings of the current documentation and organization, the needs of various scientific "domain stacks," and to develop a shared roadmap and vision for better documenting and organizing domain stack documentation and organization.

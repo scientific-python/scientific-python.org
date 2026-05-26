@@ -1,0 +1,32 @@
+# Lychee link checker configuration
+# See https://lycheeverse.github.io/lychee/config.html
+
+# Exclude URLs matching these patterns (treated as regex)
+exclude = [
+  # CDN / font hosts that block automated requests
+  'fonts\.gstatic\.com',
+  'fonts\.googleapis\.com',
+  'cdn\.jsdelivr\.net',
+  'cdnjs\.cloudflare\.com',
+  'unpkg\.com',
+
+  # Sites that return 403 Forbidden to bots
+  'anaconda\.org',
+  'hackmd\.io',
+  'timeanddate\.com',
+  'medium\.com',
+]
+
+# Exclude file paths matching these patterns (treated as regex)
+# Meeting notes are historical and not actively maintained
+exclude_path = [
+  '/meeting\d+/',
+]
+
+# Accept these HTTP status codes as successful
+# 100-103: informational, 200-299: success, 429: rate limit (transient, not a real error)
+accept = "100..=103,200..=299,429"
+
+# Throttle requests to avoid rate limits (e.g., upload.wikimedia.org)
+max_concurrency = 1
+host_request_interval = "200ms"

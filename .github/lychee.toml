@@ -27,7 +27,7 @@ exclude = [
 # Meeting notes are historical and not actively maintained
 exclude_path = [
   '/meeting\d+/',
-  '/*\.xml/'
+  '\.xml$'
 ]
 
 # Accept these HTTP status codes as successful

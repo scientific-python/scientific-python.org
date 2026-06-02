@@ -10,6 +10,9 @@ exclude = [
   'cdnjs\.cloudflare\.com',
   'unpkg\.com',
 
+  # Discourse embed URLs are only valid after a page has been published
+  'discuss\.scientific-python\.org',
+
   # Sites that return 403 Forbidden to bots
   'anaconda\.org',
   'hackmd\.io',

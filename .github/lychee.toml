@@ -18,9 +18,10 @@ exclude = [
 ]
 
 # Exclude file paths matching these patterns (treated as regex)
-# Meeting notes are historical and not actively maintained
+# Meeting notes and summits are historical and not actively maintained
 exclude_path = [
   '/meeting\d+/',
+  '/summits/.*',
 ]
 
 # Accept these HTTP status codes as successful

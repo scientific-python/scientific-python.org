@@ -10,11 +10,17 @@ exclude = [
   'cdnjs\.cloudflare\.com',
   'unpkg\.com',
 
+  # Discourse embed URLs are only valid after a page has been published
+  'discuss\.scientific-python\.org',
+
   # Sites that return 403 Forbidden to bots
   'anaconda\.org',
   'hackmd\.io',
   'timeanddate\.com',
   'medium\.com',
+
+  # Links from pages captured for posterity, but no longer active
+  'www.dsb.dk'
 ]
 
 # Exclude file paths matching these patterns (treated as regex)
@@ -22,10 +28,9 @@ exclude = [
 exclude_path = [
   '/meeting\d+/',
   '/summits/.*',
-  # Avoid chicken and egg problem, where project is added, index.xml generates link to
-  # https://scientific-python.org/specs/core-projects/project/, but that folder has not
-  # yet been published.
-  '/specs/core-projects/index.xml'
+  # Avoid chicken and egg problem, where page is added, index.xml generates link to
+  # https://scientific-python.org/.../page.html, but that has not yet been published.
+  '\.xml$'
 ]
 
 # Accept these HTTP status codes as successful

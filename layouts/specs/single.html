@@ -11,7 +11,9 @@
     {{- end }}
 
     {{ .Content }}
+    {{ if isset .Params "number" }}
     {{ partial "specs/comments.html" . }}
+    {{ end }}
   </div>
   {{ partial "shortcuts.html" . }}
 </section>

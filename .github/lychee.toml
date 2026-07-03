@@ -22,6 +22,10 @@ exclude = [
 exclude_path = [
   '/meeting\d+/',
   '/summits/.*',
+  # Avoid chicken and egg problem, where project is added, index.xml generates link to
+  # https://scientific-python.org/specs/core-projects/project/, but that folder has not
+  # yet been published.
+  '/specs/core-projects/index.xml'
 ]
 
 # Accept these HTTP status codes as successful

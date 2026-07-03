@@ -24,9 +24,12 @@ exclude = [
 ]
 
 # Exclude file paths matching these patterns (treated as regex)
-# Meeting notes are historical and not actively maintained
+# Meeting notes and summits are historical and not actively maintained
 exclude_path = [
   '/meeting\d+/',
+  '/summits/.*',
+  # Avoid chicken and egg problem, where page is added, index.xml generates link to
+  # https://scientific-python.org/.../page.html, but that has not yet been published.
   '\.xml$'
 ]
 

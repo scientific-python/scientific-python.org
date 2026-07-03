@@ -22,7 +22,7 @@ We would like to thank the following institutions and projects for sponsoring th
 **Presenting sponsor**
 
 _Contributions to the statistical Python ecosystem at this year's Summit are funded by the NSF POSE Phase 1 award:
-[An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python)_
+[An open-source ecosystem for statistical Python](https://nsf.elsevierpure.com/en/projects/pose-phase-1-an-open-source-ecosystem-for-statistical-python-2)_
 
 <p>&nbsp;</p>
 

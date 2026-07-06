@@ -43,7 +43,7 @@ events:
     url: https://numfocus-org.zoom.us/j/88077871096?pwd=bTxkJRug4Lmr8AiR9jNyntxBS4yGDe.1
     ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2
 
-  - summary: Matplotlib New Contributors Meeting: Triage Edition
+  - summary: Matplotlib New Contributors Meeting - Triage Edition
     description: |
       For this month's new contributor meeting, we're hosting a session to walk through how to do issue and PR triage on the Matplotlib GitHub repo.
 

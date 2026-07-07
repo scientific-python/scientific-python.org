@@ -25,46 +25,50 @@ table {
 </style>
 
 {{< details "**Sunday**" >}}
-| Time | Description |
-|------|-------------|
-| | Arrive |
-| 19:00 | Dinner (Cedars or at hotel, TBD) |
-{{< /details >}}
+
+| Time             | Description                      |
+| ---------------- | -------------------------------- |
+|                  | Arrive                           |
+| 19:00            | Dinner (Cedars or at hotel, TBD) |
+| {{< /details >}} |
 
 {{< details "**Monday**" >}}
-| Time | Description |
-|------|-------------|
-| 08:40 | Meet in hotel lobby (or 9am at eScience) |
-| 9:00--9:30 | Breakfast |
-| 9:00--9:30 | Welcome & coordination |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus/coffee walks |
-| 14:30--17:30 | Work session |
-| 17:30--18:00 | Check-in / discussion |
-| 18:30 | Dinner (Costas) |
-{{< /details >}}
+
+| Time             | Description                              |
+| ---------------- | ---------------------------------------- |
+| 08:40            | Meet in hotel lobby (or 9am at eScience) |
+| 9:00--9:30       | Breakfast                                |
+| 9:00--9:30       | Welcome & coordination                   |
+| 9:30--13:00      | Work session                             |
+| 13:00--14:30     | Lunch & campus/coffee walks              |
+| 14:30--17:30     | Work session                             |
+| 17:30--18:00     | Check-in / discussion                    |
+| 18:30            | Dinner (Costas)                          |
+| {{< /details >}} |
 
 {{< details "**Tuesday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00--9:30 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus/coffee walks |
-| 14:30--17:30 | Work session |
-| 17:30--18:00 | Check-in / discussion |
-| 19:00 | Dinner (Big Time Brewery) |
-{{< /details >}}
+
+| Time             | Description                 |
+| ---------------- | --------------------------- |
+| 9:00--9:30       | Breakfast                   |
+| 9:30--13:00      | Work session                |
+| 13:00--14:30     | Lunch & campus/coffee walks |
+| 14:30--17:30     | Work session                |
+| 17:30--18:00     | Check-in / discussion       |
+| 19:00            | Dinner (Big Time Brewery)   |
+| {{< /details >}} |
 
 {{< details "**Wednesday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00--9:30 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus/coffee walks |
-| 14:30--16:45 | Work session |
-| 16:45--17:30 | Discussion & closing |
-| 18:30 | Informal group dinner (beach/arepas?) |
-{{< /details >}}
+
+| Time             | Description                           |
+| ---------------- | ------------------------------------- |
+| 9:00--9:30       | Breakfast                             |
+| 9:30--13:00      | Work session                          |
+| 13:00--14:30     | Lunch & campus/coffee walks           |
+| 14:30--16:45     | Work session                          |
+| 16:45--17:30     | Discussion & closing                  |
+| 18:30            | Informal group dinner (beach/arepas?) |
+| {{< /details >}} |
 
 </div>
 

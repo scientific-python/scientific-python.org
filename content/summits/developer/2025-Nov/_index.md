@@ -57,51 +57,56 @@ table {
 </style>
 
 {{< details "**Tuesday**" >}}
-| Time | Description |
-|------|-------------|
-| | Arrive |
-| 09:30--17:00 | Pre-summit NetworkX day @ DTU Building 305 |
-| 19:00 | Informal group dinner around Nørreport |
-{{< /details >}}
+
+| Time             | Description                                |
+| ---------------- | ------------------------------------------ |
+|                  | Arrive                                     |
+| 09:30--17:00     | Pre-summit NetworkX day @ DTU Building 305 |
+| 19:00            | Informal group dinner around Nørreport     |
+| {{< /details >}} |
 
 {{< details "**Wednesday**" >}}
-| Time | Description |
-|------|-------------|
-| - | Breakfast (not provided at the venue) |
-| 09:30--10:00 | Welcome & coordination |
-| 10:00--12:30 | Work session |
-| 12:30--14:00 | Lunch & walks |
-| 14:00--17:00 | Work session |
-| 17:00--17:30 | Check-in / discussion |
-{{< /details >}}
+
+| Time             | Description                           |
+| ---------------- | ------------------------------------- |
+| -                | Breakfast (not provided at the venue) |
+| 09:30--10:00     | Welcome & coordination                |
+| 10:00--12:30     | Work session                          |
+| 12:30--14:00     | Lunch & walks                         |
+| 14:00--17:00     | Work session                          |
+| 17:00--17:30     | Check-in / discussion                 |
+| {{< /details >}} |
 
 {{< details "**Thursday**" >}}
-| Time | Description |
-|------|-------------|
-| - | Breakfast (not provided at the venue) |
-| 09:30--10:00 | Welcome & coordination |
-| 10:00--12:30 | Work session |
-| 12:30--14:00 | Lunch & walks |
-| 14:00--17:00 | Work session |
-| 17:00--17:30 | Check-in / discussion |
-{{< /details >}}
+
+| Time             | Description                           |
+| ---------------- | ------------------------------------- |
+| -                | Breakfast (not provided at the venue) |
+| 09:30--10:00     | Welcome & coordination                |
+| 10:00--12:30     | Work session                          |
+| 12:30--14:00     | Lunch & walks                         |
+| 14:00--17:00     | Work session                          |
+| 17:00--17:30     | Check-in / discussion                 |
+| {{< /details >}} |
 
 {{< details "**Friday**" >}}
-| Time | Description |
-|------|-------------|
-| - | Breakfast (not provided at the venue) |
-| 09:30--10:00 | Welcome & coordination |
-| 10:00--12:30 | Work session |
-| 12:30--14:00 | Lunch & walks |
-| 14:00--17:00 | Work session |
-| 17:00--17:30 | Check-in / discussion |
-{{< /details >}}
+
+| Time             | Description                           |
+| ---------------- | ------------------------------------- |
+| -                | Breakfast (not provided at the venue) |
+| 09:30--10:00     | Welcome & coordination                |
+| 10:00--12:30     | Work session                          |
+| 12:30--14:00     | Lunch & walks                         |
+| 14:00--17:00     | Work session                          |
+| 17:00--17:30     | Check-in / discussion                 |
+| {{< /details >}} |
 
 {{< details "**Saturday**" >}}
-| Time | Description |
-|------|-------------|
-| | Depart |
-{{< /details >}}
+
+| Time             | Description |
+| ---------------- | ----------- |
+|                  | Depart      |
+| {{< /details >}} |
 
 </div>
 

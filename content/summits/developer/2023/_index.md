@@ -32,75 +32,82 @@ during our event._
 &nbsp;<br/>
 
 {{< details "**Sunday**" >}}
-| Time | Description |
-|------|-------------|
-| | Arrive |
-| | Dinner (self organized) |
-{{< /details >}}
+
+| Time             | Description             |
+| ---------------- | ----------------------- |
+|                  | Arrive                  |
+|                  | Dinner (self organized) |
+| {{< /details >}} |
 
 {{< details "**Monday**" >}}
-| Time | Description |
-|------|-------------|
-| 08:40 | Meet in hotel lobby (or 9am at eScience) |
-| 9:00 | Breakfast |
-| 9:00--9:30 | Welcome & coordination |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--17:00 | Work session |
-| 17:30--18:00 | Check-in |
-| 19:00 | Dinner at [Eureka!](https://goo.gl/maps/g45EmtFn6bjUJSoS6) |
-{{< /details >}}
+
+| Time             | Description                                                |
+| ---------------- | ---------------------------------------------------------- |
+| 08:40            | Meet in hotel lobby (or 9am at eScience)                   |
+| 9:00             | Breakfast                                                  |
+| 9:00--9:30       | Welcome & coordination                                     |
+| 9:30--13:00      | Work session                                               |
+| 13:00--14:30     | Lunch & campus walk                                        |
+| 14:30--17:00     | Work session                                               |
+| 17:30--18:00     | Check-in                                                   |
+| 19:00            | Dinner at [Eureka!](https://goo.gl/maps/g45EmtFn6bjUJSoS6) |
+| {{< /details >}} |
 
 {{< details "**Tuesday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--17:00 | Work session |
-| 17:15--17:45 | Check-in |
-| 18:30 | Dinner at [Kate's Pub](https://goo.gl/maps/HBFdQSzNkfKY427W9) |
-{{< /details >}}
+
+| Time             | Description                                                   |
+| ---------------- | ------------------------------------------------------------- |
+| 9:00             | Breakfast                                                     |
+| 9:30--13:00      | Work session                                                  |
+| 13:00--14:30     | Lunch & campus walk                                           |
+| 14:30--17:00     | Work session                                                  |
+| 17:15--17:45     | Check-in                                                      |
+| 18:30            | Dinner at [Kate's Pub](https://goo.gl/maps/HBFdQSzNkfKY427W9) |
+| {{< /details >}} |
 
 {{< details "**Wednesday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--17:00 | Work session |
-| 17:30--18:00 | Check-in |
-| | Dinner (self organized) |
-{{< /details >}}
+
+| Time             | Description             |
+| ---------------- | ----------------------- |
+| 9:00             | Breakfast               |
+| 9:30--13:00      | Work session            |
+| 13:00--14:30     | Lunch & campus walk     |
+| 14:30--17:00     | Work session            |
+| 17:30--18:00     | Check-in                |
+|                  | Dinner (self organized) |
+| {{< /details >}} |
 
 {{< details "**Thursday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--17:00 | Work session |
-| 17:30--18:00 | Check-in |
-| 19:00 | Dinner at [Big Time Brewery & Alehouse](https://goo.gl/maps/E55tA1vifpX9CeC76) |
-{{< /details >}}
+
+| Time             | Description                                                                    |
+| ---------------- | ------------------------------------------------------------------------------ |
+| 9:00             | Breakfast                                                                      |
+| 9:30--13:00      | Work session                                                                   |
+| 13:00--14:30     | Lunch & campus walk                                                            |
+| 14:30--17:00     | Work session                                                                   |
+| 17:30--18:00     | Check-in                                                                       |
+| 19:00            | Dinner at [Big Time Brewery & Alehouse](https://goo.gl/maps/E55tA1vifpX9CeC76) |
+| {{< /details >}} |
 
 {{< details "**Friday**" >}}
-| Time | Description |
-|------|-------------|
-| 9:00 | Breakfast |
-| 9:30--13:00 | Work session |
-| 13:00--14:30 | Lunch & campus walk |
-| 14:30--16:00 | Work session |
-| 16:00--17:30 | Closing discussion |
-| 18:00 | Dinner (self organized) |
-{{< /details >}}
+
+| Time             | Description             |
+| ---------------- | ----------------------- |
+| 9:00             | Breakfast               |
+| 9:30--13:00      | Work session            |
+| 13:00--14:30     | Lunch & campus walk     |
+| 14:30--16:00     | Work session            |
+| 16:00--17:30     | Closing discussion      |
+| 18:00            | Dinner (self organized) |
+| {{< /details >}} |
 
 {{< details "**Saturday**" >}}
-| Time | Description |
-|------|-------------|
-| | Depart |
-| | Breakfast (self organized) |
-{{< /details >}}
+
+| Time             | Description                |
+| ---------------- | -------------------------- |
+|                  | Depart                     |
+|                  | Breakfast (self organized) |
+| {{< /details >}} |
 
 ## Logistics
 

@@ -18,6 +18,7 @@ exclude = [
   'hackmd\.io',
   'timeanddate\.com',
   'medium\.com',
+  'cdc\.gov',
 
   # Links from pages captured for posterity, but no longer active
   'www.dsb.dk'

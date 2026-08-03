@@ -23,8 +23,8 @@ events:
 
       Meeting notes: https://hackmd.io/@matplotlib
 
-    begin: 2023-02-07 17:00:00 +00:00
-    end: 2023-02-07 18:00:00 +00:00
+    begin: 2026-10-13 17:00:00 +00:00
+    end: 2026-10-13 18:00:00 +00:00
     url: https://numfocus-org.zoom.us/j/88077871096?pwd=bTxkJRug4Lmr8AiR9jNyntxBS4yGDe.1
     ics: RRULE:FREQ=MONTHLY;BYDAY=1TU;INTERVAL=2
 
@@ -53,6 +53,18 @@ events:
 
     begin: 2026-07-14 14:00:00 +00:00
     end: 2026-07-14 15:00:00 +00:00
+    url: https://numfocus-org.zoom.us/j/88077871096?pwd=bTxkJRug4Lmr8AiR9jNyntxBS4yGDe.1
+
+  - summary: Matplotlib New Contributors Meeting - Triage Edition
+    description: |
+      For this month's new contributor meeting, we're once more hosting a session to walk through how to do issue and PR triage on the Matplotlib GitHub repo.
+
+      Whether you've never contributed before or just want to help the project run smoother — you're welcome to join.
+
+      Meeting notes: https://hackmd.io/@matplotlib/triage0826
+
+    begin: 2026-08-11 20:00:00 +00:00
+    end: 2026-08-11 21:00:00 +00:00
     url: https://numfocus-org.zoom.us/j/88077871096?pwd=bTxkJRug4Lmr8AiR9jNyntxBS4yGDe.1
 
   - summary: Matplotlib Documentation Meeting

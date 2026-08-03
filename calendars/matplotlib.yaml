@@ -57,7 +57,7 @@ events:
 
   - summary: Matplotlib New Contributors Meeting - Triage Edition
     description: |
-      For this month's new contributor meeting, we're hosting a session to walk through how to do issue and PR triage on the Matplotlib GitHub repo.
+      For this month's new contributor meeting, we're once more hosting a session to walk through how to do issue and PR triage on the Matplotlib GitHub repo.
 
       Whether you've never contributed before or just want to help the project run smoother — you're welcome to join.
 

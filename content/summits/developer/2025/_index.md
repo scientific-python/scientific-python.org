@@ -37,7 +37,7 @@ _Thank you to Berkeley Institute for Data Science and eScience Institute for pro
 
 <p>&nbsp;</p>
 
-{{< grid columns="1 2" >}}
+{{< grid columns="1 2 2 2" >}}
 
 [[item]]
 body = '''
@@ -47,7 +47,7 @@ body = '''
     alt="BIDS logo"
     height=120 >}}
 
-> '''
+'''
 
 [[item]]
 body = '''
@@ -57,7 +57,7 @@ body = '''
     alt="eScience Institute logo"
     height=120 >}}
 
-> '''
+'''
 
 {{< /grid >}}
 
@@ -75,7 +75,7 @@ body = '''
     alt="Caltech logo"
     height=120 >}}
 
-> '''
+'''
 
 [[item]]
 body = '''
@@ -84,7 +84,7 @@ body = '''
     alt="Colgate logo"
     height=120 >}}
 
-> '''
+'''
 
 [[item]]
 body = '''
@@ -93,7 +93,7 @@ body = '''
     alt="Zarr logo"
     height=120 >}}
 
-> '''
+'''
 
 [[item]]
 body = '''
@@ -103,7 +103,7 @@ body = '''
     alt="GOSST logo"
     width=120 >}}
 
-> '''
+'''
 
 [[item]]
 body = '''
@@ -112,7 +112,7 @@ body = '''
     alt="Scikit-HEP logo"
     width=120 >}}
 
-> '''
+'''
 
 [[item]]
 body = '''
@@ -121,7 +121,7 @@ body = '''
     darksrc="cogs_logo_dark.webp"
     alt="COGS logo" >}}
 
-> '''
+'''
 
 [[item]]
 body = '''
@@ -130,7 +130,7 @@ body = '''
     alt="Iris-HEP logo"
     width=130 >}}
 
-> '''
+'''
 
 {{< /grid >}}
 

@@ -10,7 +10,7 @@ help:   ## show this help
 	@grep -h "##" $(MAKEFILE_LIST) | grep -v grep | sed -e 's/\(.*\):.*##\(.*\)/    \1: \2/'
 
 prepare:
-	git submodule update --init
+	git submodule update --init --recursive
 	((python -c 'import yaml2ics' && pre-commit) > /dev/null 2>&1) || python -m pip install -q -r requirements.txt
 	test -f .git/hooks/pre-commit || pre-commit install
 

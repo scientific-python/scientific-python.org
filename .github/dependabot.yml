@@ -18,3 +18,4 @@ updates:
       - dependency-name: "content/specs"
     schedule:
       interval: "daily"
+    cooldown: 0

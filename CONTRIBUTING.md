@@ -45,6 +45,10 @@ Scientific Python projects using GitHub pull requests.
 
     - Commit locally as you progress (`git add` and `git commit`)
 
+    - If you add a new page under `content/`, include a `date:` field in its front
+      matter (e.g. `date: 2026-10-02`). Pages without a date appear in the site's
+      RSS feed (`index.xml`) dated 1 January 0001.
+
 3.  Submit your contribution:
     - Push your changes back to your fork on GitHub:
 

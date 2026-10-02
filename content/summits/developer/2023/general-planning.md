@@ -1,5 +1,6 @@
 ---
 title: "General Planning Meeting"
+date: 2023-02-27
 ---
 
 ## Information

@@ -1,5 +1,6 @@
 ---
 title: "Code of Conduct"
+date: 2021-01-06
 ---
 
 This code of conduct applies to all spaces managed by the scientific Python

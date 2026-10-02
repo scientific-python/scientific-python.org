@@ -1,5 +1,6 @@
 ---
 title: "Roadmap"
+date: 2022-01-06
 ---
 
 With an extensive and high-quality ecosystem of libraries, scientific Python

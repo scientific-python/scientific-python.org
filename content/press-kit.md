@@ -1,6 +1,7 @@
 ---
 title: Press kit
 sidebar: false
+date: 2021-11-04
 ---
 
 We would like to make it easy for you to include the Scientific Python project identity in your next academic paper, course materials, or presentation.

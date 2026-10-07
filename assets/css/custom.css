@@ -76,6 +76,14 @@ html[data-theme="dark"] tr.spec:hover {
   font-size: 0.8rem;
 }
 
+/* FullCalendar layout needs regular tables, not the theme's scrollable block tables. */
+.fc table {
+  display: table;
+  width: 100%;
+  max-width: none;
+  overflow: visible;
+}
+
 .grant {
   background-color: var(--pst-color-surface);
   border: 1px solid var(--pst-color-border);

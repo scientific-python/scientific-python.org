@@ -1,5 +1,6 @@
 ---
 title: "Summit Follow Up June 17"
+date: 2023-06-17
 ---
 
 # Friday June 17 2023, 14:00 to 15:00 UTC

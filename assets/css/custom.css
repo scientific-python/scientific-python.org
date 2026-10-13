@@ -6,6 +6,7 @@
 table.spec__table {
   width: 100%;
   margin-top: 1.2rem;
+  display: inline-table;
 }
 
 table.spec__table thead {

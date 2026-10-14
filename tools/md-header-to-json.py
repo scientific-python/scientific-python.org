@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
-import sys
-import yaml
 import json
+import sys
+
+import yaml
 
 files = sys.argv[1:]
 

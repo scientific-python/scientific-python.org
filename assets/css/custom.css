@@ -6,6 +6,7 @@
 table.spec__table {
   width: 100%;
   margin-top: 1.2rem;
+  display: inline-table;
 }
 
 table.spec__table thead {
@@ -74,6 +75,14 @@ html[data-theme="dark"] tr.spec:hover {
 .calendar-list .calendar-event {
   padding-left: 1rem;
   font-size: 0.8rem;
+}
+
+/* FullCalendar layout needs regular tables, not the theme's scrollable block tables. */
+.fc table {
+  display: table;
+  width: 100%;
+  max-width: none;
+  overflow: visible;
 }
 
 .grant {

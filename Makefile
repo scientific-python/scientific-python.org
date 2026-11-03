@@ -1,4 +1,4 @@
-.PHONY: help prepare html serve serve-dev clean calendars teams teams-clean core-project-json
+.PHONY: help prepare html serve serve-dev clean calendars yaml2ics-install teams teams-clean core-project-json
 .DEFAULT_GOAL := help
 SHELL:=/bin/bash
 
@@ -14,16 +14,22 @@ prepare:
 	((python -c 'import yaml2ics' && pre-commit) > /dev/null 2>&1) || python -m pip install -q -r requirements.txt
 	test -f .git/hooks/pre-commit || pre-commit install
 
+.DELETE_ON_ERROR:
+
+CALENDAR_SRC_DIR = calendars
 CALENDAR_DIR = content/calendars
 
 $(CALENDAR_DIR):
 	mkdir -p $(CALENDAR_DIR)
 
-$(CALENDAR_DIR)/%.ics: calendars/%.yaml $(CALENDAR_DIR)
+yaml2ics-install:
+	@python -c 'import yaml2ics' 2> /dev/null || python -m pip install -q -r requirements.txt
+
+$(CALENDAR_DIR)/%.ics: $(CALENDAR_SRC_DIR)/%.yaml | $(CALENDAR_DIR) yaml2ics-install
 	python -m yaml2ics $< > $@
 
-CALENDAR_SOURCES = $(wildcard calendars/*.yaml)
-calendars: $(subst calendars,$(CALENDAR_DIR),$(CALENDAR_SOURCES:.yaml=.ics))
+CALENDAR_SOURCES = $(wildcard $(CALENDAR_SRC_DIR)/*.yaml)
+calendars: $(patsubst $(CALENDAR_SRC_DIR)/%.yaml,$(CALENDAR_DIR)/%.ics,$(CALENDAR_SOURCES))
 
 TEAMS_DIR = content/about
 SPEC_DIR = content/specs/steering-committee

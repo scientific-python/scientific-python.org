@@ -15,7 +15,7 @@
         {{ .Content }}
 
         <div class="calendar-list">
-          {{ range $key, $value := $.Site.Data.calendars }}
+          {{ range $key, $value := hugo.Data.calendars }}
           <div class="calendar"><a href="{{ $key }}.ics">{{ .name }}</a>
             <img
               class="calendar-copy"
@@ -64,7 +64,7 @@
                 right: "dayGridMonth,timeGridWeek,listWeek",
               },
               eventSources: [
-                {{- range $key, $value:= $.Site.Data.calendars }}
+                {{- range $key, $value:= hugo.Data.calendars }}
                 {
                   url: '{{ $key }}.ics',
                   format: 'ics',
